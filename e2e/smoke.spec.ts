@@ -175,10 +175,15 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     const seatCircles = page.locator('[data-testid="hemicycle"] circle[fill]:not([fill="transparent"])');
     await expect(seatCircles).toHaveCount(130);
 
-    // 16 mögliche Koalitionen (Engine-Anchortest) + Regierungs-Beteiligungs-Chip
+    // Standard: Brandmauer aktiv — Optionen ohne AfD-Beteiligung
+    // (4 Dreier + 1 Vierer = 5 von 16 arithmetischen Kombinationen)
     const listItems = page.locator('section[aria-labelledby="coalitions-heading"] ul > li');
-    await expect(listItems).toHaveCount(16);
+    await expect(listItems).toHaveCount(5);
     await expect(page.getByText(/mit beiden Regierungs/).first()).toBeVisible();
+
+    // Toggle: AfD-Beteiligung einblenden → alle 16
+    await page.getByLabel(/Koalitionen mit AfD-Beteiligung anzeigen/).check();
+    await expect(listItems).toHaveCount(16);
   });
 
   test("Spenden: Ko-Fi-Anbindung aktiv", async ({ page }) => {

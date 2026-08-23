@@ -52,6 +52,7 @@ export default function KoalitionPage() {
   const { ready, answeredCount, percentByParty } = useMatchResults();
   const polls = electionPolls();
   const [sortMode, setSortMode] = useState<"seats-desc" | "seats-asc" | "fit">("seats-desc");
+  const [showAfd, setShowAfd] = useState(false); // Brandmauer: Standard = ausgeblendet
   const [hoveredParty, setHoveredParty] = useState<string | null>(null);
 
   const { seats, belowThreshold, options } = useMemo(() => {
@@ -76,6 +77,11 @@ export default function KoalitionPage() {
       options: feasibleCoalitions(seats, polls.majoritySeats, Object.keys(seats).length),
     };
   }, [polls]);
+
+  const visibleOptions = useMemo(() => {
+    if (showAfd) return options;
+    return options.filter((o) => !(o.members.includes("afd") && o.members.length > 1));
+  }, [options, showAfd]);
 
   /** Persönliche Bewertung je Koalition: Mittel der Mitglieds-Übereinstimmung */
   const scored = useMemo(() => {
@@ -200,8 +206,20 @@ export default function KoalitionPage() {
       <section aria-labelledby="coalitions-heading" className="space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <h2 id="coalitions-heading" className="text-lg font-semibold">
-            Rechnerisch mögliche Mehrheiten ({options.length})
+            Rechnerisch mögliche Mehrheiten ({visibleOptions.length})
           </h2>
+          <label
+            className="flex cursor-pointer items-center gap-2 text-xs font-medium text-zinc-600 dark:text-zinc-400"
+            title="Alle übrigen Parteien haben Koalitionen mit der AfD ausgeschlossen. Ein-/Ausblenden ist rein rechnerisch."
+          >
+            <input
+              type="checkbox"
+              checked={showAfd}
+              onChange={(e) => setShowAfd(e.target.checked)}
+              className="h-4 w-4 rounded border-zinc-300 accent-[var(--color-brand-600)]"
+            />
+            Koalitionen mit AfD-Beteiligung anzeigen
+          </label>
           <label className="flex items-center gap-2 text-xs text-zinc-500">
             Sortieren:
             <select
@@ -221,7 +239,7 @@ export default function KoalitionPage() {
           Bewertung.
         </p>
         <ul className="grid gap-2 sm:grid-cols-2">
-          {sortedOptions(options, sortMode, scored).map((option) => (
+          {sortedOptions(visibleOptions, sortMode, scored).map((option) => (
             <li key={option.members.join("+")}>
               <Card className="flex items-center justify-between gap-x-3 gap-y-1 flex-wrap py-3">
                 {/* Flache Struktur: Trenner + Chip sind ein unverrennbares

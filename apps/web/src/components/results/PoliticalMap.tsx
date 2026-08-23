@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { projectOnAxis } from "@wahlen/engine";
 import type { Party } from "@wahlen/schemas";
 import {
@@ -19,13 +19,38 @@ interface PlotPoint {
   id: string;
   label: string;
   color: string;
-  /** Plot-Koordinaten im 100×100-Raum (-100..100 skaliert) */
   px: number;
   py: number;
   lowData: boolean;
 }
 
-/* Canvas: 150×100 (quer) mit 25 Einheiten Rand links/rechts für Labels */
+/**
+ * Diagramm-Palette (bewusst von Markenfarben entkoppelt): maximale
+ * Unterscheidbarkeit auf hellem Grund, alle 17 Parteien paarweise klar
+ * getrennt — Identifikation ausschließlich über Hover-Infobar + Legende,
+ * damit sich keine Texte überlagern können.
+ */
+const MAP_COLORS: Record<string, string> = {
+  spd: "#D81E05", // kräftiges Rot
+  cdu: "#1A1A1A", // Schwarz
+  gruene: "#1B9E46", // gesättigtes Grün
+  linke: "#E5007D", // Magenta
+  afd: "#009EE3", // Himmelblau
+  fdp: "#F5C400", // Goldgelb
+  bsw: "#FF6F00", // Tieforange
+  volt: "#502379", // Violett
+  oedp: "#00796B", // Petrol
+  pdf: "#0F4C81", // Dunkelblau
+  "die-partei": "#795548", // Braun
+  tierschutzpartei: "#9CCC65", // Hellgrün
+  dkp: "#8B0000", // Dunkelrot
+  sgp: "#9C27B0", // Lila
+  "die-urbane": "#00838F", // Cyan
+  bergpartei: "#C2185B", // Himbeer
+  heimat: "#5D4037", // Dunkelbraun
+};
+
+/* Canvas: 150×100 (quer), Plot-Fläche zentriert */
 const W = 150;
 const H = 100;
 const OFF_X = 25;
@@ -39,26 +64,9 @@ function toY(v: number): number {
   return PAD_Y + ((v + 100) / 200) * (H - 2 * PAD_Y);
 }
 
-/** Kollisionsprüfung: Rechteck gegen bereits platzierte Label-Rechtecke. */
-function collides(
-  box: { x1: number; y1: number; x2: number; y2: number },
-  placed: Array<{ x1: number; y1: number; x2: number; y2: number }>,
-): boolean {
-  return placed.some(
-    (p) => box.x1 < p.x2 && box.x2 > p.x1 && box.y1 < p.y2 && box.y2 > p.y1,
-  );
-}
-
-/**
- * Politische Landkarte (Wirtschaft × Soziokultur).
- *
- * Labels werden per Greedy-Algorithmus kollisionsfrei platziert:
- * pro Punkt vier Ankerkandidaten (rechts, links, oben, unten) — gewählt wird
- * der erste freie; passt keiner, erscheint das Label nur beim Hover und die
- * Partei bleibt über die Legende identifizierbar.
- */
 export function PoliticalMap({ userEntries }: PoliticalMapProps) {
   const [hovered, setHovered] = useState<string | null>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
 
   const { points, userPoint, excluded } = useMemo(() => {
     const pts: PlotPoint[] = [];
@@ -74,7 +82,7 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
       pts.push({
         id: party.id,
         label: party.shortName,
-        color: party.colorHex,
+        color: MAP_COLORS[party.id] ?? party.colorHex,
         px: toX(eco.x),
         py: toY(-soc.x),
         lowData: eco.n < 3 || soc.n < 3,
@@ -91,88 +99,45 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
     return { points: pts, userPoint: user, excluded: excludedParties };
   }, [userEntries]);
 
-  /* ---------- Label-Platzierung (Greedy, Priorität: Parlament → Rest) ---------- */
+  /* Proximity-Hover wie im Hemicycle */
+  function handlePointer(e: React.PointerEvent<SVGSVGElement>) {
+    const el = svgRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const sx = ((e.clientX - rect.left) / rect.width) * W;
+    const sy = ((e.clientY - rect.top) / rect.height) * H;
 
-  const FONT = 2.9;
-  const CHAR_W = 1.62; // empirisch für System-Sans bei fontSize 2.9
-
-  const labels = useMemo(() => {
-    const tierOf = (id: string) =>
-      content.parties.find((p) => p.id === id)?.tier ?? "contextual";
-    const order = [...points].sort((a, b) => {
-      const t =
-        tierOrderIndex(tierOf(a.id)) - tierOrderIndex(tierOf(b.id)) ||
-        b.label.length - a.label.length;
-      return t;
-    });
-
-    const placedBoxes: Array<{ x1: number; y1: number; x2: number; y2: number }> = [];
-    // Nutzer-Marker hat Vorrang auf Platz
-    if (userPoint) {
-      placedBoxes.push({
-        x1: userPoint.px - 4,
-        y1: userPoint.py - 4,
-        x2: userPoint.px + 4,
-        y2: userPoint.py + 4,
-      });
-    }
-
-    interface Placed {
-      id: string;
-      x: number;
-      y: number;
-      anchor: "start" | "end" | "middle";
-      visible: boolean;
-    }
-    const out = new Map<string, Placed>();
-
-    for (const pt of order) {
-      const w = pt.label.length * CHAR_W + 1.6;
-      const h = FONT + 0.9;
-      const candidates: Array<{ lx: number; ly: number; anchor: "start" | "end" | "middle" }> = [
-        { lx: pt.px + 3.2, ly: pt.py + 0.95, anchor: "start" },
-        { lx: pt.px - 3.2, ly: pt.py + 0.95, anchor: "end" },
-        { lx: pt.px, ly: pt.py - 3.4, anchor: "middle" },
-        { lx: pt.px, ly: pt.py + 4.4, anchor: "middle" },
-      ];
-
-      let chosen: Placed | null = null;
-      for (const c of candidates) {
-        const box = {
-          x1: c.anchor === "end" ? c.lx - w : c.anchor === "middle" ? c.lx - w / 2 : c.lx,
-          y1: c.ly - h + 0.6,
-          x2: c.anchor === "end" ? c.lx : c.anchor === "middle" ? c.lx + w / 2 : c.lx + w,
-          y2: c.ly + 0.6,
-        };
-        if (
-          box.x1 < 1 ||
-          box.x2 > W - 1 ||
-          box.y1 < 1 ||
-          box.y2 > H - 1 ||
-          collides(box, placedBoxes)
-        ) {
-          continue;
-        }
-        placedBoxes.push(box);
-        chosen = { id: pt.id, x: c.lx, y: c.ly, anchor: c.anchor, visible: true };
-        break;
+    let bestId: string | null = null;
+    let bestDistSq = Infinity;
+    const maxDistSq = 3.4 ** 2;
+    for (const pt of points) {
+      const dx = pt.px - sx;
+      const dy = pt.py - sy;
+      const d = dx * dx + dy * dy;
+      if (d < bestDistSq) {
+        bestDistSq = d;
+        bestId = pt.id;
       }
-      out.set(pt.id, chosen ?? { id: pt.id, x: pt.px, y: pt.py, anchor: "start", visible: false });
     }
-    return out;
-  }, [points, userPoint]);
+    setHovered(bestDistSq <= maxDistSq ? bestId : null);
+  }
 
+  const activePoint = points.find((p) => p.id === hovered);
   const mid = W / 2;
 
   return (
     <figure className="space-y-3">
       <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800">
         <svg
+          ref={svgRef}
           viewBox={`0 0 ${W} ${H}`}
           className="block w-full"
+          style={{ touchAction: "pan-y" }}
           role="img"
           aria-label="Politische Landkarte: Deine Position im Vergleich zu den Parteien"
-          onMouseLeave={() => setHovered(null)}
+          onPointerMove={handlePointer}
+          onPointerDown={handlePointer}
+          onPointerLeave={() => setHovered(null)}
         >
           <defs>
             <linearGradient id="q-tl" x1="0" y1="0" x2="1" y2="1">
@@ -226,46 +191,23 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
             konservativ · traditionell
           </text>
 
-          {/* Parteien */}
+          {/* Sitzpunkte (ohne Text — Identifikation über Legende/Hover) */}
           {points.map((pt) => {
-            const label = labels.get(pt.id);
             const active = hovered === pt.id;
             return (
-              <g
+              <circle
                 key={pt.id}
-                onMouseEnter={() => setHovered(pt.id)}
-                className="cursor-pointer"
+                cx={pt.px}
+                cy={pt.py}
+                r={active ? 3 : pt.lowData ? 2.2 : 2.6}
+                fill={pt.color}
+                stroke="#ffffff"
+                strokeWidth={0.9}
+                opacity={hovered && !active ? 0.3 : 1}
+                style={{ transition: "r .15s ease, opacity .15s ease" }}
               >
-                {/* großzügige Hit-Area */}
-                <circle cx={pt.px} cy={pt.py} r={5.5} fill="transparent" />
-                <circle
-                  cx={pt.px}
-                  cy={pt.py}
-                  r={active ? 3 : pt.lowData ? 2.2 : 2.5}
-                  fill={pt.color}
-                  stroke="#ffffff"
-                  strokeWidth={0.85}
-                  opacity={hovered && !active ? 0.35 : 1}
-                  style={{ transition: "r .15s ease, opacity .15s ease" }}
-                >
-                  <title>{`${pt.label}${pt.lowData ? " (wenig Daten)" : ""}`}</title>
-                </circle>
-                {(label?.visible || active) && (
-                  <text
-                    x={active && !label?.visible ? pt.px + 3.2 : label!.x}
-                    y={active && !label?.visible ? pt.py + 0.95 : label!.y}
-                    fontSize={FONT}
-                    textAnchor={active && !label?.visible ? "start" : label!.anchor}
-                    fill={active ? "#0f172a" : "#334155"}
-                    fontWeight={active ? 700 : 500}
-                    stroke="#ffffff"
-                    strokeWidth={0.6}
-                    style={{ paintOrder: "stroke" }}
-                  >
-                    {pt.label}
-                  </text>
-                )}
-              </g>
+                <title>{`${pt.label}${pt.lowData ? " (wenig Daten)" : ""}`}</title>
+              </circle>
             );
           })}
 
@@ -284,31 +226,39 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
               <circle cx={userPoint.px} cy={userPoint.py} r={1.9} fill="#e85d3b" stroke="#ffffff" strokeWidth={0.6}>
                 <title>Deine Position</title>
               </circle>
-              <text
-                x={userPoint.px}
-                y={userPoint.py - 5}
-                fontSize={2.7}
-                fontWeight={700}
-                fill="#e85d3b"
-                textAnchor="middle"
-                stroke="#ffffff"
-                strokeWidth={0.55}
-                style={{ paintOrder: "stroke" }}
-              >
-                Du
+            </g>
+          )}
+
+          {/* Fixe Info-Leiste oben */}
+          {activePoint && (
+            <g pointerEvents="none">
+              <rect
+                x={mid - 24}
+                y={3.2}
+                width={48}
+                height={6}
+                rx={1.6}
+                fill="#0f172a"
+                opacity={0.92}
+              />
+              <circle cx={mid - 19} cy={6.2} r={1.1} fill={activePoint.color} />
+              <text x={mid - 16.5} y={7.4} fontSize={3.6} fontWeight={700} fill="#ffffff">
+                {activePoint.label}
+                {activePoint.lowData ? " · wenig Daten" : ""}
               </text>
             </g>
           )}
         </svg>
       </div>
 
-      {/* Vollständige Legende — auch Partein mit verstecktem Label identifizierbar */}
+      {/* Legende — vollständige Identifikation inkl. Hover-Sync */}
       <figcaption className="space-y-2 text-xs text-zinc-500">
         <div className="flex flex-wrap gap-x-3 gap-y-1">
           {points.map((pt) => (
             <span
               key={pt.id}
               onMouseEnter={() => setHovered(pt.id)}
+              onMouseLeave={() => setHovered(null)}
               className={`inline-flex cursor-default items-center gap-1 transition-opacity ${
                 hovered && hovered !== pt.id ? "opacity-40" : ""
               }`}
@@ -363,8 +313,4 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
       </figcaption>
     </figure>
   );
-}
-
-function tierOrderIndex(tier: string): number {
-  return tier === "parliament" ? 0 : tier === "small" ? 1 : 2;
 }

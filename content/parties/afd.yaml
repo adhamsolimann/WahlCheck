@@ -12,5 +12,6 @@ summary: >-
   Sicherheit; lehnt Mietregulierung und Vergesellschaftung ab. Das Landesamt für
   Verfassungsschutz Berlin behandelt die AfD als Verdachtsfall rechtsextremistischer
   Bestrebungen. # TODO(T-132): Klassifizierungsstand rechtlich prüfen lassen
-leadership: [] # TODO(T-102)
+leadership:
+  - Kristin Brinker (Spitzenkandidatin, Fraktionsvorsitzende) # Quelle: t-online 22.08.2026
 profileComplete: false

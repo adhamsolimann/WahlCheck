@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:26:46.690Z",
+  "generatedAt": "2026-08-23T19:34:29.272Z",
   "parties": [
     {
       "id": "afd",
@@ -11,7 +11,9 @@
       "colorHex": "#009EE3",
       "founded": 2013,
       "summary": "Rechtspopulistische Partei mit Schwerpunkten Migrationskritik und innere Sicherheit; lehnt Mietregulierung und Vergesellschaftung ab. Das Landesamt für Verfassungsschutz Berlin behandelt die AfD als Verdachtsfall rechtsextremistischer Bestrebungen. # TODO(T-132): Klassifizierungsstand rechtlich prüfen lassen",
-      "leadership": [],
+      "leadership": [
+        "Kristin Brinker (Spitzenkandidatin, Fraktionsvorsitzende)"
+      ],
       "profileComplete": false
     },
     {
@@ -48,9 +50,9 @@
       "bezirke": [],
       "colorHex": "#E96018",
       "founded": 1945,
-      "summary": "Christlich-demokratische Partei; senior partner im amtierenden Senat und stellt mit Kai Wegner den Regierenden Bürgermeister. Schwerpunkte innere Sicherheit (größter Programmblock), Wirtschaft und Verwaltung.",
+      "summary": "Christlich-demokratische Partei; senior partner im amtierenden Senat. Kai Wegner zog sich im Juli 2026 als Spitzenkandidat zurück (Kritik an seiner Krisenkommunikation nach dem großen Stromausfall); Finanzsenator Stefan Evers übernahm die Bürgermeisterkandidatur.",
       "leadership": [
-        "Kai Wegner (Regierender Bürgermeister, Spitzenkandidat)"
+        "Stefan Evers (Spitzenkandidat/Bürgermeisterkandidat)"
       ],
       "profileComplete": false
     },
@@ -117,7 +119,9 @@
       "colorHex": "#1FA12E",
       "founded": 1980,
       "summary": "Grüne Partei mit Schwerpunkt Klimaschutz, Mobilitätswende und sozialer Gerechtigkeit; war bis 2023 in der Berliner Regierung vertreten.",
-      "leadership": [],
+      "leadership": [
+        "Werner Graf (Bürgermeisterkandidat)"
+      ],
       "profileComplete": false
     },
     {
@@ -143,7 +147,9 @@
       "colorHex": "#CC0000",
       "founded": 2007,
       "summary": "Demokratisch-sozialistische Partei; in Umfragen zuletzt stärkste Kraft, Schwerpunkte Mietenpolitik, Umverteilung und Begrenzung polizeilicher Befugnisse.",
-      "leadership": [],
+      "leadership": [
+        "Elif Eralp (Spitzenkandidatin)"
+      ],
       "programUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
       "profileComplete": false
     },
@@ -198,7 +204,9 @@
       "colorHex": "#E2001A",
       "founded": 1863,
       "summary": "Sozialdemokratische Partei; junior partner im amtierenden Senat (Koalition mit der CDU). Schwerpunkte Wohnungsneubau, soziale Infrastruktur und Wirtschaft.",
-      "leadership": [],
+      "leadership": [
+        "Steffen Krach (Spitzenkandidat)"
+      ],
       "programUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "profileComplete": false
     },

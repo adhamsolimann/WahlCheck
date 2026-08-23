@@ -9,6 +9,7 @@ founded: 1863
 summary: >-
   Sozialdemokratische Partei; junior partner im amtierenden Senat (Koalition mit
   der CDU). Schwerpunkte Wohnungsneubau, soziale Infrastruktur und Wirtschaft.
-leadership: [] # TODO(T-102): Landesspitze ergänzen
+leadership:
+  - Steffen Krach (Spitzenkandidat) # Quelle: t-online 22.08.2026
 profileComplete: false
 programUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf

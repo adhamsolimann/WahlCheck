@@ -10,6 +10,7 @@ founded: 2007
 summary: >-
   Demokratisch-sozialistische Partei; in Umfragen zuletzt stärkste Kraft,
   Schwerpunkte Mietenpolitik, Umverteilung und Begrenzung polizeilicher Befugnisse.
-leadership: [] # TODO(T-102)
+leadership:
+  - Elif Eralp (Spitzenkandidatin) # Quelle: SGP-Kritik via WSWS 10.07.2026; TODO(T-132) gegen Landesverband prüfen
 profileComplete: false
 programUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf

@@ -5,6 +5,7 @@ import {
   ECONOMIC_AXIS,
   ECONOMIC_DIRECTED,
 } from "@/lib/compass-config";
+import { CORRECTION_URL } from "@/lib/site-config";
 import { content } from "@/lib/content";
 
 export const metadata = {
@@ -87,7 +88,7 @@ export default function MethodikPage() {
           tagesschau, Tagesspiegel) dienen als zweite Quelle. Jede Position hat
           einen Verifikationsstatus: „pending“ bedeutet, dass das Zitat noch
           gegen das Original-PDF gegengelesen wird (Fixpunkt: Faktencheck-Freeze
-          vor dem Launch). Kann eine Partei einer These keine klare Position
+          vor dem Launch). Kann einer Partei zu einer These keine klare Position
           zugeordnet werden, steht sie bei uns ehrlich auf „keine Angabe“ — diese
           These fließt dann <em>nur für diese Partei</em> nicht in den
           Prozentwert ein. Das verhindert künstlich hohe Übereinstimmungen von
@@ -143,6 +144,10 @@ Gewicht: deine Wichtigkeit 1–5× (statt fixer Doppelgewichtung)
           <li>Regierungsbilanz und Abstimmungsverhalten fließen derzeit nicht ein (geplant).</li>
           <li>Umfragewerte sind Momentaufnahmen mit Unsicherheit, keine Vorhersagen.</li>
           <li>Koalitionsaussagen sind Modellrechnungen, keine Prognosen.</li>
+          <li>
+            Kleine Parteien ohne veröffentlichte Programme stehen teilweise
+            durchgängig auf „keine Angabe“ — wir erfinden keine Positionen.
+          </li>
         </ul>
       </section>
 
@@ -151,13 +156,18 @@ Gewicht: deine Wichtigkeit 1–5× (statt fixer Doppelgewichtung)
         <p className="text-sm text-zinc-700 dark:text-zinc-300">
           Korrekturen sind willkommen und werden transparent im öffentlichen
           Änderungslog dokumentiert:{" "}
-          <a className="underline" href="mailto:korrektur@example.org">
-            korrektur@example.org
-          </a>{" "}
-          <span className="text-zinc-500">[Kontakt vor Launch finalisieren]</span>.
+          <a
+            className="underline"
+            href={CORRECTION_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Issues im Projekt-Repository
+          </a>
+          .
         </p>
         <p className="text-sm">
-          <Link href="/quiz/" className="text-brand-600 underline">
+          <Link href="/quiz" className="text-brand-600 underline">
             ← Zurück zum Matching
           </Link>
         </p>

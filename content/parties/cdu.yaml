@@ -8,9 +8,10 @@ bezirke: [] # berlinweit mit Bezirkslisten — TODO(T-102)
 colorHex: "#E96018"
 founded: 1945
 summary: >-
-  Christlich-demokratische Partei; senior partner im amtierenden Senat und stellt
-  mit Kai Wegner den Regierenden Bürgermeister. Schwerpunkte innere Sicherheit
-  (größter Programmblock), Wirtschaft und Verwaltung.
+  Christlich-demokratische Partei; senior partner im amtierenden Senat.
+  Kai Wegner zog sich im Juli 2026 als Spitzenkandidat zurück (Kritik an seiner
+  Krisenkommunikation nach dem großen Stromausfall); Finanzsenator Stefan Evers
+  übernahm die Bürgermeisterkandidatur.
 leadership:
-  - Kai Wegner (Regierender Bürgermeister, Spitzenkandidat) # TODO(T-132): verifizieren
-profileComplete: false
+  - Stefan Evers (Spitzenkandidat/Bürgermeisterkandidat)
+profileComplete: false # TODO(T-132): Rückzugsdatum/Evers-Nachfolge final verifizieren

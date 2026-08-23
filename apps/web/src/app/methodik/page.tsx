@@ -125,9 +125,12 @@ Gewicht: deine Wichtigkeit 1–5× (statt fixer Doppelgewichtung)
           eher mehr Staat/Umverteilung bzw. konservativ-traditionell (−), oder
           mehr Markt/Eigenverantwortung bzw. progressiv-weltoffen (+)?
           Der Achsenwert ist das gewichtete Mittel aller richtungskorrigierten
-          Positionen, skaliert auf −100…+100. Parteien mit zu wenigen klaren
-          Angaben im Achsen-Scope werden gar nicht erst platziert statt an einer
-          erfundenen Koordinate.
+          Positionen, skaliert auf −100…+100. Bei Nutzerinnen und Nutzern
+          zählt eine manuell eingestellte Wichtigkeit (Slider), nicht die
+          automatischen Persona-Voreinstellungen — die Landkarte zeigt, was du
+          denkst, nicht wie wichtig dir ein Thema beim Matching war.
+          Parteien mit zu wenigen klaren Angaben im Achsen-Scope werden gar
+          nicht erst platziert statt an einer erfundenen Koordinate.
         </p>
         <AxisTable title="Wirtschaftsachse" meta={ECONOMIC_AXIS} directed={ECONOMIC_DIRECTED} />
         <AxisTable title="Soziokulturelle Achse" meta={CULTURAL_AXIS} directed={CULTURAL_DIRECTED} />

@@ -1,0 +1,251 @@
+"use client";
+
+import { useMemo } from "react";
+import Link from "next/link";
+import { feasibleCoalitions, sainteLague, type CoalitionOption } from "@wahlen/engine";
+import { Card, CardBody } from "@/components/ui/Card";
+import { electionPolls, partiesById } from "@/lib/content";
+import { useMatchResults } from "@/hooks/useMatchResults";
+
+const INCUMBENT = new Set(["cdu", "spd"]);
+
+function formatDate(iso: string): string {
+  return new Date(`${iso}T12:00:00`).toLocaleDateString("de-DE", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+export default function KoalitionPage() {
+  const { ready, answeredCount, percentByParty } = useMatchResults();
+  const polls = electionPolls();
+
+  const { seats, belowThreshold, options } = useMemo(() => {
+    const shares = Object.entries(polls.aggregate.trend)
+      .filter(([id]) => id !== "sonstige")
+      .map(([partyId, percent]) => ({ partyId, percent }));
+
+    const seats = sainteLague(shares, polls.parliamentSeats, {
+      threshold: polls.thresholdPercent,
+    });
+
+    const seatIds = new Set(Object.keys(seats));
+    const belowThreshold = shares
+      .filter((s) => !seatIds.has(s.partyId))
+      .map((s) => s.partyId);
+
+    return {
+      seats,
+      belowThreshold,
+      options: feasibleCoalitions(seats, polls.majoritySeats),
+    };
+  }, [polls]);
+
+  /** Persönliche Bewertung je Koalition: Mittel der Mitglieds-Übereinstimmung */
+  const scored = useMemo(() => {
+    if (!ready || answeredCount === 0) return null;
+    return options.map((option) => {
+      const percents = option.members.map((m) => percentByParty.get(m));
+      const complete = percents.every((p) => p !== undefined && p !== null);
+      const mean = complete
+        ? Math.round(
+            (percents.reduce<number>((sum, p) => sum + (p as number), 0) /
+              percents.length) *
+              10,
+          ) / 10
+        : null;
+      return { option, mean, complete };
+    });
+  }, [ready, answeredCount, options, percentByParty]);
+
+  const bestPersonal =
+    scored?.filter((s) => s.complete).sort((a, b) => (b.mean ?? 0) - (a.mean ?? 0))[0] ?? null;
+
+  return (
+    <main className="mx-auto max-w-3xl space-y-8 px-6 py-12">
+      <header className="space-y-2 text-center">
+        <h1 className="text-3xl font-bold">Wer kann regieren?</h1>
+        <p className="mx-auto max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
+          Modellrechnung auf Basis des aktuellen Wahltrends — keine Prognose.
+          Sie zeigt, welche Koalitionen rechnerisch möglich sind und wie gut
+          diese zu <em>deinen</em> Antworten passen.
+        </p>
+      </header>
+
+      {/* ---------- Aktuelle Lage ---------- */}
+      <Card>
+        <CardBody>
+          <h2 className="mb-3 font-semibold">Aktuelle Lage</h2>
+          <div className="space-y-2">
+            {Object.entries(polls.aggregate.trend)
+              .sort(([, a], [, b]) => b - a)
+              .map(([partyId, percent]) => {
+                const party = partiesById.get(partyId);
+                const inParliament = partyId in seats;
+                return (
+                  <div key={partyId} className="flex items-center gap-3">
+                    <span
+                      aria-hidden
+                      className="h-4 w-2 shrink-0 rounded-sm"
+                      style={{
+                        backgroundColor: party?.colorHex ?? "#a1a1aa",
+                        opacity: inParliament ? 1 : 0.35,
+                      }}
+                    />
+                    <span
+                      className={`w-28 shrink-0 text-sm ${
+                        inParliament ? "" : "text-zinc-400"
+                      }`}
+                    >
+                      {party?.shortName ?? partyId}
+                    </span>
+                    <span className="hidden h-2 flex-1 overflow-hidden rounded-full bg-zinc-100 sm:block dark:bg-zinc-800">
+                      <span
+                        className="block h-full rounded-full"
+                        style={{
+                          width: `${(percent / 25) * 100}%`,
+                          backgroundColor: party?.colorHex ?? "#a1a1aa",
+                          opacity: inParliament ? 1 : 0.35,
+                        }}
+                      />
+                    </span>
+                    <span className="ml-auto w-12 text-right text-sm tabular-nums sm:ml-0">
+                      {percent.toLocaleString("de-DE")} %
+                    </span>
+                    <span className="w-20 text-right text-xs text-zinc-500 tabular-nums">
+                      {inParliament
+                        ? `${seats[partyId]} Sitze`
+                        : `unter ${polls.thresholdPercent.toLocaleString("de-DE")} %`}
+                    </span>
+                  </div>
+                );
+              })}
+          </div>
+          <p className="mt-3 text-xs leading-relaxed text-zinc-500">
+            Gewichtetes Institutsmittel, Stand{" "}
+            {formatDate(polls.aggregate.updatedAt)} · {polls.aggregate.methodNote}{" "}
+            Sitzprojektion: Sainte-Laguë auf {polls.parliamentSeats} Sitze
+            (vereinfacht, ohne Überhang-/Pauschsitze). Einzelumfragen:
+            <ul className="mt-1 list-inside list-disc">
+              {polls.polls.map((poll) => (
+                <li key={`${poll.institute}-${poll.date}`}>
+                  <a href={poll.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-600">
+                    {poll.institute}, {formatDate(poll.date)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </p>
+        </CardBody>
+      </Card>
+
+      {/* ---------- Mögliche Koalitionen ---------- */}
+      <section aria-labelledby="coalitions-heading" className="space-y-3">
+        <h2 id="coalitions-heading" className="text-lg font-semibold">
+          Rechnerisch mögliche Mehrheiten ({options.length})
+        </h2>
+        <p className="text-xs text-zinc-500">
+          Alle Kombinationen von bis zu vier Parteien mit mindestens{" "}
+          {polls.majoritySeats} der {polls.parliamentSeats} Sitze — rein
+          arithmetisch, ohne politische Bewertung.
+        </p>
+        <ul className="grid gap-2 sm:grid-cols-2">
+          {options.map((option: CoalitionOption) => (
+            <li key={option.members.join("+")}>
+              <Card className="flex items-center gap-3 py-3">
+                <div className="flex flex-wrap items-center gap-1.5">
+                  {option.members.map((id, i) => (
+                    <span key={id} className="flex items-center gap-1.5">
+                      {i > 0 && <span className="text-xs text-zinc-400">+</span>}
+                      <span
+                        className={`rounded px-1.5 py-0.5 text-xs font-semibold ${
+                          INCUMBENT.has(id) ? "" : ""
+                        }`}
+                        style={{ color: partiesById.get(id)?.colorHex }}
+                      >
+                        {partiesById.get(id)?.shortName ?? id}
+                      </span>
+                    </span>
+                  ))}
+                </div>
+                <span className="ml-auto flex items-center gap-2 whitespace-nowrap">
+                  {option.members.length === INCUMBENT.size &&
+                    [...INCUMBENT].every((id) => option.members.includes(id)) && (
+                      <span className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-500 dark:bg-zinc-800">
+                        im Amt
+                      </span>
+                    )}
+                  <strong className="tabular-nums">{option.totalSeats}</strong>
+                </span>
+              </Card>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {/* ---------- Persönliche Option ---------- */}
+      <section aria-labelledby="personal-heading" className="space-y-3">
+        <h2 id="personal-heading" className="text-lg font-semibold">
+          Deine beste rechnerische Option
+        </h2>
+        {!ready ? null : answeredCount === 0 ? (
+          <Card>
+            <CardBody>
+              Beantworte zuerst ein paar Thesen — dann zeigen wir dir, welche
+              rechnerisch mögliche Koalition deinen Positionen am nächsten steht.
+              <div className="pt-3">
+                <Link href="/quiz" className="text-brand-600 underline">
+                  Zum Matching →
+                </Link>
+              </div>
+            </CardBody>
+          </Card>
+        ) : bestPersonal ? (
+          <Card>
+            <CardBody>
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <p className="text-lg font-bold">
+                  {bestPersonal.option.members
+                    .map((id) => partiesById.get(id)?.shortName ?? id)
+                    .join(" + ")}
+                </p>
+                <p
+                  className="text-2xl font-black tabular-nums"
+                  style={{ color: "var(--color-brand-600)" }}
+                >
+                  Ø {(bestPersonal.mean as number).toLocaleString("de-DE")} %
+                </p>
+              </div>
+              <p className="mt-1 text-xs text-zinc-500">
+                Durchschnittliche Übereinstimmung mit den beteiligten Parteien ·{" "}
+                {bestPersonal.option.totalSeats} Sitze · Rangfolge aller Optionen
+                folgt derselben Rechnung wie die Auswertungsliste.
+              </p>
+            </CardBody>
+          </Card>
+        ) : (
+          <p className="text-sm text-zinc-500">
+            Für deine Antworten liegen zu den Koalitionsparteien noch nicht genug
+            verwertbare Daten vor.
+          </p>
+        )}
+      </section>
+
+      <footer className="text-xs leading-relaxed text-zinc-500">
+        <strong>Hinweise:</strong> Umfragen schwanken; kleine Änderungen können
+        über die Fünf-Prozent-Hürde große Auswirkungen haben
+        {belowThreshold.length > 0 &&
+          ` (aktuell darunter: ${belowThreshold
+            .map((id) => partiesById.get(id)?.shortName ?? id)
+            .join(", ")})`}
+        . Regierungsfähigkeit ist mehr als Arithmetik — diese Seite zeigt nur
+        die Mathematik. Details:{" "}
+        <a href="/methodik" className="underline">
+          Methodik
+        </a>
+        .
+      </footer>
+    </main>
+  );
+}

@@ -2,8 +2,10 @@ import type { Party, Position, Thesis, UserAnswer } from "@wahlen/schemas";
 import { describe, expect, it } from "vitest";
 import {
   computeResults,
+  feasibleCoalitions,
   projectOnAxis,
   rankResults,
+  sainteLague,
   type PartyResult,
   type ScopedPosition,
 } from "./index.js";
@@ -275,5 +277,68 @@ describe("projectOnAxis", () => {
     );
     expect(result.x).toBe(100); // b: −1×−2 = +2 → +100
     expect(result.n).toBe(1);
+  });
+});
+
+describe("sainteLague / feasibleCoalitions — Berlin 2026 anchor", () => {
+  // PolitPro-Wahltrend (22.08.2026) und dessen veröffentlichte Projektion
+  const TREND = [
+    { partyId: "linke", percent: 19.9 },
+    { partyId: "cdu", percent: 19.3 },
+    { partyId: "afd", percent: 17.6 },
+    { partyId: "gruene", percent: 16.6 },
+    { partyId: "spd", percent: 13.2 },
+    { partyId: "bsw", percent: 3.1 },
+    { partyId: "fdp", percent: 3.1 },
+  ];
+
+  it("reproduces the published seat projection (Linke 30 · CDU 29 · AfD 26 · Grüne 25 · SPD 20)", () => {
+    const seats = sainteLague(TREND, 130, { threshold: 5 });
+    expect(seats).toEqual({ linke: 30, cdu: 29, afd: 26, gruene: 25, spd: 20 });
+  });
+
+  it("excludes parties below the threshold entirely", () => {
+    const seats = sainteLague(TREND, 130, { threshold: 5 });
+    expect(Object.keys(seats).sort()).toEqual(["afd", "cdu", "gruene", "linke", "spd"]);
+    expect(Object.values(seats).reduce((a, b) => a + b, 0)).toBe(130);
+  });
+
+  it("enumerates feasible coalitions at 66 seats correctly", () => {
+    const seats = sainteLague(TREND, 130, { threshold: 5 });
+    const options = feasibleCoalitions(seats, 66);
+
+    // keine Zwei-Parteien-Mehrheit in dieser Konstellation
+    expect(options.filter((o) => o.members.length === 2)).toHaveLength(0);
+
+    // alle 10 Dreier-Kombinationen erreichen ≥ 66 (kleinste: CDU+AfD+SPD = 75)
+    const triples = options.filter((o) => o.members.length === 3);
+    expect(triples).toHaveLength(10);
+
+    // Gesamtanzahl (Default max. 4 Partner): 0 Paare + 10 Dreier + 5 Vierer
+    expect(options).toHaveLength(15);
+
+    // mit Fünfer-Koalition: alle Parteien zusammen (130 Sitze)
+    expect(feasibleCoalitions(seats, 66, 5)).toHaveLength(16);
+
+    for (const option of options) {
+      expect(option.totalSeats).toBeGreaterThanOrEqual(66);
+      expect(option.totalSeats).toBe(
+        option.members.reduce((sum, id) => sum + seats[id], 0),
+      );
+    }
+  });
+
+  it("returns empty when no combination reaches the majority", () => {
+    const seats = sainteLague(
+      [
+        { partyId: "a", percent: 40 },
+        { partyId: "b", percent: 35 },
+      ],
+      130,
+      { threshold: 5 },
+    );
+    // 52 + 45.5 → beide unter 66 zusammen? 100 % der Sitze sind verteilt,
+    // also muss eine Koalition existieren — Gegenprobe mit hoher Hürde:
+    expect(feasibleCoalitions(seats, 200)).toHaveLength(0);
   });
 });

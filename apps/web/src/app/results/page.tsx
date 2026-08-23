@@ -1,15 +1,16 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Party, Thesis } from "@wahlen/schemas";
-import { computeResults, rankResults, type PartyResult } from "@wahlen/engine";
+import type { PartyResult } from "@wahlen/engine";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { TierBadge } from "@/components/ui/TierBadge";
 import { STANCE_LABELS } from "@/components/ui/StanceScale";
-import { content, partiesById, positionsFor, thesesForMode } from "@/lib/content";
-import { loadSession, toEngineAnswers, clearSession } from "@/lib/session";
+import { partiesById, thesesForMode } from "@/lib/content";
+import { clearSession } from "@/lib/session";
+import { useMatchResults } from "@/hooks/useMatchResults";
 import { PoliticalMap } from "@/components/results/PoliticalMap";
 import { ShareButton } from "@/components/results/ShareButton";
 
@@ -20,47 +21,31 @@ const TIER_LABELS: Record<Party["tier"], string> = {
 };
 
 export default function ResultsPage() {
-  const [ready, setReady] = useState(false);
+  const { ready, session, scope, ranked, answeredCount } = useMatchResults();
   const [expanded, setExpanded] = useState<string | null>(null);
-
-  useEffect(() => setReady(true), []);
-
-  const session = useMemo(() => (ready ? loadSession() : null), [ready]);
-
-  const scope = useMemo(
-    () => thesesForMode(session?.mode ?? "quick"),
-    [session?.mode],
-  );
-
-  const results = useMemo(() => {
-    if (!session) return [];
-    return computeResults({
-      answers: toEngineAnswers(session),
-      theses: scope,
-      positions: positionsFor(scope),
-    });
-  }, [session, scope]);
-
-  const ranked = useMemo(
-    () => rankResults(results, content.parties),
-    [results],
-  );
 
   const thesisById = useMemo(() => {
     const map = new Map<string, Thesis>();
-    for (const t of scope) map.set(t.id, t);
+    for (const t of thesesForMode(session?.mode ?? "quick")) map.set(t.id, t);
     return map;
-  }, [scope]);
+  }, [session?.mode]);
 
-  const userEntries = useMemo(
-    () =>
-      session
-        ? toEngineAnswers(session).filter(
-            (a): a is typeof a & { stance: number } => a.stance !== null,
-          )
-        : [],
-    [session],
-  );
+  const userEntries = useMemo(() => {
+    if (!session) return [];
+    return session.stances
+      ? Object.entries(session.stances)
+          .filter(([id]) => !session.skips.includes(id) && scope.some((t) => t.id === id))
+          .map(([thesisId, stance]) => ({
+            thesisId,
+            stance,
+            weight:
+              session.weights[thesisId] ??
+              // Persona-Basisgewichtung wird hier bewusst nicht angewendet —
+              // die Landkarte zeigt die ungewichtete inhaltliche Lage.
+              1,
+          }))
+      : [];
+  }, [session, scope]);
 
   const topMatches = useMemo(() => {
     return ranked
@@ -77,8 +62,6 @@ export default function ResultsPage() {
       </main>
     );
   }
-
-  const answeredCount = session ? Object.keys(session.stances).length : 0;
 
   if (answeredCount === 0) {
     return (

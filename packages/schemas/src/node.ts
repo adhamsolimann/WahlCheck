@@ -5,8 +5,8 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
-import type { Party, Position, Thesis } from "./index.js";
-import { PartySchema, PositionsFileSchema, ThesisSchema } from "./index.js";
+import type { ElectionPolls, Party, Position, Thesis } from "./index.js";
+import { ElectionPollsSchema, PartySchema, PositionsFileSchema, ThesisSchema } from "./index.js";
 
 interface ParseIssue {
   path: ReadonlyArray<string | number | symbol>;
@@ -82,6 +82,10 @@ export function loadPositions(contentRoot: string): Map<string, Position[]> {
     "positions",
   );
   return new Map(files.map((f) => [f.partyId, f.positions]));
+}
+
+export function loadPolls(contentRoot: string): ElectionPolls[] {
+  return loadYamlFiles(join(contentRoot, "polls"), ElectionPollsSchema, "polls");
 }
 
 export interface ContentBundle {

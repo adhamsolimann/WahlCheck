@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:28:50.677Z",
+  "generatedAt": "2026-08-23T17:38:31.583Z",
   "parties": [
     {
       "id": "afd",
@@ -2791,6 +2791,94 @@
       "stance": null,
       "status": "none",
       "verification": "pending"
+    }
+  ],
+  "polls": [
+    {
+      "electionId": "berlin-2026",
+      "electionDate": "2026-09-20",
+      "parliamentSeats": 130,
+      "majoritySeats": 66,
+      "thresholdPercent": 5,
+      "thresholdNote": "Reine Fünf-Prozent-Hürde auf die Zweitstimme nach der Wahlrechtsreform 2020. Nuancen des novellierten Landeswahlgesetzes (2025) zu Direktmandaten sind vor dem Launch rechtlich zu verifizieren (Roadmap-Gate T-121).",
+      "polls": [
+        {
+          "institute": "Forsa",
+          "date": "2026-08-22",
+          "sampleSize": 1535,
+          "values": {
+            "linke": 22,
+            "afd": 18,
+            "cdu": 18,
+            "gruene": 16,
+            "spd": 12,
+            "bsw": 4,
+            "fdp": 3,
+            "sonstige": 7
+          },
+          "sourceUrl": "https://dawum.de/Berlin/Forsa/2026-08-22/"
+        },
+        {
+          "institute": "INSA",
+          "date": "2026-08-14",
+          "sampleSize": 1000,
+          "values": {
+            "cdu": 20,
+            "linke": 19,
+            "afd": 17,
+            "gruene": 16,
+            "spd": 15,
+            "bsw": 3,
+            "fdp": 3,
+            "sonstige": 7
+          },
+          "sourceUrl": "https://dawum.de/Berlin/INSA/2026-08-14/"
+        },
+        {
+          "institute": "Civey",
+          "date": "2026-08-03",
+          "values": {
+            "linke": 21,
+            "cdu": 19,
+            "afd": 18,
+            "gruene": 17,
+            "spd": 12,
+            "bsw": 3,
+            "fdp": 3,
+            "sonstige": 7
+          },
+          "sourceUrl": "https://politpro.eu/de/berlin"
+        },
+        {
+          "institute": "Infratest dimap",
+          "date": "2026-07-15",
+          "values": {
+            "linke": 22,
+            "cdu": 20,
+            "afd": 16,
+            "gruene": 17,
+            "spd": 12,
+            "bsw": 3,
+            "fdp": 3,
+            "sonstige": 7
+          },
+          "sourceUrl": "https://politpro.eu/de/berlin"
+        }
+      ],
+      "aggregate": {
+        "updatedAt": "2026-08-22",
+        "methodNote": "Gewichteter Mittelwert aller Institute (Recency- und Qualitätsgewichtung) wie von PolitPro veröffentlicht; dient als Modellgrundlage, nicht als Prognose.",
+        "trend": {
+          "linke": 19.9,
+          "cdu": 19.3,
+          "afd": 17.6,
+          "gruene": 16.6,
+          "spd": 13.2,
+          "bsw": 3.1,
+          "fdp": 3.1,
+          "sonstige": 7.2
+        }
+      }
     }
   ]
 }

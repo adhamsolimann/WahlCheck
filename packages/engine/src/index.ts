@@ -249,3 +249,90 @@ export function projectOnAxis(
     n: entries.filter((e) => e.weight > 0 && byThesis.has(e.thesisId)).length,
   };
 }
+
+/* ------------------------------------------------------------------ */
+/* Seats & coalitions                                                  */
+/* ------------------------------------------------------------------ */
+
+export interface SeatShare {
+  partyId: string;
+  /** Prozentwert der Zweitstimme (0–100) */
+  percent: number;
+}
+
+export type SeatAllocation = Record<string, number>;
+
+/**
+ * Sitzverteilung nach Sainte-Laguë (Höchstzahlverfahren mit Divisoren
+ * 1, 3, 5, …). Vereinfachtes Modell: reine Zweitstimmen-Verteilung auf
+ * `totalSeats` — Überhang-/Pauschsitze (Berlin) sind ohne Wahlkreis-
+ * prognosen vor der Wahl nicht modellierbar und bleiben bewusst außen vor.
+ *
+ * Parteien unter `opts.threshold` Prozent werden vollständig ausgeschlossen.
+ */
+export function sainteLague(
+  shares: SeatShare[],
+  totalSeats: number,
+  opts?: { threshold?: number },
+): SeatAllocation {
+  const threshold = opts?.threshold ?? 0;
+  const passing = shares.filter((s) => s.percent >= threshold);
+  const seats: SeatAllocation = {};
+  for (const s of passing) seats[s.partyId] = 0;
+
+  for (let seat = 0; seat < totalSeats; seat++) {
+    let bestId: string | null = null;
+    let bestQuotient = -1;
+    for (const s of passing) {
+      const quotient = s.percent / (2 * seats[s.partyId] + 1);
+      if (quotient > bestQuotient) {
+        bestQuotient = quotient;
+        bestId = s.partyId;
+      }
+    }
+    if (bestId !== null) seats[bestId] += 1;
+  }
+
+  return seats;
+}
+
+export interface CoalitionOption {
+  members: string[];
+  totalSeats: number;
+}
+
+/**
+ * Enumeriert alle Koalitionen (1 bis maxMembers Parteien), die gemeinsam
+ * mindestens `majority` Sitze erreichen. Sortierung: Sitze absteigend,
+ * dann Mitgliederzahl aufsteigend.
+ */
+export function feasibleCoalitions(
+  seats: SeatAllocation,
+  majority: number,
+  maxMembers = 4,
+): CoalitionOption[] {
+  const ids = Object.keys(seats).filter((id) => seats[id] > 0);
+  const options: CoalitionOption[] = [];
+  const n = ids.length;
+
+  for (let mask = 1; mask < 1 << n; mask++) {
+    const members: string[] = [];
+    let total = 0;
+    for (let i = 0; i < n; i++) {
+      if (mask & (1 << i)) {
+        members.push(ids[i]);
+        total += seats[ids[i]];
+      }
+    }
+    if (members.length <= maxMembers && total >= majority) {
+      options.push({ members, totalSeats: total });
+    }
+  }
+
+  return options.sort(
+    (a, b) =>
+      b.totalSeats - a.totalSeats ||
+      a.members.length - b.members.length ||
+      a.members.join(",").localeCompare(b.members.join(",")),
+  );
+}

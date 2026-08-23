@@ -1,5 +1,5 @@
 import raw from "@/generated/content.json";
-import type { Party, Position, Thesis } from "@wahlen/schemas";
+import type { ElectionPolls, Party, Position, Thesis } from "@wahlen/schemas";
 
 /**
  * Vom Build-Skript (scripts/gen-content.mts) erzeugtes, schema-validiertes
@@ -11,11 +11,20 @@ export interface ContentBundle {
   parties: Party[];
   theses: Thesis[];
   positions: Array<Position & { partyId: string }>;
+  polls: ElectionPolls[];
 }
 
 export const content = raw as unknown as ContentBundle;
 
 export const partiesById = new Map(content.parties.map((p) => [p.id, p]));
+
+/** Wahl-Trend-Snapshot dieser Edition (genau einer pro Wahl). */
+export function electionPolls(): ElectionPolls {
+  if (content.polls.length === 0) {
+    throw new Error("kein Wahltrend-Snapshot im Content-Bundle");
+  }
+  return content.polls[0];
+}
 
 export function thesesForMode(mode: "quick" | "full"): Thesis[] {
   return mode === "quick" ? content.theses.filter((t) => t.quickMode) : content.theses;

@@ -1,0 +1,13 @@
+[build]
+  command = "pnpm build"
+  publish = "apps/web/out"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Clean-URLs für den statischen Export (/quiz/ → /quiz/index.html)
+[[redirects]]
+  from = "/:page"
+  to = "/:page/"
+  status = 301
+  conditions = { Scheme = ["https", "http"] }

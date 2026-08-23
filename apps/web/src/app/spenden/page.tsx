@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SITE_CONFIG } from "@/lib/site-config";
 
-export const metadata = { title: "Unterstützen – WahlCheck Berlin" };
+export const metadata = { title: "Unterstützen – WahlCheck" };
 
 const USES = [
   {

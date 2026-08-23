@@ -1,6 +1,6 @@
 import { SITE_CONFIG } from "@/lib/site-config";
 
-export const metadata = { title: "Impressum – WahlCheck Berlin" };
+export const metadata = { title: "Impressum – WahlCheck" };
 
 export default function ImpressumPage() {
   return (

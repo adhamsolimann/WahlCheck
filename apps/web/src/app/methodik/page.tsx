@@ -9,7 +9,7 @@ import { CORRECTION_URL } from "@/lib/site-config";
 import { content } from "@/lib/content";
 
 export const metadata = {
-  title: "Methodik – WahlCheck Berlin",
+  title: "Methodik – WahlCheck",
 };
 
 function AxisTable({

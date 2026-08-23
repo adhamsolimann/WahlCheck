@@ -1,4 +1,4 @@
-export const metadata = { title: "Redaktionsstatut – WahlCheck Berlin" };
+export const metadata = { title: "Redaktionsstatut – WahlCheck" };
 
 export default function StatutPage() {
   return (

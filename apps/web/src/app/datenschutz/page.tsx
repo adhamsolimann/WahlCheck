@@ -1,4 +1,4 @@
-export const metadata = { title: "Datenschutz – WahlCheck Berlin" };
+export const metadata = { title: "Datenschutz – WahlCheck" };
 
 export default function DatenschutzPage() {
   return (

@@ -44,7 +44,7 @@ export function ShareButton({ topMatches }: { topMatches: TopMatch[] }) {
       // Titel
       ctx.fillStyle = "#18181b";
       ctx.font = "700 58px system-ui, -apple-system, 'Segoe UI', sans-serif";
-      ctx.fillText("Mein WahlCheck Berlin", 80, 130);
+      ctx.fillText("Mein WahlCheck", 80, 130);
 
       // Untertitel
       ctx.fillStyle = "#52525b";
@@ -97,7 +97,7 @@ export function ShareButton({ topMatches }: { topMatches: TopMatch[] }) {
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
-        a.download = "wahlcheck-berlin-ergebnis.png";
+        a.download = "wahlcheck-ergebnis.png";
         a.click();
         URL.revokeObjectURL(url);
       }, "image/png");

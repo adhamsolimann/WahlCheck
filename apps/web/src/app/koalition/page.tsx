@@ -123,10 +123,12 @@ export default function KoalitionPage() {
               })}
           </div>
           <p className="mt-3 text-xs leading-relaxed text-zinc-500">
-            Gewichtetes Institutsmittel, Stand{" "}
-            {formatDate(polls.aggregate.updatedAt)} · {polls.aggregate.methodNote}{" "}
-            Sitzprojektion: Sainte-Laguë auf {polls.parliamentSeats} Sitze
-            (vereinfacht, ohne Überhang-/Pauschsitze). Einzelumfragen:
+            Gewichtetes Institutsmittel, Stand {formatDate(polls.aggregate.updatedAt)} ·{" "}
+            {polls.aggregate.methodNote} Sitzprojektion: Sainte-Laguë auf{" "}
+            {polls.parliamentSeats} Sitze (vereinfacht, ohne Überhang-/Pauschsitze).
+          </p>
+          <div className="mt-2 text-xs leading-relaxed text-zinc-500">
+            <span className="font-medium">Einzelumfragen:</span>
             <ul className="mt-1 list-inside list-disc">
               {polls.polls.map((poll) => (
                 <li key={`${poll.institute}-${poll.date}`}>
@@ -136,7 +138,7 @@ export default function KoalitionPage() {
                 </li>
               ))}
             </ul>
-          </p>
+          </div>
         </CardBody>
       </Card>
 

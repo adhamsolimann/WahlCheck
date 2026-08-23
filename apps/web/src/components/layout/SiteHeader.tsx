@@ -22,9 +22,11 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-5xl items-center gap-x-6 gap-y-2 overflow-x-auto px-4 py-3 sm:px-6">
         <Link
           href="/"
-          className="shrink-0 font-bold tracking-tight hover:text-brand-700 dark:hover:text-brand-300"
+          className="shrink-0 text-lg font-bold tracking-tight"
+          aria-label="WahlCheck – Startseite"
         >
-          WahlCheck<span className="text-brand-600 dark:text-brand-400">Berlin</span>
+          <span className="text-zinc-900 dark:text-white">Wahl</span>
+          <span className="text-brand-600 dark:text-brand-400">Check</span>
         </Link>
 
         <nav aria-label="Hauptnavigation" className="flex items-center gap-x-1">

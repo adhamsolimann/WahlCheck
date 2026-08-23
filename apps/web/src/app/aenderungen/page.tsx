@@ -1,7 +1,7 @@
 import type { ChangelogCategory } from "@wahlen/schemas";
 import { changelog } from "@/lib/content";
 
-export const metadata = { title: "Änderungslog – WahlCheck Berlin" };
+export const metadata = { title: "Änderungslog – WahlCheck" };
 
 const CATEGORY_LABELS: Record<ChangelogCategory, string> = {
   korrektur: "Korrektur",

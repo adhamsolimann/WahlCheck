@@ -19,7 +19,8 @@ export default function Home() {
           Berlin · Abgeordnetenhauswahl
         </p>
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-          WahlCheck Berlin
+          <span className="text-zinc-900 dark:text-white">Wahl</span>
+          <span className="text-brand-600 dark:text-brand-400">Check</span>
         </h1>
         <p className="mx-auto max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
           Finde die Partei, die wirklich zu dir passt — mit differenzierten

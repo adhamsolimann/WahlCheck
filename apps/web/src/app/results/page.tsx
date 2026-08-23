@@ -20,6 +20,13 @@ const TIER_LABELS: Record<Party["tier"], string> = {
   contextual: "Einordnung erforderlich",
 };
 
+const CONFIDENCE_DE: Record<string, string> = {
+  high: "hoch",
+  medium: "mittel",
+  low: "niedrig",
+  insufficient: "unzureichend",
+};
+
 export default function ResultsPage() {
   const { ready, session, scope, ranked, answeredCount } = useMatchResults();
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -227,7 +234,12 @@ function ResultRow({
           <p className="text-xs text-zinc-500">
             {result.applicableTheses} von {result.answeredTheses} Antworten
             verwertbar · Konfidenz:{" "}
-            <strong className="capitalize">{result.confidence}</strong>
+            <strong
+              title="Anteil deiner Antworten, die für diese Partei verwertbar waren (≥80 % hoch, ≥50 % mittel, darunter niedrig)"
+              className="capitalize"
+            >
+              {CONFIDENCE_DE[result.confidence]}
+            </strong>
           </p>
           {result.breakdown.map((entry) => {
             const thesis = thesisById.get(entry.thesisId);

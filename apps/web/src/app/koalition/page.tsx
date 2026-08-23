@@ -1,11 +1,43 @@
 "use client";
 
-import { Fragment, useMemo } from "react";
+import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import { feasibleCoalitions, sainteLague, type CoalitionOption } from "@wahlen/engine";
 import { Card, CardBody } from "@/components/ui/Card";
 import { electionPolls, partiesById } from "@/lib/content";
 import { useMatchResults } from "@/hooks/useMatchResults";
+
+interface ScoredEntry {
+  option: CoalitionOption;
+  mean: number | null;
+  complete: boolean;
+}
+
+type SortMode = "seats-desc" | "seats-asc" | "fit";
+
+function sortedOptions(
+  list: CoalitionOption[],
+  mode: SortMode,
+  scored: ScoredEntry[] | null,
+): CoalitionOption[] {
+  if (mode === "fit" && scored) {
+    const meanOf = new Map<CoalitionOption, number | null>(
+      scored.map((s) => [s.option, s.mean]),
+    );
+    return [...list].sort((a, b) => {
+      const ma = meanOf.get(a) ?? -1;
+      const mb = meanOf.get(b) ?? -1;
+      return mb - ma || b.totalSeats - a.totalSeats;
+    });
+  }
+  const dir = mode === "seats-asc" ? 1 : -1;
+  return [...list].sort(
+    (a, b) =>
+      dir * (a.totalSeats - b.totalSeats) ||
+      a.members.length - b.members.length ||
+      a.members.join(",").localeCompare(b.members.join(",")),
+  );
+}
 
 function formatDate(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString("de-DE", {
@@ -18,6 +50,7 @@ function formatDate(iso: string): string {
 export default function KoalitionPage() {
   const { ready, answeredCount, percentByParty } = useMatchResults();
   const polls = electionPolls();
+  const [sortMode, setSortMode] = useState<"seats-desc" | "seats-asc" | "fit">("seats-desc");
 
   const { seats, belowThreshold, options } = useMemo(() => {
     const shares = Object.entries(polls.aggregate.trend)
@@ -144,16 +177,30 @@ export default function KoalitionPage() {
 
       {/* ---------- Mögliche Koalitionen ---------- */}
       <section aria-labelledby="coalitions-heading" className="space-y-3">
-        <h2 id="coalitions-heading" className="text-lg font-semibold">
-          Rechnerisch mögliche Mehrheiten ({options.length})
-        </h2>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 id="coalitions-heading" className="text-lg font-semibold">
+            Rechnerisch mögliche Mehrheiten ({options.length})
+          </h2>
+          <label className="flex items-center gap-2 text-xs text-zinc-500">
+            Sortieren:
+            <select
+              value={sortMode}
+              onChange={(e) => setSortMode(e.target.value as typeof sortMode)}
+              className="rounded-md border border-zinc-300 bg-white px-2 py-1 text-xs dark:border-zinc-700 dark:bg-zinc-900"
+            >
+              <option value="seats-desc">Sitze (absteigend)</option>
+              <option value="seats-asc">Sitze (aufsteigend)</option>
+              {answeredCount > 0 && <option value="fit">Passung zu dir</option>}
+            </select>
+          </label>
+        </div>
         <p className="text-xs text-zinc-500">
-          Alle Kombinationen von bis zu vier Parteien mit mindestens{" "}
-          {polls.majoritySeats} der {polls.parliamentSeats} Sitze — rein
-          arithmetisch, ohne politische Bewertung.
+          Alle Kombinationen mit mindestens {polls.majoritySeats} der{" "}
+          {polls.parliamentSeats} Sitze — rein arithmetisch, ohne politische
+          Bewertung.
         </p>
         <ul className="grid gap-2 sm:grid-cols-2">
-          {options.map((option: CoalitionOption) => (
+          {sortedOptions(options, sortMode, scored).map((option) => (
             <li key={option.members.join("+")}>
               <Card className="flex items-center justify-between gap-x-3 gap-y-1 flex-wrap py-3">
                 {/* Flache Struktur: Trenner + Chip sind ein unverrennbares

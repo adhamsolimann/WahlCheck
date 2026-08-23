@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:38:31.583Z",
+  "generatedAt": "2026-08-23T17:46:17.732Z",
   "parties": [
     {
       "id": "afd",
@@ -221,8 +221,9 @@
       "bezirke": [],
       "colorHex": "#502379",
       "founded": 2018,
-      "summary": "Paneuropäische Partei; Schwerpunkte EU-Reform, evidence-based Policymaking, Digitalisierung und kommunale Modernisierung. In Berlin seit 2021 vertreten (Bezirksverordnete).",
+      "summary": "Paneuropäische Partei („sozial-liberale Mitte“); Berlin-Programm 2026 mit sieben Kapiteln, Schwerpunkten Verwaltungsdigitalisierung, Wohnungsneubau, evidenzbasierter Politik und Europäisierung kommunaler Lösungen. Tritt in allen 78 Wahlkreisen an.",
       "leadership": [],
+      "programUrl": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-edited-20-7.pdf",
       "profileComplete": false
     }
   ],
@@ -2787,6 +2788,293 @@
     },
     {
       "partyId": "spd",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Housing First als wirksames Mittel gegen Obdachlosigkeit; Schwammstadt gegen Hitze und Starkregen.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin lebt / Berlin gewinnt",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "„Berlin verbindet“ macht Integration zum Standortvorteil: Englisch als zweiter Servicesprache der Verwaltung, Demokratie für alle, die hier leben.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin verbindet / funktioniert",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Ein verlässlicher ÖPNV bis in die Außenbezirke.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin lebt",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Sichere Rad- und Gehwege und saubere Kieze.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin lebt",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Mit der Genehmigungsfiktion gelten vollständige Anträge nach Fristablauf automatisch als genehmigt.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Eine digitale Verwaltung, die an Ergebnissen gemessen wird; mit dem Once-Only-Prinzip geben Berliner:innen ihre Daten nur einmal an.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Eine Kulturpolitik, die Clubs und freie Szene verlässlich absichert.",
+      "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin verbindet",
+      "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "volt",
       "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
       "stance": null,
       "status": "none",

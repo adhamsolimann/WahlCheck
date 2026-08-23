@@ -22,6 +22,7 @@ export default function RootLayout({
             <a href="/statut" className="hover:underline">Redaktionsstatut</a>
             <a href="/datenschutz" className="hover:underline">Datenschutz</a>
             <a href="/impressum" className="hover:underline">Impressum</a>
+            <a href="/spenden" className="hover:underline">Unterstützen</a>
           </nav>
           <p className="mt-3">
             Quellen der Positionen: offizielle Wahlprogramme; Auswertungen von

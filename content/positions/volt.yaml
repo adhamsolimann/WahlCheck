@@ -1,0 +1,119 @@
+# T-105-WAVE (Volt) — Positionen extrahiert aus dem offiziellen Berliner Programm
+# (Beschluss 25.04.2026, PDF-Stand 20.07.2026); verification pending bis T-132.
+partyId: volt
+positions:
+  # --- Wohnen ---
+  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: null, status: none,
+      verification: pending }
+  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: null, status: none,
+      verification: pending }
+  - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
+  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
+  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
+  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
+  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none,
+      verification: pending }
+  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
+  - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
+  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
+  # --- Haushalt & Finanzen ---
+  - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none,
+      verification: pending } # Kapitel „moderne Finanzpolitik“ vorhanden, Kredithaltung nicht eindeutig — TODO(T-132) PDF-S.17
+  - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
+  - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
+  # --- Arbeit & Soziales ---
+  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
+  - thesisId: hitzeschutz-fuer-obdachlose
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Housing First als wirksames Mittel gegen Obdachlosigkeit; Schwammstadt
+      gegen Hitze und Starkregen.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin lebt / Berlin gewinnt"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none,
+      verification: pending }
+  # --- Bildung ---
+  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
+  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none,
+      verification: pending } # Volt setzt andere Akzente (Vorschulphase ab 5, Sprachtests mit 4)
+  - { thesisId: beschleunigte-schulsanierung, stance: null, status: none, verification: pending }
+  # --- Sicherheit ---
+  - { thesisId: mehr-polizeipersonal, stance: null, status: none,
+      verification: pending } # „moderne Polizei“ genannt, Personalauf-/abbau nicht spezifiziert
+  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none,
+      verification: pending }
+  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none,
+      verification: pending }
+  # --- Migration ---
+  - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
+  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none,
+      verification: pending }
+  - thesisId: ausbau-der-integrationsangebote
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      „Berlin verbindet“ macht Integration zum Standortvorteil: Englisch als
+      zweiter Servicesprache der Verwaltung, Demokratie für alle, die hier leben.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin verbindet / funktioniert"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  # --- Mobilität ---
+  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
+  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }
+  - thesisId: sozialticket-und-oepnv-ausbau
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Ein verlässlicher ÖPNV bis in die Außenbezirke.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin lebt"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  - thesisId: prioritaet-fuer-radverkehr
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Sichere Rad- und Gehwege und saubere Kieze.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin lebt"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  # --- Klima ---
+  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none,
+      verification: pending } # Zieljahr im Überblickstext nicht genannt — TODO(T-132) PDF Kapitel „Berlin gewinnt“
+  - { thesisId: netto-null-bei-neuversiegelung, stance: null, status: none, verification: pending }
+  # --- Verwaltung & Digital ---
+  - thesisId: digitalisierung-der-bauaemter
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Mit der Genehmigungsfiktion gelten vollständige Anträge nach Fristablauf
+      automatisch als genehmigt.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  - thesisId: rund-um-die-uhr-digitale-buergerservices
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Eine digitale Verwaltung, die an Ergebnissen gemessen wird; mit dem
+      Once-Only-Prinzip geben Berliner:innen ihre Daten nur einmal an.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none,
+      verification: pending }
+  # --- Stadtgesellschaft ---
+  - thesisId: schutz-und-foerderung-der-clubkultur
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Eine Kulturpolitik, die Clubs und freie Szene verlässlich absichert.
+    sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin verbindet"
+    sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
+    verification: pending
+  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none,
+      verification: pending }
+  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none,
+      verification: pending } # „saubere Kieze“ genannt, Mittelweg (Personal) unklar

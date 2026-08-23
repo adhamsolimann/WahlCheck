@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { TierBadge } from "@/components/ui/TierBadge";
 import { STANCE_LABELS } from "@/components/ui/StanceScale";
-import { content, partiesById, thesesForMode } from "@/lib/content";
+import { content, partiesById, positionsFor, thesesForMode } from "@/lib/content";
 import { loadSession, toEngineAnswers, clearSession } from "@/lib/session";
 
 const TIER_LABELS: Record<Party["tier"], string> = {
@@ -35,7 +35,7 @@ export default function ResultsPage() {
     return computeResults({
       answers: toEngineAnswers(session),
       theses: scope,
-      positions: content.positions,
+      positions: positionsFor(scope),
     });
   }, [session, scope]);
 

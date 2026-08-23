@@ -20,3 +20,10 @@ export const partiesById = new Map(content.parties.map((p) => [p.id, p]));
 export function thesesForMode(mode: "quick" | "full"): Thesis[] {
   return mode === "quick" ? content.theses.filter((t) => t.quickMode) : content.theses;
 }
+
+/** Positionen, die sich auf genau den übergebenen Thesen-Scope beziehen
+ *  (die Engine wirft absichtlich bei unbekannten Thesis-Referenzen). */
+export function positionsFor(theses: Thesis[]): ContentBundle["positions"] {
+  const ids = new Set(theses.map((t) => t.id));
+  return content.positions.filter((p) => ids.has(p.thesisId));
+}

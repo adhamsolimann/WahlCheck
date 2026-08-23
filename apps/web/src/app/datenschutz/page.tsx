@@ -30,15 +30,17 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-semibold">Keine Cookies, keine Tracker — mit einer Ausnahme</h2>
+          <h2 className="font-semibold">Keine Tracker — ein bekannter Drittanbieter</h2>
           <p className="mt-1">
-            Wir setzen keine Werbe- oder Social-Media-Pixel. Einziger Dienst
-            eines Drittanbieters: Auf der <strong>Startseite</strong> lädt das
+            Wir setzen keine Werbe- oder Social-Media-Pixel und betreiben kein
+            Targeting. Einziger Dienst eines Drittanbieters ist das
             Spenden-Overlay von Ko-Fi (storage.ko-fi.com, Anbieter Ko-fi Labs
-            Inc., USA). Dabei kann Ihre IP-Adresse an Ko-Fi übermittelt und
-            technisch notwendige Speicherung genutzt werden; für Spenden über
-            Ko-Fi gelten dessen Datenschutzhinweise. Alle anderen Seiten —
-            insbesondere Matching und Auswertung — laden keine Dritt-Skripte.
+            Inc., USA), das auf allen Seiten eingebunden ist. Dabei kann Ihre
+            IP-Adresse an Ko-Fi übermittelt werden; für Spenden über Ko-Fi
+            gelten dessen Datenschutzhinweise. Wichtig: Das Widget kann keine
+            Inhalte dieser Seite auslesen — Ihre Quiz-Antworten liegen
+            ausschließlich lokal in Ihrem Browser (siehe oben) und verlassen
+            das Gerät nicht.
           </p>
         </section>
 

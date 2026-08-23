@@ -19,6 +19,10 @@ export interface ThesisBreakdownEntry {
   agreement?: number;
   /** weight × (1 − agreement); nur gesetzt wenn included */
   weightedDisagreement?: number;
+  /** Belege aus der Parteiposition (auch bei neutral/none, soweit vorhanden) */
+  justificationQuote?: string;
+  sourceLabel?: string;
+  sourceUrl?: string;
 }
 
 export interface PartyResult {
@@ -118,6 +122,9 @@ export function computeResults({ answers, theses, positions }: ComputeInput): Pa
         weight: answer.weight,
         included: status !== "none" && position !== undefined,
         partyStatus: status,
+        justificationQuote: position?.justificationQuote,
+        sourceLabel: position?.sourceLabel,
+        sourceUrl: position?.sourceUrl,
       };
 
       if (position && status !== "none") {

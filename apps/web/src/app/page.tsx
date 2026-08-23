@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Card, CardBody, CardTitle } from "@/components/ui/Card";
-import { KofiWidget } from "@/components/KofiWidget";
 
 const ELECTION_DATE = new Date("2026-09-20T08:00:00+02:00");
 
@@ -15,8 +14,6 @@ function daysUntilElection(): number {
 export default function Home() {
   return (
     <main className="mx-auto max-w-3xl space-y-8 px-6 py-16">
-      {/* Ko-Fi-Tipp-Button (lazy geladen, nur Startseite) */}
-      <KofiWidget />
       <header className="space-y-4 text-center">
         <p className="text-sm font-semibold uppercase tracking-widest text-brand-600 dark:text-brand-400">
           Berlin · Abgeordnetenhauswahl

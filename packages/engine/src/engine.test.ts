@@ -48,7 +48,7 @@ describe("computeResults — golden cases", () => {
       // Partei A: volle Übereinstimmung auf allen verwertbaren Thesen
       pos("a", "t1", 2),
       pos("a", "t2", -1),
-      pos("a", "t4", 0),
+      { ...pos("a", "t4", 0), justificationQuote: "Wir tun genau das.", sourceLabel: "Programm S. 12" },
       // Partei B: maximale Distanz bei t1 (→0), halbe Distanz sonst
       pos("b", "t1", -2), // agree 0
       pos("b", "t2", 1), // |−1−1|=2 → 0.5
@@ -66,6 +66,10 @@ describe("computeResults — golden cases", () => {
     expect(byParty.a.applicableTheses).toBe(3);
     expect(byParty.a.coverage).toBe(1);
     expect(byParty.a.confidence).toBe("high");
+    // Beleg-Passthrough für die Drill-down-Ansicht
+    const t4Entry = byParty.a.breakdown.find((b) => b.thesisId === "t4");
+    expect(t4Entry?.justificationQuote).toBe("Wir tun genau das.");
+    expect(t4Entry?.sourceLabel).toBe("Programm S. 12");
 
     // B: num = 0 + 0.5 + 2.5 = 3, den = 8 → 37.5 %
     expect(byParty.b.matchPercent).toBe(37.5);

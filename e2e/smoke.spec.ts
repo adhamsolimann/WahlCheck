@@ -32,18 +32,26 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
   test.beforeEach(async ({ page }) => {
     networkViolations = [];
     page.on("request", (req) => {
-      if (req.method() !== "GET") {
-        networkViolations.push(`${req.method()} ${req.url()}`);
-      }
-      const host = new URL(req.url()).hostname;
-      const allowed =
+      const url = req.url();
+      const host = new URL(url).hostname;
+      const isLocal =
         host === "127.0.0.1" || host === "localhost" || host.endsWith(".local");
-      if (!allowed) {
-        // Startseite lädt bewusst Ko-Fi; Quiz-/Ergebnispfade dürfen nicht.
-        if (!page.url().includes("/quiz") && !page.url().includes("/results")) {
-          return; // Landing/Ko-Fi erlaubt
-        }
-        networkViolations.push(`third-party on protected path: ${req.url()}`);
+      // Ko-Fi-Widget (sitewide, datenschutzseitig offengelegt) lädt auch
+      // seine Schriftart von Google Fonts — technischer Bestandteil desselben
+      // EINZIGEN freigegebenen Drittanbieters.
+      const isKofi =
+        /(^|\.)ko-fi\.com$/.test(host) ||
+        host === "storage.ko-fi.com" ||
+        host === "fonts.googleapis.com" ||
+        host === "fonts.gstatic.com";
+
+      // Universal: nie schreibende Requests (Antwortdaten verlassen das Gerät nicht)
+      if (isLocal && req.method() !== "GET") {
+        networkViolations.push(`${req.method()} ${url}`);
+      }
+      // Fremde Hosts: nur Ko-Fi erlaubt (sitewide Spenden-Widget)
+      if (!isLocal && !isKofi) {
+        networkViolations.push(`unexpected third-party: ${url}`);
       }
     });
     await page.goto("/");

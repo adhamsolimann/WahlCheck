@@ -229,6 +229,21 @@ function ResultRow({
                   Du: <strong>{STANCE_LABELS[entry.userStance]}</strong> · Partei:{" "}
                   <strong>{partyStanceText}</strong> · Wichtung: {entry.weight}×
                 </p>
+                {entry.justificationQuote && (
+                  <blockquote className="mt-2 border-l-2 border-zinc-300 pl-3 text-xs italic leading-relaxed text-zinc-600 dark:border-zinc-600 dark:text-zinc-400">
+                    „{entry.justificationQuote}“{" "}
+                    {entry.sourceUrl && (
+                      <a
+                        href={entry.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="ml-1 not-italic underline hover:text-brand-600"
+                      >
+                        {entry.sourceLabel ? `(${entry.sourceLabel})` : "(Quelle)"}
+                      </a>
+                    )}
+                  </blockquote>
+                )}
               </div>
             );
           })}

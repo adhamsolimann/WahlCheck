@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:59:42.065Z",
+  "generatedAt": "2026-08-23T20:56:29.429Z",
   "parties": [
     {
       "id": "afd",
@@ -1996,7 +1996,7 @@
       "justificationQuote": "Wohneigentum will die FDP steuerlich stark begünstigen und Umwandlungen von Miet- in Eigentumswohnungen erleichtern.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "fdp",
@@ -2490,10 +2490,10 @@
       "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
       "stance": 2,
       "status": "clear",
-      "justificationQuote": "Die Partei fordert als Folge des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ ein Vergesellschaftungsgesetz.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "justificationQuote": "Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 220.000 Wohnungen in öffentliche Hand überführen.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2501,9 +2501,9 @@
       "stance": 2,
       "status": "clear",
       "justificationQuote": "Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen Wohnungsunternehmen (LWU) einführen.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
-      "verification": "pending"
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2524,19 +2524,19 @@
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Bei betroffenen Bauprojekten sollen mindestens zwei Drittel der Fläche mit mietpreis- und belegungsgebundenen Wohnungen bebaut werden – mehr als die geforderten 50 Prozent.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
-      "verification": "pending"
+      "justificationQuote": "Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlbare Wohnungen, wenn sie vom Land Berlin und den Bezirken durch die Kooperative Baulandentwicklung dazu verpflichtet werden.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
       "thesisId": "privatisierungsverbot-in-der-verfassung",
       "stance": 2,
       "status": "clear",
-      "justificationQuote": "Der kommunale Wohnungsbau soll durch Ankäufe und ein Privatisierungsverbot in der Verfassung gesichert werden.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "justificationQuote": "Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatisierungsverbot in der Berliner Verfassung ein.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2552,9 +2552,9 @@
       "stance": 2,
       "status": "clear",
       "justificationQuote": "Die Modernisierungsumlage wollen wir abschaffen.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
-      "verification": "pending"
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2568,9 +2568,9 @@
       "thesisId": "einschraenkung-moeblierter-wohnraum",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Wir wollen möbliertes Wohnen auf Zeit in Milieuschutzgebieten verbieten.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026); Linke-Wahlprogramm",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "justificationQuote": "Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaften.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2579,19 +2579,19 @@
       "stance": 1,
       "status": "clear",
       "justificationQuote": "Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenkapital zuführen, um damit den Bau von 7.500 kommunalen Wohnungen jährlich zu finanzieren.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
-      "verification": "pending"
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
       "thesisId": "staerkere-besteurung-hoher-einkommen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Umverteilung hoher Einkommen zur Finanzierung sozialer Aufgaben ist Kernbestand des Programms der Linken.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "justificationQuote": "Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von oben nach unten nutzen. Deswegen wollen wir eine Luxusvillensteuer einführen.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2626,10 +2626,10 @@
       "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Vorbild ist der Heizkostenfonds in München, aus dem anspruchsberechtigte Haushalte einen Zuschuss für die Kosten für Heizung und Warmwasser erhalten (700 Euro bei alleinigem Wohnsitz).",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
-      "verification": "pending"
+      "justificationQuote": "Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und unbürokratisch unterstützen, wenn sie Heizkosten nicht mehr tragen können.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2669,11 +2669,9 @@
     {
       "partyId": "linke",
       "thesisId": "begrenzung-polizeilicher-befugnisse",
-      "stance": 1,
-      "status": "clear",
-      "justificationQuote": "Wenn die Linke über Sicherheit spricht, dann eher über die Begrenzung polizeilicher Befugnisse; Sicherheit steht am Ende ihres Wahlprogramms.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Endfassung enthält keine spezifische Passage mehr — TODO(T-132)",
       "verification": "pending"
     },
     {
@@ -2742,11 +2740,9 @@
     {
       "partyId": "linke",
       "thesisId": "digitalisierung-der-bauaemter",
-      "stance": -1,
-      "status": "clear",
-      "justificationQuote": "Vorhaben wie das „Schneller-Bauen-Gesetz“ oder den „Bau-Turbo“ bewerten wir als nicht zielführende Einschränkungen von Planungsverfahren.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Kritik am Schneller-Bauen-Gesetz/Bau-Turbo im Programm — exakte Stelle TODO(T-132)",
       "verification": "pending"
     },
     {
@@ -2766,22 +2762,17 @@
     {
       "partyId": "linke",
       "thesisId": "schutz-und-foerderung-der-clubkultur",
-      "stance": 1,
-      "status": "clear",
-      "justificationQuote": "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "auto"
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "ausbau-queerer-gesundheitsversorgung",
-      "stance": 1,
-      "status": "clear",
-      "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "auto"
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Tagesspiegel-Analyse ordnet Die Linke der zustimmenden Gruppe zu — Programmstelle TODO(T-132)",
+      "verification": "pending"
     },
     {
       "partyId": "linke",
@@ -3103,10 +3094,10 @@
       "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit erhalten, die Mieten zu deckeln; rechtssicherer Mietendeckel über Länderöffnungsklausel oder Art. 15 GG.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "justificationQuote": "Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Länderöffnungsklausel über die Bundesgesetzgebung oder auf Grundlage des Art. 15 GG.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3120,20 +3111,20 @@
       "thesisId": "grundsteuer-c-baureife-grundstuecke",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke sowie Baugebote gegen Spekulation.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026); SPD-Wahlprogramm Kapitel Wohnen",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "justificationQuote": "Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu schaffen, diese Flächen schneller zu bebauen oder zu verkaufen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "spd",
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Über das kooperative Baulandmodell sollen Bauträger künftig bei Projekten verpflichtet werden, 50 Prozent Sozialwohnungen zu bauen.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "justificationQuote": "Wir erhöhen diese Quote auf 50 Prozent und stärken das Modell als Kerninstrument für bezahlbares Wohnen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3168,7 +3159,7 @@
       "thesisId": "einschraenkung-moeblierter-wohnraum",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Die SPD fordert, die Vermietung möblierten Wohnraums einzuschränken.",
+      "justificationQuote": "Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung zur Profitmaximierung gehen wir vor.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       "verification": "pending"
@@ -3181,7 +3172,7 @@
       "justificationQuote": "Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt sich auch in der Belegung des Sondervermögens des Bundes wider.",
       "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3244,19 +3235,17 @@
       "thesisId": "beschleunigte-schulsanierung",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen – Investitionsschwerpunkt über das Sondervermögen.",
+      "justificationQuote": "Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe Kapitel DIE SCHULBAUOFFENSIVE FORTSETZEN).",
       "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
       "thesisId": "mehr-polizeipersonal",
-      "stance": 1,
-      "status": "clear",
-      "justificationQuote": "Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe Polizei und Feuerwehr“.",
-      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
-      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO(T-132)",
       "verification": "pending"
     },
     {
@@ -3340,7 +3329,7 @@
       "justificationQuote": "Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.",
       "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3371,7 +3360,7 @@
       "thesisId": "schutz-und-foerderung-der-clubkultur",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Die SPD schlägt eine Spielstättenförderung und eine gesonderte Strategie zur Nachtökonomie vor.",
+      "justificationQuote": "Wir führen erstmals eine Spielstättenförderung und setzen Empfehlungen aus der Berliner Strategie zur Berliner Nachtökonomie um. So sichern wir Clubs langfristig.",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
       "verification": "pending"
@@ -3924,7 +3913,7 @@
       "justificationQuote": "Eine digitale Verwaltung, die an Ergebnissen gemessen wird; mit dem Once-Only-Prinzip geben Berliner:innen ihre Daten nur einmal an.",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",

@@ -55,6 +55,11 @@ export default function ResultsPage() {
       .filter((m): m is { party: Party; percent: number } => m.party !== undefined);
   }, [ranked]);
 
+  /** Höchstplatzierte Partei mit verwertbarem Ergebnis — wird visuell hervorgehoben. */
+  const bestPartyId = useMemo(() => {
+    return ranked.find((r) => r.matchPercent !== null)?.partyId ?? null;
+  }, [ranked]);
+
   if (!ready) {
     return (
       <main className="mx-auto max-w-3xl px-6 py-16">
@@ -137,6 +142,7 @@ export default function ResultsPage() {
               <ResultRow
                 key={result.partyId}
                 result={result}
+                isBest={result.partyId === bestPartyId}
                 expanded={expanded === result.partyId}
                 onToggle={() =>
                   setExpanded((e) => (e === result.partyId ? null : result.partyId))
@@ -162,11 +168,13 @@ export default function ResultsPage() {
 
 function ResultRow({
   result,
+  isBest,
   expanded,
   onToggle,
   thesisById,
 }: {
   result: PartyResult;
+  isBest: boolean;
   expanded: boolean;
   onToggle: () => void;
   thesisById: Map<string, Thesis>;
@@ -177,11 +185,22 @@ function ResultRow({
   const pct = result.matchPercent;
 
   return (
-    <Card className="overflow-hidden p-0">
+    <Card
+      className={`relative overflow-hidden p-0 ${
+        isBest
+          ? "border-2 border-brand-600 shadow-md ring-1 ring-brand-300 dark:ring-brand-800"
+          : ""
+      }`}
+    >
+      {isBest && (
+        <span className="absolute right-0 top-0 rounded-bl-lg bg-brand-600 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
+          ★ Bestes Match
+        </span>
+      )}
       <button
         onClick={onToggle}
         aria-expanded={expanded}
-        className="flex w-full items-center gap-4 px-5 py-4 text-left"
+        className={`flex w-full items-center gap-4 px-5 text-left ${isBest ? "pb-4 pt-7" : "py-4"}`}
       >
         <span
           aria-hidden

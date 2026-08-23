@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **45** | 35 | 0 |
+| gesamt | **36** | 40 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -67,25 +67,31 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### Die Linke — 11 offen · 2 🤖 maschinell · 0 ✅ menschlich
+### Die Linke — 2 offen · 7 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +2 | „Die Modernisierungsumlage wollen wir abschaffen.“ | Die Linke Berlin – Wahlprogramm 2026 (P… | |
-| 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „Wenn die Linke über Sicherheit spricht, dann eher über die Begrenzung polizeilicher Befug…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | -1 | „Vorhaben wie das „Schneller-Bauen-Gesetz“ oder den „Bau-Turbo“ bewerten wir als nicht zie…“ | Die Linke Berlin – Wahlprogramm 2026 (P… | |
-| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Wir wollen möbliertes Wohnen auf Zeit in Milieuschutzgebieten verbieten.“ | rbb24 Wohnungs-Check (08/2026); Linke-W… | |
-| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenk…“ | Die Linke Berlin – Wahlprogramm 2026 (P… | |
-| ☐ | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Vorbild ist der Heizkostenfonds in München, aus dem anspruchsberechtigte Haushalte einen …“ | Die Linke Berlin – Wahlprogramm 2026 (P… | |
-| ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm 2026 (P… | |
-| ☐ | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Der kommunale Wohnungsbau soll durch Ankäufe und ein Privatisierungsverbot in der Verfass…“ | rbb24 Wohnungs-Check (08/2026) | |
-| 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten.“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Bei betroffenen Bauprojekten sollen mindestens zwei Drittel der Fläche mit mietpreis- und…“ | Die Linke Berlin – Wahlprogramm 2026 (P… | |
-| ☐ | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Umverteilung hoher Einkommen zur Finanzierung sozialer Aufgaben ist Kernbestand des Progr…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Die Partei fordert als Folge des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ ein Ve…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +2 | „Die Modernisierungsumlage wollen wir abschaffen.“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Abzocke mit möblierten Wohnungen beenden … Möbliertes Wohnen auf Zeit ist in den letzten …“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenk…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Verkäufe von einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerha…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlba…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von o…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 22…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+
+<details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
+
+| These | Vermerk |
+|-------|---------|
+| Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | Endfassung enthält keine spezifische Passage mehr — TODO(T-132) |
+| Bauämter und Genehmigungsverfahren sollen konsequent digita… | Kritik am Schneller-Bauen-Gesetz/Bau-Turbo im Programm — exakte Stelle TODO(T-132) |
+| Versorgungsangebote für queere und trans Personen (Gesundhe… | Tagesspiegel-Analyse ordnet Die Linke der zustimmenden Gruppe zu — Programmstelle TODO(T-… |
+
+</details>
 
 ---
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { KofiWidget } from "@/components/KofiWidget";
+import { SiteHeader } from "@/components/layout/SiteHeader";
 
 export const metadata: Metadata = {
   title: "WahlCheck Berlin – Abgeordnetenhauswahl am 20.09.2026",
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body>
+        <SiteHeader />
         {/* Ko-Fi-Tipp-Button sitewide (lazy geladen; siehe Datenschutzerklärung) */}
         <KofiWidget />
         {children}

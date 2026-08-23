@@ -60,7 +60,7 @@ export default function SpendenPage() {
             <p className="font-medium">Zahlungsdienst wird gerade angeschlossen.</p>
             <p className="mt-1 text-zinc-600 dark:text-zinc-400">
               Bis dahin gilt das Versprechen aus dem{" "}
-              <Link href="/statut" className="underline">
+              <Link href="/statut/" className="underline">
                 Redaktionsstatut
               </Link>
               : Wir nehmen erst dann Geld an, wenn Empfänger, Verwendung und

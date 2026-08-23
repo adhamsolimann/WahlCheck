@@ -70,7 +70,7 @@ export default function ResultsPage() {
         <p className="text-sm text-zinc-600 dark:text-zinc-400">
           Beantworte zuerst ein paar Thesen — alles bleibt auf deinem Gerät.
         </p>
-        <Link href="/quiz">
+        <Link href="/quiz/">
           <Button>Zum Matching</Button>
         </Link>
       </main>
@@ -90,7 +90,7 @@ export default function ResultsPage() {
           Berechnung vollständig lokal in deinem Browser.
         </p>
         <div className="flex justify-center gap-3 pt-2">
-          <Link href="/quiz">
+          <Link href="/quiz/">
             <Button variant="secondary" size="sm">
               Antworten ändern
             </Button>

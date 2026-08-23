@@ -4,11 +4,10 @@
  */
 export const SITE_CONFIG = {
   /**
-   * Spenden-Link (z. B. Buy Me a Coffee, Ko-fi, Open Collective).
-   * Leerer String = Spenden-Sektion zeigt den Platzhalter an.
-   * [PO-Aufgabe: BMC-URL hier eintragen]
+   * Spenden-Link (Ko-Fi); Overlay-Widget auf der Startseite nutzt dasselbe
+   * Konto (adhammsoliman).
    */
-  donateUrl: "",
+  donateUrl: "https://ko-fi.com/adhammsoliman",
 
   /** Öffentlicher Kontakt für Korrekturen (Methodik-Seite + Statut) */
   correctionEmail: "",

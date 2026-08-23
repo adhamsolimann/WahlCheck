@@ -7,8 +7,6 @@ import { Card, CardBody } from "@/components/ui/Card";
 import { electionPolls, partiesById } from "@/lib/content";
 import { useMatchResults } from "@/hooks/useMatchResults";
 
-const INCUMBENT = new Set(["cdu", "spd"]);
-
 function formatDate(iso: string): string {
   return new Date(`${iso}T12:00:00`).toLocaleDateString("de-DE", {
     day: "numeric",
@@ -38,7 +36,9 @@ export default function KoalitionPage() {
     return {
       seats,
       belowThreshold,
-      options: feasibleCoalitions(seats, polls.majoritySeats),
+      // Alle arithmetisch möglichen Koalitionen inkl. großer Bündnisse —
+      // wir bewerten nicht, welche „realistisch“ ist.
+      options: feasibleCoalitions(seats, polls.majoritySeats, Object.keys(seats).length),
     };
   }, [polls]);
 
@@ -159,9 +159,7 @@ export default function KoalitionPage() {
                     <span key={id} className="flex items-center gap-1.5">
                       {i > 0 && <span className="text-xs text-zinc-400">+</span>}
                       <span
-                        className={`rounded px-1.5 py-0.5 text-xs font-semibold ${
-                          INCUMBENT.has(id) ? "" : ""
-                        }`}
+                        className="rounded px-1.5 py-0.5 text-xs font-semibold"
                         style={{ color: partiesById.get(id)?.colorHex }}
                       >
                         {partiesById.get(id)?.shortName ?? id}
@@ -170,12 +168,11 @@ export default function KoalitionPage() {
                   ))}
                 </div>
                 <span className="ml-auto flex items-center gap-2 whitespace-nowrap">
-                  {option.members.length === INCUMBENT.size &&
-                    [...INCUMBENT].every((id) => option.members.includes(id)) && (
-                      <span className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-500 dark:bg-zinc-800">
-                        im Amt
-                      </span>
-                    )}
+                  {option.members.includes("cdu") && option.members.includes("spd") && (
+                    <span className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-500 dark:bg-zinc-800">
+                      mit beiden Regierungs­parteien
+                    </span>
+                  )}
                   <strong className="tabular-nums">{option.totalSeats}</strong>
                 </span>
               </Card>
@@ -195,7 +192,7 @@ export default function KoalitionPage() {
               Beantworte zuerst ein paar Thesen — dann zeigen wir dir, welche
               rechnerisch mögliche Koalition deinen Positionen am nächsten steht.
               <div className="pt-3">
-                <Link href="/quiz" className="text-brand-600 underline">
+                <Link href="/quiz/" className="text-brand-600 underline">
                   Zum Matching →
                 </Link>
               </div>
@@ -241,7 +238,7 @@ export default function KoalitionPage() {
             .join(", ")})`}
         . Regierungsfähigkeit ist mehr als Arithmetik — diese Seite zeigt nur
         die Mathematik. Details:{" "}
-        <a href="/methodik" className="underline">
+        <a href="/methodik/" className="underline">
           Methodik
         </a>
         .

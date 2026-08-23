@@ -157,7 +157,7 @@ Gewicht: deine Wichtigkeit 1–5× (statt fixer Doppelgewichtung)
           <span className="text-zinc-500">[Kontakt vor Launch finalisieren]</span>.
         </p>
         <p className="text-sm">
-          <Link href="/quiz" className="text-brand-600 underline">
+          <Link href="/quiz/" className="text-brand-600 underline">
             ← Zurück zum Matching
           </Link>
         </p>

@@ -30,13 +30,15 @@ export default function DatenschutzPage() {
         </section>
 
         <section>
-          <h2 className="font-semibold">Keine Cookies, keine Tracker</h2>
+          <h2 className="font-semibold">Keine Cookies, keine Tracker — mit einer Ausnahme</h2>
           <p className="mt-1">
-            Wir setzen keine Cookies, keine Werbe- oder Social-Media-Pixel und
-            laden keine Dritt-Skripte. Ein consent-Banner ist daher nicht
-            erforderlich. Sollte später eine reichweitenmessung eingeführt
-            werden, ausschließlich cookielos und aggregiert; diese Seite wird
-            dann aktualisiert.
+            Wir setzen keine Werbe- oder Social-Media-Pixel. Einziger Dienst
+            eines Drittanbieters: Auf der <strong>Startseite</strong> lädt das
+            Spenden-Overlay von Ko-Fi (storage.ko-fi.com, Anbieter Ko-fi Labs
+            Inc., USA). Dabei kann Ihre IP-Adresse an Ko-Fi übermittelt und
+            technisch notwendige Speicherung genutzt werden; für Spenden über
+            Ko-Fi gelten dessen Datenschutzhinweise. Alle anderen Seiten —
+            insbesondere Matching und Auswertung — laden keine Dritt-Skripte.
           </p>
         </section>
 

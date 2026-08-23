@@ -11,9 +11,11 @@
     "test": "turbo run test",
     "lint": "eslint .",
     "typecheck": "tsc -v && pnpm -r exec tsc --noEmit",
-    "dev": "pnpm --filter @wahlen/web dev"
+    "dev": "pnpm --filter @wahlen/web dev",
+    "e2e": "playwright test"
   },
   "devDependencies": {
+    "@playwright/test": "^1.50.0",
     "eslint": "^9.18.0",
     "turbo": "^2.4.0",
     "typescript": "^5.7.0",

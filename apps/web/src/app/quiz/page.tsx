@@ -294,14 +294,14 @@ export default function QuizPage() {
 
       <div className="flex justify-end">
         {index === scope.length - 1 ? (
-          <Link href="/results">
+          <Link href="/results/">
             <Button size="lg" disabled={answeredCount === 0}>
               Auswertung ansehen ({answeredCount} Antworten)
             </Button>
           </Link>
         ) : (
           answeredCount > 0 && (
-            <Link href="/results">
+            <Link href="/results/">
               <Button variant="ghost" size="sm">
                 Zwischenstand ansehen
               </Button>

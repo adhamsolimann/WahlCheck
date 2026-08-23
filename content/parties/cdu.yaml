@@ -8,7 +8,9 @@ bezirke: [] # berlinweit mit Bezirkslisten — TODO(T-102)
 colorHex: "#E96018"
 founded: 1945
 summary: >-
-  Christlich-demokratische Volkspartei; stärkste Kraft im amtierenden Senat,
-  Schwerpunkte innere Sicherheit (größter Programmblock), Wirtschaft und Verwaltung.
-leadership: [] # TODO(T-102)
+  Christlich-demokratische Partei; senior partner im amtierenden Senat und stellt
+  mit Kai Wegner den Regierenden Bürgermeister. Schwerpunkte innere Sicherheit
+  (größter Programmblock), Wirtschaft und Verwaltung.
+leadership:
+  - Kai Wegner (Regierender Bürgermeister, Spitzenkandidat) # TODO(T-132): verifizieren
 profileComplete: false

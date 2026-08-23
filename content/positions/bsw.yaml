@@ -1,34 +1,40 @@
-# SEED+T104-WAVE1 — verification pending bis Fact-Check-Freeze (T-132)
-partyId: gruene
+# T104-WAVE1 — BSW-Positionen aus rbb24 Wohnungs-Check; verification pending (T-132)
+partyId: bsw
 positions:
   - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: 1, status: clear,
-      justificationQuote: "Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen“, also die Vergesellschaftung großer Wohnungskonzerne.",
+      justificationQuote: "Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: pending }
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: 1, status: clear,
-      justificationQuote: "Auf Bundesebene setzen sich die Grünen für Mietendeckel-Optionen ein; mit einem Bezahlbare-Mieten-Gesetz sollen große renditeorientierte Vermieter verpflichtet werden.",
+      justificationQuote: "Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: pending }
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
-  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
+  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none,
+      sourceLabel: "BSW fordert stattdessen mindestens 6.000 dauerhaft gebundene Sozialwohnungen pro Jahr (rbb24).",
+      verification: pending }
   - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
-  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-modernisierungsumlage, stance: 1, status: clear,
+      justificationQuote: "Überteuerte Modernisierungen sollen begrenzt werden.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
   - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
-  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
+  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: 1, status: clear,
+      justificationQuote: "Möbliertes Wohnen und Mikroapartments sollen eingeschränkt, Zweckentfremdung und Abriss verhindert werden.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
   - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
   - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
   - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
   - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
-  - { thesisId: hitzeschutz-fuer-obdachlose, stance: 1, status: clear,
-      justificationQuote: "Die Grünen setzen sich für Hitzeschutzmaßnahmen für obdachlose Menschen ein.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
   - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
   - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
   - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
@@ -48,14 +54,6 @@ positions:
   - { thesisId: digitalisierung-der-bauaemter, stance: null, status: none, verification: pending }
   - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
   - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
-  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: 1, status: clear,
-      justificationQuote: "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten – auch für die Berliner Clubs.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
-  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: 1, status: clear,
-      justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: null, status: none, verification: pending }
+  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none, verification: pending }
   - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }

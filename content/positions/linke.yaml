@@ -1,34 +1,94 @@
-# SEED — verification pending, siehe content/positions/spd.yaml Header
+# SEED+T104-WAVE1 — verification pending bis Fact-Check-Freeze (T-132)
 partyId: linke
 positions:
-  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
-    stance: 2
-    status: clear
-    justificationQuote: >-
-      Die Partei fordert als Folge des Volksentscheids „Deutsche Wohnen & Co.
-      Enteignen" ein Vergesellschaftungsgesetz.
-    sourceLabel: rbb24 Wohnungs-Check (08/2026)
-    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
-    verification: pending
-  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
-    stance: 2
-    status: clear
-    justificationQuote: >-
-      Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage
-      eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen
-      Wohnungsunternehmen (LWU) einführen.
-    sourceLabel: Die Linke Berlin – Wahlprogramm 2026 (PDF)
-    sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
-    verification: pending
-  - thesisId: randbebauung-tempelhofer-feld
-    stance: null
-    status: none
-    verification: pending
-  - thesisId: grundsteuer-c-baureife-grundstuecke
-    stance: null
-    status: none
-    verification: pending
-  - thesisId: mehr-polizeipersonal
-    stance: null
-    status: none # Linke thematisiert Sicherheit primär über Begrenzung polizeilicher Befugnisse — Personalfrage nicht eindeutig; TODO(T-104)
-    verification: pending
+  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: 2, status: clear,
+      justificationQuote: "Die Partei fordert als Folge des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ ein Vergesellschaftungsgesetz.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: 2, status: clear,
+      justificationQuote: "Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen Wohnungsunternehmen (LWU) einführen.",
+      sourceLabel: "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      verification: pending }
+  - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
+  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
+  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: 1, status: clear,
+      justificationQuote: "Bei betroffenen Bauprojekten sollen mindestens zwei Drittel der Fläche mit mietpreis- und belegungsgebundenen Wohnungen bebaut werden – mehr als die geforderten 50 Prozent.",
+      sourceLabel: "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      verification: pending }
+  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: 2, status: clear,
+      justificationQuote: "Der kommunale Wohnungsbau soll durch Ankäufe und ein Privatisierungsverbot in der Verfassung gesichert werden.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-modernisierungsumlage, stance: 2, status: clear,
+      justificationQuote: "Die Modernisierungsumlage wollen wir abschaffen.",
+      sourceLabel: "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      verification: pending }
+  - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
+  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: 1, status: clear,
+      justificationQuote: "Wir wollen möbliertes Wohnen auf Zeit in Milieuschutzgebieten verbieten.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026); Linke-Wahlprogramm",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: 1, status: clear,
+      justificationQuote: "Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenkapital zuführen, um damit den Bau von 7.500 kommunalen Wohnungen jährlich zu finanzieren.",
+      sourceLabel: "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      verification: pending }
+  - { thesisId: staerkere-besteurung-hoher-einkommen, stance: 1, status: clear,
+      # TODO(T-132): exakte Programmstelle ergänzen
+      justificationQuote: "Umverteilung hoher Einkommen zur Finanzierung sozialer Aufgaben ist Kernbestand des Programms der Linken.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
+  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
+  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
+  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: 1, status: clear,
+      justificationQuote: "Vorbild ist der Heizkostenfonds in München, aus dem anspruchsberechtigte Haushalte einen Zuschuss für die Kosten für Heizung und Warmwasser erhalten (700 Euro bei alleinigem Wohnsitz).",
+      sourceLabel: "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      verification: pending }
+  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
+  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
+  - { thesisId: beschleunigte-schulsanierung, stance: null, status: none, verification: pending }
+  - { thesisId: mehr-polizeipersonal, stance: null, status: none, verification: pending }
+  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
+  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: 1, status: clear,
+      justificationQuote: "Wenn die Linke über Sicherheit spricht, dann eher über die Begrenzung polizeilicher Befugnisse; Sicherheit steht am Ende ihres Wahlprogramms.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
+  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none, verification: pending }
+  - { thesisId: ausbau-der-integrationsangebote, stance: null, status: none, verification: pending }
+  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
+  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }
+  - { thesisId: sozialticket-und-oepnv-ausbau, stance: null, status: none, verification: pending }
+  - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
+  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none, verification: pending }
+  - { thesisId: netto-null-bei-neuversiegelung, stance: null, status: none, verification: pending }
+  - { thesisId: digitalisierung-der-bauaemter, stance: -1, status: clear,
+      justificationQuote: "Vorhaben wie das „Schneller-Bauen-Gesetz“ oder den „Bau-Turbo“ bewerten wir als nicht zielführende Einschränkungen von Planungsverfahren.",
+      sourceLabel: "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      verification: pending }
+  - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
+  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
+  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: 1, status: clear,
+      justificationQuote: "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: 1, status: clear,
+      justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }

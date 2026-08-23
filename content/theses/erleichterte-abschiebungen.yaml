@@ -1,0 +1,15 @@
+id: erleichterte-abschiebungen
+topicId: migration
+text: >-
+  Abgelehnte Asylbewerberinnen und Asylbewerber sollen konsequenter und
+  schneller abgeschoben werden.
+rationale: >-
+  Migration zählt zu den wichtigsten Themen der Berliner Wählerschaft; AfD
+  verknüpft das Feld mit Sicherheit und Wohnen, CDU setzt die SPD hier unter
+  Druck (Ipsos-Kompetenzanalyse).
+quickMode: true
+sources:
+  - label: Ipsos – Umfrage zur Wahl in Berlin 2026 (Themenkompetenzen)
+    url: https://www.ipsos.com/de-de/umfrage-wahl-berlin
+  - label: Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)
+    url: https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/

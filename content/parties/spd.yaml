@@ -7,10 +7,8 @@ bezirke: [] # berlinweit mit Bezirkslisten — TODO(T-102)
 colorHex: "#E2001A"
 founded: 1863
 summary: >-
-  Sozialdemokratische Partei; stärkste Kraft im amtierenden Senat, stellt mit
-  Kai Wegner den Regierenden Bürgermeister. Schwerpunkte Wohnungsneubau,
-  soziale Infrastruktur und Wirtschaft.
-leadership: # TODO(T-102): vollständige Landesspitze
-  - Kai Wegner (Regierender Bürgermeister)
+  Sozialdemokratische Partei; junior partner im amtierenden Senat (Koalition mit
+  der CDU). Schwerpunkte Wohnungsneubau, soziale Infrastruktur und Wirtschaft.
+leadership: [] # TODO(T-102): Landesspitze ergänzen
 profileComplete: false
 programUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf

@@ -1,42 +1,103 @@
-# SEED — Quotes stammen aus Sekundärquellen (rbb24/tagesschau), verification: pending.
-# T-104/T-132: gegen offizielles Wahlprogramm-PDF verifizieren und Zitat ersetzen.
+# SEED+T104-WAVE1 — Quotes stammen aus Sekundärquellen (rbb24/tagesschau/Tagesspiegel)
+# bzw. dem SPD-Programm-PDF; verification bleibt 'pending' bis zur Fact-Check-Freeze (T-132).
 partyId: spd
 positions:
-  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
-    stance: null
-    status: neutral
-    sourceLabel: rbb24 Wohnungs-Check – „vermeidet … eine klare Antwort“
-    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
-    verification: pending
-  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
-    stance: 1
-    status: clear
-    justificationQuote: >-
-      Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit
-      erhalten, die Mieten zu deckeln; rechtssicherer Mietendeckel über
-      Länderöffnungsklausel oder Art. 15 GG.
-    sourceLabel: rbb24 Wohnungs-Check (08/2026)
-    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
-    verification: pending
-  - thesisId: randbebauung-tempelhofer-feld
-    stance: null
-    status: none
-    verification: pending
-  - thesisId: grundsteuer-c-baureife-grundstuecke
-    stance: 1
-    status: clear
-    justificationQuote: >-
-      Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke
-      sowie Baugebote gegen Spekulation.
-    sourceLabel: rbb24 Wohnungs-Check (08/2026); SPD-Wahlprogramm Kapitel Wohnen
-    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
-    verification: pending
-  - thesisId: mehr-polizeipersonal
-    stance: 1
-    status: clear
-    justificationQuote: >-
-      Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe
-      Polizei und Feuerwehr".
-    sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
-    sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-    verification: pending
+  # --- Wohnen ---
+  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: null, status: neutral,
+      sourceLabel: "rbb24 Wohnungs-Check – „vermeidet … eine klare Antwort“",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: 1, status: clear,
+      justificationQuote: "Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit erhalten, die Mieten zu deckeln; rechtssicherer Mietendeckel über Länderöffnungsklausel oder Art. 15 GG.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
+  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: 1, status: clear,
+      justificationQuote: "Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke sowie Baugebote gegen Spekulation.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026); SPD-Wahlprogramm Kapitel Wohnen",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: 1, status: clear,
+      justificationQuote: "Über das kooperative Baulandmodell sollen Bauträger künftig bei Projekten verpflichtet werden, 50 Prozent Sozialwohnungen zu bauen.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
+  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
+  - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
+  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: 1, status: clear,
+      justificationQuote: "Die SPD fordert, die Vermietung möblierten Wohnraums einzuschränken.",
+      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
+      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      verification: pending }
+  # --- Haushalt & Finanzen ---
+  - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: 1, status: clear,
+      justificationQuote: "Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt sich auch in der Belegung des Sondervermögens des Bundes wider.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: pending }
+  - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
+  - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
+  # --- Arbeit & Soziales ---
+  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
+  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
+  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
+  # --- Bildung ---
+  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
+  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
+  - { thesisId: beschleunigte-schulsanierung, stance: 1, status: clear,
+      justificationQuote: "Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen – Investitionsschwerpunkt über das Sondervermögen.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: pending }
+  # --- Sicherheit ---
+  - { thesisId: mehr-polizeipersonal, stance: 1, status: clear,
+      justificationQuote: "Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe Polizei und Feuerwehr“.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: pending }
+  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
+  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
+  # --- Migration ---
+  - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
+  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: 1, status: clear,
+      justificationQuote: "Die Sozialdemokraten wollen Notunterkünfte für Geflüchtete abschaffen und sie durch dezentrale Wohnungen ersetzen.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: ausbau-der-integrationsangebote, stance: null, status: none, verification: pending }
+  # --- Mobilität ---
+  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
+  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }
+  - { thesisId: sozialticket-und-oepnv-ausbau, stance: null, status: none, verification: pending }
+  - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
+  # --- Klima ---
+  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none, verification: pending }
+  - { thesisId: netto-null-bei-neuversiegelung, stance: 1, status: clear,
+      justificationQuote: "Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: pending }
+  # --- Verwaltung & Digital ---
+  - { thesisId: digitalisierung-der-bauaemter, stance: 1, status: clear,
+      justificationQuote: "Planungsrechtliche Genehmigungen sollen zügig erfolgen. Dazu treiben wir die KI-unterstützte Digitalisierung in den Bauämtern voran.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: pending }
+  - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
+  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
+  # --- Stadtgesellschaft ---
+  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: 1, status: clear,
+      justificationQuote: "Die SPD schlägt eine Spielstättenförderung und eine gesonderte Strategie zur Nachtökonomie vor.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: 1, status: clear,
+      justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
+      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      verification: pending }
+  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }

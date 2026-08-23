@@ -1,0 +1,15 @@
+id: vorrang-einheimische-bei-gefoerdertem-wohnraum
+topicId: wohnen
+text: >-
+  Geförderter Wohnraum soll bevorzugt an Menschen vergeben werden, die in
+  Berlin geboren sind oder lange hier leben.
+rationale: >-
+  Von der AfD eingebrachte Zuteilungslogik (Punktesystem), die Wohnen mit
+  Migrationspolitik verknüpft; laut Tagesspiegel-Analyse verbindet fast jede
+  zweite AfD-Stelle zum Wohnen diesen Vorrang-Gedanken.
+quickMode: true
+sources:
+  - label: rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)
+    url: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  - label: Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)
+    url: https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/

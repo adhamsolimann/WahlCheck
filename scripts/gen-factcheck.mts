@@ -10,14 +10,13 @@
 import { writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { Party, Position } from "../packages/schemas/src/index.ts";
+import type { Party } from "../packages/schemas/src/index.ts";
 import { loadContent } from "../packages/schemas/src/node.ts";
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const bundle = loadContent(join(repoRoot, "content"));
 const outFile = join(repoRoot, "docs", "factcheck-checklist.md");
 
-const partiesById = new Map<string, Party>(bundle.parties.map((p) => [p.id, p]));
 const thesesById = new Map(bundle.theses.map((t) => [t.id, t]));
 
 function cell(value: string | undefined, max = 90): string {

@@ -1,0 +1,2796 @@
+{
+  "generatedAt": "2026-08-23T16:53:40.516Z",
+  "parties": [
+    {
+      "id": "afd",
+      "name": "Alternative für Deutschland",
+      "shortName": "AfD",
+      "tier": "parliament",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#009EE3",
+      "founded": 2013,
+      "summary": "Rechtspopulistische Partei mit Schwerpunkten Migrationskritik und innere Sicherheit; lehnt Mietregulierung und Vergesellschaftung ab. Das Landesamt für Verfassungsschutz Berlin behandelt die AfD als Verdachtsfall rechtsextremistischer Bestrebungen. # TODO(T-132): Klassifizierungsstand rechtlich prüfen lassen",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "bergpartei",
+      "name": "bergpartei, die überpartei",
+      "shortName": "B*",
+      "tier": "contextual",
+      "listType": "bezirksliste",
+      "bezirke": [],
+      "colorHex": "#E5007D",
+      "summary": "Kunst- und Aktionspartei („B*\"), die mit performative-politischen Aktionen auf Themen wie Mieten, Überwachung und Stadtentwicklung aufmerksam macht; tritt nur in einzelnen Bezirken an.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "bsw",
+      "name": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
+      "shortName": "BSW",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#B8232F",
+      "founded": 2024,
+      "summary": "2024 gegründete Partei um Sahra Wagenknecht; verbindet wirtschaftlich linke Positionen (Mietendeckel, Vergesellschaftung) mit konservativer Migrationspolitik. In Berlin-Umfragen aktuell unter der Fünf-Prozent-Hürde.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "cdu",
+      "name": "Christlich Demokratische Union Deutschlands",
+      "shortName": "CDU",
+      "tier": "parliament",
+      "listType": "bezirksliste",
+      "bezirke": [],
+      "colorHex": "#E96018",
+      "founded": 1945,
+      "summary": "Christlich-demokratische Partei; senior partner im amtierenden Senat und stellt mit Kai Wegner den Regierenden Bürgermeister. Schwerpunkte innere Sicherheit (größter Programmblock), Wirtschaft und Verwaltung.",
+      "leadership": [
+        "Kai Wegner (Regierender Bürgermeister, Spitzenkandidat)"
+      ],
+      "profileComplete": false
+    },
+    {
+      "id": "die-partei",
+      "name": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "shortName": "Die PARTEI",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#7D2E49",
+      "founded": 2004,
+      "summary": "Satirepartei mit realer politischer Teilnahme; kombiniert politischen Kabarett mit teils ernsthaften Positionen zu Rechtsstaat und Tierschutz.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "die-urbane",
+      "name": "Die Urbane. Eine HipHop Partei",
+      "shortName": "Die Urbane.",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#F2A900",
+      "founded": 2021,
+      "summary": "Kleinpartei aus der Berliner HipHop- und urbanen Kultur-Szene; Schwerpunkte sind u. a. bezahlbarer Wohnraum, Clubkultur und gesellschaftliche Teilhabe. # TODO(T-103): Programm verifizieren",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "dkp",
+      "name": "Deutsche Kommunistische Partei",
+      "shortName": "DKP",
+      "tier": "contextual",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#DD0000",
+      "founded": 1968,
+      "summary": "Kommunistische Kleinpartei; fordert Vergesellschaftung von Wohnungswirtschaft und Schlüsselindustrien sowie deutliche Umverteilung.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "fdp",
+      "name": "Freie Demokratische Partei",
+      "shortName": "FDP",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#FFED00",
+      "founded": 1948,
+      "summary": "Liberale Partei; tritt 2026 aus einem Absturz heraus an und bewirbt sich um den Wiedereinzug ins Abgeordnetenhaus (Umfragen aktuell unter 5 %).",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "gruene",
+      "name": "BÜNDNIS 90/DIE GRÜNEN",
+      "shortName": "GRÜNE",
+      "tier": "parliament",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#1FA12E",
+      "founded": 1980,
+      "summary": "Grüne Partei mit Schwerpunkt Klimaschutz, Mobilitätswende und sozialer Gerechtigkeit; war bis 2023 in der Berliner Regierung vertreten.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "heimat",
+      "name": "Die Heimat",
+      "shortName": "Heimat",
+      "tier": "contextual",
+      "listType": "bezirksliste",
+      "bezirke": [],
+      "colorHex": "#3E5622",
+      "founded": 1964,
+      "summary": "Rechtsextreme Kleinpartei, 2023 aus der NPD hervorgegangen; wird vom Verfassungsschutz als rechtsextremistisch eingestuft und tritt nur in einzelnen Bezirken an.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "linke",
+      "name": "Die Linke",
+      "shortName": "Die Linke",
+      "tier": "parliament",
+      "listType": "bezirksliste",
+      "bezirke": [],
+      "colorHex": "#CC0000",
+      "founded": 2007,
+      "summary": "Demokratisch-sozialistische Partei; in Umfragen zuletzt stärkste Kraft, Schwerpunkte Mietenpolitik, Umverteilung und Begrenzung polizeilicher Befugnisse.",
+      "leadership": [],
+      "programUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "profileComplete": false
+    },
+    {
+      "id": "oedp",
+      "name": "Ökologisch-Demokratische Partei",
+      "shortName": "ÖDP",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#00798D",
+      "founded": 1982,
+      "summary": "Wertekonservativ-ökologische Kleinpartei; Schwerpunkte Naturschutz, Tierwohl und kommunale Demokratie.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "pdf",
+      "name": "Partei des Fortschritts",
+      "shortName": "PdF",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#2AA8A0",
+      "founded": 2021,
+      "summary": "Reformorientierte Kleinpartei mit Fokus auf Digitalisierung der Verwaltung, Bildung und evidenzbasierte Politik. # TODO(T-103): Programm verifizieren",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "sgp",
+      "name": "Sozialistische Gleichheitspartei, Vierte Internationale",
+      "shortName": "SGP",
+      "tier": "contextual",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#C41E25",
+      "founded": 2017,
+      "summary": "Trotzkistisch ausgerichtete Kleinpartei; fordert sozialistische Planwirtschaft, Enteignung großer Konzerne und internationale Arbeiter*innen Solidarität.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "spd",
+      "name": "Sozialdemokratische Partei Deutschlands",
+      "shortName": "SPD",
+      "tier": "parliament",
+      "listType": "bezirksliste",
+      "bezirke": [],
+      "colorHex": "#E2001A",
+      "founded": 1863,
+      "summary": "Sozialdemokratische Partei; junior partner im amtierenden Senat (Koalition mit der CDU). Schwerpunkte Wohnungsneubau, soziale Infrastruktur und Wirtschaft.",
+      "leadership": [],
+      "programUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "profileComplete": false
+    },
+    {
+      "id": "tierschutzpartei",
+      "name": "PARTEI MENSCH KLIMA TIERSCHUTZ",
+      "shortName": "Tierschutzpartei",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#00A08D",
+      "founded": 1993,
+      "summary": "Ethisch motivierte Tierschutzpartei; Kernforderungen sind Tierrechte, pflanzliche Ernährung sowie Klima- und Umweltschutz.",
+      "leadership": [],
+      "profileComplete": false
+    },
+    {
+      "id": "volt",
+      "name": "Volt Deutschland",
+      "shortName": "Volt",
+      "tier": "small",
+      "listType": "landesliste",
+      "bezirke": [],
+      "colorHex": "#502379",
+      "founded": 2018,
+      "summary": "Paneuropäische Partei; Schwerpunkte EU-Reform, evidence-based Policymaking, Digitalisierung und kommunale Modernisierung. In Berlin seit 2021 vertreten (Bezirksverordnete).",
+      "leadership": [],
+      "profileComplete": false
+    }
+  ],
+  "theses": [
+    {
+      "id": "abschaffung-der-grundsteuer",
+      "topicId": "haushalt-finanzen",
+      "text": "Die Grundsteuer in Berlin soll vollständig abgeschafft werden.",
+      "rationale": "AfD fordert die Abschaffung ausdrücklich; unterscheidet sich klar von der Grundsteuer-C-These (Ausweitung) und trennt steuerpolitische Grundsätze.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "abschaffung-modernisierungsumlage",
+      "topicId": "wohnen",
+      "text": "Die Umlage von Modernisierungskosten auf die Mieterinnen und Mieter (§ 559 BGB) soll abgeschafft werden.",
+      "rationale": "Modernisierungsumlagen treiben Mieten im Bestand; Linke fordern bundes- wie landespolitische Abschaffung, BSW will überzogene Modernisierungen begrenzen.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf"
+        },
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "ausbau-der-integrationsangebote",
+      "topicId": "migration",
+      "text": "Sprach-, Beratungs- und Integrationsangebote sollen deutlich ausgebaut und besser finanziert werden.",
+      "rationale": "Positive Integrationspolitik als Gegenentwurf zu restriktiven Positionen; differenziert innerhalb des progressiven Lagers über Finanzierungsfragen und gegenüber allen restriktionsorientierten Parteien.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "ausbau-queerer-gesundheitsversorgung",
+      "topicId": "stadtgesellschaft",
+      "text": "Versorgungsangebote für queere und trans Personen (Gesundheit, Beratung) sollen deutlich ausgebaut werden.",
+      "rationale": "SPD, Grüne, Linke und FDP fordern laut Tagesspiegel-Analyse bessere Angebote, CDU/BSW/AfD gehen auf die Themen nicht ein – saubere Differenzlinie im Gesellschaftsbereich.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "topicId": "sicherheit",
+      "text": "Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe, Kieze, Transportmittel) soll deutlich ausgebaut werden.",
+      "rationale": "Innere Sicherheit ist nach Wohnen eines der umkämpftesten Themen; Überwachung trennt ordnungspolitisch-authoritative von grundrechtsbetonten Positionen.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "begrenzung-polizeilicher-befugnisse",
+      "topicId": "sicherheit",
+      "text": "Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzern, Identitätsfeststellungen) sollen deutlich begrenzt werden.",
+      "rationale": "Gegenpol zur Sicherheitsausweitung; laut Tagesspiegel spricht die Linke bei Sicherheit primär über die Begrenzung polizeilicher Befugnisse – schärfste Differenzlinie im Themenfeld.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "beschleunigte-schulsanierung",
+      "topicId": "bildung",
+      "text": "Der Sanierungsstau bei Schulen soll durch ein deutlich beschleunigtes, finanziell aufgestocktes Schulbauprogramm abgebaut werden.",
+      "rationale": "SPD nennt die „Schulbauoffensive\" explizit als Investitionsschwerpunkt; Differenzierung entsteht über Tempo, Finanzierung und Beteiligungsverfahren.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Schulbauoffensive)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "besserer-personalschluessel-in-kitas",
+      "topicId": "bildung",
+      "text": "Der Personalschlüssel in Berliner Kitas soll verbessert und das Kita-Personal deutlich aufgestockt werden.",
+      "rationale": "Kita-Qualität ist nach Schulen der wichtigste Bildungsbereich für Familien – eine Kernzielgruppe dieser Wahl; differenziert über Finanzierungs- und Personalkapazitätsfragen.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "topicId": "migration",
+      "text": "Notunterkünfte für Geflüchtete sollen abgeschafft und durch dezentralen Wohnraum ersetzt werden.",
+      "rationale": "SPD fordert laut Tagesspiegel-Analyse genau diese Umstellung – ein Beispiel, dass Migrationspolitik im bürgerlichen Lager nicht eindimensional verläuft; trennt Vollzugsfragen von Grundsatzdebatten.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "digitalisierung-der-bauaemter",
+      "topicId": "verwaltung-digital",
+      "text": "Bauämter und Genehmigungsverfahren sollen konsequent digitalisiert und beschleunigt werden – auch durch weniger Mitwirkungsrechte im Einzelfall.",
+      "rationale": "SPD treibt „Bau-Turbo\" und KI-Digitalisierung voran, Linke lehnen das Schneller-Bauen-Gesetz als Schwächung demokratischer Verfahren ab – Verwaltungsmodernisierung mit klarem Grundrechtsbezug.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        },
+        {
+          "label": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "einschraenkung-moeblierter-wohnraum",
+      "topicId": "wohnen",
+      "text": "Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtlich eingeschränkt werden.",
+      "rationale": "Möbliertes Wohnen umgeht häufig Mieterschutz; SPD will Vermietung einschränken, Linke in Milieuschutzgebieten verbieten, BSW will Mikroapartments begrenzen – mehrparteienfähige Differenzlinie.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "erleichterte-abschiebungen",
+      "topicId": "migration",
+      "text": "Abgelehnte Asylbewerberinnen und Asylbewerber sollen konsequenter und schneller abgeschoben werden.",
+      "rationale": "Migration zählt zu den wichtigsten Themen der Berliner Wählerschaft; AfD verknüpft das Feld mit Sicherheit und Wohnen, CDU setzt die SPD hier unter Druck (Ipsos-Kompetenzanalyse).",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Ipsos – Umfrage zur Wahl in Berlin 2026 (Themenkompetenzen)",
+          "url": "https://www.ipsos.com/de-de/umfrage-wahl-berlin"
+        },
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "foerderung-von-wohneigentum",
+      "topicId": "wohnen",
+      "text": "Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüsse, Steuererleichterungen und Mietkaufmodelle gefördert werden.",
+      "rationale": "CDU und FDP setzen auf Eigentumsbildung als Weg zu bezahlbarem Wohnen, Linke und Grüne priorisieren den gemeinwohlorientierten Mietmarkt – klassische Eigentums-vs-Mietmarkt-Linie.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "gemeinschaftsschule-fuer-alle",
+      "topicId": "bildung",
+      "text": "Berlin soll schrittweise zur Gemeinschaftsschule übergehen, die alle Kinder unabhängig von der Herkunft gemeinsam bis zum Abitur führt.",
+      "rationale": "Strukturfrage der Berliner Schulpolitik mit klarem Lagergegensatz zwischen gemeinsamer Schule und dem gegliederten System (Gymnasium/Integrierte Sekundarschule); Bildung ist Top-5-Salienzthema.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "grundsteuer-c-baureife-grundstuecke",
+      "topicId": "wohnen",
+      "text": "Unbebaute, aber baureife Grundstücke sollen mit einer Grundsteuer C belegt werden, um Baulücken schneller für Wohnungsbau zu mobilisieren.",
+      "rationale": "Konkretes Steuerungsinstrument gegen Bodenspekulation; unterscheidet aktive Bodenpolitik von marktkonformen Positionen.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        },
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "topicId": "haushalt-finanzen",
+      "text": "Berlin soll zusätzliche Investitionen in Wohnen, Infrastruktur und Schulen auch über neue Kredite und Sondervermögen finanzieren.",
+      "rationale": "Zentrale Finanzierungsfrage der Legislatur: SPD setzt auf ein Bundes-Sondervermögen mit sieben Investitionsschwerpunkten, Linke auf massive Eigenkapitalzuführung; FDP/AfD wollen stattdessen konsolidieren.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF, Investitionsschwerpunkte)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        },
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "heizkostenfonds-fuer-niedrige-einkommen",
+      "topicId": "arbeit-soziales",
+      "text": "Berlin soll einen Heizkostenfonds einrichten, aus dem einkommensschwache Haushalte Zuschüsse zu Heiz- und Warmwasserkosten erhalten.",
+      "rationale": "Konkretes Instrument gegen Energiearmut (Vorbild München); Linke legen im Programm einen solchen Fonds mit festen Förderbeträgen dar – unterscheidet soziale Absicherung im Energiebereich.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hitzeschutz-fuer-obdachlose",
+      "topicId": "arbeit-soziales",
+      "text": "Berlin soll verbindliche Hitzeschutzprogramme für obdachlose Menschen auflegen.",
+      "rationale": "Klima-Anpassung trifft vulnerable Gruppen zuerst; Grüne fordern explizit Hitzeschutzmaßnahmen für Obdachlose (Tagesspiegel-Analyse) – trennt Anpassungspolitik von reinem Emissionsfokus.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "klimaneutralitaet-bis-2045",
+      "topicId": "klima",
+      "text": "Berlin soll sein Klimaneutralitätsziel spätestens 2045 erreichen und die Umsetzung verbindlich finanzieren.",
+      "rationale": "Nach dem Volksentscheid „Berlin 2030 klimaneutral\" (erfolgreich, aber umstritten) ist das Zieljahr der zentrale Klima-Grundsatzstreit; Klimaschutz ist Kompetenzfeld der Grünen (Ipsos).",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Ipsos – Umfrage zur Wahl in Berlin 2026 (Themenkompetenzen)",
+          "url": "https://www.ipsos.com/de-de/umfrage-wahl-berlin"
+        },
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "mehr-kompetenzen-fuer-die-bezirke",
+      "topicId": "verwaltung-digital",
+      "text": "Die zwölf Berliner Bezirke sollen mehr Entscheidungskompetenzen und eigene finanzielle Spielräume erhalten.",
+      "rationale": "Berlin-typische Strukturfrage (Zentralstadt vs. Kiezkultur); berührt Planungshoheit, Grünanlagen, Straßenreinigung – differenziert föderale Selbstverständnisse.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "mehr-polizeipersonal",
+      "topicId": "sicherheit",
+      "text": "Berlin soll deutlich mehr Polizistinnen und Polizisten einstellen.",
+      "rationale": "Innere Sicherheit gehört zu den Top-Salienz-Themen; Personalabbau/-aufbau ist messbar und differenziert Parteien klarer als abstrakte Sicherheitsrhetorik.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "topicId": "stadtgesellschaft",
+      "text": "Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch deutlich mehr Reinigungs- und Ordnungspersonal verbessert werden.",
+      "rationale": "„Sauberkeit der Stadt\" ist laut Tagesspiegel-Analyse ein eigenes Programmthema aller Parteien; konkreter als abstrakte Ordnungsrhetorik und eng verknüpft mit der Haushaltsfrage.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "topicId": "wohnen",
+      "text": "Für die landeseigenen Wohnungsunternehmen soll ein Mietendeckel eingeführt werden.",
+      "rationale": "Kerndifferenz im salienstärksten Thema Wohnen; landeseigene Unternehmen verwalten rund 400.000 Wohnungen, Mieterhöhungen dort sind zentraler Wahlkampfpunkt.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        },
+        {
+          "label": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "netto-null-bei-neuversiegelung",
+      "topicId": "klima",
+      "text": "Berlin soll Netto-Null bei der Neuversiegelung von Boden erreichen: neuer versiegelter Fläche steht gleichviel entsiegelte gegenüber.",
+      "rationale": "SPD nennt das Ziel explizit im Wohnkapitel; verbindet Stadtentwicklung, Hitzevorsorge und Bodenpolitik – differenziert Wachstums- von Schrumpfungslogiken im Bauen.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "personalabbau-in-der-verwaltung",
+      "topicId": "haushalt-finanzen",
+      "text": "Zur Sanierung des Haushalts soll das Personal in der Berliner Verwaltung abgebaut werden.",
+      "rationale": "Haushaltsnotlage zwingt zu Prioritäten; Konsolidierung über Personalkürzung steht im Gegensatz zum Ausbau von Ämtern (z. B. Bauämter, Jugendämter), den mehrere Parteien fordern.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "prioritaet-fuer-radverkehr",
+      "topicId": "mobilitaet",
+      "text": "Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll priorisiert und beschleunigt werden.",
+      "rationale": "Konkreter Alltagskonflikt im Straßenraum; unterscheidet konsequent verkehrswendepolitische von autozentrierten Programmen.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "privatisierungsverbot-in-der-verfassung",
+      "topicId": "wohnen",
+      "text": "Ein dauerhaftes Privatisierungsverbot für landeseigene Wohnungen soll in der Verfassung von Berlin verankert werden.",
+      "rationale": "Linke fordern das Verbot ausdrücklich auf Verfassungsebene, die CDU lehnt ein dauerhaftes Privatisierungsverbot ab; schärft die Frage nach dem langfristigen Schicksal der rund 400.000 LWU-Wohnungen.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "randbebauung-tempelhofer-feld",
+      "topicId": "wohnen",
+      "text": "Die Randbereiche des Tempelhofer Feldes sollen mit Wohnungen bebaut werden.",
+      "rationale": "Symbolische Bau-/Naturschutz-Frage mit klarem Lagergegensatz; 2014 hatte eine Mehrheit die Bebauung per Volksentscheid abgelehnt, mehrere Parteien kehren zur Randbebauung zurück.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        }
+      ]
+    },
+    {
+      "id": "rund-um-die-uhr-digitale-buergerservices",
+      "topicId": "verwaltung-digital",
+      "text": "Behördengänge (Anträge, Bescheinigungen, Termine) sollen flächendeckend rund um die Uhr digital möglich sein.",
+      "rationale": "Verwaltung ist laut Tagesspiegel eines der Felder, das die CDU betont; Digitalisierung ist der messbarste Teil der Verwaltungsreformdebatte.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "schutz-und-foerderung-der-clubkultur",
+      "topicId": "stadtgesellschaft",
+      "text": "Berliner Clubs und die Nachtwirtschaft sollen durch Spielstättenförderung und Schutz vor Verdrängung dauerhaft gesichert werden.",
+      "rationale": "Clubkultur als Wirtschaftsfaktor und Identitätsthema der Stadt; SPD schlägt Spielstättenförderung/Nachtökonomie-Strategie vor, Grüne/Linke wollen Schutz vor steigenden Gewerbemieten (Tagesspiegel).",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "sozialticket-und-oepnv-ausbau",
+      "topicId": "mobilitaet",
+      "text": "Günstige Sozialtickets sollen ausgebaut und der öffentliche Nahverkehr deutlich verdichtet werden (Takt, Linien, Personal).",
+      "rationale": "ÖPNV ist für Berlin zentrale Daseinsvorsorge; FDP widmet Mobilität laut Tagesspiegel sogar mehr Programmplatz als die Grünen – das Feld differenziert über Finanzierung statt Grundsatz.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "sozialwohnungsquote-im-baulandmodell",
+      "topicId": "wohnen",
+      "text": "Bei großen privaten Bauprojekten soll die Hälfte der Wohnungen gefördert (mietpreis- und belegungsgebunden) entstehen.",
+      "rationale": "SPD will das kooperative Baulandmodell von 30 auf 50 Prozent anheben, Linke wollen sogar zwei Drittel; FDP lehnt Quoten zugunsten von Wohngeld ab.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        },
+        {
+          "label": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "staerkere-besteurung-hoher-einkommen",
+      "topicId": "haushalt-finanzen",
+      "text": "Hohe Einkommen und Vermögen sollen in Berlin stärker besteuert werden.",
+      "rationale": "Klassische Umverteilungslinie; Linke fordern deutliche Besteuerung hoher Einkommen zur Finanzierung sozialer Aufgaben, FDP lehnt jede Steuererhöhung ab.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "stopp-der-a100-verlaengerung",
+      "topicId": "mobilitaet",
+      "text": "Der Weiterbau/Ausbau der A100 soll gestoppt werden.",
+      "rationale": "Symbolischer Großbau-Konflikt Berlins (Tunnel Schlangenbader Straße, Wohnungsbaupotenzial vs. Autoinfrastruktur); SPD plant u. a. Rückbau der ehemaligen A104-Fläche, während Ausbauvorhaben umkämpft bleiben.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen/Mobilität)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        },
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "tariftreue-bei-oeffentlichen-auftraegen",
+      "topicId": "arbeit-soziales",
+      "text": "Vergabe öffentlicher Aufträge und Fördermittel soll an Tariftreue und gute Arbeitsbedingungen gebunden werden.",
+      "rationale": "Arbeit & Soziales ist laut Tagesspiegel-Analyse das programmatisch größte Thema aller sieben Parteien; Tarifbindung im Landesumfeld ist der konkrete, landkompetente Hebel.",
+      "quickMode": false,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        },
+        {
+          "label": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+          "url": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "tempo30-auf-hauptverkehrsstrassen",
+      "topicId": "mobilitaet",
+      "text": "Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen eingeführt werden.",
+      "rationale": "Verkehrswende-Grundsatzfrage mit hohem Alltagsbezug; trennt sicherheits-/umweltpolitische Priorität von Autofahrer-Freiheitsargumenten.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    },
+    {
+      "id": "vergesellschaftung-grosser-wohnungskonzerne",
+      "topicId": "wohnen",
+      "text": "Die Wohnungsbestände großer, renditeorientierter Wohnungskonzerne sollen vergesellschaftet werden.",
+      "rationale": "Folge des Volksentscheids „Deutsche Wohnen & Co. enteignen\" (2021, Mehrheit von 56 %); eine der schärfsten Differenzlinien zwischen den Parteien und Kernthema des salienstärksten Politikfelds Wohnen.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        },
+        {
+          "label": "tagesschau – Wahlprogramme zum Thema Wohnen (08/2026)",
+          "url": "https://www.tagesschau.de/inland/regional/berlin/rbb-das-planen-die-berliner-parteien-in-der-wohnungspolitik-100.html"
+        }
+      ]
+    },
+    {
+      "id": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "topicId": "wohnen",
+      "text": "Geförderter Wohnraum soll bevorzugt an Menschen vergeben werden, die in Berlin geboren sind oder lange hier leben.",
+      "rationale": "Von der AfD eingebrachte Zuteilungslogik (Punktesystem), die Wohnen mit Migrationspolitik verknüpft; laut Tagesspiegel-Analyse verbindet fast jede zweite AfD-Stelle zum Wohnen diesen Vorrang-Gedanken.",
+      "quickMode": true,
+      "sources": [
+        {
+          "label": "rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+        },
+        {
+          "label": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+          "url": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+        }
+      ]
+    }
+  ],
+  "positions": [
+    {
+      "partyId": "afd",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Grundsätzliche Abkehr von starker Mietregulierung; Neubau durch weniger Vorgaben beschleunigen.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben; für die Zuteilung soll ein Punktesystem eingeführt werden.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wohneigentum will die AfD durch Steuerbefreiungen und Bürgschaften fördern; außerdem will sie die Grundsteuer abschaffen.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Die AfD will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Sicherheit ist neben Migration das dominante Programmfeld der AfD; sie schreibt fast so viel darüber wie die CDU.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "afd",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "BSW fordert stattdessen mindestens 6.000 dauerhaft gebundene Sozialwohnungen pro Jahr (rbb24).",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Überteuerte Modernisierungen sollen begrenzt werden.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Möbliertes Wohnen und Mikroapartments sollen eingeschränkt, Zweckentfremdung und Abriss verhindert werden.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "bsw",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattdessen auf mehr Neubau und Rechtsdurchsetzung.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine starre Regulierung des Mietmarkts.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauung des Tempelhofer Feldes.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes Wohneigentum, etwa durch Zuschüsse, Steuererleichterungen und Mietkaufmodelle.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Die CDU setzt Sicherheit gleich an die Spitze ihres Wahlprogramms: 18 Prozent des Texts drehen sich darum – nur die AfD schrieb fast genauso viel darüber.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "cdu",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Die FDP setzt auf den freien Wohnungsmarkt und lehnt Mietendeckel, Mietpreisbremse, Milieuschutz und Enteignungen ab.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Lehnt Mietendeckel ab; Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Genossenschaften und kleine Bauträger erfolgen.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Forderung nach Nachverdichtung, Hochhäusern, Dachaufstockungen und Büro-Umwandlungen, einschließlich einer Randbebauung des Tempelhofer Feldes.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Sozialpolitik soll über Wohngeld statt Quoten im Neubau erfolgen.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wohneigentum will die FDP steuerlich stark begünstigen und Umwandlungen von Miet- in Eigentumswohnungen erleichtern.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "fdp",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen“, also die Vergesellschaftung großer Wohnungskonzerne.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Auf Bundesebene setzen sich die Grünen für Mietendeckel-Optionen ein; mit einem Bezahlbare-Mieten-Gesetz sollen große renditeorientierte Vermieter verpflichtet werden.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die Grünen setzen sich für Hitzeschutzmaßnahmen für obdachlose Menschen ein.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten – auch für die Berliner Clubs.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "gruene",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Die Partei fordert als Folge des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ ein Vergesellschaftungsgesetz.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen Wohnungsunternehmen (LWU) einführen.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Bei betroffenen Bauprojekten sollen mindestens zwei Drittel der Fläche mit mietpreis- und belegungsgebundenen Wohnungen bebaut werden – mehr als die geforderten 50 Prozent.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Der kommunale Wohnungsbau soll durch Ankäufe und ein Privatisierungsverbot in der Verfassung gesichert werden.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Die Modernisierungsumlage wollen wir abschaffen.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wir wollen möbliertes Wohnen auf Zeit in Milieuschutzgebieten verbieten.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026); Linke-Wahlprogramm",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenkapital zuführen, um damit den Bau von 7.500 kommunalen Wohnungen jährlich zu finanzieren.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Umverteilung hoher Einkommen zur Finanzierung sozialer Aufgaben ist Kernbestand des Programms der Linken.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Vorbild ist der Heizkostenfonds in München, aus dem anspruchsberechtigte Haushalte einen Zuschuss für die Kosten für Heizung und Warmwasser erhalten (700 Euro bei alleinigem Wohnsitz).",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wenn die Linke über Sicherheit spricht, dann eher über die Begrenzung polizeilicher Befugnisse; Sicherheit steht am Ende ihres Wahlprogramms.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Vorhaben wie das „Schneller-Bauen-Gesetz“ oder den „Bau-Turbo“ bewerten wir als nicht zielführende Einschränkungen von Planungsverfahren.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "linke",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": null,
+      "status": "neutral",
+      "sourceLabel": "rbb24 Wohnungs-Check – „vermeidet … eine klare Antwort“",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit erhalten, die Mieten zu deckeln; rechtssicherer Mietendeckel über Länderöffnungsklausel oder Art. 15 GG.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke sowie Baugebote gegen Spekulation.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026); SPD-Wahlprogramm Kapitel Wohnen",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Über das kooperative Baulandmodell sollen Bauträger künftig bei Projekten verpflichtet werden, 50 Prozent Sozialwohnungen zu bauen.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die SPD fordert, die Vermietung möblierten Wohnraums einzuschränken.",
+      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt sich auch in der Belegung des Sondervermögens des Bundes wider.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen – Investitionsschwerpunkt über das Sondervermögen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe Polizei und Feuerwehr“.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die Sozialdemokraten wollen Notunterkünfte für Geflüchtete abschaffen und sie durch dezentrale Wohnungen ersetzen.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Planungsrechtliche Genehmigungen sollen zügig erfolgen. Dazu treiben wir die KI-unterstützte Digitalisierung in den Bauämtern voran.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die SPD schlägt eine Spielstättenförderung und eine gesonderte Strategie zur Nachtökonomie vor.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
+      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+      "verification": "pending"
+    },
+    {
+      "partyId": "spd",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    }
+  ]
+}

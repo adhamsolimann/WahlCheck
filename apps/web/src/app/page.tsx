@@ -59,9 +59,9 @@ export default function Home() {
       </section>
 
       <div className="flex flex-wrap justify-center gap-3">
-        <Button size="lg" disabled title="Verfügbar ab Woche 1 (T-107)">
-          Matching starten (bald)
-        </Button>
+        <Link href="/quiz">
+          <Button size="lg">Matching starten</Button>
+        </Link>
         <Link href="/design">
           <Button variant="secondary" size="lg">
             Design-System ansehen

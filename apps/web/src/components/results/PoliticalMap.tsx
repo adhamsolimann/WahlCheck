@@ -229,26 +229,28 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
             </g>
           )}
 
-          {/* Fixe Info-Leiste oben */}
-          {activePoint && (
-            <g pointerEvents="none">
-              <rect
-                x={mid - 24}
-                y={3.2}
-                width={48}
-                height={6}
-                rx={1.6}
-                fill="#0f172a"
-                opacity={0.92}
-              />
-              <circle cx={mid - 19} cy={6.2} r={1.1} fill={activePoint.color} />
-              <text x={mid - 16.5} y={7.4} fontSize={3.6} fontWeight={700} fill="#ffffff">
-                {activePoint.label}
-                {activePoint.lowData ? " · wenig Daten" : ""}
-              </text>
-            </g>
-          )}
         </svg>
+      </div>
+
+      {/* Hover-Status unterhalb der Grafik — kein Clipping möglich */}
+      <div className="flex h-6 items-center gap-2 text-xs" aria-live="polite">
+        {activePoint ? (
+          <>
+            <span
+              aria-hidden
+              className="h-3 w-3 shrink-0 rounded-full"
+              style={{ backgroundColor: activePoint.color }}
+            />
+            <span className="font-semibold">{activePoint.label}</span>
+            {activePoint.lowData && (
+              <span className="text-zinc-400">· wenig Daten</span>
+            )}
+          </>
+        ) : (
+          <span className="text-zinc-400">
+            Zeiger über einen Punkt bewegen für Partei-Details
+          </span>
+        )}
       </div>
 
       {/* Legende — vollständige Identifikation inkl. Hover-Sync */}

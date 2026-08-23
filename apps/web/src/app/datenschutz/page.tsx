@@ -66,7 +66,14 @@ export default function DatenschutzPage() {
 
         <section>
           <h2 className="font-semibold">Stand</h2>
-          <p className="mt-1">August 2026 · Änderungen dokumentieren wir hier.</p>
+          <p className="mt-1">
+            August 2026 · Inhaltliche und funktionale Änderungen dokumentieren
+            wir nachvollziehbar im{" "}
+            <a href="/aenderungen/" className="underline hover:text-brand-600">
+              öffentlichen Änderungslog
+            </a>
+            .
+          </p>
         </section>
       </div>
     </main>

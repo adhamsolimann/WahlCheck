@@ -1,6 +1,45 @@
 # Öffentliches Änderungslog — redaktionell gepflegt, schema-validiert.
 # Neueste Einträge oben. Kategorien: korrektur | inhalt | funktion | organisation
 - date: "2026-08-24"
+  category: funktion
+  title: Interaktives Parlaments-Halbrund
+  details: >-
+    Die „Aktuelle Lage" zeigt jetzt die projizierte Sitzverteilung als
+    Halbkreis-Grafik (130 Sitze). Überfahren einer Partei hebt deren Sitze
+    hervor und dimmt den Rest — synchron mit der Liste darunter.
+- date: "2026-08-24"
+  category: funktion
+  title: Brandmauer-Filter bei den rechnerischen Mehrheiten
+  details: >-
+    Koalitionen mit AfD-Beteiligung sind standardmäßig ausgeblendet und
+    lassen sich über einen Schalter rein rechnerisch einblenden (5 von 16
+    Optionen betroffen). Alle übrigen Parteien haben Koalitionen mit der
+    AfD ausgeschlossen; die Zählung im Titel folgt dem Filter.
+- date: "2026-08-24"
+  category: inhalt
+  title: Landkarte modernisiert und vervollständigt
+  details: >-
+    Neues Querformat mit Kontrast-Palette (keine ähnlichen Farben mehr),
+    ohne überlappende Beschriftungen — Identifikation über Legende und
+    Hover-Info. Neu auf der Karte: Die Grünen mit vier wörtlich belegten
+    Positionen aus ihrem Schluss-Wahlprogramm (u. a. Grundsteuer C,
+    Mietendeckel per Länderöffnungsklausel, Klimaneutralität, Tempo 30)
+    sowie Die Linke mit zwei Sicherheits-Positionen aus der Endfassung.
+- date: "2026-08-24"
+  category: organisation
+  title: Marke geschärft — „WahlCheck"
+  details: >-
+    Klarname ohne Ortszusatz; zweifarbiges Zeichen („Wahl" schwarz,
+    „Check" blau) auf Startseite und Header. Der Bezug zur Berliner Wahl
+    bleibt über Untertitel und Inhalt gewahrt.
+- date: "2026-08-24"
+  category: funktion
+  title: Hauptnavigation ergänzt
+  details: >-
+    Feste Kopfzeile mit aktiver Seitenmarkierung und Unterstützungs-Button —
+    die bislang nur im Fuß verlinkten Bereiche sind nun von überall mit einem
+    Klick erreichbar.
+- date: "2026-08-24"
   category: korrektur
   title: Zuordnung des Regierenden Bürgermeisters korrigiert
   details: >-

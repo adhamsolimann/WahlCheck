@@ -12,13 +12,18 @@
     "lint": "eslint .",
     "typecheck": "tsc -v && pnpm -r exec tsc --noEmit",
     "dev": "pnpm --filter @wahlen/web dev",
-    "e2e": "playwright test"
+    "e2e": "playwright test",
+    "gen:content": "pnpm --filter @wahlen/web exec tsx ../../scripts/gen-content.mts",
+    "gen:factcheck": "tsx scripts/gen-factcheck.mts",
+    "factcheck": "tsx scripts/factcheck.mts"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.0",
     "eslint": "^9.18.0",
+    "tsx": "^4.23.12",
     "turbo": "^2.4.0",
     "typescript": "^5.7.0",
-    "typescript-eslint": "^8.20.0"
+    "typescript-eslint": "^8.20.0",
+    "unpdf": "^1.8.1"
   }
 }

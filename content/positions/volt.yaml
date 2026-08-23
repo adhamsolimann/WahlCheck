@@ -70,7 +70,7 @@ positions:
       Ein verlässlicher ÖPNV bis in die Außenbezirke.
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin lebt"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   - thesisId: prioritaet-fuer-radverkehr
     stance: 1
     status: clear
@@ -78,7 +78,7 @@ positions:
       Sichere Rad- und Gehwege und saubere Kieze.
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin lebt"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   # --- Klima ---
   - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none,
       verification: pending } # Zieljahr im Überblickstext nicht genannt — TODO(T-132) PDF Kapitel „Berlin gewinnt“
@@ -92,7 +92,7 @@ positions:
       automatisch als genehmigt.
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   - thesisId: rund-um-die-uhr-digitale-buergerservices
     stance: 1
     status: clear

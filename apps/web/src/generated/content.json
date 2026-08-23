@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:34:29.272Z",
+  "generatedAt": "2026-08-23T19:49:22.133Z",
   "parties": [
     {
       "id": "afd",
@@ -794,7 +794,7 @@
       "justificationQuote": "Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -1151,7 +1151,7 @@
       "justificationQuote": "Möbliertes Wohnen und Mikroapartments sollen eingeschränkt, Zweckentfremdung und Abriss verhindert werden.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "bsw",
@@ -1367,7 +1367,7 @@
       "justificationQuote": "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine starre Regulierung des Mietmarkts.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "cdu",
@@ -1377,7 +1377,7 @@
       "justificationQuote": "Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauung des Tempelhofer Feldes.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "cdu",
@@ -1401,7 +1401,7 @@
       "justificationQuote": "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "cdu",
@@ -1425,7 +1425,7 @@
       "justificationQuote": "Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes Wohneigentum, etwa durch Zuschüsse, Steuererleichterungen und Mietkaufmodelle.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "cdu",
@@ -1641,7 +1641,7 @@
       "justificationQuote": "Privaten Wohnungskonzernen muss der Zugriff auf Berliner Wohnungen verboten werden. Die Forderung nach entschädigungsloser Enteignung [wird erhoben].",
       "sourceLabel": "DKP Berlin – Wahlprogramm AGH 2026 (PDF)",
       "sourceUrl": "https://berlin.dkp.de/wp-content/uploads/sites/83/2026/04/Wahlprogramm.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -1679,7 +1679,7 @@
       "justificationQuote": "Privaten Wohnungskonzernen muss der Zugriff auf Berliner Wohnungen verboten werden.",
       "sourceLabel": "DKP Berlin – Wahlprogramm AGH 2026 (PDF)",
       "sourceUrl": "https://berlin.dkp.de/wp-content/uploads/sites/83/2026/04/Wahlprogramm.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -1717,7 +1717,7 @@
       "justificationQuote": "Unsere Stadt braucht Geld für Wohnungen, Schulen, Krankenhäuser und Kultur statt für Panzer, Drohnen und Musterungszentren.",
       "sourceLabel": "DKP Berlin – Leitartikel zur Kandidatur",
       "sourceUrl": "https://berlin.dkp.de/dkp-bei-der-abgeordnetenhauswahl/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -1786,7 +1786,7 @@
       "justificationQuote": "Geld für Wohnungen, Schulen, Krankenhäuser und Kultur statt für Panzer, Drohnen und Musterungszentren.",
       "sourceLabel": "DKP Berlin – Leitartikel zur Kandidatur",
       "sourceUrl": "https://berlin.dkp.de/dkp-bei-der-abgeordnetenhauswahl/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -1928,7 +1928,7 @@
       "justificationQuote": "Die FDP setzt auf den freien Wohnungsmarkt und lehnt Mietendeckel, Mietpreisbremse, Milieuschutz und Enteignungen ab.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "fdp",
@@ -1965,7 +1965,7 @@
       "justificationQuote": "Sozialpolitik soll über Wohngeld statt Quoten im Neubau erfolgen.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "fdp",
@@ -2195,7 +2195,7 @@
       "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "fdp",
@@ -2476,7 +2476,7 @@
       "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2771,7 +2771,7 @@
       "justificationQuote": "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten.",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2781,7 +2781,7 @@
       "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2798,7 +2798,7 @@
       "justificationQuote": "Deshalb müssen die Banken, Konzerne und Milliardenvermögen enteignet, unter demokratische Kontrolle gestellt und für das Wohl der Menschen eingesetzt werden.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026 (10.07.2026)",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -2871,7 +2871,7 @@
       "justificationQuote": "Die reichlich vorhandenen industriellen und technologischen Kapazitäten müssen genutzt werden, um Wohnungen, Krankenhäuser, Schulen und eine moderne öffentliche Infrastruktur zu schaffen.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -2891,7 +2891,7 @@
       "justificationQuote": "Die SGP kämpft für die Verteidigung jedes Arbeitsplatzes und gegen sämtliche Kürzungen bei Löhnen, Renten, Gesundheit, Bildung, Kultur und öffentlicher Infrastruktur.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -2953,7 +2953,7 @@
       "justificationQuote": "Die Überwachung wird ausgebaut, Polizei und Geheimdienste werden aufgerüstet und der gesamte Staatsapparat wird auf die Unterdrückung wachsender sozialer Opposition vorbereitet. [Dagegen richtet sich unser Kampf.]",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -2963,7 +2963,7 @@
       "justificationQuote": "Die Überwachung wird ausgebaut … [das kritisieren wir ausdrücklich].",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -2983,7 +2983,7 @@
       "justificationQuote": "Die SGP tritt für die prinzipielle Verteidigung aller Flüchtlinge und eingewanderten Arbeiter ein.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -3024,7 +3024,7 @@
       "justificationQuote": "Er streicht mehr als 600 Millionen Euro im öffentlichen Nahverkehr … [diese Kürzungspolitik bekämpfen wir].",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -3384,7 +3384,7 @@
       "justificationQuote": "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3880,7 +3880,7 @@
       "justificationQuote": "Ein verlässlicher ÖPNV bis in die Außenbezirke.",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin lebt",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",
@@ -3890,7 +3890,7 @@
       "justificationQuote": "Sichere Rad- und Gehwege und saubere Kieze.",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin lebt",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",
@@ -3914,7 +3914,7 @@
       "justificationQuote": "Mit der Genehmigungsfiktion gelten vollständige Anträge nach Fristablauf automatisch als genehmigt.",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",

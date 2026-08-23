@@ -5,7 +5,7 @@ positions:
       justificationQuote: "Die FDP setzt auf den freien Wohnungsmarkt und lehnt Mietendeckel, Mietpreisbremse, Milieuschutz und Enteignungen ab.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: -2, status: clear,
       justificationQuote: "Lehnt Mietendeckel ab; Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Genossenschaften und kleine Bauträger erfolgen.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
@@ -21,7 +21,7 @@ positions:
       justificationQuote: "Sozialpolitik soll über Wohngeld statt Quoten im Neubau erfolgen.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
@@ -61,5 +61,5 @@ positions:
       justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }

@@ -109,7 +109,13 @@ export const PositionSchema = z
     justificationQuote: z.string().min(10).max(400).optional(),
     sourceLabel: z.string().optional(),
     sourceUrl: z.string().url().optional(),
-    verification: z.enum(["verified", "pending"]).default("pending"),
+    /**
+     * verified  = menschlich gegen Original-PDF geprüft
+     * auto      = maschinell: Zitat-Fragmente wortgleich im Programmdokument
+     *             gefunden (semantische Stichprobe empfohlen)
+     * pending   = noch nicht geprüft
+     */
+    verification: z.enum(["verified", "auto", "pending"]).default("pending"),
   })
   .refine(
     (p) => (p.status === "clear" ? p.stance !== null : p.stance === null),

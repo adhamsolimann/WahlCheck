@@ -85,10 +85,10 @@ positions:
       justificationQuote: "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten.",
       sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: 1, status: clear,
       justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }

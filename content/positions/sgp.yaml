@@ -12,7 +12,7 @@ positions:
       eingesetzt werden.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026 (10.07.2026)"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: null, status: none,
       verification: pending }
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
@@ -36,7 +36,7 @@ positions:
       moderne öffentliche Infrastruktur zu schaffen.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - thesisId: staerkere-besteurung-hoher-einkommen
     stance: 1
     status: clear
@@ -56,7 +56,7 @@ positions:
       öffentlicher Infrastruktur.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
   # --- Arbeit & Soziales ---
   - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none,
@@ -90,7 +90,7 @@ positions:
       Kampf.]
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
     stance: -1
     status: clear
@@ -98,7 +98,7 @@ positions:
       Die Überwachung wird ausgebaut … [das kritisieren wir ausdrücklich].
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - thesisId: begrenzung-polizeilicher-befugnisse
     stance: 1
     status: clear
@@ -117,7 +117,7 @@ positions:
       eingewanderten Arbeiter ein.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none,
       verification: pending }
   - thesisId: ausbau-der-integrationsangebote
@@ -142,7 +142,7 @@ positions:
       [diese Kürzungspolitik bekämpfen wir].
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
   # --- Klima ---
   - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none, verification: pending }

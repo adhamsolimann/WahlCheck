@@ -5,7 +5,7 @@ positions:
       justificationQuote: "Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: -2, status: clear,
       justificationQuote: "Grundsätzliche Abkehr von starker Mietregulierung; Neubau durch weniger Vorgaben beschleunigen.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",

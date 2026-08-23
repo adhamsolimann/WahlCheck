@@ -38,6 +38,7 @@ const sortedParties = [...bundle.parties].sort(
 );
 
 let totalPending = 0;
+let totalAuto = 0;
 let totalVerified = 0;
 const sections: string[] = [];
 
@@ -46,24 +47,29 @@ for (const party of sortedParties) {
   const clear = positions.filter((p) => p.status !== "none");
   if (clear.length === 0 && !positions.some((p) => p.sourceLabel)) continue;
 
-  const pending = clear.filter((p) => p.verification !== "verified").length;
-  const verified = clear.length - pending;
+  const verified = clear.filter((p) => p.verification === "verified").length;
+  const auto = clear.filter((p) => p.verification === "auto").length;
+  const pending = clear.length - verified - auto;
   totalPending += pending;
+  totalAuto += auto;
   totalVerified += verified;
 
   const lines: string[] = [];
-  lines.push(`### ${party.shortName} — ${pending} offen / ${verified} erledigt`);
+  lines.push(
+    `### ${party.shortName} — ${pending} offen · ${auto} 🤖 maschinell · ${verified} ✅ menschlich`,
+  );
   lines.push("");
   lines.push(`Programm: ${party.programUrl ?? "**kein Link hinterlegt**"}`);
   lines.push("");
-  lines.push("| ✓ | These | Haltung | Zitat (Auszug) | Quelle | Notiz |");
-  lines.push("|--:|-------|--------:|----------------|--------|-------|");
+  lines.push("| Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |");
+  lines.push("|:--|-------|--------:|----------------|--------|-------|");
 
   for (const pos of clear.sort((a, b) => a.thesisId.localeCompare(b.thesisId))) {
-    const done = pos.verification === "verified";
+    const icon =
+      pos.verification === "verified" ? "✅" : pos.verification === "auto" ? "🤖" : "☐";
     const thesis = thesesById.get(pos.thesisId);
     lines.push(
-      `| ${done ? "✅" : "☐"} | ${cell(thesis?.text ?? pos.thesisId, 60)} | ${stanceLabel(pos)} | „${cell(pos.justificationQuote)}“ | ${cell(pos.sourceLabel ?? pos.sourceUrl, 40)} | |`,
+      `| ${icon} | ${cell(thesis?.text ?? pos.thesisId, 60)} | ${stanceLabel(pos)} | „${cell(pos.justificationQuote)}“ | ${cell(pos.sourceLabel ?? pos.sourceUrl, 40)} | |`,
     );
   }
 
@@ -90,9 +96,10 @@ for (const party of sortedParties) {
 }
 
 const tierNote = [
-  "**Freigabe-Regel (Freeze-Gate):** Alle Positionen der Tier-Stufen",
-  "`parliament` und `small` müssen `verification: verified` haben, bevor die",
-  "Faktencheck-Freeze ausgerufen wird. `contextual`-Parteien folgen best effort.",
+  "**Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen",
+  "`parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein.",
+  "`auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige",
+  "menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.",
 ].join(" ");
 
 const md = `# Faktencheck-Checkliste (T-132)
@@ -103,9 +110,9 @@ const md = `# Faktencheck-Checkliste (T-132)
 
 ## Gesamtstand
 
-| Tier | Offen | Verified |
-|------|------:|---------:|
-| gesamt | **${totalPending}** | ${totalVerified} |
+| Tier | Offen | 🤖 auto | ✅ verified |
+|------|------:|-------:|----------:|
+| gesamt | **${totalPending}** | ${totalAuto} | ${totalVerified} |
 
 ${tierNote}
 

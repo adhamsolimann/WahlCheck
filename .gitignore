@@ -12,3 +12,6 @@ coverage/
 # Playwright
 test-results/
 playwright-report/
+
+# Factcheck cache
+.factcheck-cache/

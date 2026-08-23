@@ -13,7 +13,7 @@ positions:
       erhoben].
     sourceLabel: "DKP Berlin – Wahlprogramm AGH 2026 (PDF)"
     sourceUrl: "https://berlin.dkp.de/wp-content/uploads/sites/83/2026/04/Wahlprogramm.pdf"
-    verification: pending
+    verification: "auto"
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: null, status: none,
       verification: pending }
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
@@ -27,7 +27,7 @@ positions:
       verboten werden.
     sourceLabel: "DKP Berlin – Wahlprogramm AGH 2026 (PDF)"
     sourceUrl: "https://berlin.dkp.de/wp-content/uploads/sites/83/2026/04/Wahlprogramm.pdf"
-    verification: pending
+    verification: "auto"
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none,
       verification: pending }
   - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none,
@@ -43,7 +43,7 @@ positions:
       Kultur statt für Panzer, Drohnen und Musterungszentren.
     sourceLabel: "DKP Berlin – Leitartikel zur Kandidatur"
     sourceUrl: "https://berlin.dkp.de/dkp-bei-der-abgeordnetenhauswahl/"
-    verification: pending
+    verification: "auto"
   - thesisId: staerkere-besteurung-hoher-einkommen
     stance: 1
     status: clear
@@ -71,7 +71,7 @@ positions:
       Drohnen und Musterungszentren.
     sourceLabel: "DKP Berlin – Leitartikel zur Kandidatur"
     sourceUrl: "https://berlin.dkp.de/dkp-bei-der-abgeordnetenhauswahl/"
-    verification: pending
+    verification: "auto"
   # --- Sicherheit ---
   - thesisId: mehr-polizeipersonal
     stance: -2

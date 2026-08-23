@@ -10,26 +10,26 @@ positions:
       justificationQuote: "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine starre Regulierung des Mietmarkts.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: randbebauung-tempelhofer-feld, stance: 2, status: clear,
       justificationQuote: "Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauung des Tempelhofer Feldes.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
   - { thesisId: privatisierungsverbot-in-der-verfassung, stance: -2, status: clear,
       justificationQuote: "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
   - { thesisId: foerderung-von-wohneigentum, stance: 1, status: clear,
       justificationQuote: "Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes Wohneigentum, etwa durch Zuschüsse, Steuererleichterungen und Mietkaufmodelle.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
   - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
   - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }

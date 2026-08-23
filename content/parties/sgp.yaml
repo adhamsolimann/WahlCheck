@@ -8,7 +8,10 @@ bezirke: []
 colorHex: "#C41E25"
 founded: 2017
 summary: >-
-  Trotzkistisch ausgerichtete Kleinpartei; fordert sozialistische Planwirtschaft,
-  Enteignung großer Konzerne und internationale Arbeiter*innen Solidarität.
-leadership: []
+  Trotzkistisch ausgerichtete Kleinpartei (deutsche Sektion des Internationalen
+  Komitees der Vierten Internationale); Berlinwahl-Kampagne unter dem Motto
+  „Sozialismus statt Krieg“ mit Fokus auf Enteignung von Banken und Konzernen,
+  gegen Aufrüstung und Sozialkürzungen.
+leadership: [] # TODO(T-102)
 profileComplete: false
+programUrl: https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html # Wahlerklärung; Grundsatzprogramm: gleichheit.de/program.html

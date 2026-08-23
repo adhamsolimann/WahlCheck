@@ -1,0 +1,162 @@
+# T-105-WAVE (SGP) — Positionen aus der Wahlerklärung „Sozialismus statt Krieg"
+# (10.07.2026, WSWS); verification pending bis T-132.
+partyId: sgp
+positions:
+  # --- Wohnen ---
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Deshalb müssen die Banken, Konzerne und Milliardenvermögen enteignet,
+      unter demokratische Kontrolle gestellt und für das Wohl der Menschen
+      eingesetzt werden.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026 (10.07.2026)"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: null, status: none,
+      verification: pending }
+  - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
+  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
+  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none,
+      verification: pending }
+  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none,
+      verification: pending }
+  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none,
+      verification: pending }
+  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
+  - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
+  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
+  # --- Haushalt & Finanzen ---
+  - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Die reichlich vorhandenen industriellen und technologischen Kapazitäten
+      müssen genutzt werden, um Wohnungen, Krankenhäuser, Schulen und eine
+      moderne öffentliche Infrastruktur zu schaffen.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - thesisId: staerkere-besteurung-hoher-einkommen
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      In den vergangenen 15 Jahren hat sich das Vermögen der 500 reichsten
+      Personen in Deutschland fast verdreifacht – auf 1,16 Billionen Euro. …
+      Tatsächlich kann sich die Gesellschaft die Milliardäre nicht mehr leisten.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - thesisId: personalabbau-in-der-verwaltung
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Die SGP kämpft für die Verteidigung jedes Arbeitsplatzes und gegen
+      sämtliche Kürzungen bei Löhnen, Renten, Gesundheit, Bildung, Kultur und
+      öffentlicher Infrastruktur.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
+  # --- Arbeit & Soziales ---
+  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none,
+      verification: pending }
+  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none,
+      verification: pending } # Wachsende Armut thematisiert — Hitzeschpezifisch TODO(T-132)
+  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none,
+      verification: pending }
+  # --- Bildung ---
+  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
+  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none,
+      verification: pending }
+  - thesisId: beschleunigte-schulsanierung
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Wachsende Armut, explodierende Mieten, zerfallende Schulen und
+      Krankenhäuser … [fordern die Umkehr der] bewussten Sparpolitik zugunsten
+      der Aufrüstung.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  # --- Sicherheit ---
+  - thesisId: mehr-polizeipersonal
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Die Überwachung wird ausgebaut, Polizei und Geheimdienste werden
+      aufgerüstet und der gesamte Staatsapparat wird auf die Unterdrückung
+      wachsender sozialer Opposition vorbereitet. [Dagegen richtet sich unser
+      Kampf.]
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
+    stance: -1
+    status: clear
+    justificationQuote: >-
+      Die Überwachung wird ausgebaut … [das kritisieren wir ausdrücklich].
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - thesisId: begrenzung-polizeilicher-befugnisse
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Gegen das Aufrüsten von Polizei und Geheimdiensten und die Vorbereitung
+      des Staatsapparates auf Unterdrückung sozialer Opposition.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  # --- Migration ---
+  - thesisId: erleichterte-abschiebungen
+    stance: -1
+    status: clear
+    justificationQuote: >-
+      Die SGP tritt für die prinzipielle Verteidigung aller Flüchtlinge und
+      eingewanderten Arbeiter ein.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none,
+      verification: pending }
+  - thesisId: ausbau-der-integrationsangebote
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      [Industrielle Kapazitäten] müssen genutzt werden, um … Flüchtlinge
+      menschenwürdig aufzunehmen, statt sie in Konzentrationslagern an den
+      EU-Außengrenzen einzusperren oder im Mittelmeer ertrinken zu lassen.
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  # --- Mobilität ---
+  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
+  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none,
+      verification: pending }
+  - thesisId: sozialticket-und-oepnv-ausbau
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Er streicht mehr als 600 Millionen Euro im öffentlichen Nahverkehr …
+      [diese Kürzungspolitik bekämpfen wir].
+    sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
+    sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    verification: pending
+  - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
+  # --- Klima ---
+  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none, verification: pending }
+  - { thesisId: netto-null-bei-neuversiegelung, stance: null, status: none, verification: pending }
+  # --- Verwaltung & Digital ---
+  - { thesisId: digitalisierung-der-bauaemter, stance: null, status: none, verification: pending }
+  - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none,
+      verification: pending }
+  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none,
+      verification: pending }
+  # --- Stadtgesellschaft ---
+  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: null, status: none,
+      verification: pending }
+  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none,
+      verification: pending }
+  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none,
+      verification: pending }

@@ -1,13 +1,15 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 import type { Party } from "@wahlen/schemas";
 
 /**
  * Vereinfachtes Parlaments-Halbrund ("Hemicycle"):
- * Sitzpunkte auf konzentrischen Bögen, Blöcke in Partei-Farben,
- * Hover hebt alle Sitze einer Partei hervor. Bewusst reduziert —
- * keine Überhang-/Fraktionslogik.
+ * Sitzpunkte auf konzentrischen Bögen, Blöcke in Partei-Farben.
+ *
+ * Hover-Prinzip: Pointer-Proximity auf dem SVG-Root — der nächstgelegene
+ * Sitzpunkt bestimmt die hervorgehobene Partei. Keine unsichtbaren
+ * Trigger-Zonen, kein Label unter dem Cursor (deshalb flackert nichts).
  */
 
 export interface HemicycleProps {
@@ -30,7 +32,6 @@ interface Seat {
   y: number;
 }
 
-/** Sitzanzahl je Reihe ∝ Radius (gleichmäßige Dichte), Summe exakt. */
 function seatsPerRow(total: number, rows: number): number[] {
   const radii = Array.from({ length: rows }, (_, i) =>
     R_INNER + ((R_OUTER - R_INNER) * i) / (rows - 1),
@@ -53,7 +54,6 @@ function seatsPerRow(total: number, rows: number): number[] {
 function buildSeats(total: number): Seat[] {
   const perRow = seatsPerRow(total, ROWS);
   const seats: Seat[] = [];
-  // innen → außen, jede Reihe links (180°) nach rechts (0°)
   for (let row = 0; row < ROWS; row++) {
     const r = R_INNER + ((R_OUTER - R_INNER) * row) / (ROWS - 1);
     const n = perRow[row];
@@ -69,15 +69,14 @@ function buildSeats(total: number): Seat[] {
 }
 
 export function Hemicycle({ allocation, partiesById, hovered, onHover }: HemicycleProps) {
+  const svgRef = useRef<SVGSVGElement>(null);
   const entries = useMemo(
     () => Object.entries(allocation).sort((a, b) => b[1] - a[1]),
     [allocation],
   );
   const total = entries.reduce((sum, [, n]) => sum + n, 0);
-
   const seats = useMemo(() => buildSeats(total), [total]);
 
-  // Sitzindex → partyId (kumulative Blöcke, größte Partei links)
   const seatParty = useMemo(() => {
     const map: string[] = [];
     let idx = 0;
@@ -87,14 +86,48 @@ export function Hemicycle({ allocation, partiesById, hovered, onHover }: Hemicyc
     return map;
   }, [entries]);
 
+  function handlePointer(e: React.PointerEvent<SVGSVGElement>) {
+    const el = svgRef.current;
+    if (!el) return;
+    const rect = el.getBoundingClientRect();
+    const sx = ((e.clientX - rect.left) / rect.width) * 120;
+    const sy = ((e.clientY - rect.top) / rect.height) * 62;
+
+    let bestIdx = -1;
+    let bestDistSq = Infinity;
+    const maxDistSq = (SEAT_R + 1.15) ** 2; // Toleranz um jeden Sitzpunkt
+    for (let i = 0; i < seats.length; i++) {
+      const dx = seats[i].x - sx;
+      const dy = seats[i].y - sy;
+      const d = dx * dx + dy * dy;
+      if (d < bestDistSq) {
+        bestDistSq = d;
+        bestIdx = i;
+      }
+    }
+    if (bestIdx >= 0 && bestDistSq <= maxDistSq) {
+      onHover(seatParty[bestIdx] ?? null);
+    } else {
+      onHover(null);
+    }
+  }
+
+  const hoveredEntry = entries.find(([id]) => id === hovered);
+  const hoveredCount = hoveredEntry?.[1] ?? 0;
+  const hoveredLabel = hovered ? (partiesById.get(hovered)?.shortName ?? hovered) : "";
+
   return (
     <svg
+      ref={svgRef}
       data-testid="hemicycle"
       viewBox="0 0 120 62"
       className="block w-full"
+      style={{ touchAction: "pan-y" }}
       role="img"
       aria-label={`Sitzverteilung im Modell: ${total} Sitze`}
-      onMouseLeave={() => onHover(null)}
+      onPointerMove={handlePointer}
+      onPointerDown={handlePointer}
+      onPointerLeave={() => onHover(null)}
     >
       {/* Mehrheitslinie */}
       <line
@@ -121,52 +154,34 @@ export function Hemicycle({ allocation, partiesById, hovered, onHover }: Hemicyc
             fill={party?.colorHex ?? "#a1a1aa"}
             opacity={dimmed ? 0.25 : 1}
             style={{ transition: "opacity .12s ease" }}
-          >
-            <title>
-              {`${party?.shortName ?? partyId}: ${
-                allocation[partyId]
-              } Sitze (${((allocation[partyId] / total) * 100).toFixed(1)} %)`}
-            </title>
-          </circle>
+          />
         );
       })}
 
-      {/* unsichtbare Hover-Zonen pro Partei (über deren Sitzblöcken) */}
-      {entries.map(([partyId, n]) => {
-        const startIdx = entries
-          .slice(0, entries.findIndex(([id]) => id === partyId))
-          .reduce((sum, [, m]) => sum + m, 0);
-        const midSeat = seats[Math.floor(startIdx + n / 2)];
-        if (!midSeat) return null;
-        const party = partiesById.get(partyId);
-        return (
-          <g key={`hover-${partyId}`}>
-            <circle
-              cx={midSeat.x}
-              cy={midSeat.y}
-              r={5.5}
-              fill="transparent"
-              onMouseEnter={() => onHover(partyId)}
-            />
-            <title>{`${party?.shortName ?? partyId}: ${n} Sitze`}</title>
-            {hovered === partyId && (
-              <text
-                x={Math.min(Math.max(midSeat.x, 16), 104)}
-                y={midSeat.y - 6}
-                fontSize={4.2}
-                fontWeight={700}
-                textAnchor="middle"
-                fill="#0f172a"
-                stroke="#ffffff"
-                strokeWidth={0.7}
-                style={{ paintOrder: "stroke" }}
-              >
-                {party?.shortName ?? partyId} · {n}
-              </text>
-            )}
-          </g>
-        );
-      })}
+      {/* Feste Info-Leiste oben — bewegt sich nicht unter dem Zeiger */}
+      {hovered && hoveredCount > 0 && (
+        <g pointerEvents="none">
+          <rect
+            x={CX - 21}
+            y={3.4}
+            width={42}
+            height={6.2}
+            rx={1.6}
+            fill="#0f172a"
+            opacity={0.92}
+          />
+          <text
+            x={CX}
+            y={7.6}
+            fontSize={3.9}
+            fontWeight={700}
+            textAnchor="middle"
+            fill="#ffffff"
+          >
+            {hoveredLabel} · {hoveredCount} Sitze
+          </text>
+        </g>
+      )}
     </svg>
   );
 }

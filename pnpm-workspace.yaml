@@ -2,10 +2,16 @@ packages:
   - "apps/*"
   - "packages/*"
 
+# Native-Build-Freigaben (pnpm ≥11 Format):
+# - esbuild BRAUCHT sein Postinstall (Platform-Binary für tsx/vitest)
+# - sharp wird bewusst nicht gebaut: statischer Export ohne Bildoptimierung
 allowBuilds:
-  esbuild: set this to true or false
-  sharp: set this to true or false
+  esbuild: true
+  sharp: false
 
+# Kompatibilität für pnpm ≤10 (Netlify/CI mit älterer Version)
 onlyBuiltDependencies:
   - esbuild
+
+ignoredBuiltDependencies:
   - sharp

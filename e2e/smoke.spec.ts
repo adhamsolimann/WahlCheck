@@ -171,6 +171,10 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     // Unter-Hürde-Parteien gekennzeichnet
     await expect(page.getByText(/unter 5 %/).first()).toBeVisible();
 
+    // Hemicycle: exakt die Modell-Sitzanzahl als Punkte (130)
+    const seatCircles = page.locator('[data-testid="hemicycle"] circle[fill]:not([fill="transparent"])');
+    await expect(seatCircles).toHaveCount(130);
+
     // 16 mögliche Koalitionen (Engine-Anchortest) + Regierungs-Beteiligungs-Chip
     const listItems = page.locator('section[aria-labelledby="coalitions-heading"] ul > li');
     await expect(listItems).toHaveCount(16);

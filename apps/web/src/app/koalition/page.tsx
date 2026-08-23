@@ -4,6 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import { feasibleCoalitions, sainteLague, type CoalitionOption } from "@wahlen/engine";
 import { Card, CardBody } from "@/components/ui/Card";
+import { Hemicycle } from "@/components/koalition/Hemicycle";
 import { electionPolls, partiesById } from "@/lib/content";
 import { useMatchResults } from "@/hooks/useMatchResults";
 
@@ -51,6 +52,7 @@ export default function KoalitionPage() {
   const { ready, answeredCount, percentByParty } = useMatchResults();
   const polls = electionPolls();
   const [sortMode, setSortMode] = useState<"seats-desc" | "seats-asc" | "fit">("seats-desc");
+  const [hoveredParty, setHoveredParty] = useState<string | null>(null);
 
   const { seats, belowThreshold, options } = useMemo(() => {
     const shares = Object.entries(polls.aggregate.trend)
@@ -110,6 +112,18 @@ export default function KoalitionPage() {
       <Card>
         <CardBody>
           <h2 className="mb-3 font-semibold">Aktuelle Lage</h2>
+          <div className="mb-4">
+            <Hemicycle
+              allocation={seats}
+              partiesById={partiesById}
+              hovered={hoveredParty}
+              onHover={setHoveredParty}
+            />
+            <p className="mt-1 text-center text-[11px] text-zinc-400">
+              {polls.parliamentSeats} Sitze · {polls.majoritySeats} für die Mehrheit ·
+              zum Hover: Partei hervorheben
+            </p>
+          </div>
           <div className="space-y-2">
             {Object.entries(polls.aggregate.trend)
               .sort(([, a], [, b]) => b - a)
@@ -117,7 +131,14 @@ export default function KoalitionPage() {
                 const party = partiesById.get(partyId);
                 const inParliament = partyId in seats;
                 return (
-                  <div key={partyId} className="flex items-center gap-3">
+                  <div
+                    key={partyId}
+                    onMouseEnter={() => inParliament && setHoveredParty(partyId)}
+                    onMouseLeave={() => setHoveredParty(null)}
+                    className={`flex items-center gap-3 rounded-md px-1 py-0.5 transition-colors ${
+                      hoveredParty && hoveredParty !== partyId ? "opacity-40" : ""
+                    }`}
+                  >
                     <span
                       aria-hidden
                       className="h-4 w-2 shrink-0 rounded-sm"

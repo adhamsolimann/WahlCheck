@@ -20,7 +20,7 @@ declare global {
  */
 export function KofiWidget() {
   const handleLoad = () => {
-    window.kofiWidgetOverlay?.draw("adhammsoliman", {
+    window.kofiWidgetOverlay?.draw("adhamsoliman", {
       type: "floating-chat",
       "floating-chat.donateButton.text": "Support Us",
       "floating-chat.donateButton.background-color": "#00b9fe",

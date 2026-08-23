@@ -159,7 +159,7 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     await page.goto("/spenden/");
     await expect(page.getByRole("link", { name: /Zur Spenden-Seite/ })).toHaveAttribute(
       "href",
-      "https://ko-fi.com/adhammsoliman",
+      "https://ko-fi.com/adhamsoliman",
     );
   });
 });

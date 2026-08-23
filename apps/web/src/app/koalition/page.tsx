@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { Fragment, useMemo } from "react";
 import Link from "next/link";
 import { feasibleCoalitions, sainteLague, type CoalitionOption } from "@wahlen/engine";
 import { Card, CardBody } from "@/components/ui/Card";
@@ -153,28 +153,35 @@ export default function KoalitionPage() {
         <ul className="grid gap-2 sm:grid-cols-2">
           {options.map((option: CoalitionOption) => (
             <li key={option.members.join("+")}>
-              <Card className="flex items-center gap-3 py-3">
-                <div className="flex flex-wrap items-center gap-1.5">
+              <Card className="flex items-center justify-between gap-x-3 gap-y-1 flex-wrap py-3">
+                {/* Flache Struktur: Trenner + Chip sind ein unverrennbares
+                    Inline-Paar (whitespace-nowrap), Umbruch nur zwischen
+                    Einheiten — keine verwaisten „+“ mehr. */}
+                <div className="flex min-w-0 flex-wrap items-center gap-x-1.5 gap-y-1">
                   {option.members.map((id, i) => (
-                    <span key={id} className="flex items-center gap-1.5">
-                      {i > 0 && <span className="text-xs text-zinc-400">+</span>}
+                    <Fragment key={id}>
+                      {i > 0 && (
+                        <span aria-hidden className="text-xs text-zinc-400">
+                          +
+                        </span>
+                      )}
                       <span
-                        className="rounded px-1.5 py-0.5 text-xs font-semibold"
+                        className="whitespace-nowrap rounded px-1.5 py-0.5 text-xs font-semibold leading-relaxed"
                         style={{ color: partiesById.get(id)?.colorHex }}
                       >
                         {partiesById.get(id)?.shortName ?? id}
                       </span>
-                    </span>
+                    </Fragment>
                   ))}
                 </div>
-                <span className="ml-auto flex items-center gap-2 whitespace-nowrap">
+                <div className="ml-auto flex shrink-0 items-center gap-2">
                   {option.members.includes("cdu") && option.members.includes("spd") && (
-                    <span className="rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-500 dark:bg-zinc-800">
-                      mit beiden Regierungs­parteien
+                    <span className="whitespace-nowrap rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-500 dark:bg-zinc-800">
+                      mit beiden Regierungsparteien
                     </span>
                   )}
                   <strong className="tabular-nums">{option.totalSeats}</strong>
-                </span>
+                </div>
               </Card>
             </li>
           ))}

@@ -1,0 +1,65 @@
+# Öffentliches Änderungslog — redaktionell gepflegt, schema-validiert.
+# Neueste Einträge oben. Kategorien: korrektur | inhalt | funktion | organisation
+- date: "2026-08-24"
+  category: korrektur
+  title: Zuordnung des Regierenden Bürgermeisters korrigiert
+  details: >-
+    Kai Wegner (CDU) war versehentlich der SPD zugeordnet. Das CDU-Profil ist
+    berichtigt; zusätzlich dokumentieren wir den Rückzug Wegners als
+    Spitzenkandidat und die Bürgermeisterkandidatur von Stefan Evers.
+  ref: "a5a5461"
+- date: "2026-08-24"
+  category: inhalt
+  title: Spitzenkandidat:innen der fünf Parlamentsparteien ergänzt
+  details: >-
+    Elif Eralp (Linke), Stefan Evers (CDU), Kristin Brinker (AfD), Werner Graf
+    (Grüne) und Steffen Krach (SPD) — Quelle: Forsa-Umfrage-Berichterstattung
+    (t-online, 22.08.2026).
+- date: "2026-08-24"
+  category: funktion
+  title: Automatisierte Zitatenvorprüfung eingeführt
+  details: >-
+    Alle Belegzitate werden maschinell gegen die verlinkten Originalquellen
+    geprüft (Wortgleichheit nach Textnormalisierung). 27 Positionen erreichten
+    damit den Status „maschinell bestätigt“; 54 folgen in manueller Nacharbeit,
+    zwei Quellen blockieren automatisierte Abrufe (SPD-, Linke-PDF).
+- date: "2026-08-23"
+  category: funktion
+  title: Koalitionsrechner mit Sitzprojektion live
+  details: >-
+    Modellrechnung auf Basis des gewichteten Wahltrends (Sainte-Laguë, 130
+    Sitze): alle 16 rechnerisch möglichen Mehrheiten sowie die persönliche
+    Übereinstimmung jeder Option mit den eigenen Antworten.
+- date: "2026-08-23"
+  category: funktion
+  title: Politische Landkarte und Ergebnis-Bilder
+  details: >-
+    Neue Auswertungs-Ansichten: 2D-Landkarte (wirtschaftlich × sozio-kulturell,
+    vollständig aus unseren Positionsdaten berechnet) und herunterladbares
+    Ergebnis-Bild — generiert im Browser, ohne Upload.
+- date: "2026-08-23"
+  category: organisation
+  title: Spendenmöglichkeit über Ko-Fi aktiviert
+  details: >-
+    Einmalig oder monatlich unterstützen — Verarbeitung durch Ko-Fi (eigene
+    Datenschutzhinweise); wir erhalten keine Adress- oder Kontodaten.
+- date: "2026-08-23"
+  category: inhalt
+  title: Positionen von Volt, Tierschutzpartei, DKP und SGP ergänzt
+  details: >-
+    Insgesamt 80 klare Belegstellen über 17 Parteien. Kleinparteien ohne
+    veröffentlichtes Programm bleiben ehrlich auf „keine Angabe“ statt mit
+    erfundenen Positionen zu glänzen.
+- date: "2026-08-22"
+  category: funktion
+  title: Matching-Engine veröffentlicht
+  details: >-
+    Kernstück des Angebots: differenzierte Zustimmung (5 Stufen), persönliche
+    Wichtigkeit 1–5×, ehrliches „Keine Angabe“-Handling und Konfidenzbänder —
+    komplett lokal im Browser berechnet.
+- date: "2026-08-22"
+  category: inhalt
+  title: "Startinhalt: 38 Thesen zu 10 Berliner Themen, 17 Parteien"
+  details: >-
+    Thesenauswahl nach Wählersalienz (Wohnen schwerpunktmäßig), jede These mit
+    Begründung und Quellen; Differenzierungskriterium maschinell überwacht.

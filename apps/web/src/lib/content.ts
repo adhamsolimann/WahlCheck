@@ -1,5 +1,5 @@
 import raw from "@/generated/content.json";
-import type { ElectionPolls, Party, Position, Thesis } from "@wahlen/schemas";
+import type { ChangelogEntry, ElectionPolls, Party, Position, Thesis } from "@wahlen/schemas";
 
 /**
  * Vom Build-Skript (scripts/gen-content.mts) erzeugtes, schema-validiertes
@@ -12,11 +12,15 @@ export interface ContentBundle {
   theses: Thesis[];
   positions: Array<Position & { partyId: string }>;
   polls: ElectionPolls[];
+  changelog: ChangelogEntry[];
 }
 
 export const content = raw as unknown as ContentBundle;
 
 export const partiesById = new Map(content.parties.map((p) => [p.id, p]));
+
+/** Öffentliches Änderungslog — neueste Einträge zuerst (Build sortiert). */
+export const changelog = content.changelog;
 
 /** Wahl-Trend-Snapshot dieser Edition (genau einer pro Wahl). */
 export function electionPolls(): ElectionPolls {

@@ -44,8 +44,11 @@ export default function StatutPage() {
         </li>
         <li>
           <strong>Korrekturen.</strong> Berechtigte Korrekturmeldungen werden
-          zeitnah bearbeitet; die Korrektur selbst bleibt mit Datum im
-          Änderungslog sichtbar.
+          zeitnah bearbeitet; die Korrektur selbst bleibt mit Datum im{" "}
+          <a href="/aenderungen" className="underline">
+            öffentlichen Änderungslog
+          </a>{" "}
+          sichtbar.
         </li>
       </ol>
     </main>

@@ -10,7 +10,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 // Relativer TS-Import (nicht Paketname): das Skript liegt außerhalb der
 // Workspace-Packages und hat keinen eigenen node_modules-Link.
-import { loadContent, loadPolls } from "../packages/schemas/src/node.ts";
+import { loadChangelog, loadContent, loadPolls } from "../packages/schemas/src/node.ts";
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const contentRoot = join(repoRoot, "content");
@@ -27,13 +27,15 @@ const flatPositions = [...bundle.positions.entries()].flatMap(([partyId, list]) 
   list.map((position) => ({ partyId, ...position })),
 );
 
-// Stabiles Feld-Layout für den Client
+// Stabiles Feld-Layout für den Client (Änderungslog: neueste zuerst)
+const changelog = loadChangelog(contentRoot).sort((a, b) => b.date.localeCompare(a.date));
 const out = {
   generatedAt: new Date().toISOString(),
   parties: bundle.parties,
   theses: bundle.theses,
   positions: flatPositions,
   polls,
+  changelog,
 };
 
 mkdirSync(dirname(outFile), { recursive: true });

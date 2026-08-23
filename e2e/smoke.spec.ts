@@ -70,9 +70,19 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     await expect(page.getByText(/20\. September 2026/)).toBeVisible();
     await expect(page.getByRole("link", { name: "Matching starten" })).toBeVisible();
     // Footer-Navigation vollständig
-    for (const label of ["Koalitionen", "Methodik", "Datenschutz", "Impressum"]) {
+    for (const label of ["Koalitionen", "Methodik", "Änderungslog", "Datenschutz", "Impressum"]) {
       await expect(page.locator("footer").getByText(label)).toBeVisible();
     }
+  });
+
+  test("Änderungslog: Einträge mit Kategorien sichtbar", async ({ page }) => {
+    await page.goto("/aenderungen/");
+    await expect(page.getByRole("heading", { name: "Änderungslog" })).toBeVisible();
+    // Seed-Einträge vorhanden
+    await expect(page.getByText(/Zuordnung des Regierenden Bürgermeisters korrigiert/)).toBeVisible();
+    await expect(page.getByText(/Matching-Engine veröffentlicht/)).toBeVisible();
+    // Kategorie-Badges gerendert
+    await expect(page.getByText("Korrektur", { exact: true }).first()).toBeVisible();
   });
 
   test("Quiz-Vollzyklus: Onboarding, Antworten, letzte Frage ohne Weiter, Auswertung", async ({

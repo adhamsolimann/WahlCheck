@@ -154,8 +154,11 @@ Gewicht: deine Wichtigkeit 1–5× (statt fixer Doppelgewichtung)
       <section className="space-y-3">
         <h2 className="text-xl font-semibold">6. Fehler gefunden?</h2>
         <p className="text-sm text-zinc-700 dark:text-zinc-300">
-          Korrekturen sind willkommen und werden transparent im öffentlichen
-          Änderungslog dokumentiert:{" "}
+          Korrekturen sind willkommen und werden transparent im{" "}
+          <a href="/aenderungen" className="underline">
+            öffentlichen Änderungslog
+          </a>{" "}
+          dokumentiert. Meldungen bevorzugt über{" "}
           <a
             className="underline"
             href={CORRECTION_URL}

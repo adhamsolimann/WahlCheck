@@ -5,8 +5,20 @@
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
-import type { ElectionPolls, Party, Position, Thesis } from "./index.js";
-import { ElectionPollsSchema, PartySchema, PositionsFileSchema, ThesisSchema } from "./index.js";
+import type {
+  ChangelogEntry,
+  ElectionPolls,
+  Party,
+  Position,
+  Thesis,
+} from "./index.js";
+import {
+  ChangelogFileSchema,
+  ElectionPollsSchema,
+  PartySchema,
+  PositionsFileSchema,
+  ThesisSchema,
+} from "./index.js";
 
 interface ParseIssue {
   path: ReadonlyArray<string | number | symbol>;
@@ -57,7 +69,8 @@ function loadYamlFiles<T>(dir: string, schema: ParserLike<T>, kind: string): T[]
     if (result.success) {
       out.push(result.data);
     } else {
-      problems.push(...formatIssues(entry, result.error.issues));
+      const msg = formatIssues(entry, result.error.issues);
+      problems.push(msg);
     }
   }
 
@@ -86,6 +99,15 @@ export function loadPositions(contentRoot: string): Map<string, Position[]> {
 
 export function loadPolls(contentRoot: string): ElectionPolls[] {
   return loadYamlFiles(join(contentRoot, "polls"), ElectionPollsSchema, "polls");
+}
+
+export function loadChangelog(contentRoot: string): ChangelogEntry[] {
+  const files = loadYamlFiles(
+    join(contentRoot, "changelog"),
+    ChangelogFileSchema,
+    "changelog",
+  );
+  return files.flat();
 }
 
 export interface ContentBundle {

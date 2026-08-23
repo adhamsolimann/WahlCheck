@@ -182,3 +182,28 @@ export const ElectionPollsSchema = z.strictObject({
   aggregate: PollAggregateSchema,
 });
 export type ElectionPolls = z.infer<typeof ElectionPollsSchema>;
+
+/* ------------------------------------------------------------------ */
+/* Änderungslog (Transparenz)                                          */
+/* ------------------------------------------------------------------ */
+
+export const CHANGELOG_CATEGORIES = [
+  "korrektur",
+  "inhalt",
+  "funktion",
+  "organisation",
+] as const;
+export type ChangelogCategory = (typeof CHANGELOG_CATEGORIES)[number];
+
+export const ChangelogEntrySchema = z.strictObject({
+  /** ISO-Datum yyyy-mm-dd */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  category: z.enum(CHANGELOG_CATEGORIES),
+  title: z.string().min(8),
+  details: z.string().optional(),
+  /** Optionaler Bezug (Commit-Hash, Issue-Nummer …) */
+  ref: z.string().optional(),
+});
+export type ChangelogEntry = z.infer<typeof ChangelogEntrySchema>;
+
+export const ChangelogFileSchema = z.array(ChangelogEntrySchema).min(1);

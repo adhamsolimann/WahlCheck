@@ -22,6 +22,7 @@ export default function RootLayout({
             <a href="/quiz/" className="hover:underline">Matching</a>
             <a href="/koalition/" className="hover:underline">Koalitionen</a>
             <a href="/methodik/" className="hover:underline">Methodik</a>
+            <a href="/aenderungen/" className="hover:underline">Änderungslog</a>
             <a href="/statut/" className="hover:underline">Redaktionsstatut</a>
             <a href="/datenschutz/" className="hover:underline">Datenschutz</a>
             <a href="/impressum/" className="hover:underline">Impressum</a>

@@ -1,0 +1,15 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: linke
+name: Die Linke
+shortName: Die Linke
+tier: parliament
+listType: bezirksliste
+bezirke: [] # berlinweit mit Bezirkslisten — TODO(T-102)
+colorHex: "#CC0000"
+founded: 2007
+summary: >-
+  Demokratisch-sozialistische Partei; in Umfragen zuletzt stärkste Kraft,
+  Schwerpunkte Mietenpolitik, Umverteilung und Begrenzung polizeilicher Befugnisse.
+leadership: [] # TODO(T-102)
+profileComplete: false
+programUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf

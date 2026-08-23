@@ -1,0 +1,15 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: heimat
+name: Die Heimat
+shortName: Heimat
+tier: contextual
+listType: bezirksliste
+bezirke: [] # TODO(T-102/T-103): zugelassene Bezirke von berlin.de verifizieren
+colorHex: "#3E5622"
+founded: 1964 # als NPD; Umbenennung in "Die Heimat" 2023 — TODO(T-132) redaktionell prüfen
+summary: >-
+  Rechtsextreme Kleinpartei, 2023 aus der NPD hervorgegangen; wird vom
+  Verfassungsschutz als rechtsextremistisch eingestuft und tritt nur in
+  einzelnen Bezirken an.
+leadership: []
+profileComplete: false

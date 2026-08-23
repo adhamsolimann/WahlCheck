@@ -1,0 +1,14 @@
+# PROVISIONAL colorHex — verify official brand in T-102 (DKP nutzt traditionell Rot)
+id: dkp
+name: Deutsche Kommunistische Partei
+shortName: DKP
+tier: contextual
+listType: landesliste
+bezirke: []
+colorHex: "#DD0000"
+founded: 1968
+summary: >-
+  Kommunistische Kleinpartei; fordert Vergesellschaftung von Wohnungswirtschaft
+  und Schlüsselindustrien sowie deutliche Umverteilung.
+leadership: []
+profileComplete: false

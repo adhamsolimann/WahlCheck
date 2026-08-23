@@ -1,0 +1,15 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: bsw
+name: Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit
+shortName: BSW
+tier: small
+listType: landesliste
+bezirke: []
+colorHex: "#B8232F"
+founded: 2024
+summary: >-
+  2024 gegründete Partei um Sahra Wagenknecht; verbindet wirtschaftlich linke
+  Positionen (Mietendeckel, Vergesellschaftung) mit konservativer Migrationspolitik.
+  In Berlin-Umfragen aktuell unter der Fünf-Prozent-Hürde.
+leadership: [] # TODO(T-102)
+profileComplete: false

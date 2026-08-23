@@ -1,0 +1,15 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: volt
+name: Volt Deutschland
+shortName: Volt
+tier: small
+listType: landesliste
+bezirke: []
+colorHex: "#502379"
+founded: 2018
+summary: >-
+  Paneuropäische Partei; Schwerpunkte EU-Reform, evidence-based Policymaking,
+  Digitalisierung und kommunale Modernisierung. In Berlin seit 2021 vertreten
+  (Bezirksverordnete).
+leadership: [] # TODO(T-102)
+profileComplete: false

@@ -1,0 +1,39 @@
+# SEED — verification pending, siehe content/positions/spd.yaml Header
+partyId: fdp
+positions:
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Die FDP setzt auf den freien Wohnungsmarkt und lehnt Mietendeckel,
+      Mietpreisbremse, Milieuschutz und Enteignungen ab.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Lehnt Mietendeckel ab; Wohnungsbau soll vor allem durch private Bauherren,
+      Baugruppen, Genossenschaften und kleine Bauträger erfolgen.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: randbebauung-tempelhofer-feld
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Forderung nach Nachverdichtung, Hochhäusern, Dachaufstockungen und der
+      Umwandlung von Büro- in Wohnflächen, einschließlich einer Randbebauung des
+      Tempelhofer Feldes.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: grundsteuer-c-baureife-grundstuecke
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: mehr-polizeipersonal
+    stance: null
+    status: none
+    verification: pending

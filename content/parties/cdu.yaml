@@ -1,0 +1,14 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: cdu
+name: Christlich Demokratische Union Deutschlands
+shortName: CDU
+tier: parliament
+listType: bezirksliste
+bezirke: [] # berlinweit mit Bezirkslisten — TODO(T-102)
+colorHex: "#E96018"
+founded: 1945
+summary: >-
+  Christlich-demokratische Volkspartei; stärkste Kraft im amtierenden Senat,
+  Schwerpunkte innere Sicherheit (größter Programmblock), Wirtschaft und Verwaltung.
+leadership: [] # TODO(T-102)
+profileComplete: false

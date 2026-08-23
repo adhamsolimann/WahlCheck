@@ -1,0 +1,15 @@
+id: mietendeckel-landeseigene-wohnungsunternehmen
+topicId: wohnen
+text: >-
+  Für die landeseigenen Wohnungsunternehmen soll ein Mietendeckel eingeführt
+  werden.
+rationale: >-
+  Kerndifferenz im salienstärksten Thema Wohnen; landeseigene Unternehmen
+  verwalten rund 400.000 Wohnungen, Mieterhöhungen dort sind zentraler
+  Wahlkampfpunkt.
+quickMode: true
+sources:
+  - label: rbb24 – Das planen die Berliner Parteien in der Wohnungspolitik (08/2026)
+    url: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  - label: Die Linke Berlin – Wahlprogramm 2026 (PDF)
+    url: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf

@@ -1,0 +1,34 @@
+# SEED — verification pending, siehe content/positions/spd.yaml Header
+partyId: linke
+positions:
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Die Partei fordert als Folge des Volksentscheids „Deutsche Wohnen & Co.
+      Enteignen" ein Vergesellschaftungsgesetz.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage
+      eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen
+      Wohnungsunternehmen (LWU) einführen.
+    sourceLabel: Die Linke Berlin – Wahlprogramm 2026 (PDF)
+    sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+    verification: pending
+  - thesisId: randbebauung-tempelhofer-feld
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: grundsteuer-c-baureife-grundstuecke
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: mehr-polizeipersonal
+    stance: null
+    status: none # Linke thematisiert Sicherheit primär über Begrenzung polizeilicher Befugnisse — Personalfrage nicht eindeutig; TODO(T-104)
+    verification: pending

@@ -1,0 +1,14 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: pdf
+name: Partei des Fortschritts
+shortName: PdF
+tier: small
+listType: landesliste
+bezirke: []
+colorHex: "#2AA8A0"
+founded: 2021
+summary: >-
+  Reformorientierte Kleinpartei mit Fokus auf Digitalisierung der Verwaltung,
+  Bildung und evidenzbasierte Politik. # TODO(T-103): Programm verifizieren
+leadership: []
+profileComplete: false

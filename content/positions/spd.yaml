@@ -1,0 +1,42 @@
+# SEED — Quotes stammen aus Sekundärquellen (rbb24/tagesschau), verification: pending.
+# T-104/T-132: gegen offizielles Wahlprogramm-PDF verifizieren und Zitat ersetzen.
+partyId: spd
+positions:
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: null
+    status: neutral
+    sourceLabel: rbb24 Wohnungs-Check – „vermeidet … eine klare Antwort“
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit
+      erhalten, die Mieten zu deckeln; rechtssicherer Mietendeckel über
+      Länderöffnungsklausel oder Art. 15 GG.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: randbebauung-tempelhofer-feld
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: grundsteuer-c-baureife-grundstuecke
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke
+      sowie Baugebote gegen Spekulation.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026); SPD-Wahlprogramm Kapitel Wohnen
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: mehr-polizeipersonal
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe
+      Polizei und Feuerwehr".
+    sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
+    sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
+    verification: pending

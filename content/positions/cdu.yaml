@@ -1,0 +1,43 @@
+# SEED — verification pending, siehe content/positions/spd.yaml Header
+partyId: cdu
+positions:
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab
+      und setzt stattdessen auf mehr Neubau und Rechtsdurchsetzung.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Ein dauerhaftes Privatisierungsverbot lehnt die CDU ab, ebenso wie eine
+      starre Regulierung des Mietmarkts.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: randbebauung-tempelhofer-feld
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch
+      die Randbebauung des Tempelhofer Feldes.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: grundsteuer-c-baureife-grundstuecke
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: mehr-polizeipersonal
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Sicherheit steht an die Spitze des Wahlprogramms: 18 Prozent des Texts
+      drehen sich darum – mehr als bei jeder anderen Partei außer der AfD.
+    sourceLabel: Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)
+    sourceUrl: https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/
+    verification: pending

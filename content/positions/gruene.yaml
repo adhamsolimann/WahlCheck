@@ -1,0 +1,33 @@
+# SEED — verification pending, siehe content/positions/spd.yaml Header
+partyId: gruene
+positions:
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen",
+      also die Vergesellschaftung großer Wohnungskonzerne.
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Auf Bundesebene setzen sich die Grünen für Mietendeckel-Optionen ein;
+      strenge Vorgaben an große renditeorientierte Vermieter (Bezahlbare-Mieten-Gesetz).
+    sourceLabel: rbb24 Wohnungs-Check (08/2026)
+    sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+    verification: pending
+  - thesisId: randbebauung-tempelhofer-feld
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: grundsteuer-c-baureife-grundstuecke
+    stance: null
+    status: none
+    verification: pending
+  - thesisId: mehr-polizeipersonal
+    stance: null
+    status: none
+    verification: pending

@@ -1,0 +1,14 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: fdp
+name: Freie Demokratische Partei
+shortName: FDP
+tier: small
+listType: landesliste
+bezirke: []
+colorHex: "#FFED00"
+founded: 1948
+summary: >-
+  Liberale Partei; tritt 2026 aus einem Absturz heraus an und bewirbt sich um
+  den Wiedereinzug ins Abgeordnetenhaus (Umfragen aktuell unter 5 %).
+leadership: [] # TODO(T-102)
+profileComplete: false

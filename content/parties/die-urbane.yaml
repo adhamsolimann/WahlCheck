@@ -1,0 +1,15 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: die-urbane
+name: Die Urbane. Eine HipHop Partei
+shortName: Die Urbane.
+tier: small
+listType: landesliste
+bezirke: []
+colorHex: "#F2A900"
+founded: 2021
+summary: >-
+  Kleinpartei aus der Berliner HipHop- und urbanen Kultur-Szene; Schwerpunkte
+  sind u. a. bezahlbarer Wohnraum, Clubkultur und gesellschaftliche Teilhabe.
+  # TODO(T-103): Programm verifizieren
+leadership: []
+profileComplete: false

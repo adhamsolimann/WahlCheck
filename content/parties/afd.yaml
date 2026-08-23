@@ -1,0 +1,16 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: afd
+name: Alternative für Deutschland
+shortName: AfD
+tier: parliament
+listType: landesliste
+bezirke: []
+colorHex: "#009EE3"
+founded: 2013
+summary: >-
+  Rechtspopulistische Partei mit Schwerpunkten Migrationskritik und innere
+  Sicherheit; lehnt Mietregulierung und Vergesellschaftung ab. Das Landesamt für
+  Verfassungsschutz Berlin behandelt die AfD als Verdachtsfall rechtsextremistischer
+  Bestrebungen. # TODO(T-132): Klassifizierungsstand rechtlich prüfen lassen
+leadership: [] # TODO(T-102)
+profileComplete: false

@@ -1,0 +1,14 @@
+# PROVISIONAL colorHex — verify official brand in T-102
+id: bergpartei
+name: bergpartei, die überpartei
+shortName: B*
+tier: contextual
+listType: bezirksliste
+bezirke: [] # TODO(T-102/T-103): zugelassene Bezirke von berlin.de verifizieren
+colorHex: "#E5007D"
+summary: >-
+  Kunst- und Aktionspartei („B*"), die mit performative-politischen Aktionen auf
+  Themen wie Mieten, Überwachung und Stadtentwicklung aufmerksam macht; tritt nur
+  in einzelnen Bezirken an.
+leadership: []
+profileComplete: false

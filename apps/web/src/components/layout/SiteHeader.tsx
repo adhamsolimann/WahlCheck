@@ -19,7 +19,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-zinc-200 bg-white/90 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/90">
-      <div className="mx-auto flex max-w-5xl items-center gap-x-6 gap-y-2 overflow-x-auto px-4 py-3 sm:px-6">
+      <div className="mx-auto grid max-w-5xl grid-cols-[auto_1fr_auto] items-center gap-x-4 px-4 py-3 sm:px-6">
         <Link
           href="/"
           className="shrink-0 text-lg font-bold tracking-tight"
@@ -29,7 +29,11 @@ export function SiteHeader() {
           <span className="text-brand-600 dark:text-brand-400">Check</span>
         </Link>
 
-        <nav aria-label="Hauptnavigation" className="flex items-center gap-x-1">
+        {/* mittig zentrierte Navigation */}
+        <nav
+          aria-label="Hauptnavigation"
+          className="flex min-w-0 items-center justify-center gap-x-1 overflow-x-auto"
+        >
           {NAV.map(({ href, label }) => {
             const active = isActive(href);
             return (
@@ -47,17 +51,18 @@ export function SiteHeader() {
               </Link>
             );
           })}
-          <Link
-            href="/spenden/"
-            className={`ml-2 whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-semibold transition-colors ${
-              isActive("/spenden")
-                ? "bg-accent-600 text-white"
-                : "bg-accent-500 text-white hover:bg-accent-600"
-            }`}
-          >
-            Unterstützen ♥
-          </Link>
         </nav>
+
+        <Link
+          href="/spenden/"
+          className={`shrink-0 whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-semibold transition-colors ${
+            isActive("/spenden")
+              ? "bg-accent-600 text-white"
+              : "bg-accent-500 text-white hover:bg-accent-600"
+          }`}
+        >
+          Unterstützen ♥
+        </Link>
       </div>
     </header>
   );

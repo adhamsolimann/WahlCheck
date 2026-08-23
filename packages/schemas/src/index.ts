@@ -137,3 +137,42 @@ export const UserAnswerSchema = z.strictObject({
   weight: z.number().int().min(WEIGHT_MIN).max(WEIGHT_MAX).default(WEIGHT_MIN),
 });
 export type UserAnswer = z.infer<typeof UserAnswerSchema>;
+
+/* ------------------------------------------------------------------ */
+/* Umfragen (Wahltrend-Snapshot)                                       */
+/* ------------------------------------------------------------------ */
+
+const partyKeySchema = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "party-id als key erwartet");
+
+export const PollEntrySchema = z.strictObject({
+  institute: z.string().min(2),
+  /** ISO-Datum yyyy-mm-dd (Feldende/-stand) */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  sampleSize: z.number().int().positive().optional(),
+  /** Prozentwerte je Partei; „Sonstige" unter dem key "sonstige" */
+  values: z.record(partyKeySchema, z.number().min(0).max(100)),
+  sourceUrl: z.string().url(),
+});
+export type PollEntry = z.infer<typeof PollEntrySchema>;
+
+export const PollAggregateSchema = z.strictObject({
+  /** ISO-Datum der letzten Aktualisierung des gewichteten Trends */
+  updatedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  methodNote: z.string().min(10),
+  /** Gewichtetes Trend-Mittel inkl. Parteien unter der Hürde */
+  trend: z.record(partyKeySchema, z.number().min(0).max(100)),
+});
+export type PollAggregate = z.infer<typeof PollAggregateSchema>;
+
+export const ElectionPollsSchema = z.strictObject({
+  electionId: idSchema,
+  electionDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Mindestparlamentsgröße (Berlin: Überhang/Pauschsitze können erhöhen) */
+  parliamentSeats: z.number().int().positive(),
+  majoritySeats: z.number().int().positive(),
+  thresholdPercent: z.number().min(0).max(50),
+  thresholdNote: z.string().min(10),
+  polls: z.array(PollEntrySchema).min(1),
+  aggregate: PollAggregateSchema,
+});
+export type ElectionPolls = z.infer<typeof ElectionPollsSchema>;

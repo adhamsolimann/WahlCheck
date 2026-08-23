@@ -22,6 +22,8 @@ export interface ThesisCardProps {
 /**
  * Eine These pro Karte. Bedienbar per Touch, Maus und Tastatur
  * (1–5 = Skala, S = überspringen, ←/→ = Navigation).
+ * Auf der letzten Frage gibt es bewusst keinen „Weiter“-Button —
+ * der Weg führt über die Auswertungs-CTA darunter.
  */
 export function ThesisCard({
   thesis,
@@ -36,6 +38,8 @@ export function ThesisCard({
   onPrev,
   onNext,
 }: ThesisCardProps) {
+  const isLast = index === total - 1;
+
   return (
     <div className="flex flex-col gap-6">
       <div className="space-y-2">
@@ -67,12 +71,18 @@ export function ThesisCard({
         <Button variant="secondary" onClick={onPrev} disabled={index === 0}>
           ← Zurück
         </Button>
-        <span className="text-xs text-zinc-500" aria-hidden>
-          Tastatur: 1–5 · S · ← →
-        </span>
-        <Button onClick={onNext} disabled={index === total - 1 && stance === null && !skipped}>
-          Weiter →
-        </Button>
+        {isLast ? (
+          <span className="text-xs text-zinc-500">
+            Letzte These — weiter geht es unten mit der Auswertung.
+          </span>
+        ) : (
+          <>
+            <span className="hidden text-xs text-zinc-500 sm:inline" aria-hidden>
+              Tastatur: 1–5 · S · ← →
+            </span>
+            <Button onClick={onNext}>Weiter →</Button>
+          </>
+        )}
       </div>
     </div>
   );

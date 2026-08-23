@@ -52,6 +52,9 @@ function seatsPerRow(total: number, rows: number): number[] {
 }
 
 function buildSeats(total: number): Seat[] {
+  // Auf 3 Nachkommastellen gerundet: verhindert Hydration-Divergenz durch
+  // minimale cos/sin-Unterschiede zwischen Server- und Browser-Mathematik.
+  const q = (v: number) => Math.round(v * 1000) / 1000;
   const perRow = seatsPerRow(total, ROWS);
   const seats: Seat[] = [];
   for (let row = 0; row < ROWS; row++) {
@@ -60,8 +63,8 @@ function buildSeats(total: number): Seat[] {
     for (let k = 0; k < n; k++) {
       const angle = Math.PI * (1 - (k + 0.5) / n);
       seats.push({
-        x: CX + r * Math.cos(angle),
-        y: CY - r * Math.sin(angle),
+        x: q(CX + r * Math.cos(angle)),
+        y: q(CY - r * Math.sin(angle)),
       });
     }
   }

@@ -58,10 +58,11 @@ const PLOT_W = 100;
 const PAD_Y = 12;
 
 function toX(v: number): number {
-  return OFF_X + ((v + 100) / 200) * PLOT_W;
+  // 2 Nachkommastellen: schützt vor SSR/Client-Float-Divergenz (Hydration)
+  return Math.round((OFF_X + ((v + 100) / 200) * PLOT_W) * 100) / 100;
 }
 function toY(v: number): number {
-  return PAD_Y + ((v + 100) / 200) * (H - 2 * PAD_Y);
+  return Math.round((PAD_Y + ((v + 100) / 200) * (H - 2 * PAD_Y)) * 100) / 100;
 }
 
 export function PoliticalMap({ userEntries }: PoliticalMapProps) {

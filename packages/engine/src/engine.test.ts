@@ -2,6 +2,7 @@ import type { Party, Position, Thesis, UserAnswer } from "@wahlen/schemas";
 import { describe, expect, it } from "vitest";
 import {
   computeResults,
+  projectOnAxis,
   rankResults,
   type PartyResult,
   type ScopedPosition,
@@ -220,5 +221,59 @@ describe("rankResults", () => {
   it("orders by tier first, then percent desc, insufficient last within tier", () => {
     const ranked = rankResults(results, parties);
     expect(ranked.map((r) => r.partyId)).toEqual(["parl-b", "parl-a", "small1", "ctx"]);
+  });
+});
+
+describe("projectOnAxis", () => {
+  const axis = [
+    { thesisId: "a", direction: 1 as const },
+    { thesisId: "b", direction: -1 as const },
+  ];
+
+  it("computes a weighted mean in [-100..100]", () => {
+    // alle progressiv (direction +1, stance +2), weight gleich → +100
+    const allYes = projectOnAxis(
+      [ { thesisId: "a", stance: 2, weight: 1 } ],
+      axis,
+    );
+    expect(allYes).toEqual({ x: 100, n: 1 });
+
+    // direction −1 kehrt die Polarity um: stance +2 auf konservativer These → −100
+    const conservative = projectOnAxis(
+      [ { thesisId: "b", stance: 2, weight: 3 } ],
+      axis,
+    );
+    expect(conservative).toEqual({ x: -100, n: 1 });
+  });
+
+  it("mixes directions and weights correctly", () => {
+    const result = projectOnAxis(
+      [
+        { thesisId: "a", stance: 2, weight: 1 },   // +1×+2×1 = +2
+        { thesisId: "b", stance: 2, weight: 1 },   // −1×+2×1 = −2
+        { thesisId: "c", stance: 2, weight: 5 },   // außerhalb der Achse
+      ],
+      axis,
+    );
+    expect(result.x).toBe(0);
+    expect(result.n).toBe(2);
+  });
+
+  it("returns null when nothing overlaps the axis scope", () => {
+    const result = projectOnAxis([ { thesisId: "zzz", stance: 2, weight: 1 } ], axis);
+    expect(result.x).toBeNull();
+    expect(result.n).toBe(0);
+  });
+
+  it("ignores non-positive weights but keeps counting n correctly", () => {
+    const result = projectOnAxis(
+      [
+        { thesisId: "a", stance: 2, weight: 0 },
+        { thesisId: "b", stance: -2, weight: 1 },
+      ],
+      axis,
+    );
+    expect(result.x).toBe(100); // b: −1×−2 = +2 → +100
+    expect(result.n).toBe(1);
   });
 });

@@ -189,3 +189,63 @@ export function rankResults(results: PartyResult[], parties: Party[]): PartyResu
     return nameA.localeCompare(nameB, "de");
   });
 }
+
+/* ------------------------------------------------------------------ */
+/* Political compass projection                                        */
+/* ------------------------------------------------------------------ */
+
+/** Eine These mit redaktionell festgelegter Achsen-Richtung. */
+export interface DirectedThesis {
+  thesisId: string;
+  /**
+   * +1: positive Stance (+2) bedeutet positiven Achsenwert (z. B. progressiv)
+   * −1: positive Stance bedeutet negativen Achsenwert
+   * Dokumentationspflicht: jede Zuweisung muss in der Methodik-Seite
+   * begründet sein.
+   */
+  direction: 1 | -1;
+}
+
+export interface AxisProjection {
+  /** Position auf der Achse in [-100..100]; null wenn keine Überschneidung */
+  x: number | null;
+  /** Anzahl verwertbarer Thesen im Scope */
+  n: number;
+}
+
+interface AxisEntry {
+  thesisId: string;
+  stance: number; // -2..+2
+  weight: number; // >= 0
+}
+
+/**
+ * Projiziert Stance-Einträge gewichtet auf eine Achse:
+ *
+ *   x = Σ(w_i × direction_i × stance_i) / Σ(w_i × 2) × 100
+ *
+ * Einträge zu Thesen außerhalb des Achsen-Scopes werden ignoriert,
+ * ebenso weight <= 0. Ergebnis null bei leerer Schnittmenge — Aufrufer
+ * entscheiden, wie sie damit umgehen (z. B. Partei ausblenden).
+ */
+export function projectOnAxis(
+  entries: AxisEntry[],
+  directed: DirectedThesis[],
+): AxisProjection {
+  const byThesis = new Map(directed.map((d) => [d.thesisId, d.direction]));
+  let sum = 0;
+  let weightSum = 0;
+
+  for (const entry of entries) {
+    if (entry.weight <= 0) continue;
+    const direction = byThesis.get(entry.thesisId);
+    if (direction === undefined) continue;
+    sum += entry.weight * direction * entry.stance;
+    weightSum += entry.weight * 2; // Normierung auf [-1..1] pro These
+  }
+
+  return {
+    x: weightSum > 0 ? Math.round((sum / weightSum) * 1000) / 10 : null,
+    n: entries.filter((e) => e.weight > 0 && byThesis.has(e.thesisId)).length,
+  };
+}

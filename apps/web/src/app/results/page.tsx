@@ -10,6 +10,8 @@ import { TierBadge } from "@/components/ui/TierBadge";
 import { STANCE_LABELS } from "@/components/ui/StanceScale";
 import { content, partiesById, positionsFor, thesesForMode } from "@/lib/content";
 import { loadSession, toEngineAnswers, clearSession } from "@/lib/session";
+import { PoliticalMap } from "@/components/results/PoliticalMap";
+import { ShareButton } from "@/components/results/ShareButton";
 
 const TIER_LABELS: Record<Party["tier"], string> = {
   parliament: "Im Parlament erwartet",
@@ -49,6 +51,24 @@ export default function ResultsPage() {
     for (const t of scope) map.set(t.id, t);
     return map;
   }, [scope]);
+
+  const userEntries = useMemo(
+    () =>
+      session
+        ? toEngineAnswers(session).filter(
+            (a): a is typeof a & { stance: number } => a.stance !== null,
+          )
+        : [],
+    [session],
+  );
+
+  const topMatches = useMemo(() => {
+    return ranked
+      .filter((r): r is PartyResult & { matchPercent: number } => r.matchPercent !== null)
+      .slice(0, 3)
+      .map((r) => ({ party: partiesById.get(r.partyId), percent: r.matchPercent }))
+      .filter((m): m is { party: Party; percent: number } => m.party !== undefined);
+  }, [ranked]);
 
   if (!ready) {
     return (
@@ -92,6 +112,7 @@ export default function ResultsPage() {
               Antworten ändern
             </Button>
           </Link>
+          <ShareButton topMatches={topMatches} />
           <button
             className="text-xs text-zinc-500 underline"
             onClick={() => {
@@ -105,6 +126,15 @@ export default function ResultsPage() {
           </button>
         </div>
       </header>
+
+      {userEntries.length > 0 && (
+        <section aria-labelledby="map-heading" className="space-y-3">
+          <h2 id="map-heading" className="text-lg font-semibold">
+            Deine Position auf der Landkarte
+          </h2>
+          <PoliticalMap userEntries={userEntries} />
+        </section>
+      )}
 
       {tiers.map((tier) => {
         const group = ranked.filter(

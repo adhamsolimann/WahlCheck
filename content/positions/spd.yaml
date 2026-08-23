@@ -8,27 +8,27 @@ positions:
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: pending }
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: 1, status: clear,
-      justificationQuote: "Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit erhalten, die Mieten zu deckeln; rechtssicherer Mietendeckel über Länderöffnungsklausel oder Art. 15 GG.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      justificationQuote: "Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Länderöffnungsklausel über die Bundesgesetzgebung oder auf Grundlage des Art. 15 GG.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: "auto" }
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: 1, status: clear,
-      justificationQuote: "Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke sowie Baugebote gegen Spekulation.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026); SPD-Wahlprogramm Kapitel Wohnen",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      justificationQuote: "Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu schaffen, diese Flächen schneller zu bebauen oder zu verkaufen.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: "auto" }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: 1, status: clear,
-      justificationQuote: "Über das kooperative Baulandmodell sollen Bauträger künftig bei Projekten verpflichtet werden, 50 Prozent Sozialwohnungen zu bauen.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      justificationQuote: "Wir erhöhen diese Quote auf 50 Prozent und stärken das Modell als Kerninstrument für bezahlbares Wohnen.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: "auto" }
   - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
   - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
   - { thesisId: einschraenkung-moeblierter-wohnraum, stance: 1, status: clear,
-      justificationQuote: "Die SPD fordert, die Vermietung möblierten Wohnraums einzuschränken.",
+      justificationQuote: "Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung zur Profitmaximierung gehen wir vor.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: pending }
@@ -37,7 +37,7 @@ positions:
       justificationQuote: "Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt sich auch in der Belegung des Sondervermögens des Bundes wider.",
       sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
       sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
   - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
@@ -49,15 +49,13 @@ positions:
   - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
   - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
   - { thesisId: beschleunigte-schulsanierung, stance: 1, status: clear,
-      justificationQuote: "Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen – Investitionsschwerpunkt über das Sondervermögen.",
+      justificationQuote: "Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe Kapitel DIE SCHULBAUOFFENSIVE FORTSETZEN).",
       sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
       sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      verification: pending }
+      verification: "auto" }
   # --- Sicherheit ---
-  - { thesisId: mehr-polizeipersonal, stance: 1, status: clear,
-      justificationQuote: "Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe Polizei und Feuerwehr“.",
-      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
-      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+  - { thesisId: mehr-polizeipersonal, stance: null, status: none,
+      sourceLabel: "Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO(T-132)",
       verification: pending }
   - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
   - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
@@ -80,7 +78,7 @@ positions:
       justificationQuote: "Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.",
       sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF, Kapitel Wohnen)",
       sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      verification: pending }
+      verification: "auto" }
   # --- Verwaltung & Digital ---
   - { thesisId: digitalisierung-der-bauaemter, stance: 1, status: clear,
       justificationQuote: "Planungsrechtliche Genehmigungen sollen zügig erfolgen. Dazu treiben wir die KI-unterstützte Digitalisierung in den Bauämtern voran.",
@@ -91,7 +89,7 @@ positions:
   - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
   # --- Stadtgesellschaft ---
   - { thesisId: schutz-und-foerderung-der-clubkultur, stance: 1, status: clear,
-      justificationQuote: "Die SPD schlägt eine Spielstättenförderung und eine gesonderte Strategie zur Nachtökonomie vor.",
+      justificationQuote: "Wir führen erstmals eine Spielstättenförderung und setzen Empfehlungen aus der Berliner Strategie zur Berliner Nachtökonomie um. So sichern wir Clubs langfristig.",
       sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
       verification: pending }

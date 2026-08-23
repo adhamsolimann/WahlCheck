@@ -101,7 +101,7 @@ positions:
       Once-Only-Prinzip geben Berliner:innen ihre Daten nur einmal an.
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin funktioniert"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none,
       verification: pending }
   # --- Stadtgesellschaft ---

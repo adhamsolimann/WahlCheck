@@ -38,6 +38,8 @@ function normalize(text: string): string {
 }
 
 const squeeze = (s: string) => s.replace(/\s+/g, "");
+/** Buchstaben/Ziffern-only: überbrückt Umbruch- und Trennstrich-Artefakte der PDF-Extraktion */
+const alpha = (s: string) => squeeze(s).replace(/[^a-z0-9äöüß]/g, "");
 
 /** Zitat → prüfbare Fragmente (ohne redaktionelle [Einfügungen], ohne Kürzungen). */
 function fragmentsOf(quote: string): string[] {
@@ -56,6 +58,7 @@ function fragmentsOf(quote: string): string[] {
 interface Doc {
   text: string;
   squeezed: string;
+  alpha: string;
 }
 
 const docs = new Map<string, Doc | null>(); // null = Beschaffung fehlgeschlagen
@@ -105,7 +108,7 @@ async function loadDoc(url: string): Promise<Doc | null> {
         const { extractText, getDocumentProxy } = await import("unpdf");
         const pdf = await getDocumentProxy(new Uint8Array(buf));
         const { text } = await extractText(pdf, { mergePages: true });
-        doc = { text: normalize(text), squeezed: squeeze(normalize(text)) };
+        doc = { text: normalize(text), squeezed: squeeze(normalize(text)), alpha: alpha(normalize(text)) };
       } catch (err) {
         console.warn(`  ! PDF-Extraktion fehlgeschlagen ${url}: ${String(err).slice(0, 60)}`);
       }
@@ -116,7 +119,7 @@ async function loadDoc(url: string): Promise<Doc | null> {
         .replace(/<script[\s\S]*?<\/script>/gi, " ")
         .replace(/<style[\s\S]*?<\/style>/gi, " ")
         .replace(/<[^>]+>/g, " ");
-      doc = { text: normalize(body), squeezed: squeeze(normalize(body)) };
+      doc = { text: normalize(body), squeezed: squeeze(normalize(body)), alpha: alpha(normalize(body)) };
     }
   }
 
@@ -144,9 +147,12 @@ function matchQuote(doc: Doc | null, quote: string | undefined): Outcome {
   const missingSq = frags.filter((f) => !doc.squeezed.includes(squeeze(f)));
   if (missingSq.length === 0) return { status: "fuzzy", detail: "whitespace-frei gefunden" };
 
+  const missingAlpha = missingSq.filter((f) => !doc.alpha.includes(alpha(f)));
+  if (missingAlpha.length === 0) return { status: "match", detail: "alpha-pass (Trennstriche/Interpunktion ignoriert)" };
+
   return {
     status: "miss",
-    detail: `${missingSq.length}/${frags.length} Fragment(e) nicht gefunden, z. B. „${missingSq[0].slice(0, 60)}“`,
+    detail: `${missingAlpha.length}/${frags.length} Fragment(e) nicht gefunden, z. B. „${missingAlpha[0].slice(0, 60)}“`,
   };
 }
 

@@ -29,7 +29,7 @@ positions:
       justificationQuote: "Wohneigentum will die FDP steuerlich stark begünstigen und Umwandlungen von Miet- in Eigentumswohnungen erleichtern.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
   - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
   - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }

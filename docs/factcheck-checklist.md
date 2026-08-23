@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **54** | 27 | 0 |
+| gesamt | **45** | 35 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -103,25 +103,32 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### SPD — 12 offen · 1 🤖 maschinell · 0 ✅ menschlich
+### SPD — 5 offen · 7 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen – Invest…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | +1 | „Die Sozialdemokraten wollen Notunterkünfte für Geflüchtete abschaffen und sie durch dezen…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Planungsrechtliche Genehmigungen sollen zügig erfolgen. Dazu treiben wir die KI-unterstüt…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
-| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Die SPD fordert, die Vermietung möblierten Wohnraums einzuschränken.“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Einführung einer Grundsteuer C für unbebaute, aber baureife Grundstücke sowie Baugebote g…“ | rbb24 Wohnungs-Check (08/2026); SPD-Wah… | |
-| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt si…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
-| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +1 | „Investitionen u. a. in Sanierung von Polizeiwachen; Kapitel „Bürgernahe Polizei und Feuer…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
-| ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Im Bund will sich die SPD dafür einsetzen, dass die Länder die Möglichkeit erhalten, die …“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.“ | SPD Berlin – Wahlprogramm 2026 (PDF, Ka… | |
-| ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Die SPD schlägt eine Spielstättenförderung und eine gesonderte Strategie zur Nachtökonomi…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Über das kooperative Baulandmodell sollen Bauträger künftig bei Projekten verpflichtet we…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung …“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt si…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Län…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.“ | SPD Berlin – Wahlprogramm 2026 (PDF, Ka… | |
+| ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Wir führen erstmals eine Spielstättenförderung und setzen Empfehlungen aus der Berliner S…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Wir erhöhen diese Quote auf 50 Prozent und stärken das Modell als Kerninstrument für beza…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | neutral | „“ | rbb24 Wohnungs-Check – „vermeidet … ein… | |
+
+<details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
+
+| These | Vermerk |
+|-------|---------|
+| Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO… |
+
+</details>
 
 ---
 
@@ -146,14 +153,14 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### FDP — 3 offen · 3 🤖 maschinell · 0 ✅ menschlich
+### FDP — 2 offen · 4 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Wohneigentum will die FDP steuerlich stark begünstigen und Umwandlungen von Miet- in Eige…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Wohneigentum will die FDP steuerlich stark begünstigen und Umwandlungen von Miet- in Eige…“ | rbb24 Wohnungs-Check (08/2026) | |
 | ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Lehnt Mietendeckel ab; Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Ge…“ | rbb24 Wohnungs-Check (08/2026) | |
 | ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Forderung nach Nachverdichtung, Hochhäusern, Dachaufstockungen und Büro-Umwandlungen, ein…“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | -1 | „Sozialpolitik soll über Wohngeld statt Quoten im Neubau erfolgen.“ | rbb24 Wohnungs-Check (08/2026) | |
@@ -182,7 +189,7 @@ Programm: https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf
 
 ---
 
-### Volt — 4 offen · 3 🤖 maschinell · 0 ✅ menschlich
+### Volt — 3 offen · 4 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-edited-20-7.pdf
 
@@ -192,7 +199,7 @@ Programm: https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogr
 | 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Mit der Genehmigungsfiktion gelten vollständige Anträge nach Fristablauf automatisch als …“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | ☐ | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Housing First als wirksames Mittel gegen Obdachlosigkeit; Schwammstadt gegen Hitze und St…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | 🤖 | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Sichere Rad- und Gehwege und saubere Kieze.“ | Volt Berlin – Programm 2026, Kapitel Be… | |
-| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Eine digitale Verwaltung, die an Ergebnissen gemessen wird; mit dem Once-Only-Prinzip geb…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
+| 🤖 | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Eine digitale Verwaltung, die an Ergebnissen gemessen wird; mit dem Once-Only-Prinzip geb…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Eine Kulturpolitik, die Clubs und freie Szene verlässlich absichert.“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | 🤖 | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Ein verlässlicher ÖPNV bis in die Außenbezirke.“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 

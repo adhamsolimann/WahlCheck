@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Card, CardBody, CardTitle } from "@/components/ui/Card";
+import { Button } from "@/components/ui/Button";
+import { SITE_CONFIG } from "@/lib/site-config";
 
 export const metadata = { title: "Unterstützen – WahlCheck Berlin" };
 
@@ -41,20 +43,34 @@ export default function SpendenPage() {
 
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Spenden</h2>
-        <div className="rounded-xl border border-dashed border-brand-400 bg-brand-50 p-5 text-sm dark:bg-zinc-900">
-          <p className="font-medium">Zahlungsdienst wird gerade angeschlossen.</p>
-          <p className="mt-1 text-zinc-600 dark:text-zinc-400">
-            Bis dahin gilt das Versprechen aus dem{" "}
-            <Link href="/statut" className="underline">
-              Redaktionsstatut
-            </Link>
-            : Wir nehmen erst dann Geld an, wenn Empfänger, Verwendung und
-            Berichterstattung transparent dokumentiert sind.{" "}
-            <span className="text-zinc-500">
-              [T-123/D-4: Provider-Anbindung vor Soft-Launch]
-            </span>
-          </p>
-        </div>
+        {SITE_CONFIG.donateUrl ? (
+          <div className="rounded-xl border border-brand-200 bg-white p-5 text-sm dark:border-zinc-700 dark:bg-zinc-900">
+            <p className="font-medium">Einmalig oder monatlich unterstützen:</p>
+            <p className="mt-1 text-zinc-600 dark:text-zinc-400">
+              Der Dienst verarbeitet die Zahlung (eigene Datenschutzhinweise
+              gelten); wir erhalten weder Adresse noch Kontodaten — nur
+              Betrag und optionale Nachricht.
+            </p>
+            <a href={SITE_CONFIG.donateUrl} target="_blank" rel="noopener noreferrer">
+              <Button className="mt-3">Zur Spenden-Seite →</Button>
+            </a>
+          </div>
+        ) : (
+          <div className="rounded-xl border border-dashed border-brand-400 bg-brand-50 p-5 text-sm dark:bg-zinc-900">
+            <p className="font-medium">Zahlungsdienst wird gerade angeschlossen.</p>
+            <p className="mt-1 text-zinc-600 dark:text-zinc-400">
+              Bis dahin gilt das Versprechen aus dem{" "}
+              <Link href="/statut" className="underline">
+                Redaktionsstatut
+              </Link>
+              : Wir nehmen erst dann Geld an, wenn Empfänger, Verwendung und
+              Berichterstattung transparent dokumentiert sind.{" "}
+              <span className="text-zinc-500">
+                [T-123/D-4: Provider-Anbindung vor Soft-Launch]
+              </span>
+            </p>
+          </div>
+        )}
       </section>
 
       <section className="space-y-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">

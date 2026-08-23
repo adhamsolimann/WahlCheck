@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:46:17.732Z",
+  "generatedAt": "2026-08-23T18:29:44.347Z",
   "parties": [
     {
       "id": "afd",
@@ -155,8 +155,9 @@
       "bezirke": [],
       "colorHex": "#00798D",
       "founded": 1982,
-      "summary": "Wertekonservativ-ökologische Kleinpartei; Schwerpunkte Naturschutz, Tierwohl und kommunale Demokratie.",
+      "summary": "Wertekonservativ-ökologische Partei; erreichte den Wahlantritt 2026 mit 2.345 Unterstützungsunterschriften und fordert (wie die Linke) die Absenkung der Berliner Quorums von 2.200 Unterschriften. Ein eigenes Berlin-Wahlprogramm war auf der Landesverbandsseite bis Mitte August nicht veröffentlicht — Positionen folgen, sobald verfügbar.",
       "leadership": [],
+      "programUrl": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026",
       "profileComplete": false
     },
     {
@@ -208,8 +209,11 @@
       "bezirke": [],
       "colorHex": "#00A08D",
       "founded": 1993,
-      "summary": "Ethisch motivierte Tierschutzpartei; Kernforderungen sind Tierrechte, pflanzliche Ernährung sowie Klima- und Umweltschutz.",
-      "leadership": [],
+      "summary": "Ethisch motivierte Partei (bis 2025 „Mensch Umwelt Tierschutz“); tritt in Berlin gemeinsam mit der Klimaliste an (#GemeinsamProgressiv) und ist aktuell in drei Bezirksverordnetenversammlungen vertreten. Spitzenkandidat zur Abgeordnetenhauswahl: Nico Poschinski. Programmumfang: über 90 Seiten.",
+      "leadership": [
+        "Nico Poschinski (Spitzenkandidat, Landeslistenplatz 1)"
+      ],
+      "programUrl": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
       "profileComplete": false
     },
     {
@@ -2788,6 +2792,283 @@
     },
     {
       "partyId": "spd",
+      "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Plakat „bezahlbare Mieten“ ohne konkreten Mechanismus — TODO(T-132) Programm S. Wohnen",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "randbebauung-tempelhofer-feld",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?“",
+      "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Tempelhofer Feld",
+      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/tempelhofer-feld",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "grundsteuer-c-baureife-grundstuecke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "sozialwohnungsquote-im-baulandmodell",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "privatisierungsverbot-in-der-verfassung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "abschaffung-modernisierungsumlage",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "foerderung-von-wohneigentum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "einschraenkung-moeblierter-wohnraum",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "staerkere-besteurung-hoher-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "personalabbau-in-der-verwaltung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "abschaffung-der-grundsteuer",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "hitzeschutz-fuer-obdachlose",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "gemeinschaftsschule-fuer-alle",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "besserer-personalschluessel-in-kitas",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "beschleunigte-schulsanierung",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?“",
+      "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Schulen",
+      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/schulen",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "mehr-polizeipersonal",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "begrenzung-polizeilicher-befugnisse",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "erleichterte-abschiebungen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "ausbau-der-integrationsangebote",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "stopp-der-a100-verlaengerung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "tempo30-auf-hauptverkehrsstrassen",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "sozialticket-und-oepnv-ausbau",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?“",
+      "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Öffis",
+      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/oeffis",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "prioritaet-fuer-radverkehr",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "klimaneutralitaet-bis-2045",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Plakat „echter Klimaschutz“ ohne Zieljahr — TODO(T-132) Programm Kapitel Klima",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "netto-null-bei-neuversiegelung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "digitalisierung-der-bauaemter",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "rund-um-die-uhr-digitale-buergerservices",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "schutz-und-foerderung-der-clubkultur",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
+      "thesisId": "ausbau-queerer-gesundheitsversorgung",
+      "stance": null,
+      "status": "none",
+      "verification": "pending"
+    },
+    {
+      "partyId": "tierschutzpartei",
       "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
       "stance": null,
       "status": "none",

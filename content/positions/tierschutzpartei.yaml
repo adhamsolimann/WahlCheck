@@ -1,0 +1,79 @@
+# T-105-WAVE (Tierschutzpartei) — Positionen zunächst aus Wahlkampf-Materialien
+# der offiziellen Kampagnenseite (Plakatmotive/Forderungen); das 90-seitige
+# Wahlprogramm wartet auf systematische Extraktion → TODO(T-132) mit lokalem
+# PDF-Tooling nachziehen. verification bleibt pending.
+partyId: tierschutzpartei
+positions:
+  # --- Wohnen ---
+  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: null, status: none, verification: pending }
+  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: null, status: none,
+      sourceLabel: "Plakat „bezahlbare Mieten“ ohne konkreten Mechanismus — TODO(T-132) Programm S. Wohnen",
+      verification: pending }
+  - thesisId: randbebauung-tempelhofer-feld
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?“
+    sourceLabel: "Tierschutzpartei Berlin – Wahlplakat Tempelhofer Feld"
+    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/tempelhofer-feld"
+    verification: pending
+  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
+  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
+  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
+  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
+  - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
+  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
+  # --- Haushalt & Finanzen ---
+  - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
+  - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
+  - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
+  - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
+  # --- Arbeit & Soziales ---
+  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
+  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
+  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
+  # --- Bildung ---
+  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
+  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
+  - thesisId: beschleunigte-schulsanierung
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?“
+    sourceLabel: "Tierschutzpartei Berlin – Wahlplakat Schulen"
+    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/schulen"
+    verification: pending
+  # --- Sicherheit ---
+  - { thesisId: mehr-polizeipersonal, stance: null, status: none, verification: pending }
+  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
+  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
+  # --- Migration ---
+  - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
+  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none, verification: pending }
+  - { thesisId: ausbau-der-integrationsangebote, stance: null, status: none, verification: pending }
+  # --- Mobilität ---
+  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
+  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }
+  - thesisId: sozialticket-und-oepnv-ausbau
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?“
+    sourceLabel: "Tierschutzpartei Berlin – Wahlplakat Öffis"
+    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/oeffis"
+    verification: pending
+  - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
+  # --- Klima ---
+  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none,
+      sourceLabel: "Plakat „echter Klimaschutz“ ohne Zieljahr — TODO(T-132) Programm Kapitel Klima",
+      verification: pending }
+  - { thesisId: netto-null-bei-neuversiegelung, stance: null, status: none, verification: pending }
+  # --- Verwaltung & Digital ---
+  - { thesisId: digitalisierung-der-bauaemter, stance: null, status: none, verification: pending }
+  - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
+  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
+  # --- Stadtgesellschaft ---
+  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: null, status: none, verification: pending }
+  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none, verification: pending }
+  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }

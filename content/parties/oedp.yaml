@@ -8,7 +8,11 @@ bezirke: []
 colorHex: "#00798D"
 founded: 1982
 summary: >-
-  Wertekonservativ-ökologische Kleinpartei; Schwerpunkte Naturschutz,
-  Tierwohl und kommunale Demokratie.
-leadership: []
+  Wertekonservativ-ökologische Partei; erreichte den Wahlantritt 2026 mit
+  2.345 Unterstützungsunterschriften und fordert (wie die Linke) die Absenkung
+  der Berliner Quorums von 2.200 Unterschriften. Ein eigenes Berlin-Wahlprogramm
+  war auf der Landesverbandsseite bis Mitte August nicht veröffentlicht —
+  Positionen folgen, sobald verfügbar.
+leadership: [] # TODO(T-102): u. a. stellv. Landesvorsitz Dr. Björn Benken (Quelle: PM 15.06.2026)
 profileComplete: false
+programUrl: https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026 # Hub; Programmdokument steht noch aus

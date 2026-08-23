@@ -8,7 +8,11 @@ bezirke: []
 colorHex: "#00A08D"
 founded: 1993
 summary: >-
-  Ethisch motivierte Tierschutzpartei; Kernforderungen sind Tierrechte,
-  pflanzliche Ernährung sowie Klima- und Umweltschutz.
-leadership: []
-profileComplete: false
+  Ethisch motivierte Partei (bis 2025 „Mensch Umwelt Tierschutz“); tritt in
+  Berlin gemeinsam mit der Klimaliste an (#GemeinsamProgressiv) und ist aktuell
+  in drei Bezirksverordnetenversammlungen vertreten. Spitzenkandidat zur
+  Abgeordnetenhauswahl: Nico Poschinski. Programmumfang: über 90 Seiten.
+leadership:
+  - Nico Poschinski (Spitzenkandidat, Landeslistenplatz 1)
+profileComplete: false # TODO(T-103): vollständige Liste + Programmextraktion
+programUrl: https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf

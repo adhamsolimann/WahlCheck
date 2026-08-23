@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T23:00:54.068Z",
+  "generatedAt": "2026-08-23T23:09:36.676Z",
   "parties": [
     {
       "id": "afd",
@@ -2662,16 +2662,21 @@
     {
       "partyId": "linke",
       "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Gefahrengebiete und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft und somit ein Einfallstor für Racial Profiling und diskriminierendes Polizeihandeln. Sie wollen wir abschaffen.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "begrenzung-polizeilicher-befugnisse",
-      "stance": null,
-      "status": "none",
-      "sourceLabel": "Endfassung enthält keine spezifische Passage mehr — TODO(T-132)",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft […]. Die wollen wir abschaffen.",
+      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {

@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { projectOnAxis } from "@wahlen/engine";
+import type { Party } from "@wahlen/schemas";
 import {
   CULTURAL_DIRECTED,
   ECONOMIC_DIRECTED,
@@ -59,15 +60,15 @@ function collides(
 export function PoliticalMap({ userEntries }: PoliticalMapProps) {
   const [hovered, setHovered] = useState<string | null>(null);
 
-  const { points, userPoint, excludedCount } = useMemo(() => {
+  const { points, userPoint, excluded } = useMemo(() => {
     const pts: PlotPoint[] = [];
-    let excluded = 0;
+    const excludedParties: Party[] = [];
 
     for (const party of content.parties) {
       const eco = partyProjection(party.id, "economic");
       const soc = partyProjection(party.id, "cultural");
       if (eco.x === null || soc.x === null) {
-        excluded += 1;
+        excludedParties.push(party);
         continue;
       }
       pts.push({
@@ -87,7 +88,7 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
         ? { px: toX(userEco.x), py: toY(-userSoc.x) }
         : null;
 
-    return { points: pts, userPoint: user, excludedCount: excluded };
+    return { points: pts, userPoint: user, excluded: excludedParties };
   }, [userEntries]);
 
   /* ---------- Label-Platzierung (Greedy, Priorität: Parlament → Rest) ---------- */
@@ -325,8 +326,35 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
         </div>
         <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
           <span>
-            Abgeleitet aus den Positionierungsdaten dieses Tools
-            {excludedCount > 0 ? ` · ${excludedCount} Parteien ohne ausreichend Daten` : ""}
+            Abgeleitet aus den Positionierungsdaten dieses Tools ({points.length} Parteien
+            eingezeichnet
+            {excluded.length > 0 && (
+              <>
+                {" · "}
+                <span
+                  tabIndex={0}
+                  title={`Ohne ausreichende Auswertungsbasis: ${excluded.map((e) => e.shortName).join(", ")}`}
+                  className="group relative cursor-help underline decoration-dotted underline-offset-2 outline-none"
+                >
+                  {excluded.length} ohne ausreichend Daten
+                  <span
+                    role="tooltip"
+                    className="pointer-events-none absolute bottom-full left-0 z-20 mb-1 hidden w-max max-w-[300px] rounded-lg bg-zinc-900 p-2.5 text-left text-[11px] font-normal leading-relaxed text-white shadow-xl group-hover:block group-focus-within:block"
+                  >
+                    Ohne ausreichende Auswertungsbasis (je Achse weniger als 3 klare
+                    Positionen):
+                    <span className="mt-1.5 flex flex-wrap gap-x-2.5 gap-y-1">
+                      {excluded.map((e) => (
+                        <span key={e.id} className="inline-flex items-center gap-1">
+                          <span aria-hidden className="h-2 w-2 rounded-full" style={{ backgroundColor: e.colorHex }} />
+                          {e.shortName}
+                        </span>
+                      ))}
+                    </span>
+                  </span>
+                </span>
+              </>
+            )}
           </span>
           <a href="/methodik/#kompass" className="underline hover:text-brand-600">
             Wie wird das berechnet?

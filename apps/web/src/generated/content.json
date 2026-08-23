@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T23:09:36.676Z",
+  "generatedAt": "2026-08-23T23:25:08.994Z",
   "parties": [
     {
       "id": "afd",
@@ -120,8 +120,10 @@
       "founded": 1980,
       "summary": "Grüne Partei mit Schwerpunkt Klimaschutz, Mobilitätswende und sozialer Gerechtigkeit; war bis 2023 in der Berliner Regierung vertreten.",
       "leadership": [
-        "Werner Graf (Bürgermeisterkandidat)"
+        "Werner Graf (Spitzen- und Bürgermeisterkandidat)",
+        "Bettina Jarasch (Co-Spitzenkandidatin)"
       ],
+      "programUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "profileComplete": false
     },
     {
@@ -2219,10 +2221,10 @@
       "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Auf Bundesebene setzen sich die Grünen für Mietendeckel-Optionen ein; mit einem Bezahlbare-Mieten-Gesetz sollen große renditeorientierte Vermieter verpflichtet werden.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "justificationQuote": "Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine Länderöffnungsklausel oder als Bundesregelung.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2234,9 +2236,12 @@
     {
       "partyId": "gruene",
       "thesisId": "grundsteuer-c-baureife-grundstuecke",
-      "stance": null,
-      "status": "none",
-      "verification": "pending"
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Dafür werden wir die Grundsteuer C sowie strenge Baugebote einführen, damit Spekulant*innen ihrer Pflicht zur Bebauung nachkommen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2405,9 +2410,12 @@
     {
       "partyId": "gruene",
       "thesisId": "tempo30-auf-hauptverkehrsstrassen",
-      "stance": null,
-      "status": "none",
-      "verification": "pending"
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Spielplätzen, Senior*inneneinrichtungen, Einrichtungen der Behindertenhilfe und an Schulwegen – und kontrollieren Tempolimits konsequent.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2426,9 +2434,12 @@
     {
       "partyId": "gruene",
       "thesisId": "klimaneutralitaet-bis-2045",
-      "stance": null,
-      "status": "none",
-      "verification": "pending"
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will. In Regierungsverantwortung werden wir den Fahrplan zur Klimaneutralität und -anpassung auf solide Beine stellen und Prioritäten setzen, um die Ziele schnellstmöglich zu erreichen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2537,7 +2548,7 @@
       "justificationQuote": "Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatisierungsverbot in der Berliner Verfassung ein.",
       "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
       "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "linke",
@@ -2571,7 +2582,7 @@
       "justificationQuote": "Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaften.",
       "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
       "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "linke",

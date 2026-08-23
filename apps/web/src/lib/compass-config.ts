@@ -43,6 +43,7 @@ export const ECONOMIC_DIRECTED: DirectedThesis[] = [
   { thesisId: "tariftreue-bei-oeffentlichen-auftraegen", direction: -1 }, // Arbeitsmarktregulierung
   { thesisId: "sozialwohnungsquote-im-baulandmodell", direction: -1 }, // Baupflichtenquote
   { thesisId: "privatisierungsverbot-in-der-verfassung", direction: -1 }, // Verstaatlichungsrichtung
+  { thesisId: "grundsteuer-c-baureife-grundstuecke", direction: -1 }, // Aktive Bodenpolitik/Besteuerung
   { thesisId: "personalabbau-in-der-verwaltung", direction: 1 }, // schlanker Staat
   { thesisId: "abschaffung-der-grundsteuer", direction: 1 }, // Steuersenkung
   { thesisId: "foerderung-von-wohneigentum", direction: 1 }, // Eigentumsförderung statt Mietmarkt

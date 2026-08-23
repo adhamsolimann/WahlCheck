@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **36** | 40 | 0 |
+| gesamt | **35** | 46 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -67,18 +67,20 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### Die Linke — 2 offen · 7 🤖 maschinell · 0 ✅ menschlich
+### Die Linke — 2 offen · 9 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +2 | „Die Modernisierungsumlage wollen wir abschaffen.“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
-| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Abzocke mit möblierten Wohnungen beenden … Möbliertes Wohnen auf Zeit ist in den letzten …“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | -1 | „Gefahrengebiete und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wi…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „Mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontroll…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaf…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenk…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
-| ☐ | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Verkäufe von einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerha…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatis…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlba…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von o…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 22…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
@@ -87,7 +89,6 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 | These | Vermerk |
 |-------|---------|
-| Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | Endfassung enthält keine spezifische Passage mehr — TODO(T-132) |
 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | Kritik am Schneller-Bauen-Gesetz/Bau-Turbo im Programm — exakte Stelle TODO(T-132) |
 | Versorgungsangebote für queere und trans Personen (Gesundhe… | Tagesspiegel-Analyse ordnet Die Linke der zustimmenden Gruppe zu — Programmstelle TODO(T-… |
 
@@ -95,16 +96,19 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 ---
 
-### GRÜNE — 4 offen · 1 🤖 maschinell · 0 ✅ menschlich
+### GRÜNE — 3 offen · 5 🤖 maschinell · 0 ✅ menschlich
 
-Programm: **kein Link hinterlegt**
+Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Dafür werden wir die Grundsteuer C sowie strenge Baugebote einführen, damit Spekulant*inn…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Die Grünen setzen sich für Hitzeschutzmaßnahmen für obdachlose Menschen ein.“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Auf Bundesebene setzen sich die Grünen für Mietendeckel-Optionen ein; mit einem Bezahlbar…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine L…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten – auch für…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Sp…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen“, also die Verges…“ | rbb24 Wohnungs-Check (08/2026) | |
 
 ---

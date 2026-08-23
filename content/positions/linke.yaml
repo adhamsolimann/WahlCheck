@@ -43,7 +43,7 @@ positions:
       dauerhaftes Privatisierungsverbot in der Berliner Verfassung ein.
     sourceLabel: "Die Linke Berlin – Wahlprogramm AGH 2026"
     sourceUrl: "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/"
-    verification: pending
+    verification: "auto"
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
   - thesisId: abschaffung-modernisierungsumlage
     stance: 2
@@ -62,7 +62,7 @@ positions:
       Immobilienkonzerne vergesellschaften.
     sourceLabel: "Die Linke Berlin – Wahlprogramm AGH 2026"
     sourceUrl: "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/"
-    verification: pending
+    verification: "auto"
   # --- Haushalt & Finanzen ---
   - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
     stance: 1

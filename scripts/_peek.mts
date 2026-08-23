@@ -1,11 +1,9 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { extractText, getDocumentProxy } from "unpdf";
-const pdf = await getDocumentProxy(new Uint8Array(readFileSync(".factcheck-cache/891e8597ca52030b")));
+const pdf = await getDocumentProxy(new Uint8Array(readFileSync(".factcheck-cache/gruene")));
 const { text } = await extractText(pdf, { mergePages: true });
-writeFileSync(".factcheck-cache/linke-berlin.txt", text);
+writeFileSync(".factcheck-cache/gruene.txt", text);
 console.log("chars:", text.length);
-console.log("ANFANG:", JSON.stringify(text.slice(0, 300)));
-for (const kw of ["Mietendeckel","Vergesellschaftung","Modernisierungsumlage","Heizkostenfonds","100 Tage","Berlin"]) {
-  const n = (text.match(new RegExp(kw, "gi")) ?? []).length;
-  console.log(kw + ": " + n + "x");
+for (const kw of ["Klimaneutralität","Grundsteuer","Baulandmodell","Vermögen","Spielstätten","Videoüberwachung","Polizei","Tempo 30","Mietendeckel"]) {
+  console.log(kw + ":", (text.match(new RegExp(kw, "gi")) ?? []).length + "x");
 }

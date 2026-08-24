@@ -119,11 +119,11 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
 
     // Reload: Sitzung muss persistieren (T-107)
     await page.reload();
-    await expect(page.getByText(/\d+\/38 beantwortet/)).toBeVisible({
+    await expect(page.getByText(/\d+ beantwortet/)).toBeVisible({
       timeout: 10_000,
     });
-    const persisted = await page.getByText(/\d+\/38 beantwortet/).textContent();
-    expect(persisted).toMatch(/[1-6]\/38/);
+    const persisted = await page.getByText(/\d+ beantwortet/).textContent();
+    expect(persisted).toMatch(/[1-6] beantwortet/);
 
     // Zur letzten Frage springen via Fortschritts-Dots
     const dots = page.locator('[role="list"][aria-label="Fortschritt"] button');

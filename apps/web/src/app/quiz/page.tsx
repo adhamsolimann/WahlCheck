@@ -239,15 +239,18 @@ export default function QuizPage() {
   const effectiveWeight = session.weights[current.id] ?? baseWeight(session, current.topicId);
 
   return (
-    <main className="mx-auto flex min-h-screen max-w-2xl flex-col justify-center gap-6 px-6 py-12">
-      {/* Fortschritt */}
-      <div>
-        <div className="mb-2 flex items-center justify-between text-xs text-zinc-500">
-          <span>
-            {answeredCount}/{scope.length} beantwortet
+    <main className="mx-auto max-w-2xl px-6 pb-16 pt-6">
+      {/* Fortschrittsleiste — sticky am oberen Rand */}
+      <div className="sticky top-0 z-30 -mx-6 bg-zinc-50/95 px-6 pb-3 pt-3 backdrop-blur dark:bg-zinc-950/95">
+        <div className="mb-2 flex items-center justify-between text-xs">
+          <span className="font-semibold text-brand-700 dark:text-brand-300">
+            These {index + 1} / {scope.length}
+          </span>
+          <span className="text-zinc-500">
+            {answeredCount} beantwortet
           </span>
           <button
-            className="underline"
+            className="text-zinc-400 underline hover:text-zinc-600"
             onClick={() => {
               if (confirm("Sitzung wirklich löschen und neu beginnen?")) {
                 clearSession();
@@ -260,28 +263,34 @@ export default function QuizPage() {
             Zurücksetzen
           </button>
         </div>
-        <div className="flex flex-wrap gap-1" role="list" aria-label="Fortschritt">
-          {scope.map((t, i) => (
-            <button
-              key={t.id}
-              role="listitem"
-              aria-label={`These ${i + 1}: ${isDecided(t.id) ? "beantwortet" : "offen"}`}
-              aria-current={i === index}
-              onClick={() => setIndex(i)}
-              className={`h-2.5 w-2.5 rounded-full ${
-                i === index
-                  ? "bg-brand-600 ring-2 ring-brand-300"
-                  : isDecided(t.id)
-                    ? "bg-brand-500/70"
-                    : "bg-zinc-300 dark:bg-zinc-700"
-              }`}
-            />
-          ))}
+
+        {/* Segmentierte Klick-Leiste */}
+        <div className="flex gap-[3px]" role="list" aria-label="Fortschritt">
+          {scope.map((t, i) => {
+            const decided = isDecided(t.id);
+            const current = i === index;
+            return (
+              <button
+                key={t.id}
+                role="listitem"
+                aria-label={`These ${i + 1}: ${decided ? "beantwortet" : "offen"}`}
+                aria-current={current ? "step" : undefined}
+                onClick={() => setIndex(i)}
+                className={`h-3.5 min-w-[6px] flex-1 rounded-sm transition-colors duration-150 ${
+                  current
+                    ? "!bg-brand-700 ring-2 ring-brand-400 ring-offset-1 ring-offset-zinc-50 dark:ring-offset-zinc-950"
+                    : decided
+                      ? "bg-brand-500 hover:bg-brand-400"
+                      : "bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-700 dark:hover:bg-zinc-600"
+                }`}
+              />
+            );
+          })}
         </div>
       </div>
 
-      {/* key = These-ID → sanfter Fade/Slide bei jedem Fragenwechsel */}
-      <div key={current.id} className="animate-fade">
+      {/* key = These-ID → sanfter Fade bei jedem Fragenwechsel */}
+      <div key={current.id} className="animate-fade mt-6">
         <ThesisCard
           thesis={current}
           index={index}
@@ -297,7 +306,7 @@ export default function QuizPage() {
         />
       </div>
 
-      <div className="flex justify-end">
+      <div className="mt-6 flex justify-end">
         {index === scope.length - 1 ? (
           <Link href="/results/">
             <Button size="lg" disabled={answeredCount === 0}>

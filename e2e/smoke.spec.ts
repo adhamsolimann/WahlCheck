@@ -69,7 +69,7 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     await expect(page.getByRole("heading", { level: 1, name: /WahlCheck/ })).toBeVisible();
     // Logo-Zweiteilung: Wahl (schwarz) + Check (blau)
     await expect(page.locator("h1 span").first()).toHaveText("Wahl");
-    await expect(page.getByText(/20\. September 2026/)).toBeVisible();
+    await expect(page.getByText(/20\. September 2026/).first()).toBeVisible();
     await expect(page.getByRole("link", { name: "Matching starten" })).toBeVisible();
     // Header-Navigation sichtbar
     await expect(page.getByRole("navigation", { name: "Hauptnavigation" })).toBeVisible();

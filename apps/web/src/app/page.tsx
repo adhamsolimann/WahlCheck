@@ -56,14 +56,9 @@ export default function Home() {
         </Card>
       </section>
 
-      <div className="animate-fade-up relative flex flex-wrap justify-center gap-3 [animation-delay:240ms]">
+      <div className="flex justify-center [animation-delay:240ms]">
         <Link href="/quiz/">
           <Button size="lg">Matching starten</Button>
-        </Link>
-        <Link href="/design/">
-          <Button variant="secondary" size="lg">
-            Design-System ansehen
-          </Button>
         </Link>
       </div>
 

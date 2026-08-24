@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **12** | 66 | 0 |
+| gesamt | **11** | 67 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -96,7 +96,7 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 ---
 
-### GRÜNE — 1 offen · 7 🤖 maschinell · 0 ✅ menschlich
+### GRÜNE — 0 offen · 8 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 
@@ -109,7 +109,7 @@ Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_O
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Immer wieder geraten Clubs und Musikspielstätten aufgrund steigender Kosten und Mieten, N…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Sp…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Wir haben uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & C…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 
 ---
 

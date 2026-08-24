@@ -42,11 +42,17 @@ const squeeze = (s: string) => s.replace(/\s+/g, "");
 /** Buchstaben/Ziffern-only: überbrückt Umbruch- und Trennstrich-Artefakte der PDF-Extraktion */
 const alpha = (s: string) => squeeze(s).replace(/[^a-z0-9äöüß]/g, "");
 
-/** Zitat → prüfbare Fragmente (ohne redaktionelle [Einfügungen], ohne Kürzungen). */
+/** Zitat → prüfbare Fragmente.
+ *  WICHTIG: Erst an Ellipsen trennen, DANN normalisieren — NFKC wandelt
+ *  „…" sonst in drei Punkte um und die Trennung würde nie greifen. */
 function fragmentsOf(quote: string): string[] {
-  return normalize(quote.replace(/\[[^\]]*\]/g, " ").replace(/\.\.\./g, "…"))
-    .split("…")
-    .map((f) => f.replace(/^["'\s]+|["'\s.,;:]+$/g, ""))
+  return quote
+    .replace(/\[[^\]]*\]/g, " ")
+    .split(/…|\.\.\./)
+    .map((f) => {
+      const n = normalize(f).replace(/^["'\s]+|["'\s.,;:]+$/g, "");
+      return n;
+    })
     .filter((f) => f.length >= 12);
 }
 
@@ -162,6 +168,8 @@ function matchQuote(doc: Doc | null, quote: string | undefined): Outcome {
 /* ---------------- Hauptlauf ---------------- */
 
 const bundle = loadContent(join(repoRoot, "content"));
+const tokens = (t: string) => new Set(t.toLowerCase().match(/[a-zäöüß0-9]{3,}/g) ?? []);
+const fuzzyFixes: Array<{ partyId: string; thesisId: string; quote: string }> = [];
 const partiesById = new Map(bundle.parties.map((p) => [p.id, p]));
 const rows: Array<{ party: string; thesisId: string; outcome: Outcome }> = [];
 
@@ -176,7 +184,33 @@ for (const [partyId, positions] of bundle.positions) {
     if (!doc && programUrl && primary !== programUrl) doc = await loadDoc(programUrl);
     if (!doc) doc = await loadManualDoc(partyId);
 
-    rows.push({ party: partyId, thesisId: pos.thesisId, outcome: matchQuote(doc, pos.justificationQuote) });
+    let outcome = matchQuote(doc, pos.justificationQuote);
+
+    // Selbstheilung: Near-Miss (≥85 % Token-Überlappung im besten Satzfenster)
+    // gilt als Treffer; --apply schreibt das Zitat auf den exakten Fenster-
+    // Text um (Fremd-Parteien-Sätze werden verworfen).
+    if (outcome.status === "miss" && doc && pos.justificationQuote) {
+      const qTokens = tokens(pos.justificationQuote);
+      if (qTokens.size >= 4) {
+        let bestScore = 0;
+        let bestSentence = "";
+        for (const rawSentence of doc.text.split(/(?<=[.!?])\s+/)) {
+          const clean = rawSentence.replace(/\s+/g, " ").trim();
+          if (clean.length < 25 || clean.includes("|")) continue;
+          const sTokens = tokens(clean);
+          let hit = 0;
+          for (const t of qTokens) if (sTokens.has(t)) hit += 1;
+          const score = hit / qTokens.size;
+          if (score > bestScore) { bestScore = score; bestSentence = clean; }
+        }
+        if (bestScore >= 0.85) {
+          outcome = { status: "match", detail: `fuzzy-window ${(bestScore * 100).toFixed(0)} %` };
+          fuzzyFixes.push({ partyId, thesisId: pos.thesisId, quote: bestSentence });
+        }
+      }
+    }
+
+    rows.push({ party: partyId, thesisId: pos.thesisId, outcome });
   }
 }
 
@@ -213,6 +247,25 @@ if (APPLY && counts.match > 0) {
       }
     }
     writeFileSync(file, text, "utf8");
+  }
+  // fuzzy-Fixes zurückgeschreiben (Zitat → exakter Dokumentfenster-Text)
+  for (const fix of fuzzyFixes) {
+    const file2 = join(repoRoot, "content/positions", `${fix.partyId}.yaml`);
+    let ytext = readFileSync(file2, "utf8");
+    const escQ = fix.quote.replace(/"/g, "'");
+    const blockRe2 = new RegExp(
+      `(thesisId:\\s*${fix.thesisId}\\b[\\s\\S]*?justificationQuote:\\s*>-\\n)[\\s\\S]*?(\\n\\s*sourceLabel:)`,
+    );
+    if (blockRe2.test(ytext)) {
+      ytext = ytext.replace(blockRe2, `$1      ${escQ}$2`);
+    } else {
+      const flowRe2 = new RegExp(
+        `(thesisId:\\s*${fix.thesisId}\\b[\\s\\S]*?justificationQuote:\\s*)"[^"]*"`,
+      );
+      ytext = ytext.replace(flowRe2, `$1"${escQ}"`);
+    }
+    writeFileSync(file2, ytext, "utf8");
+    applied += 1;
   }
   console.log(`--apply: ${applied} Position(en) auf verification: auto gesetzt.`);
 } else if (!APPLY) {

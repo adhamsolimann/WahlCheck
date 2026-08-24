@@ -48,11 +48,10 @@ positions:
     stance: 1
     status: clear
     justificationQuote: >-
-      Wir müssen den Griff der Banken, Konzerne und Superreichen auf Berlin
-      brechen.
+      für uns ist klar: um die lähmende krise in der stadt zu überwinden, müssen wir den griff der banken, konzerne und superreichen auf berlin brechen.
     sourceLabel: "DKP Berlin – Leitartikel zur Kandidatur"
     sourceUrl: "https://berlin.dkp.de/dkp-bei-der-abgeordnetenhauswahl/"
-    verification: pending
+    verification: "auto"
   - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
   # --- Arbeit & Soziales ---

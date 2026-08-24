@@ -14,8 +14,8 @@ positions:
     status: clear
     justificationQuote: >-
       Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?“
-    sourceLabel: "Tierschutzpartei Berlin – Wahlplakat Tempelhofer Feld"
-    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/tempelhofer-feld"
+    sourceLabel: "Tierschutzpartei Berlin – Wahlplakate (Kampagnenseite)"
+    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
     verification: pending
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
@@ -42,7 +42,7 @@ positions:
     justificationQuote: >-
       Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?“
     sourceLabel: "Tierschutzpartei Berlin – Wahlplakat Schulen"
-    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/schulen"
+    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
     verification: pending
   # --- Sicherheit ---
   - { thesisId: mehr-polizeipersonal, stance: null, status: none, verification: pending }
@@ -61,7 +61,7 @@ positions:
     justificationQuote: >-
       Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?“
     sourceLabel: "Tierschutzpartei Berlin – Wahlplakat Öffis"
-    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/oeffis"
+    sourceUrl: "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
     verification: pending
   - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
   # --- Klima ---

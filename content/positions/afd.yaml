@@ -6,46 +6,61 @@ positions:
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: "auto" }
-  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: -2, status: clear,
-      justificationQuote: "Grundsätzliche Abkehr von starker Mietregulierung; Neubau durch weniger Vorgaben beschleunigen.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: -2
+    status: clear
+    justificationQuote: >-
+      Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: "auto"
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
   - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
-  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: 2, status: clear,
-      justificationQuote: "Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben; für die Zuteilung soll ein Punktesystem eingeführt werden.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: "auto"
   - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
-  - { thesisId: foerderung-von-wohneigentum, stance: 1, status: clear,
-      justificationQuote: "Wohneigentum will die AfD durch Steuerbefreiungen und Bürgschaften fördern; außerdem will sie die Grundsteuer abschaffen.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: foerderung-von-wohneigentum
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: "auto"
   - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
   - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
   - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
   - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
-  - { thesisId: abschaffung-der-grundsteuer, stance: 2, status: clear,
-      justificationQuote: "Die AfD will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: abschaffung-der-grundsteuer
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: "auto"
   - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
   - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
   - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
   - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
   - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
   - { thesisId: beschleunigte-schulsanierung, stance: null, status: none, verification: pending }
-  - { thesisId: mehr-polizeipersonal, stance: 2, status: clear,
-      justificationQuote: "Sicherheit ist neben Migration das dominante Programmfeld der AfD; sie schreibt fast so viel darüber wie die CDU.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+  - thesisId: mehr-polizeipersonal
+    stance: 2
+    status: clear
+    justificationQuote: >-
+      Nur die AfD schrieb fast genauso viel darüber [wie die CDU].
+    sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)"
+    sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+    verification: "auto"
   - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
   - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
   - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }

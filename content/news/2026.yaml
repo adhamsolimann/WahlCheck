@@ -1,0 +1,97 @@
+# Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
+# Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-08-22"
+  title: "Forsa: Die Linke deutlich vorn — CDU und AfD gleichauf"
+  excerpt: >-
+    Knapp vier Wochen vor der Wahl kommt die Linke auf 22 %, CDU und AfD auf
+    je 18 %, Grüne 16 %, SPD 12 %. BSW und FDP verpassen den Einzug. Rot-Grün-Rot
+    wäre laut Umfrage das beliebteste Bündnis (37 %).
+  sourceLabel: "WELT / Forsa für t-online"
+  sourceUrl: "https://www.welt.de/politik/deutschland/article6a88eb35c3692834ff6d8eb5/berlin-linke-in-wahl-umfrage-ploetzlich-deutlich-vor-cdu-und-afd-spd-abgeschlagen.html"
+- date: "2026-08-22"
+  partyId: cdu
+  title: "Wegner zurückgetreten — Evers übernimmt Bürgermeisterkandidatur"
+  excerpt: >-
+    Kai Wegner zog nach Kritik an seiner Krisenkommunikation infolge des
+    tagelangen Stromausfalls als Spitzenkandidat zurück; Finanzsenator Stefan
+    Evers übernimmt. Der Senat CDU–SPD liegt in der Forsa-Umfrage nur noch bei
+    30 %.
+  sourceLabel: "t-online / Forsa"
+  sourceUrl: "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101399250/neue-umfrage-zur-berlin-wahl-2026-linke-legen-zu-cdu-und-afd-gleichauf.html"
+- date: "2026-08-19"
+  partyId: tierschutzpartei
+  title: "Tierschutzpartei: „Unser Name ist Fluch und Segen zugleich“"
+  excerpt: >-
+    Spitzenkandidat Nico Poschinski im Morgenpost-Porträt über die Kandidatur
+    der Partei Mensch Klima Tierschutz, die gemeinsam mit der Klimaliste antritt
+    und aktuell in drei Bezirksverordnetenversammlungen sitzt.
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://www.morgenpost.de/berlin/article412887552/berlin-wahl-2026-das-sind-die-wahlkampfthemen-der-tierschutzpartei.html"
+- date: "2026-08-17"
+  title: "Sieben Wahlprogramme, 16 Themen: Worüber die Parteien wirklich schreiben"
+  excerpt: >-
+    KI-gestützte Auswertung der Wahlprogramme: Arbeit und Soziales dominiert,
+    die CDU setzt am stärksten auf Sicherheit (18 % des Texts), die AfD verknüpft
+    Wohnen mit Migration, die FDP schreibt am meisten über Mobilität.
+  sourceLabel: "Tagesspiegel (interaktiv)"
+  sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+- date: "2026-08-15"
+  title: "Ipsos-Wählerpotenzial: Vier Parteien innerhalb von zwei Punkten"
+  excerpt: >-
+    Kein klarer Favorit: SPD, Grüne, CDU und Linke liegen beim Wählerpotenzial
+    dicht beieinander (31–33 %). 52 % können sich mindestens zwei Parteien
+    vorstellen — der Wettbewerb spielt sich besonders links der Mitte ab.
+  sourceLabel: "Ipsos"
+  sourceUrl: "https://www.ipsos.com/de-de/umfrage-wahl-berlin"
+- date: "2026-08-04"
+  title: "Wahlprogramm-Check Wohnen: Mieten sind das Stadt-Thema"
+  excerpt: >-
+    rbb24 vergleicht die Wohnungspläne aller sieben aussichtsreichen Parteien —
+    von Vergesellschaftung und Mietendeckel bis Tempelhofer Feld und
+    Wohneigentumsförderung. Basis für einen Großteil unserer Wohnen-Thesen.
+  sourceLabel: "rbb24"
+  sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+- date: "2026-07-24"
+  title: "Landeswahlausschuss lässt zwölf Landeslisten zu"
+  excerpt: >-
+    17 Parteien treten zur Abgeordnetenhauswahl an; Piraten, Freie Wähler,
+    dieBasis und MERA25 scheiterten an den 2.200 Unterstützungsunterschriften.
+    Kleine Parteien kritisieren Berlins hohe Hürde.
+  sourceLabel: "Landeswahlleiter Berlin / rbb24"
+  sourceUrl: "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1697177.php"
+- date: "2026-07-22"
+  partyId: dkp
+  title: "DKP tritt mit Landesliste und Treptow-Köpenick-Direktkandidatur an"
+  excerpt: >-
+    Mit 2.480 gültigen Unterschriften übersprang die DKP die Hürde deutlich;
+    das Wahlprogramm umfasst sechs thematische Schwerpunkte von Wohnungs- bis
+    Verkehrspolitik.
+  sourceLabel: "Unsere Zeit (UZ)"
+  sourceUrl: "https://www.unsere-zeit.de/menschen-die-nicht-erst-seit-gestern-kaempfen-4816531/"
+- date: "2026-07-15"
+  partyId: volt
+  title: "Volt startet Kampagne „unf*ck Berlin“ mit 98 Best-Practice-Ideen"
+  excerpt: >-
+    Programm präsentiert als konkreter Plan in sieben Kapiteln — von Verwaltung
+    (Once-Only-Prinzip, Genehmigungsfiktion) über Housing First bis zur
+    Absicherung der Clubkultur. Volt tritt in allen 78 Wahlkreisen an.
+  sourceLabel: "Volt Berlin"
+  sourceUrl: "https://voltdeutschland.org/berlin/neuigkeiten/unfuck-berlin-reveal"
+- date: "2026-07-10"
+  partyId: sgp
+  title: "SGP-Wahlerklärung: „Sozialismus statt Krieg“"
+  excerpt: >-
+    Die trotzkistische SGP begründet ihre Kandidatur mit Gegenposition zu
+    Aufrüstung und Sozialkürzungen; fordert Enteignung von Banken und Konzernen
+    unter demokratischer Kontrolle.
+  sourceLabel: "World Socialist Web Site"
+  sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+- date: "2026-06-15"
+  partyId: oedp
+  title: "ÖDP schafft vorzeitigen Wahlantritt — und kritisiert die Hürde"
+  excerpt: >-
+    2.345 gesammelte Unterschriften sichern die Teilnahme; die ÖDP fordert wie
+    die Linke die Absenkung des Berliner Quorums von 2.200 Unterschriften für
+    kleine Parteien.
+  sourceLabel: "ÖDP Berlin – Pressemitteilung"
+  sourceUrl: "https://www.oedp-berlin.de/aktuelles/pressemitteilungen/nachrichtendetails/news/oedp-schafft-vorzeitig-wahlantritt-und-beklagt-ben"

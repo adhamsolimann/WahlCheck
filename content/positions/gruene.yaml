@@ -1,13 +1,16 @@
 # SEED+T104-WAVE1 — verification pending bis Fact-Check-Freeze (T-132)
 partyId: gruene
 positions:
-  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: 1, status: clear,
-      justificationQuote: "Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen“, also die Vergesellschaftung großer Wohnungskonzerne.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Wir haben uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & Co. Enteignen“ umgesetzt wird.
+    sourceLabel: "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026"
+    sourceUrl: "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf"
+    verification: pending
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: 1, status: clear,
-      justificationQuote: "Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine Länderöffnungsklausel oder als Bundesregelung.",
+      justificationQuote: "Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & Co.",
       sourceLabel: "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       sourceUrl: "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       verification: "auto" }
@@ -28,11 +31,14 @@ positions:
   - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
   - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
   - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
-  - { thesisId: hitzeschutz-fuer-obdachlose, stance: 1, status: clear,
-      justificationQuote: "Die Grünen setzen sich für Hitzeschutzmaßnahmen für obdachlose Menschen ein.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+  - thesisId: hitzeschutz-fuer-obdachlose
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Mit kurzfristig wirksamen Hitzeschutzmaßnahmen werden wir Grüne besonders betroffene Quartiere gezielt entlasten.
+    sourceLabel: "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026"
+    sourceUrl: "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf"
+    verification: "auto"
   - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
   - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
   - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
@@ -72,11 +78,14 @@ positions:
   - { thesisId: digitalisierung-der-bauaemter, stance: null, status: none, verification: pending }
   - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
   - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
-  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: 1, status: clear,
-      justificationQuote: "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten – auch für die Berliner Clubs.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+  - thesisId: schutz-und-foerderung-der-clubkultur
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Immer wieder geraten Clubs und Musikspielstätten aufgrund steigender Kosten und Mieten, Nutzungskonflikten und den Nachwirkungen der Covid-19-Pandemie unter Druck.
+    sourceLabel: "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026"
+    sourceUrl: "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf"
+    verification: "auto"
   - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: 1, status: clear,
       justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",

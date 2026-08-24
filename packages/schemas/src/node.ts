@@ -7,6 +7,7 @@ import { join } from "node:path";
 import { parse as parseYaml } from "yaml";
 import type {
   ChangelogEntry,
+  NewsEntry,
   ElectionPolls,
   Party,
   Position,
@@ -15,6 +16,7 @@ import type {
 import {
   ChangelogFileSchema,
   ElectionPollsSchema,
+  NewsFileSchema,
   PartySchema,
   PositionsFileSchema,
   ThesisSchema,
@@ -122,4 +124,9 @@ export function loadContent(contentRoot: string): ContentBundle {
     theses: loadTheses(contentRoot),
     positions: loadPositions(contentRoot),
   };
+}
+
+export function loadNews(contentRoot: string): NewsEntry[] {
+  const files = loadYamlFiles(join(contentRoot, "news"), NewsFileSchema, "news");
+  return files.flat();
 }

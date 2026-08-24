@@ -207,3 +207,21 @@ export const ChangelogEntrySchema = z.strictObject({
 export type ChangelogEntry = z.infer<typeof ChangelogEntrySchema>;
 
 export const ChangelogFileSchema = z.array(ChangelogEntrySchema).min(1);
+
+/* ------------------------------------------------------------------ */
+/* News (redaktioneller Presse-Spiegel)                                */
+/* ------------------------------------------------------------------ */
+
+export const NewsEntrySchema = z.strictObject({
+  /** ISO-Datum yyyy-mm-dd (Veröffentlichung der Quelle) */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Optionale Parteizuordnung für Filter/Chips */
+  partyId: idSchema.optional(),
+  title: z.string().min(8),
+  excerpt: z.string().max(280).optional(),
+  sourceLabel: z.string().min(3),
+  sourceUrl: z.string().url(),
+});
+export type NewsEntry = z.infer<typeof NewsEntrySchema>;
+
+export const NewsFileSchema = z.array(NewsEntrySchema).min(1);

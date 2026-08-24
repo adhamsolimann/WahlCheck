@@ -7,6 +7,7 @@ import { ThemeToggle } from "@/components/layout/ThemeToggle";
 const NAV = [
   { href: "/quiz/", label: "Matching" },
   { href: "/koalition/", label: "Koalitionen" },
+  { href: "/news/", label: "News" },
   { href: "/methodik/", label: "Methodik" },
   { href: "/aenderungen/", label: "Änderungslog" },
 ];

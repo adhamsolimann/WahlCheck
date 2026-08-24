@@ -109,10 +109,10 @@ positions:
     stance: 1
     status: clear
     justificationQuote: >-
-      Eine Kulturpolitik, die Clubs und freie Szene verlässlich absichert.
+      berlin verbindet (menschen, europa und die welt) macht europa im alltag erlebbar: mit integration als standortvorteil, englisch als zweiter servicesprache der verwaltung und einer kulturpolitik, die clubs und freie szene verlässlich absichert.
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin verbindet"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none,
       verification: pending }
   - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none,

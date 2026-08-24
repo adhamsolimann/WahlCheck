@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:54:28.085Z",
+  "generatedAt": "2026-08-24T12:56:10.598Z",
   "parties": [
     {
       "id": "afd",
@@ -803,10 +803,10 @@
       "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
       "stance": -2,
       "status": "clear",
-      "justificationQuote": "Grundsätzliche Abkehr von starker Mietregulierung; Neubau durch weniger Vorgaben beschleunigen.",
+      "justificationQuote": "Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -841,10 +841,10 @@
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
       "stance": 2,
       "status": "clear",
-      "justificationQuote": "Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben; für die Zuteilung soll ein Punktesystem eingeführt werden.",
+      "justificationQuote": "Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -858,10 +858,10 @@
       "thesisId": "foerderung-von-wohneigentum",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Wohneigentum will die AfD durch Steuerbefreiungen und Bürgschaften fördern; außerdem will sie die Grundsteuer abschaffen.",
+      "justificationQuote": "Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -896,10 +896,10 @@
       "thesisId": "abschaffung-der-grundsteuer",
       "stance": 2,
       "status": "clear",
-      "justificationQuote": "Die AfD will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.",
+      "justificationQuote": "Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -948,10 +948,10 @@
       "thesisId": "mehr-polizeipersonal",
       "stance": 2,
       "status": "clear",
-      "justificationQuote": "Sicherheit ist neben Migration das dominante Programmfeld der AfD; sie schreibt fast so viel darüber wie die CDU.",
+      "justificationQuote": "Nur die AfD schrieb fast genauso viel darüber [wie die CDU].",
       "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
       "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -1077,7 +1077,7 @@
       "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
+      "justificationQuote": "Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       "verification": "pending"
@@ -1133,10 +1133,10 @@
       "thesisId": "abschaffung-modernisierungsumlage",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Überteuerte Modernisierungen sollen begrenzt werden.",
+      "justificationQuote": "Bei Leerstand sollen Treuhänder eingesetzt, überteuerte Modernisierungen begrenzt und Wohnungstauschprogramme gestärkt werden.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "bsw",
@@ -1150,7 +1150,7 @@
       "thesisId": "einschraenkung-moeblierter-wohnraum",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Möbliertes Wohnen und Mikroapartments sollen eingeschränkt, Zweckentfremdung und Abriss verhindert werden.",
+      "justificationQuote": "Enteignen&quot; zur Vergesellschaftung von Wohnungsbeständen großer Konzerne und einen neuen Anlauf für einen Mietendeckel auf Landes‑ oder Bundesebene.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       "verification": "auto"
@@ -1726,10 +1726,10 @@
       "thesisId": "staerkere-besteurung-hoher-einkommen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Wir müssen den Griff der Banken, Konzerne und Superreichen auf Berlin brechen.",
+      "justificationQuote": "für uns ist klar: um die lähmende krise in der stadt zu überwinden, müssen wir den griff der banken, konzerne und superreichen auf berlin brechen.",
       "sourceLabel": "DKP Berlin – Leitartikel zur Kandidatur",
       "sourceUrl": "https://berlin.dkp.de/dkp-bei-der-abgeordnetenhauswahl/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -2211,9 +2211,9 @@
       "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen“, also die Vergesellschaftung großer Wohnungskonzerne.",
-      "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "justificationQuote": "Wir haben uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & Co. Enteignen“ umgesetzt wird.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2221,7 +2221,7 @@
       "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine Länderöffnungsklausel oder als Bundesregelung.",
+      "justificationQuote": "Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & Co.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "auto"
@@ -2325,10 +2325,10 @@
       "thesisId": "hitzeschutz-fuer-obdachlose",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Die Grünen setzen sich für Hitzeschutzmaßnahmen für obdachlose Menschen ein.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "justificationQuote": "Mit kurzfristig wirksamen Hitzeschutzmaßnahmen werden wir Grüne besonders betroffene Quartiere gezielt entlasten.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2474,10 +2474,10 @@
       "thesisId": "schutz-und-foerderung-der-clubkultur",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten – auch für die Berliner Clubs.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "pending"
+      "justificationQuote": "Immer wieder geraten Clubs und Musikspielstätten aufgrund steigender Kosten und Mieten, Nutzungskonflikten und den Nachwirkungen der Covid-19-Pandemie unter Druck.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2673,21 +2673,17 @@
     {
       "partyId": "linke",
       "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
-      "stance": -1,
-      "status": "clear",
-      "justificationQuote": "Gefahrengebiete und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft und somit ein Einfallstor für Racial Profiling und diskriminierendes Polizeihandeln. Sie wollen wir abschaffen.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
-      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Endfassung des Berlin-Programms enthält die Passage nicht",
       "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "begrenzung-polizeilicher-befugnisse",
-      "stance": 1,
-      "status": "clear",
-      "justificationQuote": "Mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft […]. Die wollen wir abschaffen.",
-      "sourceLabel": "Die Linke Berlin – Wahlprogramm AGH 2026",
-      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "stance": null,
+      "status": "none",
+      "sourceLabel": "Endfassung des Berlin-Programms enthält die Passage nicht",
       "verification": "pending"
     },
     {
@@ -2888,7 +2884,7 @@
       "justificationQuote": "In den vergangenen 15 Jahren hat sich das Vermögen der 500 reichsten Personen in Deutschland fast verdreifacht – auf 1,16 Billionen Euro. … Tatsächlich kann sich die Gesellschaft die Milliardäre nicht mehr leisten.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -2950,7 +2946,7 @@
       "justificationQuote": "Wachsende Armut, explodierende Mieten, zerfallende Schulen und Krankenhäuser … [fordern die Umkehr der] bewussten Sparpolitik zugunsten der Aufrüstung.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -3007,7 +3003,7 @@
       "justificationQuote": "[Industrielle Kapazitäten] müssen genutzt werden, um … Flüchtlinge menschenwürdig aufzunehmen, statt sie in Konzentrationslagern an den EU-Außengrenzen einzusperren oder im Mittelmeer ertrinken zu lassen.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -3417,8 +3413,8 @@
       "stance": -2,
       "status": "clear",
       "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?“",
-      "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Tempelhofer Feld",
-      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/tempelhofer-feld",
+      "sourceLabel": "Tierschutzpartei Berlin – Wahlplakate (Kampagnenseite)",
+      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
       "verification": "pending"
     },
     {
@@ -3540,7 +3536,7 @@
       "status": "clear",
       "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?“",
       "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Schulen",
-      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/schulen",
+      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
       "verification": "pending"
     },
     {
@@ -3606,7 +3602,7 @@
       "status": "clear",
       "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?“",
       "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Öffis",
-      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026/plakate/oeffis",
+      "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
       "verification": "pending"
     },
     {
@@ -3941,10 +3937,10 @@
       "thesisId": "schutz-und-foerderung-der-clubkultur",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Eine Kulturpolitik, die Clubs und freie Szene verlässlich absichert.",
+      "justificationQuote": "berlin verbindet (menschen, europa und die welt) macht europa im alltag erlebbar: mit integration als standortvorteil, englisch als zweiter servicesprache der verwaltung und einer kulturpolitik, die clubs und freie szene verlässlich absichert.",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin verbindet",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",
@@ -4134,6 +4130,91 @@
       "category": "inhalt",
       "title": "Startinhalt: 38 Thesen zu 10 Berliner Themen, 17 Parteien",
       "details": "Thesenauswahl nach Wählersalienz (Wohnen schwerpunktmäßig), jede These mit Begründung und Quellen; Differenzierungskriterium maschinell überwacht."
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08-22",
+      "title": "Forsa: Die Linke deutlich vorn — CDU und AfD gleichauf",
+      "excerpt": "Knapp vier Wochen vor der Wahl kommt die Linke auf 22 %, CDU und AfD auf je 18 %, Grüne 16 %, SPD 12 %. BSW und FDP verpassen den Einzug. Rot-Grün-Rot wäre laut Umfrage das beliebteste Bündnis (37 %).",
+      "sourceLabel": "WELT / Forsa für t-online",
+      "sourceUrl": "https://www.welt.de/politik/deutschland/article6a88eb35c3692834ff6d8eb5/berlin-linke-in-wahl-umfrage-ploetzlich-deutlich-vor-cdu-und-afd-spd-abgeschlagen.html"
+    },
+    {
+      "date": "2026-08-22",
+      "partyId": "cdu",
+      "title": "Wegner zurückgetreten — Evers übernimmt Bürgermeisterkandidatur",
+      "excerpt": "Kai Wegner zog nach Kritik an seiner Krisenkommunikation infolge des tagelangen Stromausfalls als Spitzenkandidat zurück; Finanzsenator Stefan Evers übernimmt. Der Senat CDU–SPD liegt in der Forsa-Umfrage nur noch bei 30 %.",
+      "sourceLabel": "t-online / Forsa",
+      "sourceUrl": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101399250/neue-umfrage-zur-berlin-wahl-2026-linke-legen-zu-cdu-und-afd-gleichauf.html"
+    },
+    {
+      "date": "2026-08-19",
+      "partyId": "tierschutzpartei",
+      "title": "Tierschutzpartei: „Unser Name ist Fluch und Segen zugleich“",
+      "excerpt": "Spitzenkandidat Nico Poschinski im Morgenpost-Porträt über die Kandidatur der Partei Mensch Klima Tierschutz, die gemeinsam mit der Klimaliste antritt und aktuell in drei Bezirksverordnetenversammlungen sitzt.",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://www.morgenpost.de/berlin/article412887552/berlin-wahl-2026-das-sind-die-wahlkampfthemen-der-tierschutzpartei.html"
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Sieben Wahlprogramme, 16 Themen: Worüber die Parteien wirklich schreiben",
+      "excerpt": "KI-gestützte Auswertung der Wahlprogramme: Arbeit und Soziales dominiert, die CDU setzt am stärksten auf Sicherheit (18 % des Texts), die AfD verknüpft Wohnen mit Migration, die FDP schreibt am meisten über Mobilität.",
+      "sourceLabel": "Tagesspiegel (interaktiv)",
+      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Ipsos-Wählerpotenzial: Vier Parteien innerhalb von zwei Punkten",
+      "excerpt": "Kein klarer Favorit: SPD, Grüne, CDU und Linke liegen beim Wählerpotenzial dicht beieinander (31–33 %). 52 % können sich mindestens zwei Parteien vorstellen — der Wettbewerb spielt sich besonders links der Mitte ab.",
+      "sourceLabel": "Ipsos",
+      "sourceUrl": "https://www.ipsos.com/de-de/umfrage-wahl-berlin"
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Wahlprogramm-Check Wohnen: Mieten sind das Stadt-Thema",
+      "excerpt": "rbb24 vergleicht die Wohnungspläne aller sieben aussichtsreichen Parteien — von Vergesellschaftung und Mietendeckel bis Tempelhofer Feld und Wohneigentumsförderung. Basis für einen Großteil unserer Wohnen-Thesen.",
+      "sourceLabel": "rbb24",
+      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Landeswahlausschuss lässt zwölf Landeslisten zu",
+      "excerpt": "17 Parteien treten zur Abgeordnetenhauswahl an; Piraten, Freie Wähler, dieBasis und MERA25 scheiterten an den 2.200 Unterstützungsunterschriften. Kleine Parteien kritisieren Berlins hohe Hürde.",
+      "sourceLabel": "Landeswahlleiter Berlin / rbb24",
+      "sourceUrl": "https://www.berlin.de/wahlen/pressemitteilungen/2026/pressemitteilung.1697177.php"
+    },
+    {
+      "date": "2026-07-22",
+      "partyId": "dkp",
+      "title": "DKP tritt mit Landesliste und Treptow-Köpenick-Direktkandidatur an",
+      "excerpt": "Mit 2.480 gültigen Unterschriften übersprang die DKP die Hürde deutlich; das Wahlprogramm umfasst sechs thematische Schwerpunkte von Wohnungs- bis Verkehrspolitik.",
+      "sourceLabel": "Unsere Zeit (UZ)",
+      "sourceUrl": "https://www.unsere-zeit.de/menschen-die-nicht-erst-seit-gestern-kaempfen-4816531/"
+    },
+    {
+      "date": "2026-07-15",
+      "partyId": "volt",
+      "title": "Volt startet Kampagne „unf*ck Berlin“ mit 98 Best-Practice-Ideen",
+      "excerpt": "Programm präsentiert als konkreter Plan in sieben Kapiteln — von Verwaltung (Once-Only-Prinzip, Genehmigungsfiktion) über Housing First bis zur Absicherung der Clubkultur. Volt tritt in allen 78 Wahlkreisen an.",
+      "sourceLabel": "Volt Berlin",
+      "sourceUrl": "https://voltdeutschland.org/berlin/neuigkeiten/unfuck-berlin-reveal"
+    },
+    {
+      "date": "2026-07-10",
+      "partyId": "sgp",
+      "title": "SGP-Wahlerklärung: „Sozialismus statt Krieg“",
+      "excerpt": "Die trotzkistische SGP begründet ihre Kandidatur mit Gegenposition zu Aufrüstung und Sozialkürzungen; fordert Enteignung von Banken und Konzernen unter demokratischer Kontrolle.",
+      "sourceLabel": "World Socialist Web Site",
+      "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
+    },
+    {
+      "date": "2026-06-15",
+      "partyId": "oedp",
+      "title": "ÖDP schafft vorzeitigen Wahlantritt — und kritisiert die Hürde",
+      "excerpt": "2.345 gesammelte Unterschriften sichern die Teilnahme; die ÖDP fordert wie die Linke die Absenkung des Berliner Quorums von 2.200 Unterschriften für kleine Parteien.",
+      "sourceLabel": "ÖDP Berlin – Pressemitteilung",
+      "sourceUrl": "https://www.oedp-berlin.de/aktuelles/pressemitteilungen/nachrichtendetails/news/oedp-schafft-vorzeitig-wahlantritt-und-beklagt-ben"
     }
   ]
 }

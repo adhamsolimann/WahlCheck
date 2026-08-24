@@ -105,26 +105,10 @@ positions:
   - { thesisId: beschleunigte-schulsanierung, stance: null, status: none, verification: pending }
   # --- Sicherheit ---
   - { thesisId: mehr-polizeipersonal, stance: null, status: none, verification: pending }
-  - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
-    stance: -1
-    status: clear
-    justificationQuote: >-
-      Gefahrengebiete und Waffenverbotszonen sind mit zusätzlichen
-      polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen
-      Kontrollen verknüpft und somit ein Einfallstor für Racial Profiling und
-      diskriminierendes Polizeihandeln. Sie wollen wir abschaffen.
-    sourceLabel: "Die Linke Berlin – Wahlprogramm AGH 2026"
-    sourceUrl: "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/"
-    verification: pending
-  - thesisId: begrenzung-polizeilicher-befugnisse
-    stance: 1
-    status: clear
-    justificationQuote: >-
-      Mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder
-      anlasslosen Kontrollen verknüpft […]. Die wollen wir abschaffen.
-    sourceLabel: "Die Linke Berlin – Wahlprogramm AGH 2026"
-    sourceUrl: "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/"
-    verification: pending
+  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none,
+      sourceLabel: "Endfassung des Berlin-Programms enthält die Passage nicht", verification: pending }
+  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none,
+      sourceLabel: "Endfassung des Berlin-Programms enthält die Passage nicht", verification: pending }
   # --- Migration ---
   - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
   - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none, verification: pending }

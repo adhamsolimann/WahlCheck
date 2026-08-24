@@ -46,7 +46,7 @@ positions:
       Tatsächlich kann sich die Gesellschaft die Milliardäre nicht mehr leisten.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   - thesisId: personalabbau-in-der-verwaltung
     stance: -2
     status: clear
@@ -78,7 +78,7 @@ positions:
       der Aufrüstung.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   # --- Sicherheit ---
   - thesisId: mehr-polizeipersonal
     stance: -2
@@ -129,7 +129,7 @@ positions:
       EU-Außengrenzen einzusperren oder im Mittelmeer ertrinken zu lassen.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   # --- Mobilität ---
   - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
   - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none,

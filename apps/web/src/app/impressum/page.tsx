@@ -13,10 +13,9 @@ export default function ImpressumPage() {
           <p className="mt-1">
             Adham Soliman (privat)
             <br />
-            [Anschrift — vor öffentlichem Launch ergänzen; bei privaten,
-            unkommerziellen Angeboten genügt nach herrschender Praxis eine
-            erreichbare Kontaktmöglichkeit, die vollständige Anschrift wird zur
-            rechtlichen Absicherung noch eingetragen.]
+            Böckhstraße 50
+            <br />
+            10967 Berlin
           </p>
         </section>
 

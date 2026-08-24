@@ -36,6 +36,7 @@ export default function RootLayout({
           <nav aria-label="Fußzeile" className="flex flex-wrap justify-center gap-x-5 gap-y-2">
             <a href="/quiz/" className="hover:underline">Matching</a>
             <a href="/koalition/" className="hover:underline">Koalitionen</a>
+            <a href="/news/" className="hover:underline">News</a>
             <a href="/methodik/" className="hover:underline">Methodik</a>
             <a href="/aenderungen/" className="hover:underline">Änderungslog</a>
             <a href="/statut/" className="hover:underline">Redaktionsstatut</a>

@@ -1,16 +1,22 @@
 # T104-WAVE1 — BSW-Positionen aus rbb24 Wohnungs-Check; verification pending (T-132)
 partyId: bsw
 positions:
-  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: 1, status: clear,
-      justificationQuote: "Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co. Enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
-  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: 1, status: clear,
-      justificationQuote: "Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: vergesellschaftung-grosser-wohnungskonzerne
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: pending
+  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: pending
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none,
@@ -18,14 +24,17 @@ positions:
       verification: pending }
   - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
   - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
-  - { thesisId: abschaffung-modernisierungsumlage, stance: 1, status: clear,
-      justificationQuote: "Überteuerte Modernisierungen sollen begrenzt werden.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+  - thesisId: abschaffung-modernisierungsumlage
+    stance: 1
+    status: clear
+    justificationQuote: >-
+      Bei Leerstand sollen Treuhänder eingesetzt, überteuerte Modernisierungen begrenzt und Wohnungstauschprogramme gestärkt werden.
+    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
+    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
+    verification: "auto"
   - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
   - { thesisId: einschraenkung-moeblierter-wohnraum, stance: 1, status: clear,
-      justificationQuote: "Möbliertes Wohnen und Mikroapartments sollen eingeschränkt, Zweckentfremdung und Abriss verhindert werden.",
+      justificationQuote: "Enteignen&quot; zur Vergesellschaftung von Wohnungsbeständen großer Konzerne und einen neuen Anlauf für einen Mietendeckel auf Landes‑ oder Bundesebene.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: "auto" }

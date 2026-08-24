@@ -1,0 +1,12 @@
+import { readFileSync } from "node:fs";
+import { extractText, getDocumentProxy } from "unpdf";
+const buf = readFileSync(".factcheck-cache/d9f00abb5c1e9145");
+const pdf = await getDocumentProxy(new Uint8Array(buf));
+const { text } = await extractText(pdf, { mergePages: true });
+const norm = (t:string)=> t.normalize("NFKC").toLowerCase().replace(/[\u00AD\u2010\u2011]/g,"").replace(/[‐-―]/g,"-").replace(/[„“‚‘'‹›«»]/g,'"').replace(/\s+/g," ").trim();
+const alpha = (t:string)=> t.replace(/[^a-z0-9äöüß]/g,"");
+const q = norm("Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung zur Profitmaximierung gehen wir vor.");
+console.log("text-includes:", norm(text).includes(q));
+console.log("alpha-includes:", alpha(norm(text)).includes(alpha(q)));
+const i = norm(text).indexOf("hotelartig");
+if (i>=0) console.log("DOC-KONTEXT:", JSON.stringify(norm(text).slice(i-60, i+120)));

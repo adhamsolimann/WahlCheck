@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:17:45.252Z",
+  "generatedAt": "2026-08-24T22:36:36.229Z",
   "parties": [
     {
       "id": "afd",
@@ -2288,8 +2288,11 @@
     {
       "partyId": "gruene",
       "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "sourceLabel": "Wir nutzen die Kreditaufnahme voll aus und setzen den Berliner Anteil am Sondervermögen des Bundes gezielt ein.",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2340,8 +2343,11 @@
     {
       "partyId": "gruene",
       "thesisId": "gemeinschaftsschule-fuer-alle",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "sourceLabel": "Gemeinschaftsschulen werden alleingelassen und die soziale Ungleichheit verschärft sich.",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2382,8 +2388,11 @@
     {
       "partyId": "gruene",
       "thesisId": "erleichterte-abschiebungen",
-      "stance": null,
-      "status": "none",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "sourceLabel": "Rechte wahrzunehmen und Rechtsverfahren durchzustehen – ohne Angst vor Abschiebung.",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2403,8 +2412,11 @@
     {
       "partyId": "gruene",
       "thesisId": "stopp-der-a100-verlaengerung",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "sourceLabel": "Bedrohen die Pläne des Bundes und des Senats zum Weiterbau der A 100 gleich mehrere weitere Berliner Club-Standorte.",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2645,8 +2657,11 @@
     {
       "partyId": "linke",
       "thesisId": "gemeinschaftsschule-fuer-alle",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "sourceLabel": "Eine Schule für alle: Mehr Gemeinschaftsschulen für Berlin!",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2689,8 +2704,11 @@
     {
       "partyId": "linke",
       "thesisId": "erleichterte-abschiebungen",
-      "stance": null,
-      "status": "none",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "sourceLabel": "… denn jede Abschiebung ist eine Abschiebung zu viel. Wir werden daher auch auf die Ausweitung des Chancenaufenthaltsrechts drängen.",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2710,15 +2728,21 @@
     {
       "partyId": "linke",
       "thesisId": "stopp-der-a100-verlaengerung",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "sourceLabel": "Wir fordern, dass die A100 qualifiziert am Treptower Park beendet und nicht weiter ausgebaut wird.",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "tempo30-auf-hauptverkehrsstrassen",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
+      "sourceLabel": "Wir setzen uns im Bund für Tempo 30 als innerörtliche Regelgeschwindigkeit ein und nutzen unabhängig davon alle Möglichkeiten, um Tempo 30 auch auf Berliner Straßen durchzusetzen.",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -3231,8 +3255,11 @@
     {
       "partyId": "spd",
       "thesisId": "gemeinschaftsschule-fuer-alle",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "sourceLabel": "Egal ob Gymnasium, Integrierte Sekundarschule oder Gemeinschaftsschule: An jedem Standort sollen alle Abschlüsse ohne Schulwechsel möglich sein – bis hin zum Abitur.",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3277,8 +3304,11 @@
     {
       "partyId": "spd",
       "thesisId": "erleichterte-abschiebungen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "sourceLabel": "Wir priorisieren Rückführungen bei schweren Straftaten ohne Bleiberecht. Das gilt auch für Gefährder, die unsere freiheitliche Demokratie bedrohen.",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3299,22 +3329,31 @@
     {
       "partyId": "spd",
       "thesisId": "stopp-der-a100-verlaengerung",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "sourceLabel": "Statt die A100 weiterzubauen, setzen wir auf den Erhalt unserer Straßen und Brücken sowie auf nachhaltige Mobilität.",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
       "partyId": "spd",
       "thesisId": "tempo30-auf-hauptverkehrsstrassen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "sourceLabel": "Tempo 50 auf bisherigen Tempo-30-Strecken lehnen wir ab. Tempo 30 richten wir besonders rund um Kitas, Schulen, Spielplätze und Seniorenheime ein.",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
       "partyId": "spd",
       "thesisId": "sozialticket-und-oepnv-ausbau",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "sourceLabel": "Das Deutschlandticket zählt zu den erfolgreichsten Projekten der Verkehrspolitik. Es hat viele Menschen zurück in Bus und Bahn gebracht.",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3327,8 +3366,11 @@
     {
       "partyId": "spd",
       "thesisId": "klimaneutralitaet-bis-2045",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "sourceLabel": "Unser Ziel ist klar: Berlin wird bis möglichst vor 2045 klimaneutral. Das gelingt nur, wenn wir bereit sind, unsere Stadt zu verändern.",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {

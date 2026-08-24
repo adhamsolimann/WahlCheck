@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **11** | 67 | 0 |
+| gesamt | **25** | 67 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -67,7 +67,7 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### Die Linke — 0 offen · 9 🤖 maschinell · 0 ✅ menschlich
+### Die Linke — 4 offen · 9 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 
@@ -75,12 +75,16 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +2 | „Die Modernisierungsumlage wollen wir abschaffen.“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaf…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | … denn jede Abschiebung ist eine Abschi… | |
+| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Eine Schule für alle: Mehr Gemeinschaft… | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenk…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatis…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlba…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von o…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Wir fordern, dass die A100 qualifiziert… | |
+| ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Wir setzen uns im Bund für Tempo 30 als… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 22…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 
 <details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
@@ -96,24 +100,28 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 ---
 
-### GRÜNE — 0 offen · 8 🤖 maschinell · 0 ✅ menschlich
+### GRÜNE — 4 offen · 8 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Rechte wahrzunehmen und Rechtsverfahren… | |
+| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Gemeinschaftsschulen werden alleingelas… | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Dafür werden wir die Grundsteuer C sowie strenge Baugebote einführen, damit Spekulant*inn…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Wir nutzen die Kreditaufnahme voll aus … | |
 | 🤖 | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Mit kurzfristig wirksamen Hitzeschutzmaßnahmen werden wir Grüne besonders betroffene Quar…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Immer wieder geraten Clubs und Musikspielstätten aufgrund steigender Kosten und Mieten, N…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Bedrohen die Pläne des Bundes und des S… | |
 | 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Sp…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 
 ---
 
-### SPD — 1 offen · 10 🤖 maschinell · 0 ✅ menschlich
+### SPD — 7 offen · 10 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 
@@ -123,12 +131,18 @@ Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4
 | 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Dazu treiben wir die die KI unterstützte Digitalisierung in den Bauämtern voran.“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung …“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Wir priorisieren Rückführungen bei schw… | |
+| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Egal ob Gymnasium, Integrierte Sekundar… | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt si…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Unser Ziel ist klar: Berlin wird bis mö… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Län…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.“ | SPD Berlin – Wahlprogramm 2026 (PDF, Ka… | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Für die Clubwirtschaft initiieren wir erstmals eine Spielstättenförderung und setzen Empf…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Das Deutschlandticket zählt zu den erfo… | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Wir erhöhen diese Quote auf 50 Prozent und stärken das Modell als Kerninstrument für beza…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Statt die A100 weiterzubauen, setzen wi… | |
+| ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Tempo 50 auf bisherigen Tempo-30-Streck… | |
 | ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | neutral | „“ | rbb24 Wohnungs-Check – „vermeidet … ein… | |
 
 <details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>

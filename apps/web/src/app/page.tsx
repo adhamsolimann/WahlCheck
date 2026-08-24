@@ -13,8 +13,14 @@ function daysUntilElection(): number {
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl space-y-8 px-6 py-16">
-      <header className="space-y-4 text-center">
+    <main className="relative mx-auto max-w-3xl space-y-8 overflow-hidden px-6 py-16">
+      {/* dezenter Hintergrund-Schein */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute -top-24 left-1/2 h-64 w-[42rem] max-w-none -translate-x-1/2 rounded-full bg-brand-200/40 blur-3xl dark:bg-brand-900/30"
+      />
+
+      <header className="animate-fade-up relative space-y-4 text-center">
         <p className="text-sm font-semibold uppercase tracking-widest text-brand-600 dark:text-brand-400">
           Berlin · Abgeordnetenhauswahl
         </p>
@@ -33,14 +39,14 @@ export default function Home() {
 
       <div
         role="status"
-        className="rounded-xl border border-accent-500/30 bg-accent-500/5 p-4 text-center text-sm"
+        className="animate-fade-up relative rounded-xl border border-accent-500/30 bg-accent-500/5 p-4 text-center text-sm [animation-delay:80ms]"
       >
         <strong>Baukasten-Status:</strong> Sprint 0 abgeschlossen — Engine,
         Schemata und Design-System stehen. Der Quiz-Flow folgt in Sprint-Woche 1
         (Tasks T-101 ff., siehe ROADMAP.md).
       </div>
 
-      <section className="grid gap-4 sm:grid-cols-2">
+      <section className="animate-fade-up relative grid gap-4 sm:grid-cols-2 [animation-delay:160ms]">
         <Card>
           <CardTitle>17 Parteien auf dem Stimmzettel</CardTitle>
           <CardBody>
@@ -59,7 +65,7 @@ export default function Home() {
         </Card>
       </section>
 
-      <div className="flex flex-wrap justify-center gap-3">
+      <div className="animate-fade-up relative flex flex-wrap justify-center gap-3 [animation-delay:240ms]">
         <Link href="/quiz/">
           <Button size="lg">Matching starten</Button>
         </Link>
@@ -70,7 +76,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <footer className="pt-8 text-center text-xs text-zinc-500">
+      <footer className="relative pt-8 text-center text-xs text-zinc-500">
         Quellen der Seed-Inhalte: Wahlprogramme der Parteien sowie
         Programm-Auswertungen von rbb24 und Tagesspiegel. Alle Zitate werden bis
         zum Launch gegen Original-PDFs verifiziert.

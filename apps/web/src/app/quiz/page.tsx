@@ -278,19 +278,22 @@ export default function QuizPage() {
         </div>
       </div>
 
-      <ThesisCard
-        thesis={current}
-        index={index}
-        total={scope.length}
-        stance={stanceValue}
-        skipped={session.skips.includes(current.id)}
-        weight={effectiveWeight}
-        onStance={(s) => setStance(current.id, s)}
-        onSkip={() => toggleSkip(current.id)}
-        onWeight={(w) => setWeight(current.id, w)}
-        onPrev={goPrev}
-        onNext={goNext}
-      />
+      {/* key = These-ID → sanfter Fade/Slide bei jedem Fragenwechsel */}
+      <div key={current.id} className="animate-fade">
+        <ThesisCard
+          thesis={current}
+          index={index}
+          total={scope.length}
+          stance={stanceValue}
+          skipped={session.skips.includes(current.id)}
+          weight={effectiveWeight}
+          onStance={(s) => setStance(current.id, s)}
+          onSkip={() => toggleSkip(current.id)}
+          onWeight={(w) => setWeight(current.id, w)}
+          onPrev={goPrev}
+          onNext={goNext}
+        />
+      </div>
 
       <div className="flex justify-end">
         {index === scope.length - 1 ? (

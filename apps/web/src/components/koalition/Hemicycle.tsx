@@ -156,7 +156,11 @@ export function Hemicycle({ allocation, partiesById, hovered, onHover }: Hemicyc
             r={SEAT_R}
             fill={party?.colorHex ?? "#a1a1aa"}
             opacity={dimmed ? 0.25 : 1}
-            style={{ transition: "opacity .12s ease" }}
+            className="animate-fade"
+            style={{
+              transition: "opacity .12s ease",
+              animationDelay: `${Math.min(i * 6, 600)}ms`,
+            }}
           />
         );
       })}

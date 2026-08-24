@@ -36,3 +36,51 @@
     @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Motion-Primitiven (Dokumentation: docs/design-system.md#bewegung)   */
+/* Gilt nur bei „Keine reduzierte Bewegung“ — sonst sofortiger Endzustand */
+/* ------------------------------------------------------------------ */
+
+@keyframes wc-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes wc-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes wc-bar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-fade-up {
+    animation: wc-fade-up 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .animate-fade {
+    animation: wc-fade 0.35s ease-out both;
+  }
+  /* Balken füllt sich von links; Endbreite bleibt im style-Attribut */
+  .animate-bar-x {
+    transform-origin: left center;
+    animation: wc-bar 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}

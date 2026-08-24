@@ -220,7 +220,7 @@ function ResultRow({
         </span>
         <span className="hidden h-2 flex-[2] overflow-hidden rounded-full bg-zinc-200 sm:block dark:bg-zinc-800">
           <span
-            className="block h-full rounded-full"
+            className="animate-bar-x block h-full rounded-full"
             style={{ width: `${pct ?? 0}%`, backgroundColor: party.colorHex }}
           />
         </span>

@@ -10,6 +10,7 @@ import { WeightSlider } from "@/components/ui/WeightSlider";
 export default function DesignPage() {
   const [stance, setStance] = useState<number | null>(null);
   const [weight, setWeight] = useState(1);
+  const [replay, setReplay] = useState(0);
 
   return (
     <main className="mx-auto max-w-3xl space-y-6 px-6 py-12">
@@ -65,6 +66,47 @@ export default function DesignPage() {
         <CardTitle>WeightSlider — Wichtigkeit 1–5×</CardTitle>
         <CardBody>
           <WeightSlider value={weight} onChange={setWeight} />
+        </CardBody>
+      </Card>
+
+      {/* ---------- Bewegung (docs/design-system.md §3) ---------- */}
+      <Card>
+        <CardTitle>Bewegung — animate-fade-up / animate-bar-x</CardTitle>
+        <CardBody>
+          <p className="mb-4 text-xs text-zinc-500">
+            Beide laufen nur bei „keine reduzierte Bewegung“; Stagger über
+            inline animation-delay. Replay per Klick.
+          </p>
+          <div className="space-y-3">
+            {[80, 55, 30].map((pct, i) => (
+              <div key={`${replay}-${i}`} className="flex items-center gap-3">
+                <span
+                  aria-hidden
+                  className="h-3 w-3 shrink-0 rounded-full"
+                  style={{ backgroundColor: ["#D81E05", "#1A1A1A", "#E5007D"][i] }}
+                />
+                <span className="h-2 flex-1 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800">
+                  <span
+                    className="animate-bar-x block h-full rounded-full"
+                    style={{
+                      width: `${pct}%`,
+                      backgroundColor: ["#D81E05", "#1A1A1A", "#E5007D"][i],
+                      animationDelay: `${i * 90}ms`,
+                    }}
+                  />
+                </span>
+                <span className="w-12 text-right text-sm tabular-nums">{pct} %</span>
+              </div>
+            ))}
+          </div>
+          <div className="mt-4 flex items-center gap-3">
+            <Button size="sm" variant="secondary" onClick={() => setReplay((n) => n + 1)}>
+              Animation wiederholen
+            </Button>
+            <span className="animate-fade-up text-xs text-zinc-500" key={replay}>
+              ← Karte/Eintritte nutzen dasselbe wc-fade-up
+            </span>
+          </div>
         </CardBody>
       </Card>
     </main>

@@ -20,10 +20,8 @@ export interface ThesisCardProps {
 }
 
 /**
- * Eine These pro Karte. Bedienbar per Touch, Maus und Tastatur
- * (1–5 = Skala, S = überspringen, ←/→ = Navigation).
- * Auf der letzten Frage gibt es bewusst keinen „Weiter“-Button —
- * der Weg führt über die Auswertungs-CTA darunter.
+ * Eine These pro Karte mit FIXER Gesamthöhe: Textbereich wächst,
+ * Bedienelemente bleiben immer an derselben Position.
  */
 export function ThesisCard({
   thesis,
@@ -41,49 +39,47 @@ export function ThesisCard({
   const isLast = index === total - 1;
 
   return (
-    <div className="flex flex-col gap-6">
-      <div className="space-y-2">
+    <div className="flex h-full flex-col gap-5">
+      {/* These — flex-1 absorbiert Höhenunterschiede */}
+      <div className="flex-1 space-y-2">
         <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
           These {index + 1} von {total}
         </p>
-        {/* min-height verhindert Layout-Springen bei unterschiedlichen Textlängen */}
-        <h2 className="min-h-[5rem] text-xl font-semibold leading-snug sm:min-h-[4.5rem] sm:text-2xl">
+        <h2 className="text-xl font-semibold leading-snug sm:text-2xl">
           {thesis.text}
         </h2>
       </div>
 
-      <div className={skipped ? "opacity-40" : ""}>
-        <StanceScale
-          value={stance}
-          onChange={(s) => {
-            onStance(s);
-          }}
-        />
-      </div>
+      {/* Bedienelemente — immer an derselben Position von unten */}
+      <div className="space-y-4">
+        <div className={skipped ? "opacity-40" : ""}>
+          <StanceScale value={stance} onChange={(s) => onStance(s)} />
+        </div>
 
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <WeightSlider value={weight} onChange={onWeight} />
-        <Button variant="ghost" size="sm" onClick={onSkip}>
-          {skipped ? "Nicht überspringen" : "Überspringen"}
-        </Button>
-      </div>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <WeightSlider value={weight} onChange={onWeight} />
+          <Button variant="ghost" size="sm" onClick={onSkip}>
+            {skipped ? "Nicht überspringen" : "Überspringen"}
+          </Button>
+        </div>
 
-      <div className="flex min-h-[2.75rem] items-center justify-between gap-3">
-        <Button variant="secondary" onClick={onPrev} disabled={index === 0}>
-          ← Zurück
-        </Button>
-        {isLast ? (
-          <span className="text-xs text-zinc-500">
-            Letzte These — weiter geht es unten mit der Auswertung.
-          </span>
-        ) : (
-          <>
-            <span className="hidden text-xs text-zinc-500 sm:inline" aria-hidden>
-              Tastatur: 1–5 · S · ← →
+        <div className="flex items-center justify-between gap-3">
+          <Button variant="secondary" onClick={onPrev} disabled={index === 0}>
+            ← Zurück
+          </Button>
+          {isLast ? (
+            <span className="text-xs text-zinc-500">
+              Letzte These — Auswertung unten.
             </span>
-            <Button onClick={onNext}>Weiter →</Button>
-          </>
-        )}
+          ) : (
+            <>
+              <span className="hidden text-xs text-zinc-500 sm:inline" aria-hidden>
+                Tastatur: 1–5 · S · ← →
+              </span>
+              <Button onClick={onNext}>Weiter →</Button>
+            </>
+          )}
+        </div>
       </div>
     </div>
   );

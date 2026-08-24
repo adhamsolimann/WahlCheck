@@ -290,7 +290,8 @@ export default function QuizPage() {
       </div>
 
       {/* key = These-ID → sanfter Fade bei jedem Fragenwechsel */}
-      <div key={current.id} className="animate-fade mt-6">
+      {/* Feste Höhe: Bedienelemente bleiben immer an derselben Position */}
+      <div key={current.id} className="animate-fade mt-6 h-[26rem]">
         <ThesisCard
           thesis={current}
           index={index}

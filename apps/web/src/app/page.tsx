@@ -11,9 +11,60 @@ function daysUntilElection(): number {
   );
 }
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      name: "WahlCheck",
+      url: "https://wahl-check.com/",
+      inLanguage: "de-DE",
+      description: "Parteiunabhängiger Wahlkompass für die Abgeordnetenhauswahl Berlin 2026.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Was ist WahlCheck und wie unterscheidet es sich vom Wahl-O-Mat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "WahlCheck nutzt eine 5-Punkt-Skala statt Ja/Nein, persoenliche Wichtigkeit 1-5x, belegte Zitate aus den Wahlprogrammen und einen Koalitionsrechner. Alle Positionen sind woertlich belegt - ehrliches Keine Angabe statt Vermutungen.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Werden meine Antworten gespeichert?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nein. Das Matching läuft ausschließlich in Ihrem Browser. Es gibt keinen Serverpfad für Antwortdaten — politische Meinungsdaten verlassen das Gerät nicht (Art. 9 DSGVO).",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Ist WahlCheck parteiunabhängig?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ja. Alle 17 zugelassenen Parteien werden nach denselben Regeln dargestellt. Jede Position trägt ein wörtliches Zitat aus dem offiziellen Wahlprogramm. Keine Parteigelder, keine Werbung, keine Wahlempfehlung.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Welche Parteien treten zur Berliner Abgeordnetenhauswahl 2026 an?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "17 Parteien mit Landes- oder Bezirkslisten, u.a. SPD, CDU, Grüne, Linke, AfD, FDP, BSW, Volt, ÖDP, Tierschutzpartei, DKP, Die PARTEI und weitere.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <main className="relative mx-auto max-w-3xl space-y-8 overflow-hidden px-6 py-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* dezenter Hintergrund-Schein */}
       <div
         aria-hidden

@@ -1,5 +1,7 @@
 "use client";
 
+
+
 import { Fragment, useMemo, useState } from "react";
 import Link from "next/link";
 import { feasibleCoalitions, sainteLague, type CoalitionOption } from "@wahlen/engine";

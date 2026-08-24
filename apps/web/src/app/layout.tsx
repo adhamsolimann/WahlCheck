@@ -2,11 +2,47 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { KofiWidget } from "@/components/KofiWidget";
 import { SiteHeader } from "@/components/layout/SiteHeader";
+import { SITE_CONFIG } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "WahlCheck – Abgeordnetenhauswahl Berlin am 20.09.2026",
+  metadataBase: new URL(SITE_CONFIG.siteUrl),
+  title: {
+    default: "WahlCheck – Abgeordnetenhauswahl Berlin 2026",
+    template: "%s | WahlCheck",
+  },
   description:
-    "Parteiunabhängiger Wahlkompass für die Berliner Abgeordnetenhauswahl: nuanced matching statt Ja/Nein. Deine Antworten bleiben im Browser.",
+    "Parteiunabhängiger Wahlkompass für die Abgeordnetenhauswahl Berlin 2026: Differenziertes Matching statt Ja/Nein, Koalitionsrechner, Parlaments-Halbrund und belegte Parteipositionen. Deine Antworten bleiben im Browser.",
+  keywords: [
+    "Abgeordnetenhauswahl Berlin 2026",
+    "Wahl-O-Mat Alternative",
+    "Welche Partei wählen Berlin",
+    "Wahlkompass Berlin",
+    "Parteienvergleich",
+    "Koalitionsrechner Berlin",
+    "Berliner Wahl 2026",
+    "Parteipositionen vergleichen",
+  ],
+  authors: [{ name: "Adham Soliman" }],
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    siteName: "WahlCheck",
+    title: "WahlCheck – Abgeordnetenhauswahl Berlin 2026",
+    description:
+      "Finde die Partei, die wirklich zu dir passt — mit differenzierten Antworten, Koalitionsrechner und wörtlich belegten Parteipositionen.",
+    url: SITE_CONFIG.siteUrl,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "WahlCheck – Abgeordnetenhauswahl Berlin 2026",
+    description:
+      "Differenziertes Matching, Koalitionsrechner und belegte Parteipositionen — privat berechnet im Browser.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
 };
 
 export const viewport = {

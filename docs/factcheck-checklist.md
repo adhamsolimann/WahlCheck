@@ -81,7 +81,7 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 | 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatis…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
-| 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlba…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| 🤖 | Bei großen privaten Bauprojekten soll die Hälfte derv Wohnun… | +1 | „Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlba…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von o…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 22…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 
@@ -96,7 +96,7 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 ---
 
-### GRÜNE — 3 offen · 5 🤖 maschinell · 0 ✅ menschlich
+### GRÜNE — 3 offen · 3 🤖 maschinell · 2 ✅ menschlich
 
 Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 
@@ -105,8 +105,8 @@ Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_O
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Dafür werden wir die Grundsteuer C sowie strenge Baugebote einführen, damit Spekulant*inn…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Die Grünen setzen sich für Hitzeschutzmaßnahmen für obdachlose Menschen ein.“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine L…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ✅ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ✅ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine L…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Bei den Grünen und Linken ist die Rede von Schutz vor steigenden Gewerbemieten – auch für…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Sp…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Die Grünen unterstützen die Initiative „Deutsche Wohnen & Co. enteignen“, also die Verges…“ | rbb24 Wohnungs-Check (08/2026) | |

@@ -9,7 +9,7 @@ export interface ThesisCardProps {
   thesis: Thesis;
   index: number;
   total: number;
-  stance: number | null; // null = noch nicht beantwortet
+  stance: number | null;
   skipped: boolean;
   weight: number;
   onStance: (stance: number) => void;
@@ -40,8 +40,6 @@ export function ThesisCard({
 }: ThesisCardProps) {
   const isLast = index === total - 1;
 
-  return (
-    <div className="flex flex-col gap-6">
   return (
     <div className="flex flex-col gap-6">
       <div className="space-y-2">

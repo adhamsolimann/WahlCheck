@@ -39,7 +39,7 @@ EOF
 
 ### AfD — 5 offen · 1 🤖 maschinell · 0 ✅ menschlich
 
-Programm: **kein Link hinterlegt**
+Programm: (https://www.afd.de/wp-content/uploads/2023/05/Programm_AfD_Online_.pdf)
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|

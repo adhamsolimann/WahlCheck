@@ -33,7 +33,7 @@ export default function ImpressumPage() {
             </a>{" "}
             (Issues für Korrekturen und Feedback)
             <br />
-            E-Mail: <a href="mailto:asoliman.official@gmail.com" className="underline hover:text-brand-600">asoliman.official@gmail.com</a>
+            E-Mail: <a href="mailto:support@wahl-check.com" className="underline hover:text-brand-600">support@wahl-check.com</a>
           </p>
         </section>
 

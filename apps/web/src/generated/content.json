@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:28:26.817Z",
+  "generatedAt": "2026-08-24T23:33:17.837Z",
   "parties": [
     {
       "id": "afd",
@@ -3119,10 +3119,11 @@
     {
       "partyId": "spd",
       "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
-      "stance": null,
-      "status": "neutral",
-      "sourceLabel": "rbb24 Wohnungs-Check – „vermeidet … eine klare Antwort“",
-      "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die Zustimmung zur Initiative des Volksentscheids „Deutsche Wohnen und Co. Enteignen“ zeigt für uns deutlich, dass eine Mehrheit der Berliner*innen die zügellose Abzocke großer, insbesondere börsennotierter Wohnungsunternehmen ablehnt.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3138,8 +3139,11 @@
     {
       "partyId": "spd",
       "thesisId": "randbebauung-tempelhofer-feld",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Das Tempelhofer Feld ist ein besonderer Ort für Klima, Bewegung und soziales Miteinander. Wir erhalten es in seiner heutigen Funktion und entwickeln es behutsam weiter.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3179,15 +3183,21 @@
     {
       "partyId": "spd",
       "thesisId": "abschaffung-modernisierungsumlage",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Wir setzen uns zudem dafür ein, dass auf Bundesebene die Modernisierungsumlage gesenkt und befristet wird, bis die Kosten gedeckt sind.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
       "partyId": "spd",
       "thesisId": "foerderung-von-wohneigentum",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Selbstgenutztes Wohneigentum unterstützen wir trotzdem gezielt – besonders für Familien mit geringem und niedrigem Einkommen im Rahmen von privaten Neubaugebieten sowie für Mieter*innen, die bei Umwandlung bereits in der Wohnung leben.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3213,8 +3223,11 @@
     {
       "partyId": "spd",
       "thesisId": "staerkere-besteurung-hoher-einkommen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "… die große Vermögen stärker heranzieht, sowie die Wiedereinführung einer Vermögenssteuer. Zudem setzen wir uns beim Bund für ein Verbot von Share-Deals ein.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3234,15 +3247,21 @@
     {
       "partyId": "spd",
       "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wir verschärfen die Durchsetzung von Tariftreue und Vergabemindestlohn, um Lohndumping zu verhindern und öffentliche Gelder konsequent an soziale Standards zu binden.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
       "partyId": "spd",
       "thesisId": "hitzeschutz-fuer-obdachlose",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wir können die Obdachlosigkeit besiegen und mit einer entschlossenen Verkehrspolitik die Vision von Null Verkehrstoten erreichen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3314,16 +3333,21 @@
     {
       "partyId": "spd",
       "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
-      "stance": null,
-      "status": "none",
-      "sourceLabel": "Aussage stammt aus Sekundärbericht; im Programmtext nicht belegbar — TODO(T-132)",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Zusätzlich schaffen wir mehr Schutzwohnungen und Notunterkünfte.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
       "partyId": "spd",
       "thesisId": "ausbau-der-integrationsangebote",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Integrationskitas stärken wir durch eine Erhöhung des Personalzuschlages. Kita-Sozialarbeit setzen wir gezielt dort ein, wo sie besonders gebraucht wird.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3359,8 +3383,11 @@
     {
       "partyId": "spd",
       "thesisId": "prioritaet-fuer-radverkehr",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Für ein lückenloses und sicheres Netz setzen wir den Radverkehrsplan konsequent um und priorisieren das Radvorrangnetz.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3396,8 +3423,11 @@
     {
       "partyId": "spd",
       "thesisId": "rund-um-die-uhr-digitale-buergerservices",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahren sorgt die SPD Berlin dafür, dass das Land die Investitionen aus dem Haushalt deutlich erhöht.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3430,8 +3460,11 @@
     {
       "partyId": "spd",
       "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Wir arbeiten daran, dass die Berliner Stadtreinigung (BSR) die Reinigung aller Spielplätze und bis 2030 aller Parks und Grünanlagen übernimmt.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {

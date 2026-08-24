@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **25** | 67 | 0 |
+| gesamt | **25** | 78 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -121,36 +121,46 @@ Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_O
 
 ---
 
-### SPD — 7 offen · 10 🤖 maschinell · 0 ✅ menschlich
+### SPD — 7 offen · 21 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
+| 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | -1 | „Wir setzen uns zudem dafür ein, dass auf Bundesebene die Modernisierungsumlage gesenkt un…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „Integrationskitas stärken wir durch eine Erhöhung des Personalzuschlages. Kita-Sozialarbe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | -1 | „Zusätzlich schaffen wir mehr Schutzwohnungen und Notunterkünfte.“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Dazu treiben wir die die KI unterstützte Digitalisierung in den Bauämtern voran.“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung …“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Wir priorisieren Rückführungen bei schw… | |
+| 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Selbstgenutztes Wohneigentum unterstützen wir trotzdem gezielt – besonders für Familien m…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Egal ob Gymnasium, Integrierte Sekundar… | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt si…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Wir können die Obdachlosigkeit besiegen und mit einer entschlossenen Verkehrspolitik die …“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Unser Ziel ist klar: Berlin wird bis mö… | |
+| 🤖 | Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch… | +1 | „Wir arbeiten daran, dass die Berliner Stadtreinigung (BSR) die Reinigung aller Spielplätz…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Län…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.“ | SPD Berlin – Wahlprogramm 2026 (PDF, Ka… | |
+| 🤖 | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Für ein lückenloses und sicheres Netz setzen wir den Radverkehrsplan konsequent um und pr…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „Das Tempelhofer Feld ist ein besonderer Ort für Klima, Bewegung und soziales Miteinander.…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahr…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Für die Clubwirtschaft initiieren wir erstmals eine Spielstättenförderung und setzen Empf…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Das Deutschlandticket zählt zu den erfo… | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Wir erhöhen diese Quote auf 50 Prozent und stärken das Modell als Kerninstrument für beza…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „… die große Vermögen stärker heranzieht, sowie die Wiedereinführung einer Vermögenssteuer…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Statt die A100 weiterzubauen, setzen wi… | |
+| 🤖 | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | +1 | „Wir verschärfen die Durchsetzung von Tariftreue und Vergabemindestlohn, um Lohndumping zu…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Tempo 50 auf bisherigen Tempo-30-Streck… | |
-| ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | neutral | „“ | rbb24 Wohnungs-Check – „vermeidet … ein… | |
+| 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Die Zustimmung zur Initiative des Volksentscheids „Deutsche Wohnen und Co. Enteignen“ zei…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 
 <details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
 
 | These | Vermerk |
 |-------|---------|
 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO… |
-| Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | Aussage stammt aus Sekundärbericht; im Programmtext nicht belegbar — TODO(T-132) |
 
 </details>
 

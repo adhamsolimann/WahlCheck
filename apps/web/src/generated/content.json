@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:04:41.227Z",
+  "generatedAt": "2026-08-24T13:11:51.466Z",
   "parties": [
     {
       "id": "afd",
@@ -2211,10 +2211,10 @@
       "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Wir haben uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & Co. Enteignen“ umgesetzt wird.",
+      "justificationQuote": "Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „Deutsche Wohnen & Co. Enteignen“ umgesetzt wird.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -4134,6 +4134,128 @@
   ],
   "news": [
     {
+      "date": "2026-08-24",
+      "title": "Wahl-O-Mat für Berlin ist jetzt live: Hier können Sie ihn nutzen",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN1R2Q01PU00xSENiUy1JdF9ZTjViT1VmaVJoS1VJdkQ4UldJejNPNWRvZ3VDbjlUbHplWk9hT1NIbGVBMG1aRkhHM0xOemVtbE5NZTZwY1M3all6Zl9iRmE3SG5QRGZWZ0J4STk5b21ybTU3ejdjQXdSSUNUUjVsQldMODdDVFNUdjNvQ2FkWmhGRGZZMi05RUgxenBvX3RFNWhGUjc4NXk?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Wahlen in Berlin: Abgeordnetenhauswahl: Wahl-O-Mat ist online",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLVp1ZElMYjB0WklTd2pZWXJLYVlKQUF1WEJQWnJKLXVGNGpibjVaalBWZU5xTzhrM2dlTDBmaHdwb0J3ZkJYdzU3SnpDeXluWG5hbzNram5pWnNlanlBaWZlaWFRc2JYYWVEQW5aU3NvM043bWttb2lndHJYWlRhbk1ZeGxORnpmRmx1YkdTdWJvN1hFNkVhRTV0NzRyN01RaVc5UVVhellVVHJX?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Wahlen in Berlin - Abgeordnetenhauswahl: Wahl-O-Mat ist online - Politik",
+      "sourceLabel": "SZ.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQTJMZV93bDloRm9MM0p0c3NmSzMyYzhSTEpGeGVUU29KSFZmaXdBbkFZRFNVZ3lPTkpJamhrc01ZbWNmZXdLU0lKcUYzVWZkeTZvcFZqV1pnak1GdGFiLUZZcTgxa250Tks0NE4wRlpuYVpJaGtPb2xOcTRIT08wN0NBYVQwNEZVajRCa1ZrUXpKQVRIRVNMRlVMaFBPOXRJUjZKTXhQSndxYlRYX2RGZU02TXBLbzFkVlNxTzRtTElHbEhXRmhrWHlkLUJNQl95Qmdnal94Vmo2akk2a0E?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Wahl-O-Mat: Welche Parteien bei der Berlin-Wahl 2026 am besten zu Ihnen passen",
+      "sourceLabel": "Handelsblatt",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNEd5R2l1S2lmeS05eHNOVHdFdnlaUmJpQjNCUnBhcXF1eC00ZlFFWHAwWHdVSC1FMEw2T0d2OVgtaHA1VnBQVUROZ0w4VXhjWXoyRUFzaDFRTXZvQUlrLUVabmZSRklPaE5TS1R2dW5IcDAtbHVVUlhycDRIUEVScmtCd0VvSDJJUUowZ0JEOVlHUEZfUm9VcTlCVUlLSEVpZW5ON0NDbmdHS2kzbEZqdmVrYzZiRmlVUEItRkJYTkd5STBYMmVvQ3FFT25Ba3NnZEc3d3Q0SnE?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Wahl-O-Mat zur Abgeordnetenhauswahl Berlin 2026: Jetzt hier den Test machen",
+      "sourceLabel": "WEB.DE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORDBPQUZWUTBWckZKc04wUTVLNFZiOG9adkxfZzFIcnFyWDUxSkFaV2IzYjJiRnNST3JwTDZ3V0Z3LXNZdldpZXpJbjc4a0hjWko2SjVvZGRwTWRDb1hiYkVCNVVBYUVUYkM1dHd2c2xtcFBWM1ZidGhUbzNhWWJCelFPVTNhS0VFLUpFcTZSaEdSVzI0WFI0bmRCX3NQbU5pMzF0SXB2d3ZRUm5LM01ZNXVRcUpxSWFjRXBPeWhFUWJvRXJSbmdTT0R3?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Berlin-Wahl 2026: Der Wahl-O-Mat ist jetzt online",
+      "sourceLabel": "FAZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzY1Mmh3WllNRDlacE9PelR6b01TQkZpd3Ffek9WOTg1OFZabnVHRDFHdnZNV3BwOWVwbWZpd2Nlb1NWTEdqSnJXYXRfY2x2dGpMeXF5a0dubVRCM0NpaFFseWpnMGYxd2xuTVBKbURDc2NpZExqdXBHNXQxd0xKRXZnSVp5STNfY0ZXbE1sRmdVNXZWNUFqMklOSDRqNV9WZWg1TWlydVZkQnJ5M1JudVFqR2NKRl92QkNV?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Wahl-O-Mat zur Abgeordnetenhauswahl Berlin 2026: Jetzt hier den Test machen",
+      "sourceLabel": "WEB.DE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUXdGMHcyaVNDZnljYWdGemtQLXZjaktPbGg2cDZJZlhBbDNKb1FSSTJoR3dmTmhXOC1CM2xPdHRfYzRELW42Ni13VjQ4RW85XzFRVDY1Mnk3OTFDVGV5dGpTYmNyQ1d0U01ZbDFDdE40T0hyaGwxWVpUSU0wZzQybjFxSGZiVDMzbExZWThXX0d4eXJOUUl6dHNFT1haWVBObTJGZml4a1AxaHg3d1pXRkpUU01oY0RkMW1vYWFSelIwZllEUjRTU3doQkRRYzJmSTR3?oc=5"
+    },
+    {
+      "date": "2026-08-24",
+      "title": "Wahl-O-Mat für Berlin: Um wie viel Uhr und wo geht er online?",
+      "sourceLabel": "MOZ.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb2JtZUtoZHdla2tTTE5ObmxKZGxMczVVNTdkNGxIX29YNDU3TkktVlZQT0NuNmkxTldRU210RnJuOXJGUzVvczR4UGFKallfaVN3V3FOU3NFeEZhT25LQ3pLQnhpWEFZMTVHejJmbXlMMzV3SlNMc1BHb2hycFNTYXVncEpOdDh5LUVQcXBMUmt6Z0NtTzhQVVYwZVhFOV9sT0JzQi1Vd21JbnZfWGF0cGdmdFZtYnhPSzJuWmNR?oc=5"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Berlin-Wahl 2026: Das sind die Spitzenkandidaten im Überblick",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcThhREc2YXRpWVRSQ3NsVTZVbnZwdVhCUThaTjFsbWpMbGxJS0xEd0stVkMxU3VyV1hZNXcxOUhYNTFDOUNZdHQwcWxoN1pOd25Qc2lrRHFKNl94dk5sTi1hbFJQQms0YmlzdXY2c0MwTDhPNFZCOVBMdWFnVnp6c2xBMjRnR003T2xaMVlVQWp0cmJXTUE2WVU2N1Z4WEhwekVFdkZUV0xyb0R5WkE?oc=5"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Berliner Abgeordnetenhauswahl: Was gibt’s in Berlin zu wählen, außer »kleinstes Übel«?",
+      "sourceLabel": "DIE ZEIT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUkN5YzNFY2p1S0RHUlpGTGtqaWVYR2dBVFZ0bUNwOGctWU9DY2FjNHViODZnMnRiX3d5U0xmZVV5YjAzLURmSmtXMkdXbktPNnFteXNkaEJ2ejdPOEpES21uNXpzRU1XMGtiMDNiUEpwVlZEOWJFQlVrQXBUUV9rSXZoV1FMeG5uaGZoZlFxeG1tNm9BVjBZZUplOA?oc=5"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Ex-Obdachloser kandidiert bei Berlin-Wahl in Neuköllner Wahlkreis",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNalh3eDVsLW9Pa3JoRTNRWEZmaXFBRDBFaUI3eVFZSzBvMUs1cWRsQ3NvczcycUhEMnl6V3BtRWpDVDVIa1NhMXE1R1RFUUNPc2xPd3R6VzBpSF9xR2hoWkNhT29vREVOYS11WnphRi1pS2JmWDB3WnVRbE9Pd2M5QkZib3BWUDdxX2FheTZ5UzR1a1NMcmZQUWtDWFRaX1BYZzRtdG5oaHlNYmhBYXhyX21NVEk3bnhBNGE0eUpZdUZzMVpmdWxnSDIzWFJ2cUVpSW53VmlIaUFsZGV5ci1LUXpB?oc=5"
+    },
+    {
+      "date": "2026-08-23",
+      "title": "Wahlumfrage zur Berlin-Wahl 2026: Eine Partei setzt sich im Rennen ums Abgeordnetenhaus ab - T-Online",
+      "sourceLabel": "T-Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPd3NtSC0tOWZ6LVJ5UHA2Z21FSm05Nm80YlJMeGVoRVBxTFR6Mk93ZS1oWV94VUQxdDdUQllZaDNFdFFvV3RtcmhjdEM0WDdvX1NSTXk0WFZOZmVlNEY1UmJUVkdMM09DMGJhSE1yaXpjY0lZa1dyeHVyRDVnYVRzUGZtM3NmWV9IWGNwTWVnWmZyd3A2Z1d2eEs0ZmM3ZjgzRGEwczZhc09RSTUzcVA0RF9hUWRETFdpbTgzV0lFNWRrTldVOG92R3MyelNMS3pPNkJReFZoRXlvdW5JelNJbWxPMDJZbzVX?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Vier Wochen vor der Abgeordnetenhauswahl in Berlin am 20",
+      "sourceLabel": "Hasepost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTDhpVUVHZlhLd2V3S1BsSnRSc3c0Nl9WWkIxTVdSQ3hHZkpkUGtmaG14XzBnREctR1Rid0cwUXVpTFA4MHRFMkFIZU9wTXBGbzhJcWdWUmZPVUZXM1FPOWtHVkNNRVAwU0tVN2M1WWF4RndQbGNiVTNRZl9kaWV0UE52U1NxeTZnUDZtQw?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Vor dem Start des Berliner Wahl-O-Mat „Party-Check“ startet zur Berliner Abgeordnetenhauswahl",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN0JsNDMwSU5MLU5vN3NWR2k2NFRaZW1VZDNEQ2g2d0dSOE1ZdGNEQ0RlMjhmZW8wRDk2TGFUS2RrNnE3dWxNTE0zTDRJUWdURGNvSmQ5Rll6eXdXLXRJYWNhbDZrTm5lVmthN25NeTlkcDlCYkthNTNHYjA1VF9QbjctRXlEXzdhZUl0ODRyOTJtZmlZZGFCYUNDbWxqUE5xN3NQekhaSHhTOG8zLVBxejhGTDctbkZ4TzZpSk9ncndCZ3NzMEd5N2lLRmdtYjJKZkgyTFVFcw?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Vor der Abgeordnetenhauswahl: Wie erfahre ich, welche Partei meinen Positionen nahesteht?",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYXdGd3ViUWlMZ0xJcmlXbU1wUkR1XzZ4dy15SFo4MTNRRXlQOWFub0pDS2MyVTNBUXBMaHRMSjdJelllZHRCZ3ZFLXBqaHhENFJEM2NvbnBMaUVwLUY3ZGxjbDJOaUNnYmZHTU9VbWQwc2tnbDVLNU9WTkhlaGEzNUFEWnNLVHdvbHFhbVF2dEs5b0FjY3o2RW55VzZUWjNvcGJQYWFQSFd1dnFOV041blpUVXF2U1hPVFoyX2UxT1pKblJSc1NFOXMyQXNiNEJQbjZwWjl4aklfQXlpV1p4azhfbnB0SF9XWDR4QnhUZHRheEhnbVBjag?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "„Wir wissen nicht mehr, was wir noch wählen sollen“: Berlin vor der Wahl, so unentschieden wie nie",
+      "sourceLabel": "Berliner Zeitung",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZW9pdmVNWTV1dVRIXzNKUlB1X1NVWWMzQ0NlSmh1end4dWQ4M2hmanB3bi02VW1fdjJ3aWowZnRpaWdKRnpUeTl6MUhwMXV1YWNFZlBKdmJ6dlQ0ckhvdjdadjNoeWVkb1dibmFjQ3pYZjljMmptUGxxeXZWY3JwYk5FZVY0QlBSX0cxVmZscVBQX29sX2tjdGtXUmdvZjQ1ZC1pb1lNcldkWV9BT3g1Q3VoR1NnTVdic2xwYWNLNWhCcGtINGtfWm1EVWxCSHd1bkhDMk1kV05nRTg?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Wahl zum Abgeordnetenhaus: Berlin senkt Wahlalter auf 16 Jahre",
+      "sourceLabel": "tagesschau.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WdmRMRkZDS2dGb2NORlRmcUdjbHp4Uk9BYmg3SlpMbFNGaDdWWnBqRnk1ajRCcXpuWjV0Mjd6X1g1QVkxN1d1TnZfZkRxb2I1RF9fdTBtcjlxN1czZ3hJ?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "partyId": "linke",
+      "title": "Umfrage vor Abgeordnetenhauswahl sieht Linke in Berlin klar vorn",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0lxdFdZbnBPUkhLY29XRUU3VGxyLXl1RG9xdFNBbWVESVVvNms5OWlCMU5FZmNNbG5lODhHVkxfLXdYXzk3amtjc1ZLM1p3ZXJ4RDRERUxuY0N2SUtNeVBFNzNUT00tM1VBMmhSTTBOWXg0Y3RIYlpUV2htZE1pcnplLTkwZ2dwNG95TFdvZ3lVNGN1VFFTaUpGRmdFdWlxaGNSQmNtaw?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "title": "Abgeordnetenhauswahl Berlin: Neueste Wahlumfragen im Wahltrend | Sonntagsfrage #aghw",
+      "sourceLabel": "dawum.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiPEFVX3lxTFBvWlBrOW5wNUlsaEd0LWJ1aHNHbXE0VEdRZVk0U0ZaVmVqa0pWUVB4VEMyNURPSnZsbEd4Uw?oc=5"
+    },
+    {
+      "date": "2026-08-22",
+      "partyId": "linke",
+      "title": "Neue Umfrage zur Berlin-Wahl 2026: Linke zieht davon – und setzt CDU und AfD unter Druck - T-Online",
+      "sourceLabel": "T-Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaWRTTUlKanhxREdXUzdlNFlaZDJGaENLSi1EMTZmTEhkS3RXZzZzcmN5NXVfN3lKZUxZRkxjTEFaRkM4OUw4VUVBUkxKcGJDV2FMTVZIMDg0bllhNHRFTk9yN2tMVTZEdm9Yc0JJVEluSzkwZ1MtOUgxeWF3eHZ4bE0xNC12NFctMC02dmZiZUM5eDB6cG5xYzBvcVEtbF9BcUpOZmd2RGtVenVsT2VHS0FwcE1sZHBXY2xwS05CaDU5dGEtRHN6Ylp6UTFxQmlrNzd2eWR2QVpYekhaNFE?oc=5"
+    },
+    {
       "date": "2026-08-22",
       "title": "Forsa: Die Linke deutlich vorn — CDU und AfD gleichauf",
       "excerpt": "Knapp vier Wochen vor der Wahl kommt die Linke auf 22 %, CDU und AfD auf je 18 %, Grüne 16 %, SPD 12 %. BSW und FDP verpassen den Einzug. Rot-Grün-Rot wäre laut Umfrage das beliebteste Bündnis (37 %).",
@@ -4147,6 +4269,18 @@
       "excerpt": "Kai Wegner zog nach Kritik an seiner Krisenkommunikation infolge des tagelangen Stromausfalls als Spitzenkandidat zurück; Finanzsenator Stefan Evers übernimmt. Der Senat CDU–SPD liegt in der Forsa-Umfrage nur noch bei 30 %.",
       "sourceLabel": "t-online / Forsa",
       "sourceUrl": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101399250/neue-umfrage-zur-berlin-wahl-2026-linke-legen-zu-cdu-und-afd-gleichauf.html"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Mieten, Sicherheit, Verkehr: Worum es beim Wahlkampf in Berlin wirklich geht",
+      "sourceLabel": "Deutschlandfunk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSVVBRWNaYXVhdmR3QmVtbEJpU1ltSnR5a2F1R2VYUEw0ZUZIMGZLY1ViSDd2cXU1dUI5LTRSYVV6RUZpTm10TU51WmlTWGkwRFNROWphRWpBdVdULUI1cG5LNk9CWUs4N3dJdThPSG9LcU11NXhYTWdrOU8yTU1QdHRYcllJSWE5MUhoTzd1Ym5mbkFSSnpRWWhn?oc=5"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "80 Plagiate? Berlins Senatorin Badenberg lässt Doktoarbeit prüfen",
+      "sourceLabel": "ZDFheute",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObnotbFY3Ymk1TlRuZGUxMm5iN0puWjJBdWl5RmNaZkhxOXNLQ2ZPT0VyeV8tYnJWak9wRkhSWW5xSlJFaFUzQkw2QzFsZm90UkZzYkJ1VGI2bDFuZlhDMlh4MVRKcnRmZWJzTUpNNWdOdWVVNU9vRWFoV1FzWTVMVU9ldy1ELXJCSHJCTzRONkxJSkVtRDZlVGtaYXpKUlBZSEJNTG0zcGdldzJOS0VLQUROa2hZbDVjTXRobUhRdw?oc=5"
     },
     {
       "date": "2026-08-19",

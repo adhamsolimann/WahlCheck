@@ -1,0 +1,44 @@
+name: News-Scan (täglich)
+
+on:
+  schedule:
+    # 06:00 UTC = 08:00 MESZ — einmal täglich
+    - cron: "0 6 * * *"
+  workflow_dispatch: {} # manuell triggerbar
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Dependencies installieren
+        run: pnpm install --frozen-lockfile
+
+      - name: News scannen
+        run: pnpm news:scan
+
+      - name: Content regenerieren + validieren
+        run: |
+          pnpm --filter @wahlen/web exec tsx ../../scripts/gen-content.mts
+          pnpm test
+
+      - name: Commit + Push (nur wenn Änderungen)
+        run: |
+          git config user.name "News-Bot"
+          git config user.email "news-bot@wahlcheck.berlin"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Keine neuen Artikel."
+          else
+            git commit -m "📰 News-Scan: neue Artikel eingepflegt"
+            git push
+          fi

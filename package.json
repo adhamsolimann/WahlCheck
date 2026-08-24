@@ -15,7 +15,8 @@
     "e2e": "playwright test",
     "gen:content": "pnpm --filter @wahlen/web exec tsx ../../scripts/gen-content.mts",
     "gen:factcheck": "tsx scripts/gen-factcheck.mts",
-    "factcheck": "tsx scripts/factcheck.mts"
+    "factcheck": "tsx scripts/factcheck.mts",
+    "news:scan": "tsx scripts/scan-news.mts"
   },
   "devDependencies": {
     "@playwright/test": "^1.50.0",

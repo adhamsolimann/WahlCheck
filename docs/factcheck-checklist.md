@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **34** | 77 | 0 |
+| gesamt | **91** | 77 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -37,22 +37,33 @@ EOF
 
 ---
 
-### AfD — 0 offen · 6 🤖 maschinell · 0 ✅ menschlich
+### AfD — 11 offen · 6 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Grundsteuer in Berlin soll vollständig abgeschafft werd… | +2 | „Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgsc…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgsc…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | -2 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Nur die AfD schrieb fast genauso viel darüber [wie die CDU].“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignu…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignu…“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | +2 | „Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind od…“ | rbb24 Wohnungs-Check (08/2026) | |
 
 ---
 
-### CDU — 9 offen · 5 🤖 maschinell · 0 ✅ menschlich
+### CDU — 21 offen · 5 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
@@ -60,40 +71,64 @@ Programm: **kein Link hinterlegt**
 |:--|-------|--------:|----------------|--------|-------|
 | ☐ | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | +2 | „An bekannten Kriminalitaetsschwerpunkten kommen nun verstaerkt Videoueberwachung und Waff…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | -1 | „Aufweichen des Polizeigesetzes und weniger Befugnisse fuer die Polizei [wird abgelehnt].“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „Die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft sind staerker…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes …“ | rbb24 Wohnungs-Check (08/2026) | |
 | ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „Zum bewaehrten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermoeglicht…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Die Dekarbonisierung der Fernwaerme ist zugleich ein entscheidender Schluessel fuer die K…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +1 | „Polizistinnen und Polizisten konsequent von Buerokratie entlasten, damit sie sich wieder …“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine sta…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Radwege sicher und zuverlaessig nutzbar machen. Wir werden den Berliner Radverkehrsplan u…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauu…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Unser Anspruch ist ein zuverlaessiger, leistungsfaehiger und attraktiver OEPNV. Wir unter…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | -2 | „[Wir lehnen] Kulturkampf gegen das Auto, Flaechendeckendes Tempo 30, Verkehrspolitik zula…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattde…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 
 ---
 
-### Die Linke — 4 offen · 9 🤖 maschinell · 0 ✅ menschlich
+### Die Linke — 16 offen · 9 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +2 | „Die Modernisierungsumlage wollen wir abschaffen.“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaf…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | … denn jede Abschiebung ist eine Abschi… | |
 | ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Eine Schule für alle: Mehr Gemeinschaft… | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenk…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatis…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlba…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von o…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Wir fordern, dass die A100 qualifiziert… | |
+| ☐ | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Wir setzen uns im Bund für Tempo 30 als… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 22…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 
 <details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
 
@@ -101,44 +136,61 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 |-------|---------|
 | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | Endfassung des Berlin-Programms enthält die Passage nicht |
 | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | Endfassung des Berlin-Programms enthält die Passage nicht |
-| Bauämter und Genehmigungsverfahren sollen konsequent digita… | Kritik am Schneller-Bauen-Gesetz/Bau-Turbo im Programm — exakte Stelle TODO(T-132) |
 | Versorgungsangebote für queere und trans Personen (Gesundhe… | Tagesspiegel-Analyse ordnet Die Linke der zustimmenden Gruppe zu — Programmstelle TODO(T-… |
 
 </details>
 
 ---
 
-### GRÜNE — 4 offen · 8 🤖 maschinell · 0 ✅ menschlich
+### GRÜNE — 20 offen · 8 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
+| ☐ | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Rechte wahrzunehmen und Rechtsverfahren… | |
 | ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Gemeinschaftsschulen werden alleingelas… | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Dafür werden wir die Grundsteuer C sowie strenge Baugebote einführen, damit Spekulant*inn…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Wir nutzen die Kreditaufnahme voll aus … | |
 | 🤖 | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Mit kurzfristig wirksamen Hitzeschutzmaßnahmen werden wir Grüne besonders betroffene Quar…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ☐ | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Immer wieder geraten Clubs und Musikspielstätten aufgrund steigender Kosten und Mieten, N…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Bedrohen die Pläne des Bundes und des S… | |
+| ☐ | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Sp…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 
 ---
 
-### SPD — 7 offen · 21 🤖 maschinell · 0 ✅ menschlich
+### SPD — 13 offen · 21 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
+| ☐ | Die Grundsteuer in Berlin soll vollständig abgeschafft werd… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | -1 | „Wir setzen uns zudem dafür ein, dass auf Bundesebene die Modernisierungsumlage gesenkt un…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „Integrationskitas stärken wir durch eine Erhöhung des Personalzuschlages. Kita-Sozialarbe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | -1 | „Zusätzlich schaffen wir mehr Schutzwohnungen und Notunterkünfte.“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Dazu treiben wir die die KI unterstützte Digitalisierung in den Bauämtern voran.“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung …“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
@@ -149,9 +201,12 @@ Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt si…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Wir können die Obdachlosigkeit besiegen und mit einer entschlossenen Verkehrspolitik die …“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Unser Ziel ist klar: Berlin wird bis mö… | |
+| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch… | +1 | „Wir arbeiten daran, dass die Berliner Stadtreinigung (BSR) die Reinigung aller Spielplätz…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Län…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.“ | SPD Berlin – Wahlprogramm 2026 (PDF, Ka… | |
+| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Für ein lückenloses und sicheres Netz setzen wir den Radverkehrsplan konsequent um und pr…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „Das Tempelhofer Feld ist ein besonderer Ort für Klima, Bewegung und soziales Miteinander.…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahr…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
@@ -163,14 +218,7 @@ Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4
 | 🤖 | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | +1 | „Wir verschärfen die Durchsetzung von Tariftreue und Vergabemindestlohn, um Lohndumping zu…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +1 | „https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf“ | Tempo 50 auf bisherigen Tempo-30-Streck… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Die Zustimmung zur Initiative des Volksentscheids „Deutsche Wohnen und Co. Enteignen“ zei…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
-
-<details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
-
-| These | Vermerk |
-|-------|---------|
-| Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO… |
-
-</details>
+| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 
 ---
 

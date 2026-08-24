@@ -22,13 +22,17 @@ positions:
   sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
   verification: auto
 - thesisId: grundsteuer-c-baureife-grundstuecke
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: sozialwohnungsquote-im-baulandmodell
-  stance: null
-  status: none
+  stance: 0
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: privatisierungsverbot-in-der-verfassung
   stance: -2
   status: clear
@@ -37,9 +41,11 @@ positions:
   sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
   verification: auto
 - thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
-  stance: null
-  status: none
+  stance: 0
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: abschaffung-modernisierungsumlage
   stance: null
   status: none
@@ -56,33 +62,41 @@ positions:
   status: none
   verification: pending
 - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: staerkere-besteurung-hoher-einkommen
   stance: null
   status: none
   verification: pending
 - thesisId: personalabbau-in-der-verwaltung
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: abschaffung-der-grundsteuer
   stance: null
   status: none
   verification: pending
 - thesisId: tariftreue-bei-oeffentlichen-auftraegen
-  stance: null
-  status: none
+  stance: 0
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: hitzeschutz-fuer-obdachlose
   stance: null
   status: none
   verification: pending
 - thesisId: heizkostenfonds-fuer-niedrige-einkommen
-  stance: null
-  status: none
+  stance: -1
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: -1
   status: clear
@@ -91,9 +105,11 @@ positions:
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: besserer-personalschluessel-in-kitas
-  stance: null
-  status: none
+  stance: 0
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: beschleunigte-schulsanierung
   stance: null
   status: none
@@ -171,21 +187,29 @@ positions:
   status: none
   verification: pending
 - thesisId: digitalisierung-der-bauaemter
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: rund-um-die-uhr-digitale-buergerservices
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: mehr-kompetenzen-fuer-die-bezirke
-  stance: null
-  status: none
+  stance: 0
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: schutz-und-foerderung-der-clubkultur
-  stance: null
-  status: none
+  stance: 0
+  status: clear
   verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: ausbau-queerer-gesundheitsversorgung
   stance: null
   status: none

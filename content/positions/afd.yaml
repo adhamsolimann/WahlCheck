@@ -1,80 +1,194 @@
-# SEED+T104-WAVE1 — verification pending bis Fact-Check-Freeze (T-132)
 partyId: afd
 positions:
-  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: -2, status: clear,
-      justificationQuote: "Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: "auto" }
-  - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
-    stance: -2
-    status: clear
-    justificationQuote: >-
-      Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.
-    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
-    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
-    verification: "auto"
-  - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
-  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
-  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
-  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: null, status: none, verification: pending }
-  - thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
-    stance: 2
-    status: clear
-    justificationQuote: >-
-      Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben.
-    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
-    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
-    verification: "auto"
-  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
-  - thesisId: foerderung-von-wohneigentum
-    stance: 1
-    status: clear
-    justificationQuote: >-
-      Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.
-    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
-    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
-    verification: "auto"
-  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
-  - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
-  - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
-  - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
-  - thesisId: abschaffung-der-grundsteuer
-    stance: 2
-    status: clear
-    justificationQuote: >-
-      Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.
-    sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
-    sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
-    verification: "auto"
-  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
-  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
-  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
-  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
-  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
-  - { thesisId: beschleunigte-schulsanierung, stance: null, status: none, verification: pending }
-  - thesisId: mehr-polizeipersonal
-    stance: 2
-    status: clear
-    justificationQuote: >-
-      Nur die AfD schrieb fast genauso viel darüber [wie die CDU].
-    sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)"
-    sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/"
-    verification: "auto"
-  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
-  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
-  - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
-  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none, verification: pending }
-  - { thesisId: ausbau-der-integrationsangebote, stance: null, status: none, verification: pending }
-  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
-  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }
-  - { thesisId: sozialticket-und-oepnv-ausbau, stance: null, status: none, verification: pending }
-  - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
-  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none, verification: pending }
-  - { thesisId: netto-null-bei-neuversiegelung, stance: null, status: none, verification: pending }
-  - { thesisId: digitalisierung-der-bauaemter, stance: null, status: none, verification: pending }
-  - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
-  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
-  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: null, status: none, verification: pending }
-  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none, verification: pending }
-  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }
+- thesisId: vergesellschaftung-grosser-wohnungskonzerne
+  stance: -2
+  status: clear
+  justificationQuote: Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+  stance: -2
+  status: clear
+  justificationQuote: Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignungen ab.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: randbebauung-tempelhofer-feld
+  stance: null
+  status: none
+  verification: pending
+- thesisId: grundsteuer-c-baureife-grundstuecke
+  stance: null
+  status: none
+  verification: pending
+- thesisId: sozialwohnungsquote-im-baulandmodell
+  stance: 0
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: privatisierungsverbot-in-der-verfassung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
+  stance: 2
+  status: clear
+  justificationQuote: Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind oder lange hier leben.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: abschaffung-modernisierungsumlage
+  stance: null
+  status: none
+  verification: pending
+- thesisId: foerderung-von-wohneigentum
+  stance: 1
+  status: clear
+  justificationQuote: Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: einschraenkung-moeblierter-wohnraum
+  stance: null
+  status: none
+  verification: pending
+- thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
+  stance: -1
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: staerkere-besteurung-hoher-einkommen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: personalabbau-in-der-verwaltung
+  stance: 1
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: abschaffung-der-grundsteuer
+  stance: 2
+  status: clear
+  justificationQuote: Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgschaften fördern.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: tariftreue-bei-oeffentlichen-auftraegen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: hitzeschutz-fuer-obdachlose
+  stance: null
+  status: none
+  verification: pending
+- thesisId: heizkostenfonds-fuer-niedrige-einkommen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: gemeinschaftsschule-fuer-alle
+  stance: -1
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: besserer-personalschluessel-in-kitas
+  stance: 0
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: beschleunigte-schulsanierung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: mehr-polizeipersonal
+  stance: 2
+  status: clear
+  justificationQuote: Nur die AfD schrieb fast genauso viel darüber [wie die CDU].
+  sourceLabel: Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)
+  sourceUrl: https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/
+  verification: auto
+- thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
+  stance: null
+  status: none
+  verification: pending
+- thesisId: begrenzung-polizeilicher-befugnisse
+  stance: null
+  status: none
+  verification: pending
+- thesisId: erleichterte-abschiebungen
+  stance: 2
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
+  stance: 0
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: ausbau-der-integrationsangebote
+  stance: null
+  status: none
+  verification: pending
+- thesisId: stopp-der-a100-verlaengerung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: tempo30-auf-hauptverkehrsstrassen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: sozialticket-und-oepnv-ausbau
+  stance: 1
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: prioritaet-fuer-radverkehr
+  stance: null
+  status: none
+  verification: pending
+- thesisId: klimaneutralitaet-bis-2045
+  stance: -2
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: netto-null-bei-neuversiegelung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: digitalisierung-der-bauaemter
+  stance: 1
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: rund-um-die-uhr-digitale-buergerservices
+  stance: null
+  status: none
+  verification: pending
+- thesisId: mehr-kompetenzen-fuer-die-bezirke
+  stance: 0
+  status: clear
+  verification: pending
+  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+- thesisId: schutz-und-foerderung-der-clubkultur
+  stance: null
+  status: none
+  verification: pending
+- thesisId: ausbau-queerer-gesundheitsversorgung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: mehr-reinigungspersonal-oeffentliche-raeume
+  stance: null
+  status: none
+  verification: pending

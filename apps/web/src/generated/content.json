@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:39:52.312Z",
+  "generatedAt": "2026-08-24T23:49:04.225Z",
   "parties": [
     {
       "id": "afd",
@@ -825,8 +825,10 @@
     {
       "partyId": "afd",
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -873,8 +875,10 @@
     {
       "partyId": "afd",
       "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -887,8 +891,10 @@
     {
       "partyId": "afd",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -925,15 +931,19 @@
     {
       "partyId": "afd",
       "thesisId": "gemeinschaftsschule-fuer-alle",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
       "partyId": "afd",
       "thesisId": "besserer-personalschluessel-in-kitas",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -970,15 +980,19 @@
     {
       "partyId": "afd",
       "thesisId": "erleichterte-abschiebungen",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
       "partyId": "afd",
       "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -1005,8 +1019,10 @@
     {
       "partyId": "afd",
       "thesisId": "sozialticket-und-oepnv-ausbau",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -1019,8 +1035,10 @@
     {
       "partyId": "afd",
       "thesisId": "klimaneutralitaet-bis-2045",
-      "stance": null,
-      "status": "none",
+      "stance": -2,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -1033,8 +1051,10 @@
     {
       "partyId": "afd",
       "thesisId": "digitalisierung-der-bauaemter",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -1047,8 +1067,10 @@
     {
       "partyId": "afd",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
       "verification": "pending"
     },
     {
@@ -1384,15 +1406,19 @@
     {
       "partyId": "cdu",
       "thesisId": "grundsteuer-c-baureife-grundstuecke",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1408,8 +1434,10 @@
     {
       "partyId": "cdu",
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1439,8 +1467,10 @@
     {
       "partyId": "cdu",
       "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1453,8 +1483,10 @@
     {
       "partyId": "cdu",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1467,8 +1499,10 @@
     {
       "partyId": "cdu",
       "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1481,8 +1515,10 @@
     {
       "partyId": "cdu",
       "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1498,8 +1534,10 @@
     {
       "partyId": "cdu",
       "thesisId": "besserer-personalschluessel-in-kitas",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1620,29 +1658,37 @@
     {
       "partyId": "cdu",
       "thesisId": "digitalisierung-der-bauaemter",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "rund-um-die-uhr-digitale-buergerservices",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "schutz-und-foerderung-der-clubkultur",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -2253,8 +2299,10 @@
     {
       "partyId": "gruene",
       "thesisId": "randbebauung-tempelhofer-feld",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2270,22 +2318,28 @@
     {
       "partyId": "gruene",
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
       "partyId": "gruene",
       "thesisId": "privatisierungsverbot-in-der-verfassung",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
       "partyId": "gruene",
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2329,8 +2383,10 @@
     {
       "partyId": "gruene",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2343,8 +2399,10 @@
     {
       "partyId": "gruene",
       "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2377,8 +2435,10 @@
     {
       "partyId": "gruene",
       "thesisId": "besserer-personalschluessel-in-kitas",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2391,8 +2451,10 @@
     {
       "partyId": "gruene",
       "thesisId": "mehr-polizeipersonal",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2405,8 +2467,10 @@
     {
       "partyId": "gruene",
       "thesisId": "begrenzung-polizeilicher-befugnisse",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2429,8 +2493,10 @@
     {
       "partyId": "gruene",
       "thesisId": "ausbau-der-integrationsangebote",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2456,8 +2522,10 @@
     {
       "partyId": "gruene",
       "thesisId": "sozialticket-und-oepnv-ausbau",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2480,29 +2548,37 @@
     {
       "partyId": "gruene",
       "thesisId": "netto-null-bei-neuversiegelung",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
       "partyId": "gruene",
       "thesisId": "digitalisierung-der-bauaemter",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
       "partyId": "gruene",
       "thesisId": "rund-um-die-uhr-digitale-buergerservices",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
       "partyId": "gruene",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2528,8 +2604,10 @@
     {
       "partyId": "gruene",
       "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2555,8 +2633,10 @@
     {
       "partyId": "linke",
       "thesisId": "randbebauung-tempelhofer-feld",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2589,8 +2669,10 @@
     {
       "partyId": "linke",
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2643,8 +2725,10 @@
     {
       "partyId": "linke",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2657,8 +2741,10 @@
     {
       "partyId": "linke",
       "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2691,8 +2777,10 @@
     {
       "partyId": "linke",
       "thesisId": "besserer-personalschluessel-in-kitas",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2705,8 +2793,10 @@
     {
       "partyId": "linke",
       "thesisId": "mehr-polizeipersonal",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2772,8 +2862,10 @@
     {
       "partyId": "linke",
       "thesisId": "sozialticket-und-oepnv-ausbau",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2786,8 +2878,10 @@
     {
       "partyId": "linke",
       "thesisId": "klimaneutralitaet-bis-2045",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -2800,30 +2894,37 @@
     {
       "partyId": "linke",
       "thesisId": "digitalisierung-der-bauaemter",
-      "stance": null,
-      "status": "none",
-      "sourceLabel": "Kritik am Schneller-Bauen-Gesetz/Bau-Turbo im Programm — exakte Stelle TODO(T-132)",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "rund-um-die-uhr-digitale-buergerservices",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
       "partyId": "linke",
       "thesisId": "schutz-und-foerderung-der-clubkultur",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/",
       "verification": "pending"
     },
     {
@@ -3200,8 +3301,10 @@
     {
       "partyId": "spd",
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3257,15 +3360,19 @@
     {
       "partyId": "spd",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
       "partyId": "spd",
       "thesisId": "abschaffung-der-grundsteuer",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3308,8 +3415,10 @@
     {
       "partyId": "spd",
       "thesisId": "besserer-personalschluessel-in-kitas",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3325,9 +3434,10 @@
     {
       "partyId": "spd",
       "thesisId": "mehr-polizeipersonal",
-      "stance": null,
-      "status": "none",
-      "sourceLabel": "Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO(T-132)",
+      "stance": 1,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {
@@ -3457,8 +3567,10 @@
     {
       "partyId": "spd",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
-      "stance": null,
-      "status": "none",
+      "stance": 0,
+      "status": "clear",
+      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "pending"
     },
     {

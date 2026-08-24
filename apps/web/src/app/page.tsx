@@ -15,6 +15,13 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      name: "WahlCheck",
+      url: "https://wahl-check.com/",
+      email: "support@wahl-check.com",
+      foundingDate: "2026",
+    },
+    {
       "@type": "WebSite",
       name: "WahlCheck",
       url: "https://wahl-check.com/",
@@ -112,6 +119,28 @@ export default function Home() {
           <Button size="lg">Matching starten</Button>
         </Link>
       </div>
+
+
+      {/* SEO-Textblock — für Crawler zusätzliche inhaltliche Tiefe */}
+      <section className="animate-fade-up relative space-y-4 rounded-xl border border-zinc-100 bg-zinc-50 p-6 text-sm leading-relaxed text-zinc-600 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 [animation-delay:300ms]">
+        <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-200">
+          Der Wahlkompass für die Abgeordnetenhauswahl Berlin 2026
+        </h2>
+        <p>
+          Am 20. September 2026 wählt Berlin ein neues Abgeordnetenhaus.
+          17 Parteien treten mit Landes- oder Bezirkslisten an — von SPD, CDU,
+          Grünen und Linken über AfD und FDP bis zu BSW, Volt, Tierschutzpartei
+          und DKP. Wer bei so vielen Optionen den Überblick behalten will,
+          braucht mehr als Plakate und Wahlsprüche.
+        </p>
+        <p>
+          WahlCheck ist eine Alternative zum klassischen Wahl-O-Mat: Statt 38
+          Ja/Nein-Fragen bekommst du eine 5-Punkte-Skala mit persönlicher
+          Wichtigkeit, wörtlich belegte Parteipositionen aus den offiziellen
+          Wahlprogrammen, einen Koalitionsrechner mit Sitzprojektion und die
+          Sicherheit, dass deine Antworten dein Gerät nie verlassen.
+        </p>
+      </section>
 
       <footer className="relative pt-8 text-center text-xs text-zinc-500">
         Quellen der Seed-Inhalte: Wahlprogramme der Parteien sowie

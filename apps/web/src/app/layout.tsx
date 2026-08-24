@@ -9,6 +9,13 @@ export const metadata: Metadata = {
     "Parteiunabhängiger Wahlkompass für die Berliner Abgeordnetenhauswahl: nuanced matching statt Ja/Nein. Deine Antworten bleiben im Browser.",
 };
 
+export const viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
+  ],
+};
+
 /** Vor dem ersten Paint gesetzt → kein Flash bei gespeicherter Wahl. */
 const THEME_INIT = `(function(){try{var k="wahlcheck.theme";var t=localStorage.getItem(k);if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}if(t==="dark"){document.documentElement.classList.add("dark");}}catch(e){}})();`;
 

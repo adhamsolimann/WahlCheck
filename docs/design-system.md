@@ -52,6 +52,13 @@ auf hellem Grund; Markenfarben bleiben an anderer Stelle unberührt.
 - Karten/Inputs: `rounded-xl`; Chips/Badges: `rounded-full`
 - Ruhe: `shadow-sm` · Hover: `shadow-md` · Spotlight: `ring-1 ring-brand-300`
 
+### Marke / Favicon
+
+`apps/web/src/app/icon.svg` (Next-Dateikonvention → `/icon.svg`):
+abgerundetes Quadrat, Grund `#1a1a1a`, rechte Hälfte `#3547ec`,
+weißer Haken — bewusst grob formuliert, damit es ab 16 px lesbar bleibt.
+Browser-Titelleisten-Farbe via `viewport.themeColor` (hell/dunkel).
+
 ---
 
 ## 3. Bewegung

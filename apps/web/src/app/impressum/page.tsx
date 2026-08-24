@@ -12,10 +12,6 @@ export default function ImpressumPage() {
           <h2 className="font-semibold">Angaben gemäß § 5 DDG (Diensteanbieter)</h2>
           <p className="mt-1">
             Adham Soliman (privat)
-            <br />
-            Böckhstraße 50
-            <br />
-            10967 Berlin
           </p>
         </section>
 
@@ -39,7 +35,7 @@ export default function ImpressumPage() {
 
         <section>
           <h2 className="font-semibold">Redaktionell verantwortlich</h2>
-          <p className="mt-1">Adham Soliman (§ 18 Abs. 2 MStV)</p>
+          <p className="mt-1">Adham Soliman</p>
         </section>
 
         <section>

@@ -42,11 +42,14 @@ export function ThesisCard({
 
   return (
     <div className="flex flex-col gap-6">
+  return (
+    <div className="flex flex-col gap-6">
       <div className="space-y-2">
         <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
           These {index + 1} von {total}
         </p>
-        <h2 className="text-xl font-semibold leading-snug sm:text-2xl">
+        {/* min-height verhindert Layout-Springen bei unterschiedlichen Textlängen */}
+        <h2 className="min-h-[5rem] text-xl font-semibold leading-snug sm:min-h-[4.5rem] sm:text-2xl">
           {thesis.text}
         </h2>
       </div>
@@ -67,7 +70,7 @@ export function ThesisCard({
         </Button>
       </div>
 
-      <div className="flex items-center justify-between gap-3">
+      <div className="flex min-h-[2.75rem] items-center justify-between gap-3">
         <Button variant="secondary" onClick={onPrev} disabled={index === 0}>
           ← Zurück
         </Button>

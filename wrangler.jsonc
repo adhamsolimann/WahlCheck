@@ -1,0 +1,12 @@
+{
+  // WahlCheck — reine Static-Assets-Verteilung auf Cloudflare
+  // (kein Worker-Script nötig; der Next-Export liegt in apps/web/out)
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "wahlcheck",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./apps/web/out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

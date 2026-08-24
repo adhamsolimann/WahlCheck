@@ -43,12 +43,12 @@ Programm: (https://www.afd.de/wp-content/uploads/2023/05/Programm_AfD_Online_.pd
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Die Grundsteuer in Berlin soll vollständig abgeschafft werd… | +2 | „Die AfD will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bü…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Wohneigentum will die AfD durch Steuerbefreiungen und Bürgschaften fördern; außerdem will…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Sicherheit ist neben Migration das dominante Programmfeld der AfD; sie schreibt fast so v…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Grundsätzliche Abkehr von starker Mietregulierung; Neubau durch weniger Vorgaben beschleu…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ✅ | Die Grundsteuer in Berlin soll vollständig abgeschafft werd… | +2 | „Die AfD will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bü…“ | rbb24 Wohnungs-Check (08/2026) | Verifiziert: rbb24 bestätigt Abschaffung; Leitantrag ergänzt „vollständige Abschaffung der Grundsteuer“ mit Bundesratsinitiative |
+| ✅ | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Wohneigentum will die AfD durch Steuerbefreiungen und Bürgschaften fördern; außerdem will…“ | rbb24 Wohnungs-Check (08/2026) | Verifiziert: Leitantrag fordert „öffentliche Bürgschaften“ und Abschaffung der Grunderwerbsteuer für einheimische Ersterwerber |
+| ✅ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Sicherheit ist neben Migration das dominante Programmfeld der AfD; sie schreibt fast so v…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | Verifiziert: rbb24-Sicherheitscheck: „Polizei, Justiz und Feuerwehr will die AfD personell besser aufstellen“; Tagesspiegel BB: Polizei-Stellenaufstockung auf 9.500 Beamte |
+| ✅ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Grundsätzliche Abkehr von starker Mietregulierung; Neubau durch weniger Vorgaben beschleu…“ | rbb24 Wohnungs-Check (08/2026) | Verifiziert: Kernsatz im rbb24-Check lautet „Mietendeckel lehnen wir in jeglicher Form ab.“ |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignu…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | +2 | „Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind od…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ✅ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | +2 | „Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind od…“ | rbb24 Wohnungs-Check (08/2026) | Verifiziert: rbb24 bestätigt Punktesystem für „Einheimische“; Berliner Mieterverein analysiert Kampagne „Wohnungen sind keine Asylheime!“ |
 
 ---
 

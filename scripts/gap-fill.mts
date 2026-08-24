@@ -8,7 +8,7 @@ import { join } from "node:path";
 import { loadContent } from "../packages/schemas/src/node.ts";
 
 const root = new URL("..", import.meta.url).pathname;
-const bundle = loadContent(join(root, "content"));
+const _bundle = loadContent(join(root, "content"));
 const cacheDir = join(root, ".factcheck-cache");
 const APPLY = process.argv.includes("--apply");
 
@@ -45,10 +45,10 @@ for (const [pid, txtFile] of [["gruene","gruene.txt"],["linke","linke-berlin.txt
 }
 
 function norm(t:string) { return t.replace(/\s+/g," ").trim(); }
-function alpha(t:string) { return t.toLowerCase().replace(/[^a-zäöüß0-9]/g,""); }
-function tokens(t:string) { return new Set(norm(t).match(/[a-zäöüß]{4,}/g) ?? []); }
+function _alpha(t:string) { return t.toLowerCase().replace(/[^a-zäöüß0-9]/g,""); }
+function _tokens(t:string) { return new Set(norm(t).match(/[a-zäöüß]{4,}/g) ?? []); }
 
-function findBestWindow(doc: string, keywords: string[], minLen = 60): string | null {
+function _findBestWindow(doc: string, keywords: string[], _minLen = 60): string | null {
   const sentences = doc.split(/(?<=[.!?])\s+/);
   let best = { score: 0, text: "" };
   for (const s of sentences) {
@@ -60,7 +60,7 @@ function findBestWindow(doc: string, keywords: string[], minLen = 60): string | 
   return best.score >= 2 ? best.text : null;
 }
 
-function detectStance(sentence: string, posWords: string[], negWords: string[]): number | null {
+function _detectStance(sentence: string, posWords: string[], negWords: string[]): number | null {
   const lower = sentence.toLowerCase();
   let pos = 0, neg = 0;
   for (const w of posWords) if (lower.includes(w)) pos++;

@@ -1,5 +1,26 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-08-24"
+  title: >-
+    Wahl-O-Mat zur Berliner Abgeordnetenhauswahl freigeschaltet
+  sourceLabel: "Berliner Zeitung"
+  sourceUrl: "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzRoakFGaWNNbS1QRF9famNYdDNudnVKQWk1S2JKN2NxcmRGWEpDRzJOQzJUeTNwRGdBSFU5UUN6dHpOaGJBUkR3YlRUNzJJZy1pMDBreEd0N3hzQmZqb19yZnU2WFhyd3AxckszLUNFRGFzNzRtNnJtZWQ0NENlbm5CRFlkNDY4enBEdG5DLWduOVc4bG1SbWFGQ2d2UQ?oc=5"
+- date: "2026-08-24"
+  partyId: cdu
+  title: >-
+    Dieser CDU-Wahlspot verschwand plötzlich aus dem Netz – jetzt ist klar, warum
+  sourceLabel: "der Freitag"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYWFqRmowQ3ZvWXNmR2xkelBoNlk3X0NyaU1iRlZXakVWZWZiSVpVQnl2MUdOeWNCdThTMl8zcGdLQXRScko1eUtXcTREYXF1MW1ETTJHenNrc3dyby1pY1F1X042ZVRtWEdKbm1pdG0ySUltRGlyQTYwWVdLNjROQThEU2lGdjhlTGxYMlZ2MU5XdmNBeDF5cUxRQTNyMTlXdTVMVzR2TEJ2UHZRNVNpdzZyeWJKcm1HVm4ycG1vQm4?oc=5"
+- date: "2026-08-24"
+  title: >-
+    Berlin &amp; Brandenburg: Abgeordnetenhauswahl: Wahl-O-Mat ist online - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVnVFM3EzM2xUUXZaS3Uxa3dTTDNiZGVpbFZaZnFCQk4zbk84bkhQRmRJVkFsWDlBMURzYkVZWmJTZmcyQzVER1Jja1daZlZzNTV5akt2c0xPaFZSdG04ZTROZnppZXFvNmpScEZLTGhxOW85UndQNWYyWmxqMjJYb1ZNc2R4NXpOUVM5UWVZaFFsRWhYc2lnTFRDQ3lVZVdWcVB0ZmdvZGF5RDAxRVNZemp3?oc=5"
+- date: "2026-08-24"
+  title: >-
+    Wahlumfrage zur Berlin-Wahl 2026: Eine Partei setzt sich im Rennen ums Abgeordnetenhaus ab - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOVVpdXV6SjROeE5MVlM5VUJEdl94SWhuX254SkJPb2EwTTNOOUxLbC1LaUYyVlJJSU1wdXc5UjRWVUZZVDg4eXcyc0RMRXU4eC1lZll6b3dhQV90Y29FN1prREJzcTNlQkxrRlpfUm1kb05RVWQwRk1LS0FuMmNWM2VZTU5nOXlzclpPNG5JT3pTVUdVNGpQWjdjbU9QSGctNHlkZTlGdjNkTnE4M3FxWHBFSm1kbTVGa2w0NEZvSDFHYlBucnZIM2N1VGxmR3pGc1RKQjJBMzZablkwWENQVQ?oc=5"
 - date: "2026-08-23"
   title: >-
     Berlin-Wahl 2026: Das sind die Spitzenkandidaten im Überblick

@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **91** | 77 | 0 |
+| gesamt | **101** | 76 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -98,25 +98,34 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### Die Linke — 16 offen · 9 🤖 maschinell · 0 ✅ menschlich
+### Die Linke — 26 offen · 8 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +2 | „Die Modernisierungsumlage wollen wir abschaffen.“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „Wir setzen uns für die prinzipielle Verteidigung aller Flüchtlinge und eingewanderten Arb…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Das Programm enthält ein eigenes Kapitel Queerpolitik mit umfassenden Forderungen für que…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | -2 | „Orte und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wie Videoüber…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Schulgebäude wollen wir zudem stärker in den Sozialraum öffnen, nicht nur für den Breiten…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | +1 | „Wohnungslose Personen, die aktuell viel zu lange in Notunterkünften ausharren [brauchen b…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaf…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | … denn jede Abschiebung ist eine Abschi… | |
 | ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +2 | „https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/“ | Eine Schule für alle: Mehr Gemeinschaft… | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenk…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
-| 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und u…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „In der warmen Jahreszeit braucht es jedoch niedrigschwellige Anlaufstellen für obdachlose…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch… | +1 | „Durch regelmäßige Kieztage für Sperrmüll und Reinigungsaktionen durch die BSR wollen wir …“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +2 | „Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbe…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
+| ☐ | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Weitere Versiegelung verhindern und wertvolle Flächen für dringend benötigte andere Nutzu…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| ☐ | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „In den öffentlichen Nahverkehr und den Fuß- und Radverkehr investieren und den BaumEntsch…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +2 | „Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatis…“ | Die Linke Berlin – Wahlprogramm AGH 2026 | |
 | ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 | ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
@@ -134,9 +143,7 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 | These | Vermerk |
 |-------|---------|
-| Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | Endfassung des Berlin-Programms enthält die Passage nicht |
 | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | Endfassung des Berlin-Programms enthält die Passage nicht |
-| Versorgungsangebote für queere und trans Personen (Gesundhe… | Tagesspiegel-Analyse ordnet Die Linke der zustimmenden Gruppe zu — Programmstelle TODO(T-… |
 
 </details>
 

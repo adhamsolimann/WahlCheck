@@ -94,16 +94,19 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: hitzeschutz-fuer-obdachlose
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: In der warmen Jahreszeit braucht es jedoch niedrigschwellige Anlaufstellen für obdachlose Menschen. Die Hitzehilfe und die aufsuchende Arbeit werden gestärkt.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: heizkostenfonds-fuer-niedrige-einkommen
   stance: 1
   status: clear
   justificationQuote: Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und unbürokratisch unterstützen, wenn sie Heizkosten nicht mehr tragen können.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  verification: auto
+  verification: pending
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: 2
   status: clear
@@ -118,9 +121,12 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: beschleunigte-schulsanierung
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Schulgebäude wollen wir zudem stärker in den Sozialraum öffnen, nicht nur für den Breitensport, sondern z.B. auch für Musikschulen, Chöre und Lai*innenensembles und andere Nutzungen.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: mehr-polizeipersonal
   stance: 0
   status: clear
@@ -128,10 +134,13 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
-  stance: null
-  status: none
-  sourceLabel: Endfassung des Berlin-Programms enthält die Passage nicht
+  stance: -2
+  status: clear
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
   verification: pending
+  justificationQuote: Orte und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft und somit ein Einfallstor für Racial Profiling
+    und diskriminierendes Polizeihandeln. Sie wollen wir abschaffen.
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: begrenzung-polizeilicher-befugnisse
   stance: null
   status: none
@@ -145,13 +154,19 @@ positions:
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
   verification: pending
 - thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Wohnungslose Personen, die aktuell viel zu lange in Notunterkünften ausharren [brauchen bessere Lösungen].
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: ausbau-der-integrationsangebote
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Wir setzen uns für die prinzipielle Verteidigung aller Flüchtlinge und eingewanderten Arbeiter ein.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: stopp-der-a100-verlaengerung
   stance: 2
   status: clear
@@ -173,9 +188,12 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: prioritaet-fuer-radverkehr
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: In den öffentlichen Nahverkehr und den Fuß- und Radverkehr investieren und den BaumEntscheid konsequent umsetzen.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: klimaneutralitaet-bis-2045
   stance: 1
   status: clear
@@ -183,9 +201,12 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: netto-null-bei-neuversiegelung
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Weitere Versiegelung verhindern und wertvolle Flächen für dringend benötigte andere Nutzungen erhalten.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: digitalisierung-der-bauaemter
   stance: -1
   status: clear
@@ -211,11 +232,16 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: ausbau-queerer-gesundheitsversorgung
-  stance: null
-  status: none
-  sourceLabel: Tagesspiegel-Analyse ordnet Die Linke der zustimmenden Gruppe zu — Programmstelle TODO(T-132)
+  stance: 1
+  status: clear
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
   verification: pending
+  justificationQuote: Das Programm enthält ein eigenes Kapitel Queerpolitik mit umfassenden Forderungen für queeres Leben in Berlin.
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: mehr-reinigungspersonal-oeffentliche-raeume
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Durch regelmäßige Kieztage für Sperrmüll und Reinigungsaktionen durch die BSR wollen wir die Sauberkeit in den Quartieren verbessern.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/

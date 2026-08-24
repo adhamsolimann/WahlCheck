@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { news, partiesById } from "@/lib/content";
 
 function formatDate(iso: string): string {
@@ -11,10 +11,18 @@ function formatDate(iso: string): string {
   });
 }
 
-type PartyFilter = string | null; // null = alle
+function formatShort(iso: string): string {
+  return new Date(`${iso}T12:00:00`).toLocaleDateString("de-DE", {
+    day: "2-digit",
+    month: "2-digit",
+  });
+}
+
+type PartyFilter = string | null;
 
 export default function NewsPage() {
   const [filter, setFilter] = useState<PartyFilter>(null);
+  const carouselRef = useRef<HTMLDivElement>(null);
 
   const partiesInFeed = useMemo(() => {
     const ids = new Set(news.map((n) => n.partyId).filter(Boolean) as string[]);
@@ -30,23 +38,32 @@ export default function NewsPage() {
     [news, filter],
   );
 
+  /* Karussell: die fünf neuesten */
+  const featured = filtered.slice(0, 5);
+
+  /* Archiv: der Rest, nach Datum gruppiert */
+  const archive = filtered.slice(5);
   const grouped = useMemo(() => {
-    return filtered.reduce<Record<string, typeof filtered>>((acc, entry) => {
+    return archive.reduce<Record<string, typeof archive>>((acc, entry) => {
       (acc[entry.date] ??= []).push(entry);
       return acc;
     }, {});
-  }, [filtered]);
+  }, [archive]);
 
   const dates = useMemo(
     () => Object.keys(grouped).sort((a, b) => b.localeCompare(a)),
     [grouped],
   );
 
+  function scrollCarousel(dir: -1 | 1) {
+    carouselRef.current?.scrollBy({ left: dir * 320, behavior: "smooth" });
+  }
+
   return (
-    <main className="mx-auto max-w-2xl space-y-8 px-6 py-12">
+    <main className="mx-auto max-w-5xl space-y-10 px-6 py-12">
       <header className="space-y-2 text-center">
         <h1 className="text-3xl font-bold">Nachrichten zur Wahl</h1>
-        <p className="text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+        <p className="mx-auto max-w-lg text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
           Redaktionell kuratierter Spiegel der Wahlberichterstattung — kein
           automatischer Feed, jede Quelle von Hand geprüft und verlinkt.
         </p>
@@ -90,55 +107,118 @@ export default function NewsPage() {
         })}
       </div>
 
-      {/* Einträge */}
-      <div className="space-y-8">
-        {dates.length === 0 && (
-          <p className="text-center text-sm text-zinc-500">
-            Keine Einträge für diesen Filter.
-          </p>
-        )}
-        {dates.map((date) => (
-          <section key={date} aria-label={formatDate(date)} className="space-y-3">
-            <h2 className="text-sm font-semibold text-zinc-500">{formatDate(date)}</h2>
-            {grouped[date].map((entry, i) => {
+      {/* ---------- Karussell (Top 5) ---------- */}
+      {featured.length > 0 && (
+        <section aria-label="Aktuelle Meldungen" className="relative">
+          <div className="mb-3 flex items-center justify-between">
+            <h2 className="text-sm font-semibold uppercase tracking-widest text-zinc-500">
+              Aktuell
+            </h2>
+            <div className="flex gap-1.5">
+              <button
+                onClick={() => scrollCarousel(-1)}
+                aria-label="Zurück"
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-300 bg-white text-zinc-600 transition-colors hover:border-brand-400 hover:text-brand-600 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-400"
+              >
+                ←
+              </button>
+              <button
+                onClick={() => scrollCarousel(1)}
+                aria-label="Weiter"
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-zinc-300 bg-white text-zinc-600 transition-colors hover:border-brand-400 hover:text-brand-600 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-400"
+              >
+                →
+              </button>
+            </div>
+          </div>
+
+          <div
+            ref={carouselRef}
+            className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          >
+            {featured.map((entry, i) => {
               const party = entry.partyId ? partiesById.get(entry.partyId) : undefined;
               return (
                 <article
-                  key={`${date}-${i}`}
-                  className="rounded-xl border border-zinc-200 bg-white p-5 transition-[box-shadow,border-color] duration-200 hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900"
+                  key={entry.sourceUrl}
+                  className={`animate-fade-up relative w-[280px] shrink-0 snap-start overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-900 ${
+                    i === 0 ? "border-l-4 border-l-accent-500" : ""
+                  }`}
+                  style={{ animationDelay: `${i * 80}ms` }}
                 >
-                  <div className="mb-1 flex flex-wrap items-center gap-2">
-                    {party && (
-                      <span className="inline-flex items-center gap-1.5 rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-semibold dark:bg-zinc-800">
-                        <span
-                          aria-hidden
-                          className="h-2 w-2 rounded-full"
-                          style={{ backgroundColor: party.colorHex }}
-                        />
-                        {party.shortName}
-                      </span>
-                    )}
-                    <h3 className="font-semibold leading-snug">{entry.title}</h3>
-                  </div>
-                  {entry.excerpt && (
-                    <p className="mb-2 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
-                      {entry.excerpt}
+                  {/* Partei-Farbbalken oben */}
+                  <div
+                    aria-hidden
+                    className="h-1 w-full"
+                    style={{ backgroundColor: party?.colorHex ?? "#a1a1aa" }}
+                  />
+                  <div className="p-4">
+                    <p className="mb-1.5 text-[11px] font-medium uppercase tracking-wide text-zinc-400">
+                      {formatShort(entry.date)} · {entry.sourceLabel}
                     </p>
-                  )}
-                  <a
-                    href={entry.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs underline decoration-dotted underline-offset-2 hover:text-brand-600"
-                  >
-                    Quelle: {entry.sourceLabel} ↗
-                  </a>
+                    <h3 className="text-sm font-semibold leading-snug">{entry.title}</h3>
+                    {entry.excerpt && (
+                      <p className="mt-2 line-clamp-3 text-xs leading-relaxed text-zinc-600 dark:text-zinc-400">
+                        {entry.excerpt}
+                      </p>
+                    )}
+                    <a
+                      href={entry.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 inline-block text-[11px] underline decoration-dotted underline-offset-2 hover:text-brand-600"
+                    >
+                      Zum Artikel ↗
+                    </a>
+                  </div>
                 </article>
               );
             })}
-          </section>
-        ))}
-      </div>
+          </div>
+        </section>
+      )}
+
+      {/* ---------- Archiv ---------- */}
+      {archive.length > 0 && (
+        <section aria-labelledby="archive-heading" className="space-y-6">
+          <h2 id="archive-heading" className="text-sm font-semibold uppercase tracking-widest text-zinc-500">
+            Archiv
+          </h2>
+          {dates.map((date) => (
+            <div key={date} className="space-y-2">
+              <h3 className="text-xs font-semibold text-zinc-400">{formatDate(date)}</h3>
+              {grouped[date].map((entry, i) => {
+                const party = entry.partyId ? partiesById.get(entry.partyId) : undefined;
+                return (
+                  <article
+                    key={`${date}-${i}`}
+                    className="flex items-start gap-3 rounded-lg border border-zinc-100 bg-white px-4 py-3 transition-colors hover:border-zinc-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700"
+                  >
+                    <span
+                      aria-hidden
+                      className="mt-0.5 h-2.5 w-2.5 shrink-0 rounded-full"
+                      style={{ backgroundColor: party?.colorHex ?? "#a1a1aa" }}
+                    />
+                    <div className="min-w-0 flex-1">
+                      <a
+                        href={entry.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium leading-snug hover:text-brand-600"
+                      >
+                        {entry.title}
+                      </a>
+                      <p className="text-[11px] text-zinc-400">
+                        {entry.sourceLabel} · {formatDate(entry.date)}
+                      </p>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          ))}
+        </section>
+      )}
 
       <footer className="border-t border-zinc-200 pt-6 text-xs leading-relaxed text-zinc-500 dark:border-zinc-800">
         Wir spiegeln keine Volltexte — jedes Item verweist auf die Original-

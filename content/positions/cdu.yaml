@@ -1,65 +1,196 @@
-# SEED+T104-WAVE1 — verification pending bis Fact-Check-Freeze (T-132)
 partyId: cdu
 positions:
-  - { thesisId: vergesellschaftung-grosser-wohnungskonzerne, stance: -2, status: clear,
-      justificationQuote: "Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattdessen auf mehr Neubau und darauf, geltendes Recht durchzusetzen.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: "auto" }
-  - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: -2, status: clear,
-      justificationQuote: "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine starre Regulierung des Mietmarkts.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: "auto" }
-  - { thesisId: randbebauung-tempelhofer-feld, stance: 2, status: clear,
-      justificationQuote: "Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauung des Tempelhofer Feldes.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: "auto" }
-  - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
-  - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none, verification: pending }
-  - { thesisId: privatisierungsverbot-in-der-verfassung, stance: -2, status: clear,
-      justificationQuote: "Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: "auto" }
-  - { thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum, stance: null, status: none, verification: pending }
-  - { thesisId: abschaffung-modernisierungsumlage, stance: null, status: none, verification: pending }
-  - { thesisId: foerderung-von-wohneigentum, stance: 1, status: clear,
-      justificationQuote: "Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes Wohneigentum, etwa durch Zuschüsse, Steuererleichterungen und Mietkaufmodelle.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: "auto" }
-  - { thesisId: einschraenkung-moeblierter-wohnraum, stance: null, status: none, verification: pending }
-  - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: null, status: none, verification: pending }
-  - { thesisId: staerkere-besteurung-hoher-einkommen, stance: null, status: none, verification: pending }
-  - { thesisId: personalabbau-in-der-verwaltung, stance: null, status: none, verification: pending }
-  - { thesisId: abschaffung-der-grundsteuer, stance: null, status: none, verification: pending }
-  - { thesisId: tariftreue-bei-oeffentlichen-auftraegen, stance: null, status: none, verification: pending }
-  - { thesisId: hitzeschutz-fuer-obdachlose, stance: null, status: none, verification: pending }
-  - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none, verification: pending }
-  - { thesisId: gemeinschaftsschule-fuer-alle, stance: null, status: none, verification: pending }
-  - { thesisId: besserer-personalschluessel-in-kitas, stance: null, status: none, verification: pending }
-  - { thesisId: beschleunigte-schulsanierung, stance: null, status: none, verification: pending }
-  - { thesisId: mehr-polizeipersonal, stance: 2, status: clear,
-      justificationQuote: "Die CDU setzt Sicherheit gleich an die Spitze ihres Wahlprogramms: 18 Prozent des Textes dreht sich darum.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: "auto" }
-  - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none, verification: pending }
-  - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
-  - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
-  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none, verification: pending }
-  - { thesisId: ausbau-der-integrationsangebote, stance: null, status: none, verification: pending }
-  - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
-  - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }
-  - { thesisId: sozialticket-und-oepnv-ausbau, stance: null, status: none, verification: pending }
-  - { thesisId: prioritaet-fuer-radverkehr, stance: null, status: none, verification: pending }
-  - { thesisId: klimaneutralitaet-bis-2045, stance: null, status: none, verification: pending }
-  - { thesisId: netto-null-bei-neuversiegelung, stance: null, status: none, verification: pending }
-  - { thesisId: digitalisierung-der-bauaemter, stance: null, status: none, verification: pending }
-  - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
-  - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
-  - { thesisId: schutz-und-foerderung-der-clubkultur, stance: null, status: none, verification: pending }
-  - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: null, status: none, verification: pending }
-  - { thesisId: mehr-reinigungspersonal-oeffentliche-raeume, stance: null, status: none, verification: pending }
+- thesisId: vergesellschaftung-grosser-wohnungskonzerne
+  stance: -2
+  status: clear
+  justificationQuote: Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattdessen auf mehr Neubau und darauf, geltendes Recht durchzusetzen.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: mietendeckel-landeseigene-wohnungsunternehmen
+  stance: -2
+  status: clear
+  justificationQuote: Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine starre Regulierung des Mietmarkts.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: randbebauung-tempelhofer-feld
+  stance: 2
+  status: clear
+  justificationQuote: Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauung des Tempelhofer Feldes.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: grundsteuer-c-baureife-grundstuecke
+  stance: null
+  status: none
+  verification: pending
+- thesisId: sozialwohnungsquote-im-baulandmodell
+  stance: null
+  status: none
+  verification: pending
+- thesisId: privatisierungsverbot-in-der-verfassung
+  stance: -2
+  status: clear
+  justificationQuote: Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
+  stance: null
+  status: none
+  verification: pending
+- thesisId: abschaffung-modernisierungsumlage
+  stance: null
+  status: none
+  verification: pending
+- thesisId: foerderung-von-wohneigentum
+  stance: 1
+  status: clear
+  justificationQuote: Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes Wohneigentum, etwa durch Zuschüsse, Steuererleichterungen und Mietkaufmodelle.
+  sourceLabel: rbb24 Wohnungs-Check (08/2026)
+  sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
+  verification: auto
+- thesisId: einschraenkung-moeblierter-wohnraum
+  stance: null
+  status: none
+  verification: pending
+- thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
+  stance: null
+  status: none
+  verification: pending
+- thesisId: staerkere-besteurung-hoher-einkommen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: personalabbau-in-der-verwaltung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: abschaffung-der-grundsteuer
+  stance: null
+  status: none
+  verification: pending
+- thesisId: tariftreue-bei-oeffentlichen-auftraegen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: hitzeschutz-fuer-obdachlose
+  stance: null
+  status: none
+  verification: pending
+- thesisId: heizkostenfonds-fuer-niedrige-einkommen
+  stance: null
+  status: none
+  verification: pending
+- thesisId: gemeinschaftsschule-fuer-alle
+  stance: -1
+  status: clear
+  verification: pending
+  justificationQuote: Zum bewaehrten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermoeglicht Wahlfreiheit. Experimente mit einzelnen Schulformen gehen zulasten der Qualitaet.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: besserer-personalschluessel-in-kitas
+  stance: null
+  status: none
+  verification: pending
+- thesisId: beschleunigte-schulsanierung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: mehr-polizeipersonal
+  stance: 1
+  status: clear
+  justificationQuote: Polizistinnen und Polizisten konsequent von Buerokratie entlasten, damit sie sich wieder staerker auf ihre Kernaufgaben konzentrieren koennen.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  verification: pending
+- thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
+  stance: 2
+  status: clear
+  verification: pending
+  justificationQuote: An bekannten Kriminalitaetsschwerpunkten kommen nun verstaerkt Videoueberwachung und Waffen- und Messerverbotszonen zum Einsatz.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: begrenzung-polizeilicher-befugnisse
+  stance: -1
+  status: clear
+  verification: pending
+  justificationQuote: Aufweichen des Polizeigesetzes und weniger Befugnisse fuer die Polizei [wird abgelehnt].
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: erleichterte-abschiebungen
+  stance: 2
+  status: clear
+  verification: pending
+  justificationQuote: Die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft sind staerker zu nutzen. Dazu wollen wir die Kapazitaeten des Ausreisegewahrsams deutlich erweitern.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
+  stance: null
+  status: none
+  verification: pending
+- thesisId: ausbau-der-integrationsangebote
+  stance: null
+  status: none
+  verification: pending
+- thesisId: stopp-der-a100-verlaengerung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: tempo30-auf-hauptverkehrsstrassen
+  stance: -2
+  status: clear
+  verification: pending
+  justificationQuote: '[Wir lehnen] Kulturkampf gegen das Auto, Flaechendeckendes Tempo 30, Verkehrspolitik zulasten der Aussenbezirke [ab].'
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: sozialticket-und-oepnv-ausbau
+  stance: 1
+  status: clear
+  verification: pending
+  justificationQuote: Unser Anspruch ist ein zuverlaessiger, leistungsfaehiger und attraktiver OEPNV. Wir unterstuetzen die BVG in ihrem Kurs Stabilitaet vor Wachstum.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: prioritaet-fuer-radverkehr
+  stance: 1
+  status: clear
+  verification: pending
+  justificationQuote: Radwege sicher und zuverlaessig nutzbar machen. Wir werden den Berliner Radverkehrsplan ueberpruefen und staerker an der Realitaet ausrichten.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: klimaneutralitaet-bis-2045
+  stance: 1
+  status: clear
+  verification: pending
+  justificationQuote: Die Dekarbonisierung der Fernwaerme ist zugleich ein entscheidender Schluessel fuer die Klimaneutralitaet des Berliner Gebaeudebestands.
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
+  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+- thesisId: netto-null-bei-neuversiegelung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: digitalisierung-der-bauaemter
+  stance: null
+  status: none
+  verification: pending
+- thesisId: rund-um-die-uhr-digitale-buergerservices
+  stance: null
+  status: none
+  verification: pending
+- thesisId: mehr-kompetenzen-fuer-die-bezirke
+  stance: null
+  status: none
+  verification: pending
+- thesisId: schutz-und-foerderung-der-clubkultur
+  stance: null
+  status: none
+  verification: pending
+- thesisId: ausbau-queerer-gesundheitsversorgung
+  stance: null
+  status: none
+  verification: pending
+- thesisId: mehr-reinigungspersonal-oeffentliche-raeume
+  stance: null
+  status: none
+  verification: pending

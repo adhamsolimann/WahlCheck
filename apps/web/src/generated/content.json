@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:37:08.926Z",
+  "generatedAt": "2026-08-24T23:39:52.312Z",
   "parties": [
     {
       "id": "afd",
@@ -1488,8 +1488,11 @@
     {
       "partyId": "cdu",
       "thesisId": "gemeinschaftsschule-fuer-alle",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Zum bewaehrten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermoeglicht Wahlfreiheit. Experimente mit einzelnen Schulformen gehen zulasten der Qualitaet.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1509,32 +1512,41 @@
     {
       "partyId": "cdu",
       "thesisId": "mehr-polizeipersonal",
-      "stance": 2,
+      "stance": 1,
       "status": "clear",
-      "justificationQuote": "Die CDU setzt Sicherheit gleich an die Spitze ihres Wahlprogramms: 18 Prozent des Textes dreht sich darum.",
-      "sourceLabel": "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      "sourceUrl": "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      "verification": "auto"
+      "justificationQuote": "Polizistinnen und Polizisten konsequent von Buerokratie entlasten, damit sie sich wieder staerker auf ihre Kernaufgaben konzentrieren koennen.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
+      "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "An bekannten Kriminalitaetsschwerpunkten kommen nun verstaerkt Videoueberwachung und Waffen- und Messerverbotszonen zum Einsatz.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "begrenzung-polizeilicher-befugnisse",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Aufweichen des Polizeigesetzes und weniger Befugnisse fuer die Polizei [wird abgelehnt].",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "erleichterte-abschiebungen",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft sind staerker zu nutzen. Dazu wollen wir die Kapazitaeten des Ausreisegewahrsams deutlich erweitern.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
@@ -1561,29 +1573,41 @@
     {
       "partyId": "cdu",
       "thesisId": "tempo30-auf-hauptverkehrsstrassen",
-      "stance": null,
-      "status": "none",
+      "stance": -2,
+      "status": "clear",
+      "justificationQuote": "[Wir lehnen] Kulturkampf gegen das Auto, Flaechendeckendes Tempo 30, Verkehrspolitik zulasten der Aussenbezirke [ab].",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "sozialticket-und-oepnv-ausbau",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Unser Anspruch ist ein zuverlaessiger, leistungsfaehiger und attraktiver OEPNV. Wir unterstuetzen die BVG in ihrem Kurs Stabilitaet vor Wachstum.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "prioritaet-fuer-radverkehr",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Radwege sicher und zuverlaessig nutzbar machen. Wir werden den Berliner Radverkehrsplan ueberpruefen und staerker an der Realitaet ausrichten.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {
       "partyId": "cdu",
       "thesisId": "klimaneutralitaet-bis-2045",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Die Dekarbonisierung der Fernwaerme ist zugleich ein entscheidender Schluessel fuer die Klimaneutralitaet des Berliner Gebaeudebestands.",
+      "sourceLabel": "CDU Berlin – Regierungsprogramm 2026-2031",
+      "sourceUrl": "https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031",
       "verification": "pending"
     },
     {

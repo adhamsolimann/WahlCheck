@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **25** | 78 | 0 |
+| gesamt | **34** | 77 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -52,17 +52,25 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### CDU — 0 offen · 6 🤖 maschinell · 0 ✅ menschlich
+### CDU — 9 offen · 5 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
+| ☐ | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | +2 | „An bekannten Kriminalitaetsschwerpunkten kommen nun verstaerkt Videoueberwachung und Waff…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | -1 | „Aufweichen des Polizeigesetzes und weniger Befugnisse fuer die Polizei [wird abgelehnt].“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „Die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft sind staerker…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes …“ | rbb24 Wohnungs-Check (08/2026) | |
-| 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Die CDU setzt Sicherheit gleich an die Spitze ihres Wahlprogramms: 18 Prozent des Textes …“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „Zum bewaehrten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermoeglicht…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Die Dekarbonisierung der Fernwaerme ist zugleich ein entscheidender Schluessel fuer die K…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +1 | „Polizistinnen und Polizisten konsequent von Buerokratie entlasten, damit sie sich wieder …“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine sta…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Radwege sicher und zuverlaessig nutzbar machen. Wir werden den Berliner Radverkehrsplan u…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauu…“ | rbb24 Wohnungs-Check (08/2026) | |
+| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Unser Anspruch ist ein zuverlaessiger, leistungsfaehiger und attraktiver OEPNV. Wir unter…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | -2 | „[Wir lehnen] Kulturkampf gegen das Auto, Flaechendeckendes Tempo 30, Verkehrspolitik zula…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattde…“ | rbb24 Wohnungs-Check (08/2026) | |
 
 ---

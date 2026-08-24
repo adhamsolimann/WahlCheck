@@ -1,6 +1,6 @@
 # Faktencheck-Checkliste (T-132)
 
-> Generiert am 2026-08-23 durch `scripts/gen-factcheck.mts` — NICHT manuell editieren.
+> Generiert am 2026-08-24 durch `scripts/gen-factcheck.mts` — NICHT manuell editieren.
 > Status wird ausschließlich in `content/positions/*.yaml` gepflegt (`verification: verified`),
 > danach Skript erneut ausführen und beides zusammen committen.
 
@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **35** | 46 | 0 |
+| gesamt | **27** | 53 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -52,18 +52,18 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### CDU — 2 offen · 4 🤖 maschinell · 0 ✅ menschlich
+### CDU — 0 offen · 6 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes …“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Die CDU setzt Sicherheit gleich an die Spitze ihres Wahlprogramms: 18 Prozent des Texts d…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Die CDU setzt Sicherheit gleich an die Spitze ihres Wahlprogramms: 18 Prozent des Textes …“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine sta…“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauu…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattde…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattde…“ | rbb24 Wohnungs-Check (08/2026) | |
 
 ---
 
@@ -113,7 +113,7 @@ Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_O
 
 ---
 
-### SPD — 5 offen · 7 🤖 maschinell · 0 ✅ menschlich
+### SPD — 1 offen · 10 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 
@@ -121,14 +121,13 @@ Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Sanierung und Neubau von Schulen, Kitas und sozialer Infrastruktur in den Kiezen (→ siehe…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
-| ☐ | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | +1 | „Die Sozialdemokraten wollen Notunterkünfte für Geflüchtete abschaffen und sie durch dezen…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Planungsrechtliche Genehmigungen sollen zügig erfolgen. Dazu treiben wir die KI-unterstüt…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
-| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung …“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Dazu treiben wir die die KI unterstützte Digitalisierung in den Bauämtern voran.“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
+| 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung …“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt si…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Län…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Dies dient auch unserem angestrebten Ziel der Netto-Null-Neuversiegelung.“ | SPD Berlin – Wahlprogramm 2026 (PDF, Ka… | |
-| ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Wir führen erstmals eine Spielstättenförderung und setzen Empfehlungen aus der Berliner S…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
+| 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Für die Clubwirtschaft initiieren wir erstmals eine Spielstättenförderung und setzen Empf…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Wir erhöhen diese Quote auf 50 Prozent und stärken das Modell als Kerninstrument für beza…“ | SPD Berlin – Wahlprogramm 2026 (PDF) | |
 | ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | neutral | „“ | rbb24 Wohnungs-Check – „vermeidet … ein… | |
 
@@ -137,6 +136,7 @@ Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4
 | These | Vermerk |
 |-------|---------|
 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | Kapitel behandelt Wachen-Sanierung/-Investitionen; Personalzahl nicht spezifiziert — TODO… |
+| Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | Aussage stammt aus Sekundärbericht; im Programmtext nicht belegbar — TODO(T-132) |
 
 </details>
 
@@ -163,7 +163,7 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### FDP — 2 offen · 4 🤖 maschinell · 0 ✅ menschlich
+### FDP — 0 offen · 6 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
@@ -171,8 +171,8 @@ Programm: **kein Link hinterlegt**
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Wohneigentum will die FDP steuerlich stark begünstigen und Umwandlungen von Miet- in Eige…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Lehnt Mietendeckel ab; Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Ge…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Forderung nach Nachverdichtung, Hochhäusern, Dachaufstockungen und Büro-Umwandlungen, ein…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Genossenschaften und klei…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Die FDP fordert Nachverdichtung, Hochhäuser, Dachaufstockungen und die Umwandlung von Bür…“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | -1 | „Sozialpolitik soll über Wohngeld statt Quoten im Neubau erfolgen.“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die FDP setzt auf den freien Wohnungsmarkt und lehnt Mietendeckel, Mietpreisbremse, Milie…“ | rbb24 Wohnungs-Check (08/2026) | |
 

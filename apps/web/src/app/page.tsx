@@ -37,15 +37,6 @@ export default function Home() {
         </p>
       </header>
 
-      <div
-        role="status"
-        className="animate-fade-up relative rounded-xl border border-accent-500/30 bg-accent-500/5 p-4 text-center text-sm [animation-delay:80ms]"
-      >
-        <strong>Baukasten-Status:</strong> Sprint 0 abgeschlossen — Engine,
-        Schemata und Design-System stehen. Der Quiz-Flow folgt in Sprint-Woche 1
-        (Tasks T-101 ff., siehe ROADMAP.md).
-      </div>
-
       <section className="animate-fade-up relative grid gap-4 sm:grid-cols-2 [animation-delay:160ms]">
         <Card>
           <CardTitle>17 Parteien auf dem Stimmzettel</CardTitle>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ThemeToggle } from "@/components/layout/ThemeToggle";
 
 const NAV = [
   { href: "/quiz/", label: "Matching" },
@@ -53,16 +54,19 @@ export function SiteHeader() {
           })}
         </nav>
 
-        <Link
-          href="/spenden/"
-          className={`shrink-0 whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-semibold transition-colors ${
-            isActive("/spenden")
-              ? "bg-accent-600 text-white"
-              : "bg-accent-500 text-white hover:bg-accent-600"
-          }`}
-        >
-          Unterstützen ♥
-        </Link>
+        <div className="flex shrink-0 items-center gap-2">
+          <ThemeToggle />
+          <Link
+            href="/spenden/"
+            className={`whitespace-nowrap rounded-lg px-3 py-1.5 text-sm font-semibold transition-colors ${
+              isActive("/spenden")
+                ? "bg-accent-600 text-white"
+                : "bg-accent-500 text-white hover:bg-accent-600"
+            }`}
+          >
+            Unterstützen ♥
+          </Link>
+        </div>
       </div>
     </header>
   );

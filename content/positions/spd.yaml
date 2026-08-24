@@ -29,9 +29,9 @@ positions:
   - { thesisId: foerderung-von-wohneigentum, stance: null, status: none, verification: pending }
   - { thesisId: einschraenkung-moeblierter-wohnraum, stance: 1, status: clear,
       justificationQuote: "Auch gegen die kurzzeitige Vermietung hotelartig möblierter Räume und gegen Überbelegung zur Profitmaximierung gehen wir vor.",
-      sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
-      sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: "auto" }
   # --- Haushalt & Finanzen ---
   - { thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite, stance: 1, status: clear,
       justificationQuote: "Wir halten Investitionen vor allem in sieben Schwerpunkten für notwendig. Das spiegelt sich auch in der Belegung des Sondervermögens des Bundes wider.",
@@ -61,10 +61,8 @@ positions:
   - { thesisId: begrenzung-polizeilicher-befugnisse, stance: null, status: none, verification: pending }
   # --- Migration ---
   - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
-  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: 1, status: clear,
-      justificationQuote: "Die Sozialdemokraten wollen Notunterkünfte für Geflüchtete abschaffen und sie durch dezentrale Wohnungen ersetzen.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
+  - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none,
+      sourceLabel: "Aussage stammt aus Sekundärbericht; im Programmtext nicht belegbar — TODO(T-132)",
       verification: pending }
   - { thesisId: ausbau-der-integrationsangebote, stance: null, status: none, verification: pending }
   # --- Mobilität ---
@@ -81,18 +79,18 @@ positions:
       verification: "auto" }
   # --- Verwaltung & Digital ---
   - { thesisId: digitalisierung-der-bauaemter, stance: 1, status: clear,
-      justificationQuote: "Planungsrechtliche Genehmigungen sollen zügig erfolgen. Dazu treiben wir die KI-unterstützte Digitalisierung in den Bauämtern voran.",
+      justificationQuote: "Dazu treiben wir die die KI unterstützte Digitalisierung in den Bauämtern voran.",
       sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
       sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: rund-um-die-uhr-digitale-buergerservices, stance: null, status: none, verification: pending }
   - { thesisId: mehr-kompetenzen-fuer-die-bezirke, stance: null, status: none, verification: pending }
   # --- Stadtgesellschaft ---
   - { thesisId: schutz-und-foerderung-der-clubkultur, stance: 1, status: clear,
-      justificationQuote: "Wir führen erstmals eine Spielstättenförderung und setzen Empfehlungen aus der Berliner Strategie zur Berliner Nachtökonomie um. So sichern wir Clubs langfristig.",
-      sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",
-      sourceUrl: "https://interaktiv.tagesspiegel.de/lab/sieben-wahlprogramme-16-themen-worueber-die-berliner-parteien-wirklich-schreiben-und-worueber-nicht/",
-      verification: pending }
+      justificationQuote: "Für die Clubwirtschaft initiieren wir erstmals eine Spielstättenförderung und setzen Empfehlungen aus der Berliner Strategie zur Berliner Nachtökonomie um.",
+      sourceLabel: "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      sourceUrl: "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      verification: "auto" }
   - { thesisId: ausbau-queerer-gesundheitsversorgung, stance: 1, status: clear,
       justificationQuote: "Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bessere Versorgungsangebote zu machen.",
       sourceLabel: "Tagesspiegel – Sieben Wahlprogramme, 16 Themen (08/2026)",

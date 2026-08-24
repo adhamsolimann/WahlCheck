@@ -7,15 +7,15 @@ positions:
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
       verification: "auto" }
   - { thesisId: mietendeckel-landeseigene-wohnungsunternehmen, stance: -2, status: clear,
-      justificationQuote: "Lehnt Mietendeckel ab; Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Genossenschaften und kleine Bauträger erfolgen.",
+      justificationQuote: "Wohnungsbau soll vor allem durch private Bauherren, Baugruppen, Genossenschaften und kleine Bauträger erfolgen.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: randbebauung-tempelhofer-feld, stance: 2, status: clear,
-      justificationQuote: "Forderung nach Nachverdichtung, Hochhäusern, Dachaufstockungen und Büro-Umwandlungen, einschließlich einer Randbebauung des Tempelhofer Feldes.",
+      justificationQuote: "Die FDP fordert Nachverdichtung, Hochhäuser, Dachaufstockungen und die Umwandlung von Büro‑ in Wohnflächen, einschließlich einer Randbebauung des Tempelhofer Feldes.",
       sourceLabel: "rbb24 Wohnungs-Check (08/2026)",
       sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      verification: pending }
+      verification: "auto" }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: -1, status: clear,
       justificationQuote: "Sozialpolitik soll über Wohngeld statt Quoten im Neubau erfolgen.",

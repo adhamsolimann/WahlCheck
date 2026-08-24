@@ -9,11 +9,17 @@ export const metadata: Metadata = {
     "Parteiunabhängiger Wahlkompass für die Berliner Abgeordnetenhauswahl: nuanced matching statt Ja/Nein. Deine Antworten bleiben im Browser.",
 };
 
+/** Vor dem ersten Paint gesetzt → kein Flash bei gespeicherter Wahl. */
+const THEME_INIT = `(function(){try{var k="wahlcheck.theme";var t=localStorage.getItem(k);if(!t){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}if(t==="dark"){document.documentElement.classList.add("dark");}}catch(e){}})();`;
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="de">
+    <html lang="de" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT }} />
+      </head>
       <body>
         <SiteHeader />
         {/* Ko-Fi-Tipp-Button sitewide (lazy geladen; siehe Datenschutzerklärung) */}

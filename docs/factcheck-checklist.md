@@ -37,7 +37,7 @@ EOF
 
 ---
 
-### AfD — 5 offen · 1 🤖 maschinell · 0 ✅ menschlich
+### AfD — 0 offen · 1 🤖 maschinell · 5 ✅ menschlich
 
 Programm: (https://www.afd.de/wp-content/uploads/2023/05/Programm_AfD_Online_.pdf)
 

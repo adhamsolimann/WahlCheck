@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **21** | 153 | 0 |
+| gesamt | **10** | 162 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -37,27 +37,25 @@ EOF
 
 ---
 
-### AfD — 11 offen · 6 🤖 maschinell · 0 ✅ menschlich
+### AfD — 0 offen · 15 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Grundsteuer in Berlin soll vollständig abgeschafft werd… | +2 | „Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgsc…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | -1 | „Bestehende Kapazitäten im Rahmen zentraler Unterbringungsmöglichkeiten sind vorrangig zu …“ | AfD Berlin – Landeswahlprogramm 2026 | |
+| 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Damit Bauen in Berlin wieder schneller geht, werden wir die umfangreichen Regelungen der …“ | AfD Berlin – Landeswahlprogramm 2026 | |
+| 🤖 | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „Die Einrichtung einer Sondereinheit bei der Ausländerbehörde, die die Ausweisung und Absc…“ | AfD Berlin – Landeswahlprogramm 2026 | |
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Sie will die Grundsteuer abschaffen sowie Wohneigentum durch Steuerbefreiungen und Bürgsc…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | -2 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „Die AfD setzt sich für den Erhalt eines differenzierten Schulsystems und eine leistungsho…“ | AfD Berlin – Landeswahlprogramm 2026 | |
+| 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | -1 | „Berlin muss zur regelgebundenen Haushaltsführung zurückkehren. Kreditfinanzierung ist in …“ | AfD Berlin – Landeswahlprogramm 2026 | |
+| 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | -2 | „Dies gilt insbesondere für Vorhaben, die unter dem Begriff „Klimaneutralität“ in Größenor…“ | AfD Berlin – Landeswahlprogramm 2026 | |
+| 🤖 | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | +1 | „Wir wollen die Polizei entlasten, indem wir eine Bezirkspolizei, die bei den Ordnungsämte…“ | AfD Berlin – Landeswahlprogramm 2026 | |
 | 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +2 | „Nur die AfD schrieb fast genauso viel darüber [wie die CDU].“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignu…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Ein leistungsfähiger öffentlicher Personennahverkehr ist der Schlüssel zu flächendeckende…“ | AfD Berlin – Landeswahlprogramm 2026 | |
+| 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | -1 | „Wir wollen die Bürger nicht auf den Bau neuer Sozialwohnungen vertrösten, sondern ihnen d…“ | AfD Berlin – Landeswahlprogramm 2026 | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die AfD fordert eine grundsätzliche Abkehr von starker Mietregulierung und lehnt Enteignu…“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | +2 | „Geförderter Wohnraum soll bevorzugt an Berliner vergeben werden, die hier geboren sind od…“ | rbb24 Wohnungs-Check (08/2026) | |
 

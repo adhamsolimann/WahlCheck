@@ -23,11 +23,12 @@ positions:
   status: none
   verification: pending
 - thesisId: sozialwohnungsquote-im-baulandmodell
-  stance: 0
+  stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Wir wollen die Bürger nicht auf den Bau neuer Sozialwohnungen vertrösten, sondern ihnen durch die Gewährung von Mietzuschüssen ermöglichen, selbst eine Wohnung auf dem freien Markt zu mieten.
 - thesisId: privatisierungsverbot-in-der-verfassung
   stance: null
   status: none
@@ -57,19 +58,18 @@ positions:
 - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
   stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Berlin muss zur regelgebundenen Haushaltsführung zurückkehren. Kreditfinanzierung ist in Ausnahmesituationen möglich, darf aber nicht zur Routine werden.
 - thesisId: staerkere-besteurung-hoher-einkommen
   stance: null
   status: none
   verification: pending
 - thesisId: personalabbau-in-der-verwaltung
-  stance: 1
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
 - thesisId: abschaffung-der-grundsteuer
   stance: 2
   status: clear
@@ -92,15 +92,14 @@ positions:
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Die AfD setzt sich für den Erhalt eines differenzierten Schulsystems und eine leistungshomogene Zusammensetzung der Klassen ein.
 - thesisId: besserer-personalschluessel-in-kitas
-  stance: 0
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
 - thesisId: beschleunigte-schulsanierung
   stance: null
   status: none
@@ -123,15 +122,17 @@ positions:
 - thesisId: erleichterte-abschiebungen
   stance: 2
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Die Einrichtung einer Sondereinheit bei der Ausländerbehörde, die die Ausweisung und Abschiebung ausländischer Krimineller … bündelt und forciert.
 - thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
-  stance: 0
+  stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Bestehende Kapazitäten im Rahmen zentraler Unterbringungsmöglichkeiten sind vorrangig zu nutzen.
 - thesisId: ausbau-der-integrationsangebote
   stance: null
   status: none
@@ -147,9 +148,10 @@ positions:
 - thesisId: sozialticket-und-oepnv-ausbau
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Ein leistungsfähiger öffentlicher Personennahverkehr ist der Schlüssel zu flächendeckender, bezahlbarer Mobilität.
 - thesisId: prioritaet-fuer-radverkehr
   stance: null
   status: none
@@ -157,9 +159,10 @@ positions:
 - thesisId: klimaneutralitaet-bis-2045
   stance: -2
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Dies gilt insbesondere für Vorhaben, die unter dem Begriff „Klimaneutralität“ in Größenordnungen geplant werden, die den Haushalt strukturell überfordern.
 - thesisId: netto-null-bei-neuversiegelung
   stance: null
   status: none
@@ -167,19 +170,21 @@ positions:
 - thesisId: digitalisierung-der-bauaemter
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Damit Bauen in Berlin wieder schneller geht, werden wir die umfangreichen Regelungen der Berliner Bauordnung entschlacken und weiter vereinfachen.
 - thesisId: rund-um-die-uhr-digitale-buergerservices
   stance: null
   status: none
   verification: pending
 - thesisId: mehr-kompetenzen-fuer-die-bezirke
-  stance: 0
+  stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: AfD Berlin – Landeswahlprogramm 2026
   sourceUrl: https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf
+  justificationQuote: Wir wollen die Polizei entlasten, indem wir eine Bezirkspolizei, die bei den Ordnungsämtern angesiedelt ist, einführen.
 - thesisId: schutz-und-foerderung-der-clubkultur
   stance: null
   status: none

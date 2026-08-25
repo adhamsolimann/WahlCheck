@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:16:10.511Z",
+  "generatedAt": "2026-08-25T01:24:20.199Z",
   "parties": [
     {
       "id": "afd",
@@ -825,11 +825,12 @@
     {
       "partyId": "afd",
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
-      "stance": 0,
+      "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Wir wollen die Bürger nicht auf den Bau neuer Sozialwohnungen vertrösten, sondern ihnen durch die Gewährung von Mietzuschüssen ermöglichen, selbst eine Wohnung auf dem freien Markt zu mieten.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -877,9 +878,10 @@
       "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
       "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Berlin muss zur regelgebundenen Haushaltsführung zurückkehren. Kreditfinanzierung ist in Ausnahmesituationen möglich, darf aber nicht zur Routine werden.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -891,10 +893,8 @@
     {
       "partyId": "afd",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": 1,
-      "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
-      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
+      "stance": null,
+      "status": "none",
       "verification": "pending"
     },
     {
@@ -933,17 +933,16 @@
       "thesisId": "gemeinschaftsschule-fuer-alle",
       "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Die AfD setzt sich für den Erhalt eines differenzierten Schulsystems und eine leistungshomogene Zusammensetzung der Klassen ein.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
       "thesisId": "besserer-personalschluessel-in-kitas",
-      "stance": 0,
-      "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
-      "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
+      "stance": null,
+      "status": "none",
       "verification": "pending"
     },
     {
@@ -982,18 +981,20 @@
       "thesisId": "erleichterte-abschiebungen",
       "stance": 2,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Die Einrichtung einer Sondereinheit bei der Ausländerbehörde, die die Ausweisung und Abschiebung ausländischer Krimineller … bündelt und forciert.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
       "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
-      "stance": 0,
+      "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Bestehende Kapazitäten im Rahmen zentraler Unterbringungsmöglichkeiten sind vorrangig zu nutzen.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -1021,9 +1022,10 @@
       "thesisId": "sozialticket-und-oepnv-ausbau",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Ein leistungsfähiger öffentlicher Personennahverkehr ist der Schlüssel zu flächendeckender, bezahlbarer Mobilität.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -1037,9 +1039,10 @@
       "thesisId": "klimaneutralitaet-bis-2045",
       "stance": -2,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Dies gilt insbesondere für Vorhaben, die unter dem Begriff „Klimaneutralität“ in Größenordnungen geplant werden, die den Haushalt strukturell überfordern.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -1053,9 +1056,10 @@
       "thesisId": "digitalisierung-der-bauaemter",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Damit Bauen in Berlin wieder schneller geht, werden wir die umfangreichen Regelungen der Berliner Bauordnung entschlacken und weiter vereinfachen.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",
@@ -1067,11 +1071,12 @@
     {
       "partyId": "afd",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
-      "stance": 0,
+      "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Wir wollen die Polizei entlasten, indem wir eine Bezirkspolizei, die bei den Ordnungsämtern angesiedelt ist, einführen.",
+      "sourceLabel": "AfD Berlin – Landeswahlprogramm 2026",
       "sourceUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "afd",

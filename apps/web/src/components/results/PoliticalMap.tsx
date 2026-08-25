@@ -26,9 +26,8 @@ interface PlotPoint {
 
 /**
  * Diagramm-Palette (bewusst von Markenfarben entkoppelt): maximale
- * Unterscheidbarkeit auf hellem Grund, alle 17 Parteien paarweise klar
- * getrennt — Identifikation ausschließlich über Hover-Infobar + Legende,
- * damit sich keine Texte überlagern können.
+ * Unterscheidbarkeit, alle 17 Parteien paarweise klar getrennt —
+ * Identifikation über Hover-Infobar + Legende.
  */
 const MAP_COLORS: Record<string, string> = {
   spd: "#D81E05", // kräftiges Rot
@@ -128,7 +127,7 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
 
   return (
     <figure className="space-y-3">
-      <div className="overflow-hidden rounded-2xl border border-ink-900/10 bg-white shadow-sm dark:border-white/10">
+      <div className="overflow-hidden rounded-xl border border-ink-900/10 bg-white dark:border-white/10 dark:bg-ink-900/60">
         <svg
           ref={svgRef}
           viewBox={`0 0 ${W} ${H}`}
@@ -141,58 +140,103 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
           onPointerLeave={() => setHovered(null)}
         >
           <defs>
-            <linearGradient id="q-tl" x1="0" y1="0" x2="1" y2="1">
-              <stop offset="0%" stopColor="#faf5ff" />
-              <stop offset="100%" stopColor="#f5f3ff" />
-            </linearGradient>
-            <linearGradient id="q-tr" x1="1" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#eff6ff" />
-              <stop offset="100%" stopColor="#f0f9ff" />
-            </linearGradient>
-            <linearGradient id="q-bl" x1="0" y1="1" x2="1" y2="0">
-              <stop offset="0%" stopColor="#fff7ed" />
-              <stop offset="100%" stopColor="#fef2f2" />
-            </linearGradient>
-            <linearGradient id="q-br" x1="1" y1="1" x2="0" y2="0">
-              <stop offset="0%" stopColor="#f8fafc" />
-              <stop offset="100%" stopColor="#f1f5f9" />
-            </linearGradient>
+            {/* Punktraster statt pastellener Quadranten-Verläufe */}
+            <pattern
+              id="map-dots"
+              width={4.5}
+              height={4.5}
+              patternUnits="userSpaceOnUse"
+            >
+              <circle
+                cx={0.5}
+                cy={0.5}
+                r={0.32}
+                className="fill-ink-900/[0.13] dark:fill-white/[0.09]"
+              />
+            </pattern>
           </defs>
 
-          {/* Quadranten */}
-          <rect x={OFF_X - 2} y={PAD_Y - 2} width={PLOT_W + 4} height={H - 2 * PAD_Y + 4} fill="#ffffff" />
-          <rect x={OFF_X - 2} y={PAD_Y - 2} width={PLOT_W / 2 + 2} height={(H - 2 * PAD_Y) / 2 + 2} fill="url(#q-tl)" />
-          <rect x={OFF_X + PLOT_W / 2} y={PAD_Y - 2} width={PLOT_W / 2 + 2} height={(H - 2 * PAD_Y) / 2 + 2} fill="url(#q-tr)" />
-          <rect x={OFF_X - 2} y={PAD_Y + (H - 2 * PAD_Y) / 2} width={PLOT_W / 2 + 2} height={(H - 2 * PAD_Y) / 2 + 2} fill="url(#q-bl)" />
-          <rect x={OFF_X + PLOT_W / 2} y={PAD_Y + (H - 2 * PAD_Y) / 2} width={PLOT_W / 2 + 2} height={(H - 2 * PAD_Y) / 2 + 2} fill="url(#q-br)" />
+          {/* Plot-Fläche */}
+          <rect
+            x={OFF_X - 2}
+            y={PAD_Y - 2}
+            width={PLOT_W + 4}
+            height={H - 2 * PAD_Y + 4}
+            rx={1.6}
+            className="fill-white dark:fill-ink-900"
+          />
+          <rect
+            x={OFF_X - 2}
+            y={PAD_Y - 2}
+            width={PLOT_W + 4}
+            height={H - 2 * PAD_Y + 4}
+            rx={1.6}
+            fill="url(#map-dots)"
+          />
 
-          {/* Raster */}
-          {[25, 75].map((v) => (
-            <g key={v} stroke="#e2e8f0" strokeWidth={0.25} strokeDasharray="0.8 1.2">
-              <line x1={toX(v)} y1={PAD_Y - 2} x2={toX(v)} y2={H - PAD_Y + 2} />
-              <line x1={OFF_X - 2} y1={toY(v)} x2={OFF_X + PLOT_W + 2} y2={toY(v)} />
-            </g>
-          ))}
+          {/* Mittellinien — haarfein, gestrichelt */}
+          <line
+            x1={OFF_X}
+            y1={H / 2}
+            x2={OFF_X + PLOT_W}
+            y2={H / 2}
+            strokeWidth={0.3}
+            strokeDasharray="1 1.4"
+            className="stroke-ink-900/25 dark:stroke-white/25"
+          />
+          <line
+            x1={mid}
+            y1={PAD_Y}
+            x2={mid}
+            y2={H - PAD_Y}
+            strokeWidth={0.3}
+            strokeDasharray="1 1.4"
+            className="stroke-ink-900/25 dark:stroke-white/25"
+          />
 
-          {/* Achsen */}
-          <line x1={OFF_X - 3} y1={H / 2} x2={OFF_X + PLOT_W + 3} y2={H / 2} stroke="#94a3b8" strokeWidth={0.45} />
-          <line x1={mid} y1={PAD_Y - 3} x2={mid} y2={H - PAD_Y + 3} stroke="#94a3b8" strokeWidth={0.45} />
+          {/* Achsen-Endlabels — Mikro-Typografie */}
+          <g
+            className="fill-ink-400 dark:fill-ink-500"
+            style={{ fontFamily: "var(--font-display)", fontWeight: 700 }}
+          >
+            <text
+              x={OFF_X}
+              y={H / 2 - 1.8}
+              fontSize={2.6}
+              letterSpacing={0.35}
+            >
+              LINKS · STAATLICH
+            </text>
+            <text
+              x={OFF_X + PLOT_W}
+              y={H / 2 - 1.8}
+              fontSize={2.6}
+              letterSpacing={0.35}
+              textAnchor="end"
+            >
+              MARKTLICH · EIGENVERANTWORTLICH
+            </text>
+            <text
+              x={mid}
+              y={PAD_Y - 3.2}
+              fontSize={2.6}
+              letterSpacing={0.35}
+              textAnchor="middle"
+            >
+              PROGRESSIV · WELTOFFEN
+            </text>
+            <text
+              x={mid}
+              y={H - PAD_Y + 5.4}
+              fontSize={2.6}
+              letterSpacing={0.35}
+              textAnchor="middle"
+            >
+              KONSERVATIV · TRADITIONELL
+            </text>
+          </g>
 
-          {/* Achsen-Chips */}
-          <text x={OFF_X - 3} y={H / 2 - 1.6} fontSize={2.7} fontWeight={600} fill="#64748b">
-            links · staatlich
-          </text>
-          <text x={OFF_X + PLOT_W + 3} y={H / 2 - 1.6} fontSize={2.7} fontWeight={600} fill="#64748b" textAnchor="end">
-            marktlich · eigenverantwortlich
-          </text>
-          <text x={mid} y={PAD_Y - 3.4} fontSize={2.7} fontWeight={600} fill="#64748b" textAnchor="middle">
-            progressiv · weltoffen
-          </text>
-          <text x={mid} y={H - PAD_Y + 5.6} fontSize={2.7} fontWeight={600} fill="#64748b" textAnchor="middle">
-            konservativ · traditionell
-          </text>
-
-          {/* Sitzpunkte (ohne Text — Identifikation über Legende/Hover) */}
+          {/* Sitzpunkte — niedrige Datenbasis als hohler Ring */}
           {points.map((pt) => {
             const active = hovered === pt.id;
             return (
@@ -201,9 +245,10 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
                 cx={pt.px}
                 cy={pt.py}
                 r={active ? 3 : pt.lowData ? 2.2 : 2.6}
-                fill={pt.color}
-                stroke="#ffffff"
-                strokeWidth={0.9}
+                fill={pt.lowData && !active ? "transparent" : pt.color}
+                stroke={pt.color}
+                strokeWidth={pt.lowData && !active ? 0.7 : 0.9}
+                className={pt.lowData && !active ? "" : "stroke-white dark:stroke-ink-950"}
                 opacity={hovered && !active ? 0.3 : 1}
                 style={{ transition: "r .15s ease, opacity .15s ease" }}
               >
@@ -212,24 +257,36 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
             );
           })}
 
-          {/* Nutzerposition mit Puls */}
+          {/* Nutzerposition — Koralle mit Puls + weichem Hof */}
           {userPoint && (
             <g pointerEvents="none">
+              <circle
+                cx={userPoint.px}
+                cy={userPoint.py}
+                r={5.5}
+                className="fill-accent-500/15"
+              />
               <circle
                 cx={userPoint.px}
                 cy={userPoint.py}
                 r={4.2}
                 fill="none"
                 stroke="#e85d3b"
-                strokeWidth={0.7}
-                className="animate-pulse"
+                strokeWidth={0.6}
+                className="animate-pulse motion-reduce:animate-none"
               />
-              <circle cx={userPoint.px} cy={userPoint.py} r={1.9} fill="#e85d3b" stroke="#ffffff" strokeWidth={0.6}>
+              <circle
+                cx={userPoint.px}
+                cy={userPoint.py}
+                r={1.9}
+                fill="#e85d3b"
+                className="stroke-white dark:stroke-ink-950"
+                strokeWidth={0.7}
+              >
                 <title>Deine Position</title>
               </circle>
             </g>
           )}
-
         </svg>
       </div>
 
@@ -242,7 +299,9 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
               className="h-3 w-3 shrink-0 rounded-full"
               style={{ backgroundColor: activePoint.color }}
             />
-            <span className="font-semibold">{activePoint.label}</span>
+            <span className="font-display font-bold tracking-tight">
+              {activePoint.label}
+            </span>
             {activePoint.lowData && (
               <span className="text-ink-400 dark:text-ink-500">· wenig Daten</span>
             )}
@@ -256,23 +315,30 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
 
       {/* Legende — vollständige Identifikation inkl. Hover-Sync */}
       <figcaption className="space-y-2 text-xs text-ink-400">
-        <div className="flex flex-wrap gap-x-3 gap-y-1">
+        <div className="flex flex-wrap gap-1.5">
           {points.map((pt) => (
             <span
               key={pt.id}
               onMouseEnter={() => setHovered(pt.id)}
               onMouseLeave={() => setHovered(null)}
-              className={`inline-flex cursor-default items-center gap-1 transition-opacity ${
-                hovered && hovered !== pt.id ? "opacity-40" : ""
+              className={`inline-flex cursor-default items-center gap-1.5 rounded-full border border-ink-900/10 px-2 py-0.5 transition-opacity dark:border-white/10 ${
+                hovered && hovered !== pt.id ? "opacity-35" : ""
               }`}
             >
-              <span aria-hidden className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: pt.color }} />
+              <span
+                aria-hidden
+                className="h-2 w-2 rounded-full"
+                style={{ backgroundColor: pt.color }}
+              />
               {pt.label}
             </span>
           ))}
           {userPoint && (
-            <span className="inline-flex items-center gap-1 font-semibold text-accent-600">
-              <span aria-hidden className="h-2.5 w-2.5 rounded-full bg-[var(--color-accent-500)]" />
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-accent-500/40 bg-accent-500/10 px-2 py-0.5 font-display font-bold text-accent-600 dark:text-accent-300">
+              <span
+                aria-hidden
+                className="h-2 w-2 rounded-full bg-accent-500"
+              />
               Du
             </span>
           )}

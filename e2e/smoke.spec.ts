@@ -66,15 +66,14 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
   });
 
   test("Landing: Kerninhalte und Navigation", async ({ page }) => {
-    await expect(page.getByRole("heading", { level: 1, name: /WahlCheck/ })).toBeVisible();
-    // Logo-Zweiteilung: Wahl (schwarz) + Check (blau)
-    await expect(page.locator("h1 span").first()).toHaveText("Wahl");
+    await expect(page.getByRole("heading", { level: 1, name: /Welche Partei/ })).toBeVisible();
+    // Wortmarke in der Header-Navigation: Wahl (Tinte) + Check (Koralle)
+    const wordmark = page.getByRole("link", { name: "WahlCheck – Startseite" });
+    await expect(wordmark).toBeVisible();
+    await expect(wordmark.getByText("Wahl", { exact: true })).toBeVisible();
     await expect(page.getByText(/20\. September 2026/).first()).toBeVisible();
-    await expect(page.getByRole("link", { name: "Matching starten" })).toBeVisible();
-    // Header-Navigation sichtbar
+    await expect(page.getByRole("link", { name: "Matching starten" }).first()).toBeVisible();
     // Footer-Navigation vollständig
-    // (Desktop-Hauptnavigation wird implizit durch andere Tests geprüft —
-    //  auf Mobile ist sie im Hamburger versteckt)
     for (const label of ["Koalitionen", "Methodik", "Änderungslog", "Datenschutz", "Impressum"]) {
       await expect(page.locator("footer").getByText(label)).toBeVisible();
     }
@@ -101,7 +100,7 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     await page.getByText("Ohne Voreinstellung").click();
 
     // Erste These sichtbar
-    await expect(page.getByText(/^These 1 von 38$/)).toBeVisible();
+    await expect(page.getByText(/^These 1 \/ 38$/)).toBeVisible();
 
     // 6 Karten beantworten (inkl. Skip + Gewichtung)
     for (let i = 0; i < 6; i++) {
@@ -129,7 +128,7 @@ test.describe("WahlCheck Berlin — E2E Smoke", () => {
     // Zur letzten Frage springen via Fortschritts-Dots
     const dots = page.locator('[role="list"][aria-label="Fortschritt"] button');
     await dots.last().click();
-    await expect(page.getByText(/^These 38 von 38$/)).toBeVisible();
+    await expect(page.getByText(/^These 38 \/ 38$/)).toBeVisible();
     await expect(page.getByRole("button", { name: /^Weiter/ })).toHaveCount(0); // Regression
     await expect(page.getByText(/Letzte These/)).toBeVisible();
 

@@ -30,7 +30,8 @@ export function Wordmark({ className = "" }: { className?: string }) {
         />
       </svg>
       <span>
-        Wahl<span className="text-accent-500">Check</span>
+        <span>Wahl</span>
+        <span className="text-accent-500">Check</span>
       </span>
     </span>
   );

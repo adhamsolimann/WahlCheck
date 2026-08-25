@@ -1,11 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Party, Thesis } from "@wahlen/schemas";
 import type { PartyResult } from "@wahlen/engine";
 import { Button } from "@/components/ui/Button";
-import { Card } from "@/components/ui/Card";
 import { TierBadge } from "@/components/ui/TierBadge";
 import { STANCE_LABELS } from "@/components/ui/StanceScale";
 import { partiesById, thesesForMode } from "@/lib/content";
@@ -29,7 +28,10 @@ const CONFIDENCE_DE: Record<string, string> = {
 
 export default function ResultsPage() {
   const { ready, session, scope, ranked, answeredCount } = useMatchResults();
-  const [expanded, setExpanded] = useState<string | null>(null);
+
+  /** Ausgewählte Partei für das Detail (Desktop-Panel / Mobile-Sheet). */
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [sheetOpen, setSheetOpen] = useState(false);
 
   const thesisById = useMemo(() => {
     const map = new Map<string, Thesis>();
@@ -62,10 +64,23 @@ export default function ResultsPage() {
       .filter((m): m is { party: Party; percent: number } => m.party !== undefined);
   }, [ranked]);
 
-  /** Höchstplatzierte Partei mit verwertbarem Ergebnis — wird visuell hervorgehoben. */
+  /** Höchstplatzierte Partei mit verwertbarem Ergebnis — Default-Auswahl. */
   const bestPartyId = useMemo(() => {
     return ranked.find((r) => r.matchPercent !== null)?.partyId ?? null;
   }, [ranked]);
+
+  const activeId = selectedId ?? bestPartyId;
+  const activeResult = ranked.find((r) => r.partyId === activeId) ?? null;
+
+  // Escape schließt das Mobile-Sheet
+  useEffect(() => {
+    if (!sheetOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setSheetOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [sheetOpen]);
 
   if (!ready) {
     return (
@@ -91,9 +106,10 @@ export default function ResultsPage() {
 
   // Nach Tier gruppieren
   const tiers: Party["tier"][] = ["parliament", "small", "contextual"];
+  let rankCounter = 0;
 
   return (
-    <main className="mx-auto max-w-3xl space-y-10 px-6 pb-12 pt-12">
+    <main className="mx-auto max-w-6xl space-y-10 px-6 pb-12 pt-12">
       <header className="space-y-3">
         <p className="kicker text-accent-600 dark:text-accent-400">Deine Auswertung</p>
         <div className="flex flex-wrap items-end justify-between gap-4">
@@ -173,39 +189,95 @@ export default function ResultsPage() {
         </section>
       )}
 
-      {tiers.map((tier) => {
-        const group = ranked.filter(
-          (r) => partiesById.get(r.partyId)?.tier === tier,
-        );
-        if (group.length === 0) return null;
-        return (
-          <section key={tier} aria-labelledby={`tier-${tier}`} className="space-y-3">
-            <h2 id={`tier-${tier}`} className="flex items-center gap-2 pt-2">
-              <TierBadge tier={tier} />
-              <span className="text-xs uppercase tracking-wide text-ink-400">
-                {TIER_LABELS[tier]}
-              </span>
-            </h2>
+      {/* ---------------- Master–Detail: Liste + Detail ---------------- */}
+      <section aria-labelledby="ranking-heading" className="space-y-3">
+        <h2 id="ranking-heading" className="font-display text-xl font-semibold tracking-tight">
+          Alle Parteien im Vergleich
+        </h2>
+        <p className="text-sm text-ink-500 dark:text-ink-400">
+          Partei antippen für die Begründung mit Zitat — auf großen Screens
+          rechts neben der Liste, auf dem Handy als Panel von unten.
+        </p>
 
-            {group.map((result) => (
-              <ResultRow
-                key={result.partyId}
-                result={result}
-                isBest={result.partyId === bestPartyId}
-                expanded={expanded === result.partyId}
-                onToggle={() =>
-                  setExpanded((e) => (e === result.partyId ? null : result.partyId))
-                }
-                thesisById={thesisById}
-              />
-            ))}
-          </section>
-        );
-      })}
+        <div className="grid items-start gap-6 lg:grid-cols-[minmax(300px,360px)_1fr]">
+          {/* Liste */}
+          <div className="space-y-6">
+            {tiers.map((tier) => {
+              const group = ranked.filter(
+                (r) => partiesById.get(r.partyId)?.tier === tier,
+              );
+              if (group.length === 0) return null;
+              return (
+                <div key={tier} className="space-y-1.5">
+                  <h3 className="flex items-center gap-2 pb-1">
+                    <TierBadge tier={tier} />
+                    <span className="text-xs text-ink-400">{TIER_LABELS[tier]}</span>
+                  </h3>
+                  {group.map((result) => {
+                    rankCounter += 1;
+                    const rank = rankCounter;
+                    return (
+                      <RankRow
+                        key={result.partyId}
+                        result={result}
+                        rank={rank}
+                        isBest={result.partyId === bestPartyId}
+                        selected={result.partyId === activeId}
+                        onSelect={() => {
+                          setSelectedId(result.partyId);
+                          setSheetOpen(true);
+                        }}
+                      />
+                    );
+                  })}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Detail — Desktop: sticky Panel */}
+          <div className="hidden lg:sticky lg:top-24 lg:block">
+            {activeResult ? (
+              <PartyDetail result={activeResult} thesisById={thesisById} />
+            ) : (
+              <div className="rounded-xl border border-dashed border-ink-900/15 p-8 text-center text-sm text-ink-400 dark:border-white/15">
+                Partei aus der Liste wählen.
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Detail — Mobile: Bottom-Sheet */}
+      {sheetOpen && activeResult && (
+        <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Partei-Details">
+          <button
+            aria-label="Details schließen"
+            className="absolute inset-0 bg-ink-950/45 backdrop-blur-[2px]"
+            onClick={() => setSheetOpen(false)}
+          />
+          <div className="absolute inset-x-0 bottom-0 max-h-[82vh] overflow-hidden rounded-t-2xl border-t border-ink-900/10 bg-white shadow-2xl dark:border-white/10 dark:bg-ink-900">
+            <div className="flex justify-center pt-2.5">
+              <span aria-hidden className="h-1 w-10 rounded-full bg-ink-900/20 dark:bg-white/20" />
+            </div>
+            <div className="max-h-[calc(82vh-2rem)] overflow-y-auto px-5 pb-8 pt-3">
+              <PartyDetail result={activeResult} thesisById={thesisById} />
+              <Button
+                variant="secondary"
+                size="sm"
+                className="mt-4 w-full"
+                onClick={() => setSheetOpen(false)}
+              >
+                Schließen
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <footer className="pt-4 text-center text-xs leading-relaxed text-ink-400">
         Prozentwerte = gewichtete Übereinstimmung über beantwortete Thesen.
-        „Keine Angabe" einer Partei fließt nicht in deren Wert ein. Kein
+        „Keine Angabe“ einer Partei fließt nicht in deren Wert ein. Kein
         Wahlempfehlungstool ersetzt das Lesen der Programme — Quellen findest du
         bei jeder These.
       </footer>
@@ -215,122 +287,175 @@ export default function ResultsPage() {
 
 /* ------------------------------------------------------------------ */
 
-function ResultRow({
+/** Kompakte Zeile: Rang, Farbchip, Name, Prozent — klickbar. */
+function RankRow({
   result,
+  rank,
   isBest,
-  expanded,
-  onToggle,
+  selected,
+  onSelect,
+}: {
+  result: PartyResult;
+  rank: number;
+  isBest: boolean;
+  selected: boolean;
+  onSelect: () => void;
+}) {
+  const party = partiesById.get(result.partyId);
+  if (!party) return null;
+  const pct = result.matchPercent;
+
+  return (
+    <button
+      onClick={onSelect}
+      aria-pressed={selected}
+      className={`flex w-full items-center gap-3 rounded-lg border px-3 py-2.5 text-left transition-colors duration-150 ${
+        selected
+          ? "border-accent-500 bg-accent-500/[0.06]"
+          : "border-transparent hover:border-ink-900/15 hover:bg-ink-900/[0.03] dark:hover:border-white/15 dark:hover:bg-white/[0.05]"
+      }`}
+    >
+      <span
+        aria-hidden
+        className={`w-5 shrink-0 text-right font-display text-xs font-bold tabular-nums ${
+          rank <= 3 ? "text-accent-500" : "text-ink-400 dark:text-ink-500"
+        }`}
+      >
+        {rank}
+      </span>
+      <span
+        aria-hidden
+        className="h-7 w-1.5 shrink-0 rounded-full"
+        style={{ backgroundColor: party.colorHex }}
+      />
+      <span className="min-w-0 flex-1">
+        <span className="flex items-center gap-2">
+          <span className="truncate font-display text-sm font-semibold tracking-tight">
+            {party.shortName}
+          </span>
+          {isBest && (
+            <span aria-label="Bestes Match" title="Bestes Match" className="text-[11px] text-accent-500">
+              ★
+            </span>
+          )}
+        </span>
+        <span aria-hidden className="mt-1 block h-[3px] overflow-hidden rounded-full bg-ink-900/10 dark:bg-white/10">
+          <span
+            className="block h-full rounded-full"
+            style={{ width: `${pct ?? 0}%`, backgroundColor: party.colorHex }}
+          />
+        </span>
+      </span>
+      <span
+        className="min-w-12 text-right font-display text-base font-bold tabular-nums"
+        style={{ color: party.colorHex }}
+      >
+        {pct !== null ? `${pct.toLocaleString("de-DE")}%` : "—"}
+      </span>
+    </button>
+  );
+}
+
+/** Detail-Panel: Konfidenz + These-für-These-Vergleich mit Zitat. */
+function PartyDetail({
+  result,
   thesisById,
 }: {
   result: PartyResult;
-  isBest: boolean;
-  expanded: boolean;
-  onToggle: () => void;
   thesisById: Map<string, Thesis>;
 }) {
   const party = partiesById.get(result.partyId);
   if (!party) return null;
-
   const pct = result.matchPercent;
 
   return (
-    <Card
-      className={`relative overflow-hidden p-0 ${
-        isBest ? "border-accent-500 ring-1 ring-accent-500" : ""
-      }`}
-    >
-      {isBest && (
-        <span className="absolute right-0 top-0 rounded-bl-lg bg-accent-500 px-3 py-1 font-display text-[11px] font-bold uppercase tracking-wide text-white">
-          ★ Bestes Match
-        </span>
-      )}
-      <button
-        onClick={onToggle}
-        aria-expanded={expanded}
-        className={`flex w-full items-center gap-4 px-5 text-left ${isBest ? "pb-4 pt-7" : "py-4"}`}
-      >
+    <article className="rounded-xl border border-ink-900/10 bg-white dark:border-white/10 dark:bg-ink-900/60">
+      {/* Kopf */}
+      <header className="flex items-center gap-4 border-b border-ink-900/10 p-5 dark:border-white/10">
         <span
           aria-hidden
-          className="h-9 w-1.5 shrink-0 rounded-full"
+          className="h-12 w-2 shrink-0 rounded-full"
           style={{ backgroundColor: party.colorHex }}
         />
-        <span className="min-w-24 flex-1">
-          <span className={`block font-display font-semibold tracking-tight ${isBest ? "text-lg" : ""}`}>
-            {party.shortName}
-          </span>
-          <span className="block truncate text-xs text-ink-400">{party.name}</span>
-        </span>
-        <span className="hidden h-[3px] flex-[2] overflow-hidden rounded-full bg-ink-900/10 sm:block dark:bg-white/10">
-          <span
-            className="animate-bar-x block h-full rounded-full"
-            style={{ width: `${pct ?? 0}%`, backgroundColor: party.colorHex }}
-          />
-        </span>
-        <span
-          className="min-w-14 text-right font-display text-xl font-bold tabular-nums"
+        <div className="min-w-0 flex-1">
+          <h3 className="font-display text-xl font-bold tracking-tight">{party.shortName}</h3>
+          <p className="truncate text-xs text-ink-400">{party.name}</p>
+        </div>
+        <p
+          className="font-display text-3xl font-bold tabular-nums"
           style={{ color: party.colorHex }}
         >
           {pct !== null ? `${pct.toLocaleString("de-DE")}%` : "—"}
-        </span>
-      </button>
+        </p>
+      </header>
 
-      {expanded && (
-        <div className="space-y-3 border-t border-ink-900/10 px-5 py-4 dark:border-white/10">
-          <p className="text-xs text-ink-400">
-            {result.applicableTheses} von {result.answeredTheses} Antworten
-            verwertbar · Konfidenz:{" "}
-            <strong
-              title="Anteil deiner Antworten, die für diese Partei verwertbar waren (≥80 % hoch, ≥50 % mittel, darunter niedrig)"
-              className="capitalize text-ink-600 dark:text-ink-300"
+      <div className="space-y-3 p-5">
+        <p className="text-xs text-ink-400">
+          {result.applicableTheses} von {result.answeredTheses} Antworten
+          verwertbar · Konfidenz:{" "}
+          <strong
+            title="Anteil deiner Antworten, die für diese Partei verwertbar waren (≥80 % hoch, ≥50 % mittel, darunter niedrig)"
+            className="capitalize text-ink-600 dark:text-ink-300"
+          >
+            {CONFIDENCE_DE[result.confidence]}
+          </strong>
+        </p>
+        {result.breakdown.map((entry) => {
+          const thesis = thesisById.get(entry.thesisId);
+          if (!thesis || !entry.included) return null;
+          const partyStanceText =
+            entry.partyStatus === "neutral"
+              ? "neutral"
+              : entry.partyStance !== undefined
+                ? (STANCE_LABELS[entry.partyStance] ?? String(entry.partyStance))
+                : "?";
+          const agreement = entry.partyStance !== undefined && entry.partyStance * entry.userStance > 0;
+          return (
+            <div
+              key={entry.thesisId}
+              className="rounded-lg bg-paper px-4 py-3 text-sm dark:bg-white/[0.04]"
             >
-              {CONFIDENCE_DE[result.confidence]}
-            </strong>
+              <p className="mb-1 flex items-start justify-between gap-3 font-medium">
+                <span>{thesis.text}</span>
+                <span
+                  aria-hidden
+                  title={agreement ? "Übereinstimmung" : "Differenz"}
+                  className={`mt-0.5 shrink-0 font-display text-xs font-bold ${
+                    agreement ? "text-emerald-600 dark:text-emerald-400" : "text-accent-600 dark:text-accent-400"
+                  }`}
+                >
+                  {agreement ? "✓" : "✕"}
+                </span>
+              </p>
+              <p className="text-xs text-ink-600 dark:text-ink-300">
+                Du: <strong>{STANCE_LABELS[entry.userStance]}</strong> · Partei:{" "}
+                <strong>{partyStanceText}</strong> · Wichtung: {entry.weight}×
+              </p>
+              {entry.justificationQuote && (
+                <blockquote className="mt-2 border-l-2 border-accent-500 pl-3 text-xs italic leading-relaxed text-ink-500 dark:text-ink-400">
+                  „{entry.justificationQuote}“{" "}
+                  {entry.sourceUrl && (
+                    <a
+                      href={entry.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-1 not-italic underline hover:text-accent-600"
+                    >
+                      {entry.sourceLabel ? `(${entry.sourceLabel})` : "(Quelle)"}
+                    </a>
+                  )}
+                </blockquote>
+              )}
+            </div>
+          );
+        })}
+        {result.breakdown.every((b) => !b.included) && (
+          <p className="text-sm text-ink-400">
+            Für diese Partei liegen zu den beantworteten Thesen keine
+            verwertbaren Angaben vor.
           </p>
-          {result.breakdown.map((entry) => {
-            const thesis = thesisById.get(entry.thesisId);
-            if (!thesis || !entry.included) return null;
-            const partyStanceText =
-              entry.partyStatus === "neutral"
-                ? "neutral"
-                : entry.partyStance !== undefined
-                  ? (STANCE_LABELS[entry.partyStance] ?? String(entry.partyStance))
-                  : "?";
-            return (
-              <div
-                key={entry.thesisId}
-                className="rounded-lg bg-paper px-4 py-3 text-sm dark:bg-white/[0.04]"
-              >
-                <p className="mb-1 font-medium">{thesis.text}</p>
-                <p className="text-xs text-ink-600 dark:text-ink-300">
-                  Du: <strong>{STANCE_LABELS[entry.userStance]}</strong> · Partei:{" "}
-                  <strong>{partyStanceText}</strong> · Wichtung: {entry.weight}×
-                </p>
-                {entry.justificationQuote && (
-                  <blockquote className="mt-2 border-l-2 border-accent-500 pl-3 text-xs italic leading-relaxed text-ink-500 dark:text-ink-400">
-                    „{entry.justificationQuote}“{" "}
-                    {entry.sourceUrl && (
-                      <a
-                        href={entry.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="ml-1 not-italic underline hover:text-accent-600"
-                      >
-                        {entry.sourceLabel ? `(${entry.sourceLabel})` : "(Quelle)"}
-                      </a>
-                    )}
-                  </blockquote>
-                )}
-              </div>
-            );
-          })}
-          {result.breakdown.every((b) => !b.included) && (
-            <p className="text-sm text-ink-400">
-              Für diese Partei liegen zu den beantworteten Thesen keine
-              verwertbaren Angaben vor.
-            </p>
-          )}
-        </div>
-      )}
-    </Card>
+        )}
+      </div>
+    </article>
   );
 }

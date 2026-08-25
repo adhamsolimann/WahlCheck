@@ -251,12 +251,6 @@ export default function QuizPage() {
             </Card>
           ))}
         </div>
-        <button
-          onClick={() => session && setPhase("quiz")}
-          className="mx-auto block text-sm font-medium text-ink-500 underline underline-offset-4 hover:text-ink-900 dark:hover:text-white"
-        >
-          Ohne Voreinstellung starten →
-        </button>
       </main>
     );
   }
@@ -284,7 +278,7 @@ export default function QuizPage() {
       <div className="sticky top-0 z-30 -mx-6 bg-paper/95 px-6 pb-3 pt-3 backdrop-blur-md dark:bg-ink-950/95">
         <div className="mb-2 flex items-center justify-between text-xs">
           <span className="font-display font-bold tracking-tight text-ink-900 dark:text-white">
-            These <span className="text-accent-500">{index + 1}</span>
+            <span className="text-accent-500">{index + 1}</span>
             <span className="text-ink-400"> / {scope.length}</span>
           </span>
           <span className="text-ink-400">

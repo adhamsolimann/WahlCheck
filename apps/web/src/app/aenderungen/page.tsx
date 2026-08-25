@@ -12,9 +12,9 @@ const CATEGORY_LABELS: Record<ChangelogCategory, string> = {
 
 const CATEGORY_CLASSES: Record<ChangelogCategory, string> = {
   korrektur: "bg-[var(--color-tier-contextual)]/10 text-[var(--color-tier-contextual)]",
-  inhalt: "bg-brand-50 text-brand-700 dark:dark:bg-white/10 dark:text-brand-300",
-  funktion: "bg-emerald-50 text-emerald-700 dark:dark:bg-white/10 dark:text-emerald-300",
-  organisation: "bg-ink-900/[0.06] text-ink-500 dark:dark:bg-white/10 dark:text-ink-400 dark:text-ink-500",
+  inhalt: "bg-accent-500/10 text-accent-600 dark:text-accent-300",
+  funktion: "bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300",
+  organisation: "bg-ink-900/[0.06] text-ink-500 dark:bg-white/10 dark:text-ink-400",
 };
 
 function formatDate(iso: string): string {

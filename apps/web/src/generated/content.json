@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:58:36.230Z",
+  "generatedAt": "2026-08-25T13:12:09.700Z",
   "parties": [
     {
       "id": "afd",
@@ -4321,6 +4321,30 @@
     }
   ],
   "changelog": [
+    {
+      "date": "2026-08-25",
+      "category": "funktion",
+      "title": "Komplettes UI-Redesign — „Stimmzettel trifft Redaktion\"",
+      "details": "Neuer visueller Auftritt für die gesamte Website: warmes Papier, Tinten-Schwarz und die Signalfarbe Koralle statt Blau-Grau; die Schriftarten Space Grotesk und Inter werden ab jetzt selbst gehostet. Startseite, Matching, Auswertung, Koalitionen und alle Info-Seiten wurden im neuen Look neu gebaut — inklusive neuem Logo und Ergebnis-Podest. Inhaltliche Berechnungen und Datenschutz-Architektur bleiben unverändert."
+    },
+    {
+      "date": "2026-08-25",
+      "category": "funktion",
+      "title": "Ergebnis-Bild und Link-Vorschau im neuen Look",
+      "details": "Das teilbare Ergebnis-Bild („Als Bild teilen\") und die Social-Media-Vorschau (OG-Image) wurden auf die neue Marke umgestellt und zeigen jetzt Wortmarke, Signalfarbe und Typografie der Website."
+    },
+    {
+      "date": "2026-08-25",
+      "category": "organisation",
+      "title": "Täglicher News-Scanner aktiv",
+      "details": "Jeden Morgen gegen 08:00 Uhr scannt ein automatisierter Agent Nachrichtenartikel zur Abgeordnetenhauswahl Berlin (Google-News-Feed), entfernt Dubletten, taggt Treffer automatisch mit den betroffenen Parteien und pflegt sie in die News-Sektion ein. Jeder Lauf ist als Commit des „News-Bot\" im öffentlichen Repository nachvollziehbar; inhaltliche Korrekturen behalten wir uns vor und dokumentieren sie hier."
+    },
+    {
+      "date": "2026-08-25",
+      "category": "organisation",
+      "title": "Hosting-Dokumentation ergänzt",
+      "details": "Die Datenschutzerklärung nennt jetzt konkret Cloudflare als Auslieferungsnetzwerk (statisches CDN-Hosting) und beschreibt, welche technischen Zugriffsdaten dabei verarbeitet werden."
+    },
     {
       "date": "2026-08-24",
       "category": "funktion",

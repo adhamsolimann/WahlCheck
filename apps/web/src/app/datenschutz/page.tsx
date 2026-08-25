@@ -47,11 +47,17 @@ export default function DatenschutzPage() {
         <section>
           <h2 className="font-semibold">Server-Logfiles / Hosting</h2>
           <p className="mt-1">
-            Beim Aufruf verarbeitet unser Hoster technische Zugriffsdaten
-            (u. a. IP-Adresse, Zeitpunkt) auf Grundlage von Art. 6 Abs. 1 lit. f
-            DSGVO zur Auslieferung und Sicherheit. [Hosting-Anbieter und
-            Löschfristen vor Launch ergänzen.] Die Inhalte dieser Website sind
-            statisch ausgeliefert; es findet keine Profiling statt.
+            Diese Website wird über das global verteilte Netzwerk von Cloudflare,
+            Inc., 101 Townsend Street, San Francisco, CA 94107, USA, ausgeliefert
+            (statisches CDN-Hosting). Beim Aufruf verarbeitet Cloudflare
+            technische Zugriffsdaten (u. a. IP-Adresse, Zeitpunkt, abgerufene
+            Ressource, Browsertyp) auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO
+            zum sicheren und effizienten Betrieb der Seite — etwa zur Abwehr von
+            Angriffen. Die Verarbeitung kann in Cloudflare-Rechenzentren
+            weltweit erfolgen; für Drittlandübermittlungen gelten die
+            EU-Standardvertragsklauseln. Die Inhalte dieser Website sind rein
+            statisch ausgeliefert; es findet kein Profiling statt und es werden
+            keine Analyse-Cookies gesetzt.
           </p>
         </section>
 

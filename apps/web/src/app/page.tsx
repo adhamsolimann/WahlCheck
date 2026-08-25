@@ -10,12 +10,6 @@ function daysUntilElection(): number {
   );
 }
 
-const PARTIES_ON_BALLOT = [
-  "SPD", "CDU", "Die Linke", "Grüne", "AfD", "FDP", "BSW", "Volt",
-  "ÖDP", "Tierschutzpartei", "Die PARTEI", "DKP", "Die Urbane.", "PdF",
-  "SGP", "B*", "Die Heimat",
-];
-
 const FEATURES = [
   {
     index: "01",
@@ -163,26 +157,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* ---------------- Parteien-Ticker ---------------- */}
-      <div
-        aria-label="Parteien auf dem Stimmzettel"
-        className="overflow-hidden border-b border-ink-900/10 bg-white dark:border-white/10 dark:bg-ink-900/40"
-      >
-        <ul className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-6 gap-y-1 px-6 py-3.5">
-          {PARTIES_ON_BALLOT.map((name) => (
-            <li
-              key={name}
-              className="font-display text-sm font-semibold uppercase tracking-wide text-ink-400 dark:text-ink-400"
-            >
-              {name}
-            </li>
-          ))}
-          <li className="font-display text-xs font-bold uppercase tracking-widest text-accent-500">
-            17 am Start
-          </li>
-        </ul>
-      </div>
 
       {/* ---------------- Features ---------------- */}
       <section className="mx-auto max-w-5xl px-6 py-16">

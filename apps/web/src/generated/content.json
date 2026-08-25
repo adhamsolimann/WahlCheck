@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T00:51:19.526Z",
+  "generatedAt": "2026-08-25T01:05:09.360Z",
   "parties": [
     {
       "id": "afd",
@@ -2299,9 +2299,10 @@
       "thesisId": "randbebauung-tempelhofer-feld",
       "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Das Tempelhofer Feld ist für uns unverzichtbar – der Volksentscheid ist bindend. Wir lehnen jede Bebauung ab.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2316,28 +2317,28 @@
     {
       "partyId": "gruene",
       "thesisId": "sozialwohnungsquote-im-baulandmodell",
-      "stance": 0,
+      "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Das Berliner Modell der kooperativen Baulandentwicklung entwickeln wir weiter und erhöhen die Quote für mietpreisgebundenen Wohnraum (WBS-Wohnungen) auf 50 Prozent.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "privatisierungsverbot-in-der-verfassung",
-      "stance": 0,
+      "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Damit sich dieser historische Fehler nicht wiederholt, wollen wir eine sogenannte Privatisierungsbremse in der Berliner Verfassung einbauen, denn die Wohnungen gehören uns Berliner*innen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
-      "stance": -1,
-      "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
-      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+      "stance": null,
+      "status": "none",
       "verification": "pending"
     },
     {
@@ -2345,10 +2346,10 @@
       "thesisId": "abschaffung-modernisierungsumlage",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Auf Landesebene pruefen wir zusaetzliche Entlastungen fuer Mieter*innen bei Sanierungsmassnahmen [anstelle der bisherigen Modernisierungsumlage].",
+      "justificationQuote": "Auf Landesebene prüfen wir zusätzliche Entlastungen für Mieter*innen bei Sanierungsmaßnahmen [anstelle der bisherigen Modernisierungsumlage].",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2362,39 +2363,40 @@
       "thesisId": "einschraenkung-moeblierter-wohnraum",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Zudem wird Personal in den Gebieten verstaerkt, um moebliertes Wohnen auf Zeit zu unterbinden.",
+      "justificationQuote": "Zudem wird Personal in den Gebieten verstärkt, um möbliertes Wohnen auf Zeit zu unterbinden.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "haushaltsnotlage-investitionen-ueber-neue-kredite",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "sourceLabel": "Wir nutzen die Kreditaufnahme voll aus und setzen den Berliner Anteil am Sondervermögen des Bundes gezielt ein.",
+      "justificationQuote": "Dazu schöpfen wir die rechtlichen Spielräume im Rahmen der strukturellen und konjunkturbedingten Kreditaufnahme voll aus und setzen den Berliner Anteil am Sondervermögen des Bundes gezielt ein.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "staerkere-besteurung-hoher-einkommen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Erhoeung der Pruefquoten bei Unternehmen und Einkommensmillionaer*innen.",
+      "justificationQuote": "Erhöhung der Prüfquoten bei Unternehmen und Einkommensmillionär*innen.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": 0,
+      "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Unser Ziel, mehr junge Menschen für eine berufliche Zukunft im öffentlichen Dienst zu gewinnen, wollen wir durch eine Ausbildungsoffensive erreichen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2408,9 +2410,10 @@
       "thesisId": "tariftreue-bei-oeffentlichen-auftraegen",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Für uns haben Tariftreue und gute Arbeit im öffentlichen Sektor oberste Priorität.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2427,77 +2430,80 @@
       "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Steuerung von Heizungssystemen senken mit geringem Aufwand Energieverbrauch und Heizkosten. Wir setzen uns fuer den flaechendeckenden Einsatz in oeffentlichen Gebaeuden ein.",
+      "justificationQuote": "Damit Mieter*innen durch steigende Heizkosten nicht finanziell überfordert werden, wollen wir Grüne zielgerichtete Härtefalllösungen ausbauen und bei Bedarf zusätzliche Förderungen durch das Land bereitstellen.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "gemeinschaftsschule-fuer-alle",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "sourceLabel": "Gemeinschaftsschulen werden alleingelassen und die soziale Ungleichheit verschärft sich.",
+      "justificationQuote": "Gemeinschaftsschulen werden alleingelassen und die soziale Ungleichheit verschärft sich. Gleichzeitig rechnet der Senat den gravierenden Lehrkräftemangel schön.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "besserer-personalschluessel-in-kitas",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Deshalb wollen wir den Betreuungsschlüssel in Kitas weiter verbessern.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "beschleunigte-schulsanierung",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Enormer Sanierungsstau bei Schulen und gleichzeitig der Anspruch, unsere Stadt widerstandsfaehiger und klimafreundlicher zu machen.",
+      "justificationQuote": "Parallel treiben wir die Sanierung alter Schulgebäude voran, damit sie den Anforderungen einer modernen Bildungslandschaft gerecht werden.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "mehr-polizeipersonal",
       "stance": 0,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Wir wollen die Polizeiausbildung noch attraktiver machen und die Arbeitsbedingungen z. B. durch familienfreundliche Arbeitszeitmodelle verbessern.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
       "stance": -1,
       "status": "clear",
-      "justificationQuote": "Wir lehnen flaechendeckende Videoueberwachung ab und setzen auf alternative Konzepte fuer oeffentliche Sicherheit.",
+      "justificationQuote": "Statt flächendeckender Videoüberwachung im öffentlichen Raum wollen wir diese nur dort zielgerichtet ausbauen, wo sie tatsächlich helfen kann, unsere kritischen Infrastrukturen zu schützen.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "begrenzung-polizeilicher-befugnisse",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Das Berliner Polizeigesetz – das Allgemeine Sicherheits- und Ordnungsgesetz (ASOG) – werden wir evaluieren und Bürger*innenrechte und parlamentarische Kontrollmöglichkeiten stärken sowie eine Aufgabenkritik zur Entlastung der Polizei durchführen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "erleichterte-abschiebungen",
       "stance": -2,
       "status": "clear",
-      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "sourceLabel": "Rechte wahrzunehmen und Rechtsverfahren durchzustehen – ohne Angst vor Abschiebung.",
+      "justificationQuote": "Abschiebungen dürfen generell nur in Ausnahmefällen erfolgen. Die Abschiebung in Krisen- und Konfliktregionen, wie nach Afghanistan, Syrien oder Iran, ist inakzeptabel und muss beendet werden.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2514,19 +2520,20 @@
       "thesisId": "ausbau-der-integrationsangebote",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Menschen erhalten Schutz, Wohnraum, Beratung, herkunftsunabhängigen und kostenlosen Zugang zu Sprach- und Bildungsangeboten sowie Zugang zu Arbeit und Gesundheitsversorgung – diskriminierungsfrei, kultursensibel und mehrsprachig.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "stopp-der-a100-verlaengerung",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "sourceLabel": "Bedrohen die Pläne des Bundes und des Senats zum Weiterbau der A 100 gleich mehrere weitere Berliner Club-Standorte.",
+      "justificationQuote": "Wir Bündnisgrüne lehnen den Weiterbau der Autobahn A 100 ab, denn der 17. Bauabschnitt würde für Ost-Berliner Kieze in Lichtenberg, Pankow und Friedrichshain noch mehr Stau, Lärm, Luftverschmutzung und Clubsterben bedeuten.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2543,19 +2550,20 @@
       "thesisId": "sozialticket-und-oepnv-ausbau",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Menschen mit wenig Geld, die heute noch über 27 Euro für das Sozialticket zahlen müssen, bieten wir bezahlbare und klimafreundliche Mobilität für neun Euro im Monat an.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "prioritaet-fuer-radverkehr",
       "stance": 2,
       "status": "clear",
-      "justificationQuote": "Radwege werden in ganz Berlin komfortabel ausgebaut. Durchgaengige, geschuetzte Radwege verbinden alle Stadtteile.",
+      "justificationQuote": "Radwege werden in ganz Berlin komfortabel ausgebaut. Durchgängige, geschützte Radwege verbinden alle Stadtteile.",
       "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2570,38 +2578,42 @@
     {
       "partyId": "gruene",
       "thesisId": "netto-null-bei-neuversiegelung",
-      "stance": 0,
+      "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Durch klare ökologische Leitlinien und verbindliche Standards wollen wir bereits bis 2030 das Ziel der Netto-Null-Versiegelung erreichen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "digitalisierung-der-bauaemter",
-      "stance": 0,
+      "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Durch Typengenehmigungen und eine digitalisierte Genehmigungsplattform für Bauanträge beschleunigen wir zugleich die Genehmigungsverfahren.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "rund-um-die-uhr-digitale-buergerservices",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Unser Ziel ist ein digitales Bürger*innenamt mit Videoberatung, Einfacher Sprache, digitalen Assistenzen, barrierefreier mobiler Nutzung und Echtzeit-Statusanzeigen für Anträge.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
       "stance": 0,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Dafür braucht es unter anderem starke Bezirke mit qualifiziertem Personal, Datenzugang sowie verbindlichen Kompetenzen bei Kontrolle, Beratung und rechtlicher Durchsetzung.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "gruene",
@@ -2628,9 +2640,10 @@
       "thesisId": "mehr-reinigungspersonal-oeffentliche-raeume",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Darüber hinaus wollen wir Grüne, dass die BSR ihr Know-how und ihre hohen Standards künftig auch bei der Reinigung von allen Spielplätzen und Grünanlagen sowie besonders verschmutzten Ecken der Stadt einbringt.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
       "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "linke",

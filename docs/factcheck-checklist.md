@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **61** | 117 | 0 |
+| gesamt | **34** | 143 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -142,48 +142,47 @@ Programm: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_
 
 ---
 
-### GRÜNE — 27 offen · 9 🤖 maschinell · 0 ✅ menschlich
+### GRÜNE — 0 offen · 35 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +1 | „Auf Landesebene pruefen wir zusaetzliche Entlastungen fuer Mieter*innen bei Sanierungsmas…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +1 | „Auf Landesebene prüfen wir zusätzliche Entlastungen für Mieter*innen bei Sanierungsmaßnah…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „Menschen erhalten Schutz, Wohnraum, Beratung, herkunftsunabhängigen und kostenlosen Zugan…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Versorgungsangebote für queere und trans Personen (Gesundhe… | +1 | „Einig sind sich Grüne, SPD, Linke und FDP darin, queeren und trans Personen mehr und bess…“ | Tagesspiegel – Sieben Wahlprogramme, 16… | |
-| ☐ | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | -1 | „Wir lehnen flaechendeckende Videoueberwachung ab und setzen auf alternative Konzepte fuer…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Enormer Sanierungsstau bei Schulen und gleichzeitig der Anspruch, unsere Stadt widerstand…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | -1 | „Statt flächendeckender Videoüberwachung im öffentlichen Raum wollen wir diese nur dort zi…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „Das Berliner Polizeigesetz – das Allgemeine Sicherheits- und Ordnungsgesetz (ASOG) – werd…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Parallel treiben wir die Sanierung alter Schulgebäude voran, damit sie den Anforderungen …“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Der Personalschlüssel in Berliner Kitas soll verbessert und… | +1 | „Deshalb wollen wir den Betreuungsschlüssel in Kitas weiter verbessern.“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Notunterkünfte für Geflüchtete sollen abgeschafft und durch… | +1 | „Dezentrale Unterbringung und eigenen Wohnraum voranbringen: Es ist unser Ziel, gefluechte…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Zudem wird Personal in den Gebieten verstaerkt, um moebliertes Wohnen auf Zeit zu unterbi…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Rechte wahrzunehmen und Rechtsverfahren… | |
-| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Gemeinschaftsschulen werden alleingelas… | |
+| 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Durch Typengenehmigungen und eine digitalisierte Genehmigungsplattform für Bauanträge bes…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Zudem wird Personal in den Gebieten verstärkt, um möbliertes Wohnen auf Zeit zu unterbind…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -2 | „Abschiebungen dürfen generell nur in Ausnahmefällen erfolgen. Die Abschiebung in Krisen- …“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | +1 | „Gemeinschaftsschulen werden alleingelassen und die soziale Ungleichheit verschärft sich. …“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Dafür werden wir die Grundsteuer C sowie strenge Baugebote einführen, damit Spekulant*inn…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Wir nutzen die Kreditaufnahme voll aus … | |
-| ☐ | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Steuerung von Heizungssystemen senken mit geringem Aufwand Energieverbrauch und Heizkoste…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Dazu schöpfen wir die rechtlichen Spielräume im Rahmen der strukturellen und konjunkturbe…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | +1 | „Damit Mieter*innen durch steigende Heizkosten nicht finanziell überfordert werden, wollen…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Mit kurzfristig wirksamen Hitzeschutzmaßnahmen werden wir Grüne besonders betroffene Quar…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Berlin muss sich ein Vorbild an Hamburg nehmen, das nun schon 2040 klimaneutral sein will…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „Dafür braucht es unter anderem starke Bezirke mit qualifiziertem Personal, Datenzugang so…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | 0 | „Wir wollen die Polizeiausbildung noch attraktiver machen und die Arbeitsbedingungen z. B.…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Die Sauberkeit in Parks, U-Bahnhöfen und Straßen soll durch… | +1 | „Darüber hinaus wollen wir Grüne, dass die BSR ihr Know-how und ihre hohen Standards künft…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +2 | „Radwege werden in ganz Berlin komfortabel ausgebaut. Durchgaengige, geschuetzte Radwege v…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Berlin soll Netto-Null bei der Neuversiegelung von Boden er… | +1 | „Durch klare ökologische Leitlinien und verbindliche Standards wollen wir bereits bis 2030…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Zur Sanierung des Haushalts soll das Personal in der Berlin… | -1 | „Unser Ziel, mehr junge Menschen für eine berufliche Zukunft im öffentlichen Dienst zu gew…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +2 | „Radwege werden in ganz Berlin komfortabel ausgebaut. Durchgängige, geschützte Radwege ver…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +1 | „Damit sich dieser historische Fehler nicht wiederholt, wollen wir eine sogenannte Privati…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -1 | „Das Tempelhofer Feld ist für uns unverzichtbar – der Volksentscheid ist bindend. Wir lehn…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Unser Ziel ist ein digitales Bürger*innenamt mit Videoberatung, Einfacher Sprache, digita…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „Immer wieder geraten Clubs und Musikspielstätten aufgrund steigender Kosten und Mieten, N…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Erhoeung der Pruefquoten bei Unternehmen und Einkommensmillionaer*innen.“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +1 | „https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf“ | Bedrohen die Pläne des Bundes und des S… | |
-| ☐ | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
+| 🤖 | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Menschen mit wenig Geld, die heute noch über 27 Euro für das Sozialticket zahlen müssen, …“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | +1 | „Das Berliner Modell der kooperativen Baulandentwicklung entwickeln wir weiter und erhöhen…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „Erhöhung der Prüfquoten bei Unternehmen und Einkommensmillionär*innen.“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Der Weiterbau/Ausbau der A100 soll gestoppt werden. | +1 | „Wir Bündnisgrüne lehnen den Weiterbau der Autobahn A 100 ab, denn der 17. Bauabschnitt wü…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
+| 🤖 | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | +1 | „Für uns haben Tariftreue und gute Arbeit im öffentlichen Sektor oberste Priorität.“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | +2 | „Wir schützen Leben mit so viel Tempo 30 wie möglich – insbesondere vor Kitas, Schulen, Sp…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Auch deshalb haben wir Grüne uns dafür eingesetzt, dass der erfolgreiche Volksentscheid „…“ | Bündnis 90/Die Grünen Berlin – Wahlprog… | |
-| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 
 ---
 

@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **108** | 77 | 0 |
+| gesamt | **87** | 94 | 0 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -63,38 +63,34 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### CDU — 21 offen · 5 🤖 maschinell · 0 ✅ menschlich
+### CDU — 0 offen · 22 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | +2 | „An bekannten Kriminalitaetsschwerpunkten kommen nun verstaerkt Videoueberwachung und Waff…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
-| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | -1 | „Aufweichen des Polizeigesetzes und weniger Befugnisse fuer die Polizei [wird abgelehnt].“ | CDU Berlin – Regierungsprogramm 2026-20… | |
-| ☐ | Der Personalschlüssel in Berliner Kitas soll verbessert und… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „Die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft sind staerker…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | +2 | „An bekannten Kriminalitätsschwerpunkten kommen nun verstärkt Videoüberwachung und Waffen-…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | -1 | „Aufweichen des Polizeigesetzes und weniger Befugnisse für die Polizei [wird abgelehnt] … …“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Der Personalschlüssel in Berliner Kitas soll verbessert und… | 0 | „Durch den verbesserten Betreuungsschlüssel entwickeln sich unsere Kitas zunehmend zu hoch…“ | https://www.kas.de/documents/d/geschich… | |
+| 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Planungs- und Genehmigungsverfahren werden wir weiter verkürzen und bürokratische Hürden …“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | +2 | „Um Rückführungen wirksam durchzusetzen, sind die bestehenden Instrumente des Ausreisegewa…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Der Erwerb selbstgenutzten Wohneigentums soll durch Zuschüs… | +1 | „Fördern will die CDU nicht nur den Bau von Sozialwohnungen, sondern auch selbstgenutztes …“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „Zum bewaehrten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermoeglicht…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
-| ☐ | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | -1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Die Dekarbonisierung der Fernwaerme ist zugleich ein entscheidender Schluessel fuer die K…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
-| ☐ | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +1 | „Polizistinnen und Polizisten konsequent von Buerokratie entlasten, damit sie sich wieder …“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Berlin soll schrittweise zur Gemeinschaftsschule übergehen,… | -1 | „Wir stehen zum bewährten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen e…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Unbebaute, aber baureife Grundstücke sollen mit einer Grund… | +1 | „Um diese Anreize zukünftig noch gezielter setzen zu können, sprechen wir uns außerdem für…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Die dafür vorgesehenen Mittel aus dem Sondervermögen sollen helfen, Mängel schneller zu b…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Berlin soll einen Heizkostenfonds einrichten, aus dem einko… | -1 | „Den Wettbewerb verschiedener Energieträger wie Gas, Fernwärme und Wärmepumpen wollen wir …“ | https://www.kas.de/documents/d/geschich… | |
+| 🤖 | Berlin soll sein Klimaneutralitätsziel spätestens 2045 erre… | +1 | „Denn eine erfolgreiche Dekarbonisierung der Fernwärme ist zugleich ein entscheidender Sch…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Die zwölf Berliner Bezirke sollen mehr Entscheidungskompete… | 0 | „Mit der großen Verwaltungsreform setzen wir um, woran Vorgängersenate 25 Jahre gescheiter…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | +1 | „Polizistinnen und Polizisten konsequent von Bürokratie entlasten, damit sie sich wieder s…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab, ebenso wie eine sta…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Zur Sanierung des Haushalts soll das Personal in der Berlin… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Radwege sicher und zuverlaessig nutzbar machen. Wir werden den Berliner Radverkehrsplan u…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Schlaglöcher, Wurzelschäden, schlechte Oberflächen und unklare Markierungen werden wir sy…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | -2 | „Ein dauerhaftes Privatisierungsverbot von Wohnungen lehnt die CDU ab.“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | +2 | „Bis 2031 sollen 100.000 neue Wohnungen entstehen, unter anderem auch durch die Randbebauu…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Unser Anspruch ist ein zuverlaessiger, leistungsfaehiger und attraktiver OEPNV. Wir unter…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
-| ☐ | Bei großen privaten Bauprojekten soll die Hälfte der Wohnun… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Vergabe öffentlicher Aufträge und Fördermittel soll an Tari… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
-| ☐ | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | -2 | „[Wir lehnen] Kulturkampf gegen das Auto, Flaechendeckendes Tempo 30, Verkehrspolitik zula…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Für zahlreiche Services in den Bürgerämtern heißt es mittlerweile: Einfach vorbeikommen –…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | 0 | „Die Berliner Clubkultur ist ein prägender Teil des kulturellen Lebens unserer Stadt.“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +1 | „Unser Anspruch ist ein zuverlässiger, leistungsfähiger und attraktiver ÖPNV.“ | CDU Berlin – Regierungsprogramm 2026-20… | |
+| 🤖 | Tempo 30 soll flächendeckend auch auf Hauptverkehrsstraßen … | -2 | „[Wir lehnen] Kulturkampf gegen das Auto, Flächendeckendes Tempo 30, Verkehrspolitik zulas…“ | CDU Berlin – Regierungsprogramm 2026-20… | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | -2 | „Die CDU lehnt die Vergesellschaftung von Wohnungen privater Konzerne ab und setzt stattde…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Geförderter Wohnraum soll bevorzugt an Menschen vergeben we… | 0 | „“ | Redaktionelle Einschätzung auf Basis Wa… | |
 
 ---
 

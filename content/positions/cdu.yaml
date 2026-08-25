@@ -24,15 +24,14 @@ positions:
 - thesisId: grundsteuer-c-baureife-grundstuecke
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: Um diese Anreize zukünftig noch gezielter setzen zu können, sprechen wir uns außerdem für die Einführung einer Grundsteuer C aus, mit der nur baureife Grundstücke besonders hoch belastet werden.
 - thesisId: sozialwohnungsquote-im-baulandmodell
-  stance: 0
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: privatisierungsverbot-in-der-verfassung
   stance: -2
   status: clear
@@ -41,11 +40,9 @@ positions:
   sourceUrl: https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html
   verification: auto
 - thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
-  stance: 0
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: abschaffung-modernisierungsumlage
   stance: null
   status: none
@@ -64,29 +61,26 @@ positions:
 - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: Die dafür vorgesehenen Mittel aus dem Sondervermögen sollen helfen, Mängel schneller zu beheben und die Lernbedingungen kurzfristig spürbar zu verbessern.
 - thesisId: staerkere-besteurung-hoher-einkommen
   stance: null
   status: none
   verification: pending
 - thesisId: personalabbau-in-der-verwaltung
-  stance: 1
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: abschaffung-der-grundsteuer
   stance: null
   status: none
   verification: pending
 - thesisId: tariftreue-bei-oeffentlichen-auftraegen
-  stance: 0
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: hitzeschutz-fuer-obdachlose
   stance: null
   status: none
@@ -94,22 +88,22 @@ positions:
 - thesisId: heizkostenfonds-fuer-niedrige-einkommen
   stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: Den Wettbewerb verschiedener Energieträger wie Gas, Fernwärme und Wärmepumpen wollen wir erhalten, denn nur so bleiben Heizkosten dauerhaft bezahlbar. Einseitige staatliche Vorgaben lehnen wir ab.
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: -1
   status: clear
-  verification: pending
-  justificationQuote: Zum bewaehrten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermoeglicht Wahlfreiheit. Experimente mit einzelnen Schulformen gehen zulasten der Qualitaet.
+  verification: "auto"
+  justificationQuote: Wir stehen zum bewährten gegliederten Schulsystem Berlins. Die Vielfalt der Schulformen ermöglicht Wahlfreiheit … Experimente mit einzelnen Schulformen oder Schulträgern gehen zulasten der Kinder
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: besserer-personalschluessel-in-kitas
   stance: 0
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: Durch den verbesserten Betreuungsschlüssel entwickeln sich unsere Kitas zunehmend zu hochwertigen Bildungseinrichtungen.
 - thesisId: beschleunigte-schulsanierung
   stance: null
   status: none
@@ -117,29 +111,29 @@ positions:
 - thesisId: mehr-polizeipersonal
   stance: 1
   status: clear
-  justificationQuote: Polizistinnen und Polizisten konsequent von Buerokratie entlasten, damit sie sich wieder staerker auf ihre Kernaufgaben konzentrieren koennen.
+  justificationQuote: Polizistinnen und Polizisten konsequent von Bürokratie entlasten, damit sie sich wieder stärker auf ihre Kernaufgaben konzentrieren können.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
-  verification: pending
+  verification: "auto"
 - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
   stance: 2
   status: clear
-  verification: pending
-  justificationQuote: An bekannten Kriminalitaetsschwerpunkten kommen nun verstaerkt Videoueberwachung und Waffen- und Messerverbotszonen zum Einsatz.
+  verification: "auto"
+  justificationQuote: An bekannten Kriminalitätsschwerpunkten kommen nun verstärkt Videoüberwachung und Waffen- und Messerverbotszonen zum Einsatz.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: begrenzung-polizeilicher-befugnisse
   stance: -1
   status: clear
-  verification: pending
-  justificationQuote: Aufweichen des Polizeigesetzes und weniger Befugnisse fuer die Polizei [wird abgelehnt].
+  verification: "auto"
+  justificationQuote: Aufweichen des Polizeigesetzes und weniger Befugnisse für die Polizei [wird abgelehnt] … Klare Befugnisse und moderne Technik für den täglichen Dienst.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: erleichterte-abschiebungen
   stance: 2
   status: clear
-  verification: pending
-  justificationQuote: Die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft sind staerker zu nutzen. Dazu wollen wir die Kapazitaeten des Ausreisegewahrsams deutlich erweitern.
+  verification: "auto"
+  justificationQuote: Um Rückführungen wirksam durchzusetzen, sind die bestehenden Instrumente des Ausreisegewahrsams und der Abschiebungshaft stärker zu nutzen. Dazu wollen wir die Kapazitäten des Ausreisegewahrsams deutlich erweitern.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
@@ -157,29 +151,29 @@ positions:
 - thesisId: tempo30-auf-hauptverkehrsstrassen
   stance: -2
   status: clear
-  verification: pending
-  justificationQuote: '[Wir lehnen] Kulturkampf gegen das Auto, Flaechendeckendes Tempo 30, Verkehrspolitik zulasten der Aussenbezirke [ab].'
+  verification: "auto"
+  justificationQuote: '[Wir lehnen] Kulturkampf gegen das Auto, Flächendeckendes Tempo 30, Verkehrspolitik zulasten der Außenbezirke [ab].'
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: sozialticket-und-oepnv-ausbau
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Unser Anspruch ist ein zuverlaessiger, leistungsfaehiger und attraktiver OEPNV. Wir unterstuetzen die BVG in ihrem Kurs Stabilitaet vor Wachstum.
+  verification: "auto"
+  justificationQuote: Unser Anspruch ist ein zuverlässiger, leistungsfähiger und attraktiver ÖPNV.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: prioritaet-fuer-radverkehr
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Radwege sicher und zuverlaessig nutzbar machen. Wir werden den Berliner Radverkehrsplan ueberpruefen und staerker an der Realitaet ausrichten.
+  verification: "auto"
+  justificationQuote: Schlaglöcher, Wurzelschäden, schlechte Oberflächen und unklare Markierungen werden wir systematisch beseitigen, damit Radwege sicher und zuverlässig nutzbar sind.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: klimaneutralitaet-bis-2045
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Die Dekarbonisierung der Fernwaerme ist zugleich ein entscheidender Schluessel fuer die Klimaneutralitaet des Berliner Gebaeudebestands.
+  verification: "auto"
+  justificationQuote: Denn eine erfolgreiche Dekarbonisierung der Fernwärme ist zugleich ein entscheidender Schlüssel für die Klimaneutralität des Berliner Gebäudebestands.
   sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
 - thesisId: netto-null-bei-neuversiegelung
@@ -189,27 +183,31 @@ positions:
 - thesisId: digitalisierung-der-bauaemter
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: Planungs- und Genehmigungsverfahren werden wir weiter verkürzen und bürokratische Hürden abbauen. Im Fokus stehen dabei die Digitalisierung von Anträgen und Entscheidungen sowie effizientere Abläufe in den Bezirksämtern.
 - thesisId: rund-um-die-uhr-digitale-buergerservices
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: 'Für zahlreiche Services in den Bürgerämtern heißt es mittlerweile: Einfach vorbeikommen – kein Termin mehr nötig. Möglich wurde all dies durch mittlerweile mehr als 450 digitale Angebote (u.a. Wohnsitzanmeldung, Beantragung Elterngeld, Kfz-Zulassung).'
 - thesisId: mehr-kompetenzen-fuer-die-bezirke
   stance: 0
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: 'Mit der großen Verwaltungsreform setzen wir um, woran Vorgängersenate 25 Jahre gescheitert sind: klare Verantwortung, starke Bezirke, kein Behörden-Pingpong mehr.'
 - thesisId: schutz-und-foerderung-der-clubkultur
   stance: 0
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: CDU Berlin – Regierungsprogramm 2026-2031
   sourceUrl: https://www.kas.de/documents/d/geschichte-der-cdu/regierungsprogramm2026_2031
+  justificationQuote: Die Berliner Clubkultur ist ein prägender Teil des kulturellen Lebens unserer Stadt.
 - thesisId: ausbau-queerer-gesundheitsversorgung
   stance: null
   status: none

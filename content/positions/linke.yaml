@@ -5,21 +5,22 @@ positions:
   status: clear
   justificationQuote: 'Dieses Votum bietet keinen Interpretationsspielraum: Berlin will vergesellschaften und 220.000 Wohnungen in öffentliche Hand überführen.'
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
   stance: 2
   status: clear
   justificationQuote: Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen Wohnungsunternehmen (LWU) einführen.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: randbebauung-tempelhofer-feld
   stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Das Tempelhofer Feld wird als Grünfläche ausgewiesen.
 - thesisId: grundsteuer-c-baureife-grundstuecke
   stance: null
   status: none
@@ -30,27 +31,25 @@ positions:
   justificationQuote: Private Wohnungsbauunternehmen bauen bislang nur dann und nur in geringem Ausmaß bezahlbare Wohnungen, wenn sie vom Land Berlin und den Bezirken durch die Kooperative Baulandentwicklung
     dazu verpflichtet werden.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: privatisierungsverbot-in-der-verfassung
   stance: 2
   status: clear
   justificationQuote: Einzelnen Wohnungen der LWU schließen wir aus und setzen uns für ein dauerhaftes Privatisierungsverbot in der Berliner Verfassung ein.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
-  stance: -1
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: abschaffung-modernisierungsumlage
   stance: 2
   status: clear
   justificationQuote: Die Modernisierungsumlage wollen wir abschaffen.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: foerderung-von-wohneigentum
   stance: null
@@ -61,28 +60,29 @@ positions:
   status: clear
   justificationQuote: Abzocke mit möblierten Wohnungen beenden und die großen Immobilienkonzerne vergesellschaften.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
   stance: 1
   status: clear
   justificationQuote: Wir wollen den Landeseigenen Wohnungsunternehmen jährlich bis zu 2 Milliarden Euro Eigenkapital zuführen, um damit den Bau von 7.500 kommunalen Wohnungen jährlich zu finanzieren.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: staerkere-besteurung-hoher-einkommen
   stance: 1
   status: clear
   justificationQuote: Wir werden die Einnahmen des Landes erhöhen und alle Möglichkeiten zur Umverteilung von oben nach unten nutzen. Deswegen wollen wir eine Luxusvillensteuer einführen.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
   verification: auto
 - thesisId: personalabbau-in-der-verwaltung
   stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Wir werden im Rahmen der Geschäftsprozessoptimierung eine gezielte Organisationsentwicklung und Personalentwicklungsplanung aufsetzen und den ungeordneten Stellenabbau und -aufbau stoppen.
 - thesisId: abschaffung-der-grundsteuer
   stance: null
   status: none
@@ -90,57 +90,60 @@ positions:
 - thesisId: tariftreue-bei-oeffentlichen-auftraegen
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: 'Dank der von uns eingeführten Tariftreueklausel gilt: Öffentliches Geld geht nur an Auftragnehmer, die nach Tarif bezahlen.'
 - thesisId: hitzeschutz-fuer-obdachlose
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: In der warmen Jahreszeit braucht es jedoch niedrigschwellige Anlaufstellen für obdachlose Menschen. Die Hitzehilfe und die aufsuchende Arbeit werden gestärkt.
+  verification: "auto"
+  justificationQuote: Die Hitzehilfe und die aufsuchende Sozialarbeit von Menschen, die auf der Straße leben, wollen wir stärken.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: heizkostenfonds-fuer-niedrige-einkommen
   stance: 1
   status: clear
   justificationQuote: Mit einem Heizkostenfonds wollen wir Berliner*innen mit niedrigen Einkommen schnell und unbürokratisch unterstützen, wenn sie Heizkosten nicht mehr tragen können.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  verification: pending
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  verification: "auto"
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: 2
   status: clear
-  justificationQuote: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  sourceLabel: 'Eine Schule für alle: Mehr Gemeinschaftsschulen für Berlin!'
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  verification: pending
+  justificationQuote: 'Eine Schule für alle: Mehr Gemeinschaftsschulen für Berlin!'
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  verification: "auto"
 - thesisId: besserer-personalschluessel-in-kitas
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Den Geburtenrückgang werden wir nutzen, um den Personalschlüssel nachhaltig zu verbessern.
 - thesisId: beschleunigte-schulsanierung
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Schulgebäude wollen wir zudem stärker in den Sozialraum öffnen, nicht nur für den Breitensport, sondern z.B. auch für Musikschulen, Chöre und Lai*innenensembles und andere Nutzungen.
+  verification: "auto"
+  justificationQuote: Deshalb wollen wir die Schulbauoffensive ausgehend von einer wiedereinzuführenden landesweiten Schulentwicklungsplanung, die durch verbindliche bezirkliche Schulentwicklungsplanungen ergänzt wird, fortsetzen und wo möglich beschleunigen.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: mehr-polizeipersonal
-  stance: 0
+  stance: -2
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Es lässt sich beobachten, dass immer mehr Polizei nicht zu mehr Sicherheit führt.
 - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
   stance: -2
   status: clear
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  verification: pending
+  verification: "auto"
   justificationQuote: Orte und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft und somit ein Einfallstor für Racial Profiling
     und diskriminierendes Polizeihandeln. Sie wollen wir abschaffen.
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: begrenzung-polizeilicher-befugnisse
   stance: null
   status: none
@@ -149,99 +152,99 @@ positions:
 - thesisId: erleichterte-abschiebungen
   stance: -2
   status: clear
-  justificationQuote: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  sourceLabel: … denn jede Abschiebung ist eine Abschiebung zu viel. Wir werden daher auch auf die Ausweitung des Chancenaufenthaltsrechts drängen.
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  verification: pending
+  justificationQuote: '… denn jede Abschiebung ist eine Abschiebung zu viel. Wir werden daher auch auf die Ausweitung des Chancenaufenthaltsrechts drängen.'
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  verification: "auto"
 - thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Wohnungslose Personen, die aktuell viel zu lange in Notunterkünften ausharren [brauchen bessere Lösungen].
+  verification: "auto"
+  justificationQuote: Dazu gehört, dass Geflüchtete nicht in inhumanen isolierten Massenunterkünften leben … Sie müssen Zugang zu Wohnungen haben und übergangsweise zu dezentralen, menschenrechtliche Standards wahrenden Unterkünften.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: ausbau-der-integrationsangebote
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Wir setzen uns für die prinzipielle Verteidigung aller Flüchtlinge und eingewanderten Arbeiter ein.
+  verification: "auto"
+  justificationQuote: Wir nutzen unsere Kompetenzen als Bundesland, um Berlin zu einem schützenden Zufluchtsort für Menschen in Not zu machen … Sie kann auch den Zugang zu den dringend notwendigen Sprachkursen und eine Teilhabe am kulturellen Leben ermöglichen.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: stopp-der-a100-verlaengerung
   stance: 2
   status: clear
-  justificationQuote: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  sourceLabel: Wir fordern, dass die A100 qualifiziert am Treptower Park beendet und nicht weiter ausgebaut wird.
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  verification: pending
+  justificationQuote: Wir fordern, dass die A100 qualifiziert am Treptower Park beendet und nicht weiter ausgebaut wird.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  verification: "auto"
 - thesisId: tempo30-auf-hauptverkehrsstrassen
   stance: 2
   status: clear
-  justificationQuote: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  sourceLabel: Wir setzen uns im Bund für Tempo 30 als innerörtliche Regelgeschwindigkeit ein und nutzen unabhängig davon alle Möglichkeiten, um Tempo 30 auch auf Berliner Straßen durchzusetzen.
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
-  verification: pending
+  justificationQuote: Wir setzen uns im Bund für Tempo 30 als innerörtliche Regelgeschwindigkeit ein und nutzen unabhängig davon alle Möglichkeiten, um Tempo 30 auch auf Berliner Straßen umzusetzen.
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  verification: "auto"
 - thesisId: sozialticket-und-oepnv-ausbau
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Wir werden für Berlin ein Deutschland-Sozialticket einführen, damit sich auch Berliner*innen mit geringem Einkommen den Ausflug nach Brandenburg oder die Ostsee und den Familienbesuch leisten können.
 - thesisId: prioritaet-fuer-radverkehr
   stance: 1
   status: clear
-  verification: pending
+  verification: "auto"
   justificationQuote: In den öffentlichen Nahverkehr und den Fuß- und Radverkehr investieren und den BaumEntscheid konsequent umsetzen.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: klimaneutralitaet-bis-2045
-  stance: 1
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: netto-null-bei-neuversiegelung
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Weitere Versiegelung verhindern und wertvolle Flächen für dringend benötigte andere Nutzungen erhalten.
+  verification: "auto"
+  justificationQuote: Wir treten für eine Netto-Null-Versiegelung bis 2030 ein. Wo versiegelt wird, muss innerhalb Berlins in gleicher Größe entsiegelt werden.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: digitalisierung-der-bauaemter
-  stance: -1
-  status: clear
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  stance: null
+  status: none
   verification: pending
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
 - thesisId: rund-um-die-uhr-digitale-buergerservices
   stance: 0
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Digitale Verwaltung darf soziale Ungleichheit nicht verstärken, sondern muss aktiv ausgleichend wirken. Niemand darf bei der Inanspruchnahme öffentlicher Leistungen zur Nutzung digitaler Angebote gezwungen werden.
 - thesisId: mehr-kompetenzen-fuer-die-bezirke
   stance: 0
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Wir wollen ein kooperatives Miteinander zwischen Senat und Bezirken, statt den Bezirken immer wieder die Zuständigkeit für Bebauungspläne zu entziehen.
 - thesisId: schutz-und-foerderung-der-clubkultur
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
+  justificationQuote: Auf Landesebene wollen wir eine Spielstättenförderung einführen, die Clubs mit gesellschaftspolitischem Engagement würdigt, den Schallschutzfonds ausbauen und Genehmigungsverfahren vereinfachen.
 - thesisId: ausbau-queerer-gesundheitsversorgung
   stance: 1
   status: clear
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  verification: pending
-  justificationQuote: Das Programm enthält ein eigenes Kapitel Queerpolitik mit umfassenden Forderungen für queeres Leben in Berlin.
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  verification: "auto"
+  justificationQuote: Wir wollen deshalb die medizinische Versorgung für trans* Personen in Berlin verbessern und spezialisierte Angebote stärken.
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf
 - thesisId: mehr-reinigungspersonal-oeffentliche-raeume
   stance: 1
   status: clear
-  verification: pending
+  verification: "auto"
   justificationQuote: Durch regelmäßige Kieztage für Sperrmüll und Reinigungsaktionen durch die BSR wollen wir die Sauberkeit in den Quartieren verbessern.
   sourceLabel: Die Linke Berlin – Wahlprogramm AGH 2026
-  sourceUrl: https://dielinke.berlin/partei/wahlen/abgeordnetenhauswahlen-2026/
+  sourceUrl: https://dielinke.berlin/fileadmin/download/2026/0106_Wahlprogramm_LVB_A5.pdf

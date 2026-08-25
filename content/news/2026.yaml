@@ -1,5 +1,37 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-08-25"
+  title: >-
+    Große Diskussionsrunde vor der Abgeordnetenhauswahl: Wohnungspolitik im Fokus
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUGozenRPYURqR1BOUHNfa3VwZ0QteERJV0hYUmlERHROelRVUEZtLWNXc0hvc3B0YUk2eTc4QUxMZDNSUko2YUNRbm5qQWZwakRBSlQxMnhXY0U3WWtfWWhfWTRlMTM5OFNZU2NrNWtBVXN0V2E4enVJbVpCRUt5b3EtZVpVRkxOZEcxSllxYzR6TFE0VjFRVEhTbnFqRFd2dnRnU18wOGZhMUhXTnZEa2lCbTZSRDJWbThrWFJvNDdNV1VjNGhFOC01Rng?oc=5"
+- date: "2026-08-25"
+  partyId: linke
+  title: >-
+    Umfragen vor der Berlin-Wahl 2026: Kopf-an-Kopf-Rennen zeichnet sich ab – Linke auf Höhenflug
+  sourceLabel: "Frankfurter Rundschau"
+  sourceUrl: "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWElTYnJHNHl2Q2x3QnlhNnI0dDRNOE5mdkc1MFVMX3BSX1B4SkhkWlNRdkppZVA4a3hTRE1LYXJBQlZ4NlRaSHV1Z3VZS0NlaFlqQkhDcEVhQndQTFduY2JQbWw4YkhQQ1QtYUU1VmhtOHd2dDNUNXlSWWpMeVBLdXpMc1pRUHN5eWo0WGI0ZWhPdUY4c1AyZTJyaWptYklV?oc=5"
+- date: "2026-08-25"
+  partyId: linke
+  title: >-
+    Will die Linke gar nicht regieren, Frau Eralp?
+  sourceLabel: "1&amp;1"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbnA3ekNaWUstdDBDc3NCNkhNWkhKWDNfVlp5bi1SX1pHeTVoVDBfb1VHeFlZOVpHR1BicWIxd3YzTDZSMTBYU0hDNGNZdEl5QllsUHZSeWxVUnpJcTRPRlpxRWhmUVgwY21zbmtCYlVWRWgxRXF5OFQ0RWdHeG83ZFphNEVZZjJ1czBUblRFVkhpWmJnakppWFI5QnNSUzBhOEVzak9PWl83X0JsTlhkMXlxSjFUMFEzSUc2bU9jN3F6VkUzdm1TVFFrTGNKdw?oc=5"
+- date: "2026-08-23"
+  title: >-
+    Berliner Bergpartei – warum diese Kleinstpartei gar nicht gewählt werden möchte
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU2Q5MWNLSzBfWE5GTUlkR3dJbm9wZlNTSUhELURqcXpMM2VLNzBCazBxNTRXbmItTkdPTkEwWHkycHVxaVJzYkU5WWhEOEd0SlYtRVhHTHk2QnRwT1FoN3VGMnc5QXY0SzlPWGZiU0FqZkY1YmFvSURHUjZGR0toeDRobWEtNy1iX0cyUnp6YkpwaGhSSldEbHNheDJWUWExNm1sTFVZcEx1WkdsRlhUUzI1WllpdTZLNmR5SWlBMGtjQXlxWlh1UDJaNA?oc=5"
+- date: "2026-08-23"
+  title: >-
+    So tief gespalten ist Berlin vor der Wahl – ein Aspekt überrascht - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMno5SG8tME9oMnNMN05zT0N4MWtQejYzcS1FTGVYY0dSUmRtZk9TU1FCbDRFNnFUa21fSUt6cjYzY2w1R1NBUDc5R2QtTnJYM1h5MVdlN2tZeVk4cl93WDF2Z2IwdDBLS2Zvc0M4VGVoZnVDUDg5U3pXakV3amQ3MjVpbFJhVXVidkZCSHJ5ZE5YRjVhXy1KNExSZDNsS0xpT0h5NnhSWGJfVGw3dXhla0hrVDlQbkVCRGg1RS1BdURUVTJmVHduMkQzdjk2Tjln?oc=5"
+- date: "2026-08-24"
+  title: >-
+    Wahlomat Berlin 2026 jetzt online: Die wichtigsten Infos
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTXdsY2tTWmh5UDNPUUU1TVBWOUhRV215ZVJmb0JRTnNKc1hnQ1BZWUd6bHpiSU1qcHZtOWxlSXFiUFh3eXZXNzRicVZZa0NEVW1vVjNla3IyMjhRWkxqWGM2N25aUHBlMEUxY2toV3NObTliTEY2X1RJNTlBMkxESnI5blltN25hWEtYSE1OSGlXdTdaN2wyeVRTWGhfMWVfV3NoeEFPRQ?oc=5"
 - date: "2026-08-24"
   title: >-
     Wahl-O-Mat zur Berliner Abgeordnetenhauswahl freigeschaltet

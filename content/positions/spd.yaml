@@ -41,11 +41,9 @@ positions:
   status: none
   verification: pending
 - thesisId: vorrang-einheimische-bei-gefoerdertem-wohnraum
-  stance: -1
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 - thesisId: abschaffung-modernisierungsumlage
   stance: -1
   status: clear
@@ -83,17 +81,16 @@ positions:
   sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 - thesisId: personalabbau-in-der-verwaltung
-  stance: -1
-  status: clear
+  stance: null
+  status: none
   verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
-  sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 - thesisId: abschaffung-der-grundsteuer
   stance: -1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
+  justificationQuote: Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu schaffen, diese Flächen schneller zu bebauen oder zu verkaufen.
 - thesisId: tariftreue-bei-oeffentlichen-auftraegen
   stance: 1
   status: clear
@@ -105,7 +102,7 @@ positions:
   stance: 1
   status: clear
   verification: auto
-  justificationQuote: Wir können die Obdachlosigkeit besiegen und mit einer entschlossenen Verkehrspolitik die Vision von Null Verkehrstoten erreichen.
+  justificationQuote: Die Kälte- und Hitzehilfe bauen wir gezielt aus.
   sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 - thesisId: heizkostenfonds-fuer-niedrige-einkommen
@@ -115,16 +112,17 @@ positions:
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: -1
   status: clear
-  justificationQuote: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  sourceLabel: 'Egal ob Gymnasium, Integrierte Sekundarschule oder Gemeinschaftsschule: An jedem Standort sollen alle Abschlüsse ohne Schulwechsel möglich sein – bis hin zum Abitur.'
+  justificationQuote: 'Egal ob Gymnasium, Integrierte Sekundarschule oder Gemeinschaftsschule: An jedem Standort sollen alle Abschlüsse ohne Schulwechsel möglich sein – bis hin zum Abitur.'
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  verification: pending
+  verification: "auto"
 - thesisId: besserer-personalschluessel-in-kitas
   stance: 1
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  verification: "auto"
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
+  justificationQuote: Wir verbessern deshalb den Betreuungsschlüssel in den Kitas weiter – spürbar im Alltag.
 - thesisId: beschleunigte-schulsanierung
   stance: 1
   status: clear
@@ -133,11 +131,9 @@ positions:
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
   verification: auto
 - thesisId: mehr-polizeipersonal
-  stance: 1
-  status: clear
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  stance: null
+  status: none
   verification: pending
-  sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
   stance: null
   status: none
@@ -149,10 +145,10 @@ positions:
 - thesisId: erleichterte-abschiebungen
   stance: 1
   status: clear
-  justificationQuote: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  sourceLabel: Wir priorisieren Rückführungen bei schweren Straftaten ohne Bleiberecht. Das gilt auch für Gefährder, die unsere freiheitliche Demokratie bedrohen.
+  justificationQuote: Wir priorisieren Rückführungen bei schweren Straftaten ohne Bleiberecht. Das gilt auch für Gefährder, die unsere freiheitliche demokratische Grundordnung bekämpfen.
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  verification: pending
+  verification: "auto"
 - thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
   stance: -1
   status: clear
@@ -170,24 +166,24 @@ positions:
 - thesisId: stopp-der-a100-verlaengerung
   stance: 1
   status: clear
-  justificationQuote: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  sourceLabel: Statt die A100 weiterzubauen, setzen wir auf den Erhalt unserer Straßen und Brücken sowie auf nachhaltige Mobilität.
+  justificationQuote: Statt die A100 weiterzubauen, setzen wir auf den Erhalt unserer Straßen und Brücken sowie auf nachhaltige Mobilität.
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  verification: pending
+  verification: "auto"
 - thesisId: tempo30-auf-hauptverkehrsstrassen
   stance: 1
   status: clear
-  justificationQuote: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  sourceLabel: Tempo 50 auf bisherigen Tempo-30-Strecken lehnen wir ab. Tempo 30 richten wir besonders rund um Kitas, Schulen, Spielplätze und Seniorenheime ein.
+  justificationQuote: Tempo 50 auf bisherigen Tempo-30-Strecken lehnen wir ab. Tempo 30 richten wir besonders rund um Kitas, Schulen, Spielplätze und Seniorenheime ein.
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  verification: pending
+  verification: "auto"
 - thesisId: sozialticket-und-oepnv-ausbau
   stance: 1
   status: clear
-  justificationQuote: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  sourceLabel: Das Deutschlandticket zählt zu den erfolgreichsten Projekten der Verkehrspolitik. Es hat viele Menschen zurück in Bus und Bahn gebracht.
+  verification: "auto"
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  verification: pending
+  justificationQuote: Finanzielle Hilfen und Mobilitätsangebote – etwa ein günstigeres Sozialticket – weiten wir dazu gezielt aus.
 - thesisId: prioritaet-fuer-radverkehr
   stance: 1
   status: clear
@@ -198,10 +194,9 @@ positions:
 - thesisId: klimaneutralitaet-bis-2045
   stance: 1
   status: clear
-  justificationQuote: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  sourceLabel: 'Unser Ziel ist klar: Berlin wird bis möglichst vor 2045 klimaneutral. Das gelingt nur, wenn wir bereit sind, unsere Stadt zu verändern.'
-  sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
-  verification: pending
+  justificationQuote: 'Unser Ziel ist klar: Berlin wird bis möglichst vor 2045 klimaneutral. Das gelingt nur, wenn wir bereit sind, unsere Stadt zu verändern.'
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
+  verification: "auto"
 - thesisId: netto-null-bei-neuversiegelung
   stance: 1
   status: clear
@@ -219,16 +214,17 @@ positions:
 - thesisId: rund-um-die-uhr-digitale-buergerservices
   stance: 1
   status: clear
-  verification: pending
-  justificationQuote: Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahren sorgt die SPD Berlin dafür, dass das Land die Investitionen aus dem Haushalt deutlich erhöht.
+  verification: "auto"
+  justificationQuote: Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahren sorgt die SPD Berlin dafür, dass das Land die Investitionen aus dem Haushalt … deutlich erhöht.
   sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
 - thesisId: mehr-kompetenzen-fuer-die-bezirke
   stance: 0
   status: clear
-  verification: pending
-  sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
+  sourceLabel: SPD Berlin – Wahlprogramm 2026 (PDF)
   sourceUrl: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf
+  justificationQuote: 'Eine funktionierende Stadt braucht starke Bezirke. Jugend- und Sozialämter, saubere Straßen, Schulen und soziale Einrichtungen sichern den Alltag in den Kiezen.'
+  verification: "auto"
 - thesisId: schutz-und-foerderung-der-clubkultur
   stance: 1
   status: clear

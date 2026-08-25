@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:05:09.360Z",
+  "generatedAt": "2026-08-25T01:16:10.511Z",
   "parties": [
     {
       "id": "afd",
@@ -3364,10 +3364,8 @@
     {
       "partyId": "spd",
       "thesisId": "vorrang-einheimische-bei-gefoerdertem-wohnraum",
-      "stance": -1,
-      "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
-      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "stance": null,
+      "status": "none",
       "verification": "pending"
     },
     {
@@ -3423,10 +3421,8 @@
     {
       "partyId": "spd",
       "thesisId": "personalabbau-in-der-verwaltung",
-      "stance": -1,
-      "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
-      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "stance": null,
+      "status": "none",
       "verification": "pending"
     },
     {
@@ -3434,9 +3430,10 @@
       "thesisId": "abschaffung-der-grundsteuer",
       "stance": -1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Wir führen eine Grundsteuer C für unbebaute, aber baureife Grundstücke ein, um Anreize zu schaffen, diese Flächen schneller zu bebauen oder zu verkaufen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3453,7 +3450,7 @@
       "thesisId": "hitzeschutz-fuer-obdachlose",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Wir können die Obdachlosigkeit besiegen und mit einer entschlossenen Verkehrspolitik die Vision von Null Verkehrstoten erreichen.",
+      "justificationQuote": "Die Kälte- und Hitzehilfe bauen wir gezielt aus.",
       "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
       "verification": "auto"
@@ -3470,19 +3467,20 @@
       "thesisId": "gemeinschaftsschule-fuer-alle",
       "stance": -1,
       "status": "clear",
-      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "sourceLabel": "Egal ob Gymnasium, Integrierte Sekundarschule oder Gemeinschaftsschule: An jedem Standort sollen alle Abschlüsse ohne Schulwechsel möglich sein – bis hin zum Abitur.",
+      "justificationQuote": "Egal ob Gymnasium, Integrierte Sekundarschule oder Gemeinschaftsschule: An jedem Standort sollen alle Abschlüsse ohne Schulwechsel möglich sein – bis hin zum Abitur.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
       "thesisId": "besserer-personalschluessel-in-kitas",
       "stance": 1,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Wir verbessern deshalb den Betreuungsschlüssel in den Kitas weiter – spürbar im Alltag.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3497,10 +3495,8 @@
     {
       "partyId": "spd",
       "thesisId": "mehr-polizeipersonal",
-      "stance": 1,
-      "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
-      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
+      "stance": null,
+      "status": "none",
       "verification": "pending"
     },
     {
@@ -3522,10 +3518,10 @@
       "thesisId": "erleichterte-abschiebungen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "sourceLabel": "Wir priorisieren Rückführungen bei schweren Straftaten ohne Bleiberecht. Das gilt auch für Gefährder, die unsere freiheitliche Demokratie bedrohen.",
+      "justificationQuote": "Wir priorisieren Rückführungen bei schweren Straftaten ohne Bleiberecht. Das gilt auch für Gefährder, die unsere freiheitliche demokratische Grundordnung bekämpfen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3552,30 +3548,30 @@
       "thesisId": "stopp-der-a100-verlaengerung",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "sourceLabel": "Statt die A100 weiterzubauen, setzen wir auf den Erhalt unserer Straßen und Brücken sowie auf nachhaltige Mobilität.",
+      "justificationQuote": "Statt die A100 weiterzubauen, setzen wir auf den Erhalt unserer Straßen und Brücken sowie auf nachhaltige Mobilität.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
       "thesisId": "tempo30-auf-hauptverkehrsstrassen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "sourceLabel": "Tempo 50 auf bisherigen Tempo-30-Strecken lehnen wir ab. Tempo 30 richten wir besonders rund um Kitas, Schulen, Spielplätze und Seniorenheime ein.",
+      "justificationQuote": "Tempo 50 auf bisherigen Tempo-30-Strecken lehnen wir ab. Tempo 30 richten wir besonders rund um Kitas, Schulen, Spielplätze und Seniorenheime ein.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
       "thesisId": "sozialticket-und-oepnv-ausbau",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "sourceLabel": "Das Deutschlandticket zählt zu den erfolgreichsten Projekten der Verkehrspolitik. Es hat viele Menschen zurück in Bus und Bahn gebracht.",
+      "justificationQuote": "Finanzielle Hilfen und Mobilitätsangebote – etwa ein günstigeres Sozialticket – weiten wir dazu gezielt aus.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3592,10 +3588,9 @@
       "thesisId": "klimaneutralitaet-bis-2045",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "sourceLabel": "Unser Ziel ist klar: Berlin wird bis möglichst vor 2045 klimaneutral. Das gelingt nur, wenn wir bereit sind, unsere Stadt zu verändern.",
-      "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "justificationQuote": "Unser Ziel ist klar: Berlin wird bis möglichst vor 2045 klimaneutral. Das gelingt nur, wenn wir bereit sind, unsere Stadt zu verändern.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
+      "verification": "auto"
     },
     {
       "partyId": "spd",
@@ -3622,19 +3617,20 @@
       "thesisId": "rund-um-die-uhr-digitale-buergerservices",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahren sorgt die SPD Berlin dafür, dass das Land die Investitionen aus dem Haushalt deutlich erhöht.",
+      "justificationQuote": "Der technologische Wandel erfordert Investitionen in die Digitalisierung. Schon seit Jahren sorgt die SPD Berlin dafür, dass das Land die Investitionen aus dem Haushalt … deutlich erhöht.",
       "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",
       "thesisId": "mehr-kompetenzen-fuer-die-bezirke",
       "stance": 0,
       "status": "clear",
-      "sourceLabel": "Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse",
+      "justificationQuote": "Eine funktionierende Stadt braucht starke Bezirke. Jugend- und Sozialämter, saubere Straßen, Schulen und soziale Einrichtungen sichern den Alltag in den Kiezen.",
+      "sourceLabel": "SPD Berlin – Wahlprogramm 2026 (PDF)",
       "sourceUrl": "https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4.pdf",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "spd",

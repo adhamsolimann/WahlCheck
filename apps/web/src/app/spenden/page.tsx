@@ -24,8 +24,8 @@ export default function SpendenPage() {
   return (
     <main className="mx-auto max-w-2xl space-y-8 px-6 py-12">
       <header className="space-y-2 text-center">
-        <h1 className="text-3xl font-bold">WahlCheck bleibt frei</h1>
-        <p className="text-sm text-zinc-600 dark:text-zinc-400">
+        <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">WahlCheck bleibt frei</h1>
+        <p className="text-sm text-ink-500 dark:text-ink-400">
           Keine Werbung, keine Parteigelder, keine Datengeschäfte. Wenn dir das
           Werkzeug hilft, trägst du mit einem Beitrag dazu bei, dass es allen
           offensteht.
@@ -44,9 +44,9 @@ export default function SpendenPage() {
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Spenden</h2>
         {SITE_CONFIG.donateUrl ? (
-          <div className="rounded-xl border border-brand-200 bg-white p-5 text-sm dark:border-zinc-700 dark:bg-zinc-900">
+          <div className="rounded-xl border border-brand-200 bg-white p-5 text-sm dark:border-white/15 dark:bg-white/[0.04]">
             <p className="font-medium">Einmalig oder monatlich unterstützen:</p>
-            <p className="mt-1 text-zinc-600 dark:text-zinc-400">
+            <p className="mt-1 text-ink-500 dark:text-ink-400">
               Der Dienst verarbeitet die Zahlung (eigene Datenschutzhinweise
               gelten); wir erhalten weder Adresse noch Kontodaten — nur
               Betrag und optionale Nachricht.
@@ -56,16 +56,16 @@ export default function SpendenPage() {
             </a>
           </div>
         ) : (
-          <div className="rounded-xl border border-dashed border-brand-400 bg-brand-50 p-5 text-sm dark:bg-zinc-900">
+          <div className="rounded-xl border border-dashed border-accent-400 bg-brand-50 p-5 text-sm dark:bg-white/[0.04]">
             <p className="font-medium">Zahlungsdienst wird gerade angeschlossen.</p>
-            <p className="mt-1 text-zinc-600 dark:text-zinc-400">
+            <p className="mt-1 text-ink-500 dark:text-ink-400">
               Bis dahin gilt das Versprechen aus dem{" "}
               <Link href="/statut/" className="underline">
                 Redaktionsstatut
               </Link>
               : Wir nehmen erst dann Geld an, wenn Empfänger, Verwendung und
               Berichterstattung transparent dokumentiert sind.{" "}
-              <span className="text-zinc-500">
+              <span className="text-ink-400">
                 [T-123/D-4: Provider-Anbindung vor Soft-Launch]
               </span>
             </p>
@@ -73,7 +73,7 @@ export default function SpendenPage() {
         )}
       </section>
 
-      <section className="space-y-3 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+      <section className="space-y-3 text-sm leading-relaxed text-ink-700 dark:text-ink-200">
         <h2 className="text-xl font-semibold">Andere helfen</h2>
         <ul className="list-disc space-y-1 pl-5">
           <li>
@@ -91,7 +91,7 @@ export default function SpendenPage() {
         </ul>
       </section>
 
-      <footer className="border-t border-zinc-200 pt-6 text-xs text-zinc-500 dark:border-zinc-800">
+      <footer className="border-t border-ink-900/10 pt-6 text-xs text-ink-400 dark:border-white/10">
         Empfehlungen für Beträge sparen wir uns bewusst — auch beim Spenden
         machen wir keine Vorschläge, das ist Sache unserer Nutzerinnen und
         Nutzer.

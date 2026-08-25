@@ -39,13 +39,13 @@ export function ThesisCard({
   const isLast = index === total - 1;
 
   return (
-    <div className="flex h-full flex-col gap-5">
+    <div className="flex h-full flex-col gap-6">
       {/* These — flex-1 absorbiert Höhenunterschiede */}
-      <div className="flex-1 space-y-2">
-        <p className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
-          These {index + 1} von {total}
+      <div className="flex-1 space-y-3">
+        <p className="kicker text-accent-600 dark:text-accent-400">
+          These {index + 1} / {total}
         </p>
-        <h2 className="text-xl font-semibold leading-snug sm:text-2xl">
+        <h2 className="font-display text-2xl font-bold leading-[1.15] tracking-tight sm:text-[1.75rem]">
           {thesis.text}
         </h2>
       </div>
@@ -68,12 +68,12 @@ export function ThesisCard({
             ← Zurück
           </Button>
           {isLast ? (
-            <span className="text-xs text-zinc-500">
+            <span className="text-xs text-ink-400">
               Letzte These — Auswertung unten.
             </span>
           ) : (
             <>
-              <span className="hidden text-xs text-zinc-500 sm:inline" aria-hidden>
+              <span className="hidden text-xs text-ink-400 sm:inline" aria-hidden>
                 Tastatur: 1–5 · S · ← →
               </span>
               <Button onClick={onNext}>Weiter →</Button>

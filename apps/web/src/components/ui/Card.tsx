@@ -2,12 +2,24 @@ import type { HTMLAttributes, ReactNode } from "react";
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
+  /** Opt-in: subtile Hover-Hebung (nur wo Interaktion erwartet wird). */
+  hoverable?: boolean;
 }
 
-export function Card({ children, className = "", ...rest }: CardProps) {
+/** Editorial-Fläche: Hairline-Border, kein Schatten, klare Kante. */
+export function Card({
+  children,
+  className = "",
+  hoverable = false,
+  ...rest
+}: CardProps) {
   return (
     <div
-      className={`rounded-xl border border-zinc-200 bg-white p-6 shadow-sm transition-[box-shadow,border-color,transform] duration-200 hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700 ${className}`}
+      className={`rounded-xl border border-ink-900/10 bg-white p-6 dark:border-white/10 dark:bg-ink-900/60 ${
+        hoverable
+          ? "transition duration-200 hover:-translate-y-0.5 hover:border-accent-400/60 dark:hover:border-accent-400/40"
+          : ""
+      } ${className}`}
       {...rest}
     >
       {children}
@@ -15,10 +27,30 @@ export function Card({ children, className = "", ...rest }: CardProps) {
   );
 }
 
-export function CardTitle({ children }: { children: ReactNode }) {
-  return <h2 className="mb-2 text-lg font-semibold">{children}</h2>;
+/** Nummerierter redaktioneller Kartentitel: „01 — Titel" */
+export function CardTitle({
+  children,
+  index,
+}: {
+  children: ReactNode;
+  index?: string;
+}) {
+  return (
+    <h2 className="mb-2 flex items-baseline gap-2.5 font-display text-lg font-semibold tracking-tight">
+      {index && (
+        <span aria-hidden className="font-display text-xs font-bold text-accent-500">
+          {index}
+        </span>
+      )}
+      {children}
+    </h2>
+  );
 }
 
 export function CardBody({ children }: { children: ReactNode }) {
-  return <div className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">{children}</div>;
+  return (
+    <div className="text-sm leading-relaxed text-ink-600 dark:text-ink-300">
+      {children}
+    </div>
+  );
 }

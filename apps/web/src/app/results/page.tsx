@@ -70,7 +70,7 @@ export default function ResultsPage() {
   if (!ready) {
     return (
       <main className="mx-auto max-w-3xl px-6 py-16">
-        <p className="text-center text-sm text-zinc-500">Lade …</p>
+        <p className="text-center text-sm text-ink-400">Lade …</p>
       </main>
     );
   }
@@ -78,8 +78,8 @@ export default function ResultsPage() {
   if (answeredCount === 0) {
     return (
       <main className="mx-auto max-w-xl space-y-4 px-6 py-16 text-center">
-        <h1 className="text-2xl font-bold">Noch keine Antworten</h1>
-        <p className="text-sm text-zinc-600 dark:text-zinc-400">
+        <h1 className="font-display text-3xl font-bold tracking-tight">Noch keine Antworten</h1>
+        <p className="text-sm text-ink-500 dark:text-ink-400">
           Beantworte zuerst ein paar Thesen — alles bleibt auf deinem Gerät.
         </p>
         <Link href="/quiz/">
@@ -93,23 +93,28 @@ export default function ResultsPage() {
   const tiers: Party["tier"][] = ["parliament", "small", "contextual"];
 
   return (
-    <main className="mx-auto max-w-3xl space-y-8 px-6 py-12">
-      <header className="space-y-1 text-center">
-        <h1 className="text-3xl font-bold">Deine Auswertung</h1>
-        <p className="text-sm text-zinc-600 dark:text-zinc-400">
+    <main className="mx-auto max-w-3xl space-y-10 px-6 pb-12 pt-12">
+      <header className="space-y-3">
+        <p className="kicker text-accent-600 dark:text-accent-400">Deine Auswertung</p>
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <h1 className="font-display text-4xl font-bold tracking-tight sm:text-5xl">
+            Deine Auswertung
+          </h1>
+          <div className="flex flex-wrap items-center gap-2">
+            <Link href="/quiz/">
+              <Button variant="secondary" size="sm">
+                Antworten ändern
+              </Button>
+            </Link>
+            <ShareButton topMatches={topMatches} />
+          </div>
+        </div>
+        <p className="text-sm text-ink-500 dark:text-ink-400">
           Basis: {answeredCount} von {scope.length} Thesen (
           {session?.mode === "quick" ? "Schnell-" : "Vollständiger"} Modus).
-          Berechnung vollständig lokal in deinem Browser.
-        </p>
-        <div className="flex justify-center gap-3 pt-2">
-          <Link href="/quiz/">
-            <Button variant="secondary" size="sm">
-              Antworten ändern
-            </Button>
-          </Link>
-          <ShareButton topMatches={topMatches} />
+          Berechnung vollständig lokal in deinem Browser.{" "}
           <button
-            className="text-xs text-zinc-500 underline"
+            className="underline underline-offset-2 hover:text-accent-600"
             onClick={() => {
               if (confirm("Alle Antworten löschen?")) {
                 clearSession();
@@ -119,12 +124,49 @@ export default function ResultsPage() {
           >
             Alles zurücksetzen
           </button>
-        </div>
+        </p>
       </header>
+
+      {/* Top-3-Podest */}
+      {topMatches.length > 0 && (
+        <section aria-label="Deine Top-Treffer" className="grid gap-3 sm:grid-cols-3">
+          {topMatches.map(({ party, percent }, i) => (
+            <div
+              key={party.id}
+              className={`animate-fade-up relative overflow-hidden rounded-xl border p-4 ${
+                i === 0
+                  ? "border-accent-500 bg-accent-500/[0.06]"
+                  : "border-ink-900/10 bg-white dark:border-white/10 dark:bg-ink-900/60"
+              }`}
+              style={{ animationDelay: `${i * 90}ms` }}
+            >
+              {i === 0 && (
+                <span className="absolute right-3 top-3 font-display text-[10px] font-bold uppercase tracking-widest text-accent-600 dark:text-accent-400">
+                  ★ Bestes Match
+                </span>
+              )}
+              <span
+                aria-hidden
+                className="mb-3 block h-1.5 w-8 rounded-full"
+                style={{ backgroundColor: party.colorHex }}
+              />
+              <p
+                className="font-display text-4xl font-bold tabular-nums tracking-tight"
+                style={{ color: party.colorHex }}
+              >
+                {percent !== null ? percent.toLocaleString("de-DE") : "—"}
+                <span className="text-lg">%</span>
+              </p>
+              <p className="mt-1 font-display text-base font-semibold">{party.shortName}</p>
+              <p className="truncate text-xs text-ink-400">{party.name}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       {userEntries.length > 0 && (
         <section aria-labelledby="map-heading" className="space-y-3">
-          <h2 id="map-heading" className="text-lg font-semibold">
+          <h2 id="map-heading" className="font-display text-xl font-semibold tracking-tight">
             Deine Position auf der Landkarte
           </h2>
           <PoliticalMap userEntries={userEntries} />
@@ -140,7 +182,7 @@ export default function ResultsPage() {
           <section key={tier} aria-labelledby={`tier-${tier}`} className="space-y-3">
             <h2 id={`tier-${tier}`} className="flex items-center gap-2 pt-2">
               <TierBadge tier={tier} />
-              <span className="text-xs uppercase tracking-wide text-zinc-500">
+              <span className="text-xs uppercase tracking-wide text-ink-400">
                 {TIER_LABELS[tier]}
               </span>
             </h2>
@@ -161,7 +203,7 @@ export default function ResultsPage() {
         );
       })}
 
-      <footer className="pt-4 text-center text-xs leading-relaxed text-zinc-500">
+      <footer className="pt-4 text-center text-xs leading-relaxed text-ink-400">
         Prozentwerte = gewichtete Übereinstimmung über beantwortete Thesen.
         „Keine Angabe" einer Partei fließt nicht in deren Wert ein. Kein
         Wahlempfehlungstool ersetzt das Lesen der Programme — Quellen findest du
@@ -194,13 +236,11 @@ function ResultRow({
   return (
     <Card
       className={`relative overflow-hidden p-0 ${
-        isBest
-          ? "border-2 border-brand-600 shadow-md ring-1 ring-brand-300 dark:ring-brand-800"
-          : ""
+        isBest ? "border-accent-500 ring-1 ring-accent-500" : ""
       }`}
     >
       {isBest && (
-        <span className="absolute right-0 top-0 rounded-bl-lg bg-brand-600 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-white">
+        <span className="absolute right-0 top-0 rounded-bl-lg bg-accent-500 px-3 py-1 font-display text-[11px] font-bold uppercase tracking-wide text-white">
           ★ Bestes Match
         </span>
       )}
@@ -211,32 +251,37 @@ function ResultRow({
       >
         <span
           aria-hidden
-          className="h-8 w-2 shrink-0 rounded-full"
+          className="h-9 w-1.5 shrink-0 rounded-full"
           style={{ backgroundColor: party.colorHex }}
         />
         <span className="min-w-24 flex-1">
-          <span className="block font-semibold">{party.shortName}</span>
-          <span className="block truncate text-xs text-zinc-500">{party.name}</span>
+          <span className={`block font-display font-semibold tracking-tight ${isBest ? "text-lg" : ""}`}>
+            {party.shortName}
+          </span>
+          <span className="block truncate text-xs text-ink-400">{party.name}</span>
         </span>
-        <span className="hidden h-2 flex-[2] overflow-hidden rounded-full bg-zinc-200 sm:block dark:bg-zinc-800">
+        <span className="hidden h-[3px] flex-[2] overflow-hidden rounded-full bg-ink-900/10 sm:block dark:bg-white/10">
           <span
             className="animate-bar-x block h-full rounded-full"
             style={{ width: `${pct ?? 0}%`, backgroundColor: party.colorHex }}
           />
         </span>
-        <span className="min-w-14 text-right font-bold tabular-nums" style={{ color: party.colorHex }}>
+        <span
+          className="min-w-14 text-right font-display text-xl font-bold tabular-nums"
+          style={{ color: party.colorHex }}
+        >
           {pct !== null ? `${pct.toLocaleString("de-DE")}%` : "—"}
         </span>
       </button>
 
       {expanded && (
-        <div className="space-y-3 border-t border-zinc-200 px-5 py-4 dark:border-zinc-800">
-          <p className="text-xs text-zinc-500">
+        <div className="space-y-3 border-t border-ink-900/10 px-5 py-4 dark:border-white/10">
+          <p className="text-xs text-ink-400">
             {result.applicableTheses} von {result.answeredTheses} Antworten
             verwertbar · Konfidenz:{" "}
             <strong
               title="Anteil deiner Antworten, die für diese Partei verwertbar waren (≥80 % hoch, ≥50 % mittel, darunter niedrig)"
-              className="capitalize"
+              className="capitalize text-ink-600 dark:text-ink-300"
             >
               {CONFIDENCE_DE[result.confidence]}
             </strong>
@@ -253,22 +298,22 @@ function ResultRow({
             return (
               <div
                 key={entry.thesisId}
-                className="rounded-lg bg-zinc-50 px-4 py-3 text-sm dark:bg-zinc-800/60"
+                className="rounded-lg bg-paper px-4 py-3 text-sm dark:bg-white/[0.04]"
               >
                 <p className="mb-1 font-medium">{thesis.text}</p>
-                <p className="text-xs text-zinc-600 dark:text-zinc-400">
+                <p className="text-xs text-ink-600 dark:text-ink-300">
                   Du: <strong>{STANCE_LABELS[entry.userStance]}</strong> · Partei:{" "}
                   <strong>{partyStanceText}</strong> · Wichtung: {entry.weight}×
                 </p>
                 {entry.justificationQuote && (
-                  <blockquote className="mt-2 border-l-2 border-zinc-300 pl-3 text-xs italic leading-relaxed text-zinc-600 dark:border-zinc-600 dark:text-zinc-400">
+                  <blockquote className="mt-2 border-l-2 border-accent-500 pl-3 text-xs italic leading-relaxed text-ink-500 dark:text-ink-400">
                     „{entry.justificationQuote}“{" "}
                     {entry.sourceUrl && (
                       <a
                         href={entry.sourceUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-1 not-italic underline hover:text-brand-600"
+                        className="ml-1 not-italic underline hover:text-accent-600"
                       >
                         {entry.sourceLabel ? `(${entry.sourceLabel})` : "(Quelle)"}
                       </a>
@@ -279,7 +324,7 @@ function ResultRow({
             );
           })}
           {result.breakdown.every((b) => !b.included) && (
-            <p className="text-sm text-zinc-500">
+            <p className="text-sm text-ink-400">
               Für diese Partei liegen zu den beantworteten Thesen keine
               verwertbaren Angaben vor.
             </p>

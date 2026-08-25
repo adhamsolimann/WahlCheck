@@ -128,7 +128,7 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
 
   return (
     <figure className="space-y-3">
-      <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-800">
+      <div className="overflow-hidden rounded-2xl border border-ink-900/10 bg-white shadow-sm dark:border-white/10">
         <svg
           ref={svgRef}
           viewBox={`0 0 ${W} ${H}`}
@@ -244,18 +244,18 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
             />
             <span className="font-semibold">{activePoint.label}</span>
             {activePoint.lowData && (
-              <span className="text-zinc-400">· wenig Daten</span>
+              <span className="text-ink-400 dark:text-ink-500">· wenig Daten</span>
             )}
           </>
         ) : (
-          <span className="text-zinc-400">
+          <span className="text-ink-400 dark:text-ink-500">
             Zeiger über einen Punkt bewegen für Partei-Details
           </span>
         )}
       </div>
 
       {/* Legende — vollständige Identifikation inkl. Hover-Sync */}
-      <figcaption className="space-y-2 text-xs text-zinc-500">
+      <figcaption className="space-y-2 text-xs text-ink-400">
         <div className="flex flex-wrap gap-x-3 gap-y-1">
           {points.map((pt) => (
             <span
@@ -292,7 +292,7 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
                   {excluded.length} ohne ausreichend Daten
                   <span
                     role="tooltip"
-                    className="pointer-events-none absolute bottom-full left-0 z-20 mb-1 hidden w-max max-w-[300px] rounded-lg bg-zinc-900 p-2.5 text-left text-[11px] font-normal leading-relaxed text-white shadow-xl group-hover:block group-focus-within:block"
+                    className="pointer-events-none absolute bottom-full left-0 z-20 mb-1 hidden w-max max-w-[300px] rounded-lg bg-ink-950 p-2.5 text-left text-[11px] font-normal leading-relaxed text-white shadow-xl group-hover:block group-focus-within:block"
                   >
                     Ohne ausreichende Auswertungsbasis (je Achse weniger als 3 klare
                     Positionen):
@@ -309,7 +309,7 @@ export function PoliticalMap({ userEntries }: PoliticalMapProps) {
               </>
             )}
           </span>
-          <a href="/methodik/#kompass" className="underline hover:text-brand-600">
+          <a href="/methodik/#kompass" className="underline hover:text-accent-600">
             Wie wird das berechnet?
           </a>
         </div>

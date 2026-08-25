@@ -3,13 +3,13 @@ export const metadata = { title: "Redaktionsstatut – WahlCheck" };
 export default function StatutPage() {
   return (
     <main className="mx-auto max-w-2xl space-y-8 px-6 py-12">
-      <h1 className="text-3xl font-bold">Redaktionsstatut</h1>
-      <p className="text-sm text-zinc-600 dark:text-zinc-400">
+      <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">Redaktionsstatut</h1>
+      <p className="text-sm text-ink-500 dark:text-ink-400">
         Die Spielregeln dieses Projekts — verbindlich für alle Beteiligten.
         Verstöße werden im öffentlichen Änderungslog dokumentiert.
       </p>
 
-      <ol className="list-decimal space-y-4 pl-5 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+      <ol className="list-decimal space-y-4 pl-5 text-sm leading-relaxed text-ink-700 dark:text-ink-200">
         <li>
           <strong>Überparteilichkeit.</strong> Wir empfehlen keine Partei. Alle
           zugelassenen Parteien werden nach denselben Regeln dargestellt;

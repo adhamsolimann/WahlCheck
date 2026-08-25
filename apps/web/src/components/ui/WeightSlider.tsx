@@ -14,8 +14,8 @@ export interface WeightSliderProps {
 export function WeightSlider({ value, onChange }: WeightSliderProps) {
   return (
     <div className="flex items-center gap-3">
-      <label htmlFor="weight-slider" className="text-sm font-medium">
-        Wie wichtig ist dir das?
+      <label htmlFor="weight-slider" className="text-sm font-medium text-ink-700 dark:text-ink-200">
+        Wichtigkeit
       </label>
       <input
         id="weight-slider"
@@ -25,11 +25,16 @@ export function WeightSlider({ value, onChange }: WeightSliderProps) {
         step={1}
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
-        className="h-2 w-40 cursor-pointer appearance-none rounded-lg bg-zinc-300 accent-[var(--color-brand-600)] dark:bg-zinc-700"
+        className="h-1.5 w-36 cursor-pointer appearance-none rounded-full bg-ink-900/15 accent-[var(--color-accent-500)] dark:bg-white/15 sm:w-44"
       />
       <output
         htmlFor="weight-slider"
-        className="min-w-12 rounded-md bg-brand-50 px-2 py-1 text-center text-sm font-semibold text-brand-700 dark:bg-zinc-800 dark:text-brand-300"
+        aria-live="polite"
+        className={`min-w-12 rounded-md px-2 py-1 text-center font-display text-sm font-bold transition-colors ${
+          value > 1
+            ? "bg-accent-500 text-white"
+            : "bg-ink-900/[0.06] text-ink-700 dark:bg-white/10 dark:text-ink-200"
+        }`}
       >
         {value}×
       </output>

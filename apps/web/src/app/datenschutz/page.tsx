@@ -3,9 +3,9 @@ export const metadata = { title: "Datenschutz – WahlCheck" };
 export default function DatenschutzPage() {
   return (
     <main className="mx-auto max-w-2xl space-y-8 px-6 py-12">
-      <h1 className="text-3xl font-bold">Datenschutz</h1>
+      <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">Datenschutz</h1>
 
-      <div className="space-y-6 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+      <div className="space-y-6 text-sm leading-relaxed text-ink-700 dark:text-ink-200">
         <section>
           <h2 className="font-semibold">Das Wichtigste zuerst</h2>
           <p className="mt-1">
@@ -69,7 +69,7 @@ export default function DatenschutzPage() {
           <p className="mt-1">
             August 2026 · Inhaltliche und funktionale Änderungen dokumentieren
             wir nachvollziehbar im{" "}
-            <a href="/aenderungen/" className="underline hover:text-brand-600">
+            <a href="/aenderungen/" className="underline hover:text-accent-600">
               öffentlichen Änderungslog
             </a>
             .

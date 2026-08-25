@@ -1,26 +1,24 @@
 # Design System — WahlCheck
 
 Lebende Referenz für visuelle Sprache, Zustände und Bewegung.
-Demonstration einiger Primitive: `/design` in der laufenden App.
+
+**Designidee: „Amtlicher Stimmzettel trifft Berliner Redaktion."** Die
+Oberfläche wirkt wie ein offizielles, gedrucktes Dokument — warmes Papier,
+Tinten-Schwarz, Haarlinien — kombiniert mit moderner redaktioneller
+Typografie. Die Signal-Farbe Koralle markiert ausschließlich das, was der
+Nutzer selbst setzt (Antworten, Hervorhebungen, CTA).
 
 ---
 
 ## 1. Prinzipien
 
-1. **Inhalt zuerst.** Bewegung und Farbe unterstützen das Lesen, sie
-   erzählen nie selbst die Hauptgeschichte.
-2. **Bewegung sparsam und bedeutungsvoll.** Etwas bewegt sich, weil es
-   erscheint, sich verändert oder Aufmerksamkeit lenken soll — nie als
-   Deko-Schleife.
-3. **`prefers-reduced-motion` wird immer respektiert.** Alle Animationen
-   sind in `@media (prefers-reduced-motion: no-preference)` gekapselt;
-   reduzierte Nutzer sehen sofortige Endzustände.
-4. **Keine Layout-Shifts durch Animation.** Es animieren nur
-   `opacity` und `transform` (plus `width` bei Fortschrittsbalken mit
-   reserviertem Platz).
-5. **Privat by design sichtbar machen.** Vertrauensbildende Aussagen
-   („bleibt im Browser") sind Bestandteil der Oberfläche, nicht des
-   Kleingedruckten.
+1. **Inhalt zuerst.** Bewegung und Farbe unterstützen das Lesen.
+2. **Typografie trägt die Identität.** Space Grotesk (Display) + Inter
+   (UI/Text) — self-hosted via `next/font`, keine Runtime-Abhängigkeit.
+3. **`prefers-reduced-motion` wird immer respektiert.**
+4. **Keine Layout-Shifts durch Animation.** Nur `opacity`/`transform`.
+5. **Privat by design sichtbar machen.** Vertrauensaussagen stehen in der
+   Fläche, nicht im Kleingedruckten.
 
 ---
 
@@ -28,101 +26,79 @@ Demonstration einiger Primitive: `/design` in der laufenden App.
 
 ### Farben
 
-| Token | Wert | Verwendung |
-|---|---|---|
-| `brand-50…900` | Indigo-Blau (#eef2ff → #1d2477) | Primäraktionen, aktive Nav, Fokus |
-| `accent-400/500/600` | Koralle #f2826a / #e85d3b / #cc4728 | Unterstützen, Status-Banner, Nutzer-Marker auf Grafiken |
-| `tier-parliament/small/contextual` | Blau / Amber / Rose | Ergebnis-Gruppierung |
-| Neutral | Tailwind `zinc` | Flächen, Textabstufungen |
+| Token | Rolle |
+|---|---|
+| `ink-50…950` | Tinten-Grau-Skala: Text, Flächen, **primäre Buttons** (hell: `ink-900`, dunkel: invertiert weiß) |
+| `accent-50…700` | Koralle: Nutzer-Marker, aktive Nav, Hervorhebungen, der eine CTA |
+| `bg-paper` | Warmes Papier `#f7f6f3` als Seitenhintergrund (hell) |
+| `tier-parliament/small/contextual` | Blau / Amber / Rose — Ergebnis-Gruppierung (unverändert) |
 
-**Diagramm-Palette:** Die Landkarte nutzt eine dedizierte Kontrast-Palette
-(`MAP_COLORS`, 17 Einträge) statt Markenfarben — Schwarz für CDU, Magenta
-für Linke, Tieforange für BSW usw. Ziel ist paarweise Unterscheidbarkeit
-auf hellem Grund; Markenfarben bleiben an anderer Stelle unberührt.
+**Nicht verwenden:** Parteinahme über Farbe. Koralle ist bewusst keine
+Parteifarbe im Berliner Stimmzettel-Spektrum.
 
-### Typografie & Raum
+### Typografie
 
-- Systemsans-Stack (`--font-sans`), keine Webfont-Abhängigkeit
-- Größen über Tailwind-Skala (`text-xs` … `text-5xl`); Titel
-  `tracking-tight`, Labels oben drüber `uppercase tracking-widest text-xs`
-- Abstände in Vielfachen von 4 px; Sektionsrhythmus `space-y-8`
+| Klasse | Einsatz |
+|---|---|
+| `font-display` | Space Grotesk — Headlines, Buttons, Zahlen, Wortmarke |
+| `kicker` | Versalien-Mikrolabel über Abschnitten (`11px · 0.18em tracking`) |
+| Body | Inter über `--font-sans` (Tailwind-Default) |
 
-### Radius & Schatten
+Titel: `tracking-tight`, Zeilenführung 0.98–1.15 bei Display-Größen.
+Prozentwerte/Zahlen: `tabular-nums`.
 
-- Karten/Inputs: `rounded-xl`; Chips/Badges: `rounded-full`
-- Ruhe: `shadow-sm` · Hover: `shadow-md` · Spotlight: `ring-1 ring-brand-300`
+### Form & Fläche
+
+- Radien: `rounded-lg` (Controls), `rounded-xl` (Karten) — scharf, nicht bubbly
+- **Hairlines statt Schatten:** `border-ink-900/10` bzw. `dark:border-white/10`
+- Karten sind flach; Hover-Hebung nur per `hoverable`-Prop (Interaktion erwartet)
+- `dot-grid`-Utility: Punktraster-Textur für Hero/Footer-Flächen (dekorativ)
+- Fokus: globaler Korallen-Outline (`:focus-visible` in globals.css)
 
 ### Marke / Favicon
 
-`apps/web/src/app/icon.svg` (Next-Dateikonvention → `/icon.svg`):
-abgerundetes Quadrat, Grund `#1a1a1a`, rechte Hälfte `#3547ec`,
-weißer Haken — bewusst grob formuliert, damit es ab 16 px lesbar bleibt.
-Browser-Titelleisten-Farbe via `viewport.themeColor` (hell/dunkel).
+`apps/web/src/app/icon.svg`: Tinten-Quadrat, weißer Stimmzettel, korallener
+Haken. Die Wortmarke (SiteHeader `Wordmark`) kombiniert das Zeichen mit
+Space-Grotesk-Schriftzug; „Check" immer Koralle. Header trägt einen
+3-px-Korallen-Streifen als Wiedererkennungsmerkmal oben.
 
 ---
 
 ## 3. Bewegung
 
-### Keyframes (definiert in `globals.css`)
-
-| Klasse | Keyframe | Dauer/Easing | Einsatz |
-|---|---|---|---|
-| `.animate-fade-up` | `wc-fade-up` (Opazität + 10px Y) | 550 ms `cubic-bezier(.16,1,.3,1)` | Sektionseintritte, Quizkarten |
-| `.animate-fade` | `wc-fade` | 350 ms ease-out | Hemicycle-Sitze, Fragenwechsel |
-| `.animate-bar-x` | `wc-bar` (`scaleX(0→1)`, origin-left) | 800 ms | Prozent-Balken in Ergebnissen |
-
-Stagger: `animation-delay` inline in 40–80 ms Schritten
-(z. B. `[animation-delay:120ms]`, Hemicycle `i*6ms`, gedeckelt bei 600 ms).
-
-### Do / Don't
-
-- ✅ Eintritt, Zustandswechsel, Fortschritt, Hover-Tiefe
-- ❌ Endlosschleifen außer dem Puls des Nutzer-Markers,
-  Parallax, alles was Lesetext bewegt
+Unverändert: `animate-fade-up`, `animate-fade`, `animate-bar-x` — alle in
+`@media (prefers-reduced-motion: no-preference)` gekapselt, Stagger via
+`animation-delay` (40–120 ms).
 
 ---
 
 ## 4. Komponenten & Zustände
 
 ### Button
-`transition duration-150` + Hover `-translate-y-px`, Active `scale-[0.97]`.
-Varianten: primary (brand), secondary (Outline), ghost; Größen sm/md/lg.
+Varianten: `primary` (Tinte, im Dark Mode invertiert), `accent` (Koralle —
+nur für die entscheidende Aktion), `secondary` (Outline), `ghost`.
+Active: `scale-[0.98]`.
 
 ### Card
-Ruhe: `border-zinc-200 shadow-sm`. Hover: `-translate-y-0.5`,
-`border-zinc-300 shadow-md` (200 ms). Spotlight-Variante (Bestes Match):
-`border-2 border-brand-600 ring-1 ring-brand-300` + Eckbadge.
+Flache Hairline-Fläche. `CardTitle` optional mit `index`-Prop für
+nummerierte Kicker („01").
 
-### StanceScale / WeightSlider
-Auswahl = gefüllter Brand-Chip; Skala per Tastatur 1–5 bedienbar;
-Slider-Ausgabe zeigt „n×" live.
+### StanceScale
+Segmentband aus 5 Chips: gewählte Option voll Koralle mit Schatten,
+Nachbarn leicht getönt, Achsen-Label darunter („Ablehnung ↔ Zustimmung").
+Tastatur 1–5 weiter bedienbar.
 
-### Grafik-Interaktionsmuster
-- **Nähe statt Zonen**: Hover wird über den nächstgelegenen Datenpunkt
-  berechnet (Hemicycle & Landkarte) — keine toten Winkel, kein Flackern.
-- **Info unter der Grafik**, nicht darüber schwebend: reservierte Zeile
-  (`aria-live="polite"`) mit Farb-Punkt + Name; nichts kann abgeschnitten
-  werden.
-- **Bidirektionales Dimming**: Liste ↔ Grafik heben sich gegenseitig
-  hervor (Opacity 0.25–0.4 für Nicht-betroffene).
+### WeightSlider
+Dünner Track, Ausgabe-Chip wird bei Wichtigkeit > 1× korall.
+
+### Grafik-Interaktion
+Unverändert: Nähe-basiertes Hover, Info-Zeile unter der Grafik,
+bidirektionales Dimming.
 
 ---
 
-## 5. Neue Utility-Klassen (Kurzreferenz)
+## 5. Offene Punkte
 
-```
-animate-fade-up   Sektions-/Karteneintritt (staggerbar via [animation-delay:…])
-animate-fade       sanfter Wechsel (Fragenwechsel, Sitzpunkte)
-animate-bar-x      Balken füllt sich von links (Ergebnisse)
-```
-
-Alle drei respektieren `prefers-reduced-motion`.
-
----
-
-## 6. Offene Punkte
-
-- Dunkelmodell-Kontraste der Diagramm-Palette prüfen (Karten-Hintergrund
-  bleibt hell; Punkte sind dort gut lesbar)
-- Leichte-Sprache-Variante der Landingpage
-- Evtl. Scroll-Schatten am Header (nur bei `scrollY > 0`)
+- Share-Card-Generator (T-112) auf neue Marke umstellen
+- OG-Image im neuen Look erzeugen
+- Evtl. Scroll-Schatten am Header bei `scrollY > 0`

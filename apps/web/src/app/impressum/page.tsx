@@ -5,9 +5,9 @@ export const metadata = { title: "Impressum – WahlCheck" };
 export default function ImpressumPage() {
   return (
     <main className="mx-auto max-w-2xl space-y-8 px-6 py-12">
-      <h1 className="text-3xl font-bold">Impressum</h1>
+      <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">Impressum</h1>
 
-      <div className="space-y-6 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
+      <div className="space-y-6 text-sm leading-relaxed text-ink-700 dark:text-ink-200">
         <section>
           <h2 className="font-semibold">Angaben gemäß § 5 DDG (Diensteanbieter)</h2>
           <p className="mt-1">
@@ -23,13 +23,13 @@ export default function ImpressumPage() {
               href={SITE_CONFIG.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-brand-600"
+              className="underline hover:text-accent-600"
             >
               github.com/adhamsolimann
             </a>{" "}
             (Issues für Korrekturen und Feedback)
             <br />
-            E-Mail: <a href="mailto:support@wahl-check.com" className="underline hover:text-brand-600">support@wahl-check.com</a>
+            E-Mail: <a href="mailto:support@wahl-check.com" className="underline hover:text-accent-600">support@wahl-check.com</a>
           </p>
         </section>
 

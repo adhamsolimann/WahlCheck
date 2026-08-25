@@ -43,7 +43,7 @@ export function ThemeToggle() {
       onClick={toggle}
       aria-label={theme === "dark" ? "Zu hellem Design wechseln" : "Zu dunklem Design wechseln"}
       title={theme === "dark" ? "Helles Design" : "Dunkles Design"}
-      className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-zinc-200 bg-white text-zinc-600 transition hover:text-zinc-900 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+      className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-ink-900/10 text-ink-600 transition hover:border-ink-900/30 hover:text-ink-900 dark:border-white/15 dark:text-ink-300 dark:hover:border-white/40 dark:hover:text-white"
     >
       {theme === "dark" ? (
         // Sonne

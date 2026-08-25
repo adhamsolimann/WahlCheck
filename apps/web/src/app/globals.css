@@ -4,25 +4,34 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  /* Typografie — Variablen werden von next/font belegt (layout.tsx) */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-grotesk), var(--font-inter), ui-sans-serif,
+    system-ui, sans-serif;
 
-  /* Brand — civic blue */
-  --color-brand-50: #eef2ff;
-  --color-brand-100: #e0e7ff;
-  --color-brand-200: #c7d2fe;
-  --color-brand-300: #a5b4fc;
-  --color-brand-400: #818cf8;
-  --color-brand-500: #5b6cf0;
-  --color-brand-600: #3547ec;
-  --color-brand-700: #2b39c4;
-  --color-brand-800: #24309e;
-  --color-brand-900: #1d2477;
+  /* Brand — Tinten-Schwarz (Stimmzettel) */
+  --color-ink-50: #f6f6f7;
+  --color-ink-100: #e4e4e7;
+  --color-ink-200: #c9c9cf;
+  --color-ink-300: #a9a9b3;
+  --color-ink-400: #83838f;
+  --color-ink-500: #62626e;
+  --color-ink-600: #4a4a55;
+  --color-ink-700: #36363f;
+  --color-ink-800: #23232a;
+  --color-ink-900: #16161b;
+  --color-ink-950: #0e0e12;
 
-  /* Accent — warm coral */
-  --color-accent-400: #f2826a;
+  /* Signal — Koralle (der Stift, der DEINE Wahl markiert) */
+  --color-accent-50: #fef3f0;
+  --color-accent-100: #fce4dd;
+  --color-accent-200: #fac7ba;
+  --color-accent-300: #f7a28d;
+  --color-accent-400: #f27a5e;
   --color-accent-500: #e85d3b;
   --color-accent-600: #cc4728;
+  --color-accent-700: #ab3920;
 
   /* Result tiers */
   --color-tier-parliament: #2563eb;
@@ -36,13 +45,52 @@
   }
   body {
     font-family: var(--font-sans);
-    @apply bg-zinc-50 text-zinc-900 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+    @apply bg-paper text-ink-900 antialiased dark:bg-ink-950 dark:text-ink-100;
   }
+  ::selection {
+    background: var(--color-accent-200);
+    color: var(--color-ink-950);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent-500);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@utility bg-paper {
+  background-color: #f7f6f3;
+}
+@utility font-display {
+  font-family: var(--font-display);
+}
+
+/* Mikro-Label über Abschnitten — redaktioneller Kicker */
+@utility kicker {
+  font-family: var(--font-display);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Punktraster-Textur für Hero-/Header-Flächen (rein dekorativ) */
+@utility dot-grid {
+  background-image: radial-gradient(
+    color-mix(in srgb, currentColor 14%, transparent) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+/* Hairline-Trennlinie */
+@utility rule {
+  border-top: 1px solid color-mix(in srgb, currentColor 12%, transparent);
 }
 
 /* ------------------------------------------------------------------ */
 /* Motion-Primitiven (Dokumentation: docs/design-system.md#bewegung)   */
-/* Gilt nur bei „Keine reduzierte Bewegung“ — sonst sofortiger Endzustand */
+/* Gilt nur bei „Keine reduzierte Bewegung" — sonst sofortiger Endzustand */
 /* ------------------------------------------------------------------ */
 
 @keyframes wc-fade-up {

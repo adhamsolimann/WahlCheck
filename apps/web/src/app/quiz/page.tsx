@@ -140,7 +140,7 @@ export default function QuizPage() {
   if (!ready) {
     return (
       <main className="mx-auto max-w-2xl px-6 py-16">
-        <p className="text-center text-sm text-zinc-500">Lade …</p>
+        <p className="text-center text-sm text-ink-400">Lade …</p>
       </main>
     );
   }
@@ -148,41 +148,70 @@ export default function QuizPage() {
   /* ---------------- Phase: Moduswahl ---------------- */
   if (phase === "mode") {
     return (
-      <main className="mx-auto max-w-2xl space-y-6 px-6 py-16">
-        <header className="space-y-2 text-center">
-          <h1 className="text-3xl font-bold">Wie tief willst du einsteigen?</h1>
-          <p className="text-sm text-zinc-600 dark:text-zinc-400">
+      <main className="mx-auto max-w-2xl space-y-8 px-6 py-16">
+        <header className="space-y-3 text-center">
+          <p className="kicker text-accent-600 dark:text-accent-400">Modus wählen</p>
+          <h1 className="font-display text-4xl font-bold tracking-tight">
+            Wie tief willst du einsteigen?
+          </h1>
+          <p className="text-sm text-ink-500 dark:text-ink-400">
             Deine Antworten bleiben ausschließlich auf diesem Gerät gespeichert.
           </p>
         </header>
-        {[
-          {
-            mode: "quick" as Mode,
-            title: "Schnell-Modus",
-            body: `${thesesForMode("quick").length} zentrale Thesen — rund 5 Minuten.`,
-          },
-          {
-            mode: "full" as Mode,
-            title: "Vollständiger Modus",
-            body: `Alle ${thesesForMode("full").length} Thesen mit Gewichtung — rund 15 Minuten.`,
-          },
-        ].map(({ mode, title, body }) => (
-          <Card
-            key={mode}
-            role="button"
-            tabIndex={0}
-            onClick={() => startMode(mode)}
-            onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && startMode(mode)}
-            className="cursor-pointer transition-colors hover:border-brand-500"
-          >
-            <h2 className="mb-1 text-lg font-semibold">{title}</h2>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">{body}</p>
-          </Card>
-        ))}
+        <div className="space-y-4">
+          {[
+            {
+              mode: "quick" as Mode,
+              index: "01",
+              title: "Schnell-Modus",
+              body: `${thesesForMode("quick").length} zentrale Thesen — rund 5 Minuten.`,
+            },
+            {
+              mode: "full" as Mode,
+              index: "02",
+              title: "Vollständiger Modus",
+              body: `Alle ${thesesForMode("full").length} Thesen mit Gewichtung — rund 15 Minuten.`,
+            },
+          ].map(({ mode, index, title, body }) => (
+            <Card
+              key={mode}
+              role="button"
+              tabIndex={0}
+              hoverable
+              onClick={() => startMode(mode)}
+              onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && startMode(mode)}
+              className="group flex cursor-pointer items-center gap-5"
+            >
+              <span aria-hidden className="font-display text-3xl font-bold text-accent-500">
+                {index}
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-display text-lg font-semibold tracking-tight">
+                  {title}
+                </span>
+                <span className="block text-sm text-ink-500 dark:text-ink-400">{body}</span>
+              </span>
+              <svg
+                aria-hidden
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="shrink-0 text-ink-300 transition-transform duration-200 group-hover:translate-x-1 group-hover:text-accent-500 dark:text-ink-600"
+              >
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </Card>
+          ))}
+        </div>
         {session && (
           <button
             onClick={() => setPhase("quiz")}
-            className="block w-full text-center text-xs text-zinc-500 underline"
+            className="block w-full text-center text-xs text-ink-400 underline underline-offset-2 hover:text-ink-700 dark:hover:text-white"
           >
             Vorherige Sitzung fortsetzen
           </button>
@@ -194,29 +223,40 @@ export default function QuizPage() {
   /* ---------------- Phase: Persona ---------------- */
   if (phase === "persona") {
     return (
-      <main className="mx-auto max-w-2xl space-y-6 px-6 py-16">
-        <header className="space-y-2 text-center">
-          <h1 className="text-3xl font-bold">Wer bist du?</h1>
-          <p className="text-sm text-zinc-600 dark:text-zinc-400">
-            Optional: Wir starten die Wichtigkeit einzelner Themen höher —
-            jederzeit änderbar.
+      <main className="mx-auto max-w-2xl space-y-8 px-6 py-16">
+        <header className="space-y-3">
+          <p className="kicker text-accent-600 dark:text-accent-400">Optional</p>
+          <h1 className="font-display text-4xl font-bold tracking-tight">Wer bist du?</h1>
+          <p className="text-sm text-ink-500 dark:text-ink-400">
+            Wir starten die Wichtigkeit einzelner Themen höher — jederzeit änderbar.
           </p>
         </header>
-        {PERSONAS.map((p) => (
-          <Card
-            key={p.id}
-            role="button"
-            tabIndex={0}
-            onClick={() => choosePersona(p.id)}
-            onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && choosePersona(p.id)}
-            className={`cursor-pointer transition-colors hover:border-brand-500 ${
-              session?.personaId === p.id ? "border-brand-500" : ""
-            }`}
-          >
-            <h2 className="mb-1 font-semibold">{p.label}</h2>
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">{p.description}</p>
-          </Card>
-        ))}
+        <div className="grid gap-3 sm:grid-cols-2">
+          {PERSONAS.map((p) => (
+            <Card
+              key={p.id}
+              role="button"
+              tabIndex={0}
+              hoverable
+              onClick={() => choosePersona(p.id)}
+              onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && choosePersona(p.id)}
+              className={`cursor-pointer ${
+                session?.personaId === p.id
+                  ? "border-accent-500 ring-1 ring-accent-500"
+                  : ""
+              }`}
+            >
+              <h2 className="font-display text-base font-semibold tracking-tight">{p.label}</h2>
+              <p className="mt-1 text-sm text-ink-500 dark:text-ink-400">{p.description}</p>
+            </Card>
+          ))}
+        </div>
+        <button
+          onClick={() => session && setPhase("quiz")}
+          className="mx-auto block text-sm font-medium text-ink-500 underline underline-offset-4 hover:text-ink-900 dark:hover:text-white"
+        >
+          Ohne Voreinstellung starten →
+        </button>
       </main>
     );
   }
@@ -225,7 +265,7 @@ export default function QuizPage() {
   if (!session || !current) {
     return (
       <main className="mx-auto max-w-2xl px-6 py-16 text-center">
-        <p className="text-sm text-zinc-500">Keine aktive Sitzung.</p>
+        <p className="text-sm text-ink-400">Keine aktive Sitzung.</p>
         <Button className="mt-4" onClick={() => setPhase("mode")}>
           Neu starten
         </Button>
@@ -240,17 +280,18 @@ export default function QuizPage() {
 
   return (
     <main className="mx-auto max-w-2xl px-6 pb-16 pt-6">
-      {/* Fortschrittsleiste — sticky am oberen Rand */}
-      <div className="sticky top-0 z-30 -mx-6 bg-zinc-50/95 px-6 pb-3 pt-3 backdrop-blur dark:bg-zinc-950/95">
+      {/* Fortschritt — sticky am oberen Rand */}
+      <div className="sticky top-0 z-30 -mx-6 bg-paper/95 px-6 pb-3 pt-3 backdrop-blur-md dark:bg-ink-950/95">
         <div className="mb-2 flex items-center justify-between text-xs">
-          <span className="font-semibold text-brand-700 dark:text-brand-300">
-            These {index + 1} / {scope.length}
+          <span className="font-display font-bold tracking-tight text-ink-900 dark:text-white">
+            These <span className="text-accent-500">{index + 1}</span>
+            <span className="text-ink-400"> / {scope.length}</span>
           </span>
-          <span className="text-zinc-500">
+          <span className="text-ink-400">
             {answeredCount} beantwortet
           </span>
           <button
-            className="text-zinc-400 underline hover:text-zinc-600"
+            className="text-ink-400 underline underline-offset-2 hover:text-accent-600"
             onClick={() => {
               if (confirm("Sitzung wirklich löschen und neu beginnen?")) {
                 clearSession();
@@ -276,12 +317,12 @@ export default function QuizPage() {
                 aria-label={`These ${i + 1}: ${decided ? "beantwortet" : "offen"}`}
                 aria-current={current ? "step" : undefined}
                 onClick={() => setIndex(i)}
-                className={`h-3.5 min-w-[6px] flex-1 rounded-sm transition-colors duration-150 ${
+                className={`h-1.5 min-w-[6px] flex-1 rounded-full transition-colors duration-150 ${
                   current
-                    ? "!bg-brand-700 ring-2 ring-brand-400 ring-offset-1 ring-offset-zinc-50 dark:ring-offset-zinc-950"
+                    ? "!bg-accent-500"
                     : decided
-                      ? "bg-brand-500 hover:bg-brand-400"
-                      : "bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-700 dark:hover:bg-zinc-600"
+                      ? "bg-ink-900 hover:bg-ink-700 dark:bg-ink-300 dark:hover:bg-ink-100"
+                      : "bg-ink-900/15 hover:bg-ink-900/30 dark:bg-white/15 dark:hover:bg-white/30"
                 }`}
               />
             );

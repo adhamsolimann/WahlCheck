@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
-import { Card, CardBody, CardTitle } from "@/components/ui/Card";
 
 const ELECTION_DATE = new Date("2026-09-20T08:00:00+02:00");
 
@@ -10,6 +9,36 @@ function daysUntilElection(): number {
     Math.ceil((ELECTION_DATE.getTime() - Date.now()) / (1000 * 60 * 60 * 24)),
   );
 }
+
+const PARTIES_ON_BALLOT = [
+  "SPD", "CDU", "Die Linke", "Grüne", "AfD", "FDP", "BSW", "Volt",
+  "ÖDP", "Tierschutzpartei", "Die PARTEI", "DKP", "Die Urbane.", "PdF",
+  "SGP", "B*", "Die Heimat",
+];
+
+const FEATURES = [
+  {
+    index: "01",
+    title: "5 Punkte statt Ja/Nein",
+    body: "Zustimmung ist nicht binär. Eine fünfstufige Skala mit persönlicher Wichtigkeit (1–5×) bildet ab, was der Wahl-O-Mat verschweigt.",
+  },
+  {
+    index: "02",
+    title: "Jede Position wörtlich belegt",
+    body: "Zu jeder These das Zitat aus dem offiziellen Wahlprogramm — nachprüfbar, mit Quellenangabe. Ehrliches „keine Angabe“ statt Vermutung.",
+  },
+  {
+    index: "03",
+    title: "Koalitionsrealität inklusive",
+    body: "Sitzprojektion, 5-%-Hürde und realistische Koalitionen: Dein Ergebnis wird in den Kontext dessen gesetzt, was regieren kann.",
+  },
+];
+
+const TRUST = [
+  { label: "100 % im Browser", detail: "Antworten verlassen dein Gerät nie" },
+  { label: "Keine Werbung", detail: "Finanziert durch Spenden, nicht Parteien" },
+  { label: "Offene Methodik", detail: "Formel und Auswahlkriterien publiziert" },
+];
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -26,7 +55,8 @@ const jsonLd = {
       name: "WahlCheck",
       url: "https://wahl-check.com/",
       inLanguage: "de-DE",
-      description: "Parteiunabhängiger Wahlkompass für die Abgeordnetenhauswahl Berlin 2026.",
+      description:
+        "Parteiunabhängiger Wahlkompass für die Abgeordnetenhauswahl Berlin 2026.",
     },
     {
       "@type": "FAQPage",
@@ -70,83 +100,167 @@ const jsonLd = {
 
 export default function Home() {
   return (
-    <main className="relative mx-auto max-w-3xl space-y-8 overflow-hidden px-6 py-16">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      {/* dezenter Hintergrund-Schein */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -top-24 left-1/2 h-64 w-[42rem] max-w-none -translate-x-1/2 rounded-full bg-brand-200/40 blur-3xl dark:bg-brand-900/30"
+    <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <header className="animate-fade-up relative space-y-4 text-center">
-        <p className="text-sm font-semibold uppercase tracking-widest text-brand-600 dark:text-brand-400">
-          Berlin · Abgeordnetenhauswahl
-        </p>
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-          <span className="text-zinc-900 dark:text-white">Wahl</span>
-          <span className="text-brand-600 dark:text-brand-400">Check</span>
-        </h1>
-        <p className="mx-auto max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
-          Finde die Partei, die wirklich zu dir passt — mit differenzierten
-          Antworten statt Ja/Nein. Deine Antworten bleiben in deinem Browser.
-        </p>
-        <p className="inline-block rounded-full bg-brand-50 px-4 py-1.5 text-sm font-semibold text-brand-700 dark:bg-zinc-900 dark:text-brand-300">
-          Sonntag, 20. September 2026 · noch {daysUntilElection()} Tage
-        </p>
-      </header>
+      {/* ---------------- Hero ---------------- */}
+      <section className="dot-grid relative overflow-hidden border-b border-ink-900/10 text-ink-900 dark:border-white/10 dark:text-white">
+        <div className="mx-auto max-w-5xl px-6 pb-16 pt-14 sm:pt-20">
+          <p className="kicker animate-fade-up flex items-center gap-3 text-accent-600 dark:text-accent-400">
+            <span aria-hidden className="inline-block h-[2px] w-8 bg-accent-500" />
+            Berlin · Abgeordnetenhauswahl · 20.09.2026
+          </p>
 
-      <section className="animate-fade-up relative grid gap-4 sm:grid-cols-2 [animation-delay:160ms]">
-        <Card>
-          <CardTitle>17 Parteien auf dem Stimmzettel</CardTitle>
-          <CardBody>
-            Von SPD und CDU bis Volt und Die Urbane. — alle zugelassenen
-            Landes- und Bezirkslisten der Abgeordnetenhauswahl 2026, inklusive
-            ehrlicher „keine Angabe"-Kennzeichnung.
-          </CardBody>
-        </Card>
-        <Card>
-          <CardTitle>Privat by design</CardTitle>
-          <CardBody>
-            Politische Meinungen sind besonders geschützte Daten. Deshalb wird
-            dein Matching komplett im Browser berechnet — es geht nichts an den
-            Server.
-          </CardBody>
-        </Card>
+          <h1 className="animate-fade-up mt-6 max-w-4xl font-display text-5xl font-bold leading-[0.98] tracking-tight [animation-delay:80ms] sm:text-7xl lg:text-8xl">
+            Welche Partei
+            <br />
+            passt zu{" "}
+            <span className="relative inline-block text-accent-500">
+              dir?
+              <svg
+                aria-hidden
+                viewBox="0 0 120 12"
+                className="absolute -bottom-1 left-0 w-full"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M2 9 C 30 2, 90 2, 118 7"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                  strokeLinecap="round"
+                  opacity="0.45"
+                />
+              </svg>
+            </span>
+          </h1>
+
+          <p className="animate-fade-up mt-6 max-w-xl text-lg leading-relaxed text-ink-600 dark:text-ink-300 [animation-delay:160ms]">
+            Differenzierte Antworten statt Ja/Nein. Wörtlich belegte
+            Parteipositionen statt Plakate. Und die Gewissheit, dass dein
+            Meinungsbild dein Gerät nie verlässt.
+          </p>
+
+          <div className="animate-fade-up mt-9 flex flex-wrap items-center gap-4 [animation-delay:240ms]">
+            <Link href="/quiz/">
+              <Button size="lg">Matching starten</Button>
+            </Link>
+            <Link href="/koalition/">
+              <Button variant="secondary" size="lg">
+                Wer kann regieren?
+              </Button>
+            </Link>
+            <span className="ml-1 inline-flex items-center gap-2 rounded-full border border-accent-500/40 bg-accent-500/[0.07] px-4 py-2 font-display text-sm font-semibold text-accent-700 dark:text-accent-300">
+              <span aria-hidden className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-500 opacity-60 motion-reduce:animate-none" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-accent-500" />
+              </span>
+              Noch {daysUntilElection()} Tage bis zur Wahl
+            </span>
+          </div>
+        </div>
       </section>
 
-      <div className="flex justify-center [animation-delay:240ms]">
-        <Link href="/quiz/">
-          <Button size="lg">Matching starten</Button>
-        </Link>
+      {/* ---------------- Parteien-Ticker ---------------- */}
+      <div
+        aria-label="Parteien auf dem Stimmzettel"
+        className="overflow-hidden border-b border-ink-900/10 bg-white dark:border-white/10 dark:bg-ink-900/40"
+      >
+        <ul className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-6 gap-y-1 px-6 py-3.5">
+          {PARTIES_ON_BALLOT.map((name) => (
+            <li
+              key={name}
+              className="font-display text-sm font-semibold uppercase tracking-wide text-ink-400 dark:text-ink-400"
+            >
+              {name}
+            </li>
+          ))}
+          <li className="font-display text-xs font-bold uppercase tracking-widest text-accent-500">
+            17 am Start
+          </li>
+        </ul>
       </div>
 
-
-      {/* SEO-Textblock — für Crawler zusätzliche inhaltliche Tiefe */}
-      <section className="animate-fade-up relative space-y-4 rounded-xl border border-zinc-100 bg-zinc-50 p-6 text-sm leading-relaxed text-zinc-600 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400 [animation-delay:300ms]">
-        <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-200">
-          Der Wahlkompass für die Abgeordnetenhauswahl Berlin 2026
-        </h2>
-        <p>
-          Am 20. September 2026 wählt Berlin ein neues Abgeordnetenhaus.
-          17 Parteien treten mit Landes- oder Bezirkslisten an — von SPD, CDU,
-          Grünen und Linken über AfD und FDP bis zu BSW, Volt, Tierschutzpartei
-          und DKP. Wer bei so vielen Optionen den Überblick behalten will,
-          braucht mehr als Plakate und Wahlsprüche.
-        </p>
-        <p>
-          WahlCheck ist eine Alternative zum klassischen Wahl-O-Mat: Statt 38
-          Ja/Nein-Fragen bekommst du eine 5-Punkte-Skala mit persönlicher
-          Wichtigkeit, wörtlich belegte Parteipositionen aus den offiziellen
-          Wahlprogrammen, einen Koalitionsrechner mit Sitzprojektion und die
-          Sicherheit, dass deine Antworten dein Gerät nie verlassen.
-        </p>
+      {/* ---------------- Features ---------------- */}
+      <section className="mx-auto max-w-5xl px-6 py-16">
+        <div className="grid gap-10 md:grid-cols-3 md:gap-6">
+          {FEATURES.map(({ index, title, body }, i) => (
+            <article
+              key={index}
+              className="animate-fade-up border-t-2 border-ink-900 pt-5 dark:border-white/80 [&:nth-child(2)]:[animation-delay:120ms] [&:nth-child(3)]:[animation-delay:240ms]"
+              style={{ animationDelay: `${i * 120}ms` }}
+            >
+              <p aria-hidden className="font-display text-sm font-bold text-accent-500">
+                {index}
+              </p>
+              <h2 className="mt-2 font-display text-xl font-semibold tracking-tight">
+                {title}
+              </h2>
+              <p className="mt-2 text-sm leading-relaxed text-ink-600 dark:text-ink-300">
+                {body}
+              </p>
+            </article>
+          ))}
+        </div>
       </section>
 
-      <footer className="relative pt-8 text-center text-xs text-zinc-500">
-        Quellen der Seed-Inhalte: Wahlprogramme der Parteien sowie
-        Programm-Auswertungen von rbb24 und Tagesspiegel. Alle Zitate werden bis
-        zum Launch gegen Original-PDFs verifiziert.
-      </footer>
+      {/* ---------------- Vertrauen ---------------- */}
+      <section className="border-y border-ink-900/10 bg-white dark:border-white/10 dark:bg-ink-900/40">
+        <dl className="mx-auto grid max-w-5xl gap-x-8 gap-y-6 px-6 py-12 sm:grid-cols-3">
+          {TRUST.map(({ label, detail }) => (
+            <div key={label} className="flex items-start gap-3">
+              <svg
+                aria-hidden
+                width="22"
+                height="22"
+                viewBox="0 0 64 64"
+                className="mt-0.5 shrink-0"
+              >
+                <rect width="64" height="64" rx="12" fill="currentColor" className="text-ink-950 dark:text-white" />
+                <rect x="14" y="10" width="36" height="44" rx="4" fill="#f7f6f3" />
+                <path d="M23 33.5 30.5 41 43 24" fill="none" stroke="#e85d3b" strokeWidth="7" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div>
+                <dt className="font-display text-sm font-bold uppercase tracking-wide">
+                  {label}
+                </dt>
+                <dd className="text-sm text-ink-600 dark:text-ink-300">{detail}</dd>
+              </div>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      {/* ---------------- SEO-Block ---------------- */}
+      <section className="mx-auto max-w-3xl px-6 py-16">
+        <h2 className="font-display text-2xl font-semibold tracking-tight">
+          Der Wahlkompass für die Abgeordnetenhauswahl Berlin 2026
+        </h2>
+        <div className="mt-4 space-y-4 text-sm leading-relaxed text-ink-600 dark:text-ink-300">
+          <p>
+            Am 20. September 2026 wählt Berlin ein neues Abgeordnetenhaus. 17
+            Parteien treten mit Landes- oder Bezirkslisten an — von SPD, CDU,
+            Grünen und Linken über AfD und FDP bis zu BSW, Volt,
+            Tierschutzpartei und DKP. Wer bei so vielen Optionen den Überblick
+            behalten will, braucht mehr als Plakate und Wahlsprüche.
+          </p>
+          <p>
+            WahlCheck ist eine Alternative zum klassischen Wahl-O-Mat: Statt 38
+            Ja/Nein-Fragen bekommst du eine 5-Punkte-Skala mit persönlicher
+            Wichtigkeit, wörtlich belegte Parteipositionen aus den offiziellen
+            Wahlprogrammen, einen Koalitionsrechner mit Sitzprojektion und die
+            Sicherheit, dass deine Antworten dein Gerät nie verlassen.
+          </p>
+        </div>
+        <p className="rule mt-8 pt-4 text-xs leading-relaxed text-ink-400">
+          Quellen der Inhalte: Wahlprogramme der Parteien sowie
+          Programm-Auswertungen von rbb24 und Tagesspiegel. Alle Zitate wurden
+          gegen die Original-PDFs verifiziert.
+        </p>
+      </section>
     </main>
   );
 }

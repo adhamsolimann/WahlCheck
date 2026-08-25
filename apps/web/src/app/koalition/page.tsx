@@ -108,8 +108,8 @@ export default function KoalitionPage() {
   return (
     <main className="mx-auto max-w-3xl space-y-8 px-6 py-12">
       <header className="space-y-2 text-center">
-        <h1 className="text-3xl font-bold">Wer kann regieren?</h1>
-        <p className="mx-auto max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
+        <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">Wer kann regieren?</h1>
+        <p className="mx-auto max-w-xl text-sm text-ink-500 dark:text-ink-400">
           Modellrechnung auf Basis des aktuellen Wahltrends — keine Prognose.
           Sie zeigt, welche Koalitionen rechnerisch möglich sind und wie gut
           diese zu <em>deinen</em> Antworten passen.
@@ -127,7 +127,7 @@ export default function KoalitionPage() {
               hovered={hoveredParty}
               onHover={setHoveredParty}
             />
-            <p className="mt-1 text-center text-[11px] text-zinc-400">
+            <p className="mt-1 text-center text-[11px] text-ink-400 dark:text-ink-500">
               {polls.parliamentSeats} Sitze · {polls.majoritySeats} für die Mehrheit ·
               zum Hover: Partei hervorheben
             </p>
@@ -157,12 +157,12 @@ export default function KoalitionPage() {
                     />
                     <span
                       className={`w-28 shrink-0 text-sm ${
-                        inParliament ? "" : "text-zinc-400"
+                        inParliament ? "" : "text-ink-400 dark:text-ink-500"
                       }`}
                     >
                       {party?.shortName ?? partyId}
                     </span>
-                    <span className="hidden h-2 flex-1 overflow-hidden rounded-full bg-zinc-100 sm:block dark:bg-zinc-800">
+                    <span className="hidden h-2 flex-1 overflow-hidden rounded-full bg-ink-900/[0.06] sm:block dark:dark:bg-white/10">
                       <span
                         className="block h-full rounded-full"
                         style={{
@@ -175,7 +175,7 @@ export default function KoalitionPage() {
                     <span className="ml-auto w-12 text-right text-sm tabular-nums sm:ml-0">
                       {percent.toLocaleString("de-DE")} %
                     </span>
-                    <span className="w-20 text-right text-xs text-zinc-500 tabular-nums">
+                    <span className="w-20 whitespace-nowrap text-right text-xs text-ink-400 tabular-nums">
                       {inParliament
                         ? `${seats[partyId]} Sitze`
                         : `unter ${polls.thresholdPercent.toLocaleString("de-DE")} %`}
@@ -184,17 +184,17 @@ export default function KoalitionPage() {
                 );
               })}
           </div>
-          <p className="mt-3 text-xs leading-relaxed text-zinc-500">
+          <p className="mt-3 text-xs leading-relaxed text-ink-400">
             Gewichtetes Institutsmittel, Stand {formatDate(polls.aggregate.updatedAt)} ·{" "}
             {polls.aggregate.methodNote} Sitzprojektion: Sainte-Laguë auf{" "}
             {polls.parliamentSeats} Sitze (vereinfacht, ohne Überhang-/Pauschsitze).
           </p>
-          <div className="mt-2 text-xs leading-relaxed text-zinc-500">
+          <div className="mt-2 text-xs leading-relaxed text-ink-400">
             <span className="font-medium">Einzelumfragen:</span>
             <ul className="mt-1 list-inside list-disc">
               {polls.polls.map((poll) => (
                 <li key={`${poll.institute}-${poll.date}`}>
-                  <a href={poll.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-600">
+                  <a href={poll.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-accent-600">
                     {poll.institute}, {formatDate(poll.date)}
                   </a>
                 </li>
@@ -211,23 +211,23 @@ export default function KoalitionPage() {
             Rechnerisch mögliche Mehrheiten ({visibleOptions.length})
           </h2>
           <label
-            className="flex cursor-pointer items-center gap-2 text-xs font-medium text-zinc-600 dark:text-zinc-400"
+            className="flex cursor-pointer items-center gap-2 text-xs font-medium text-ink-500 dark:text-ink-400"
             title="Alle übrigen Parteien haben Koalitionen mit der AfD ausgeschlossen. Ein-/Ausblenden ist rein rechnerisch."
           >
             <input
               type="checkbox"
               checked={showAfd}
               onChange={(e) => setShowAfd(e.target.checked)}
-              className="h-4 w-4 rounded border-zinc-300 accent-[var(--color-brand-600)]"
+              className="h-4 w-4 rounded border-ink-900/15 accent-[var(--color-accent-500)]"
             />
             Koalitionen mit AfD-Beteiligung anzeigen
           </label>
-          <label className="flex items-center gap-2 text-xs text-zinc-500">
+          <label className="flex items-center gap-2 text-xs text-ink-400">
             Sortieren:
             <select
               value={sortMode}
               onChange={(e) => setSortMode(e.target.value as typeof sortMode)}
-              className="rounded-md border border-zinc-300 bg-white px-2 py-1 text-xs dark:border-zinc-700 dark:bg-zinc-900"
+              className="rounded-md border border-ink-900/15 bg-white px-2 py-1 text-xs dark:border-white/15 dark:bg-white/[0.04]"
             >
               <option value="seats-desc">Sitze (absteigend)</option>
               <option value="seats-asc">Sitze (aufsteigend)</option>
@@ -235,7 +235,7 @@ export default function KoalitionPage() {
             </select>
           </label>
         </div>
-        <p className="text-xs text-zinc-500">
+        <p className="text-xs text-ink-400">
           Alle Kombinationen mit mindestens {polls.majoritySeats} der{" "}
           {polls.parliamentSeats} Sitze — rein arithmetisch, ohne politische
           Bewertung.
@@ -251,7 +251,7 @@ export default function KoalitionPage() {
                   {option.members.map((id, i) => (
                     <Fragment key={id}>
                       {i > 0 && (
-                        <span aria-hidden className="text-xs text-zinc-400">
+                        <span aria-hidden className="text-xs text-ink-400 dark:text-ink-500">
                           +
                         </span>
                       )}
@@ -266,7 +266,7 @@ export default function KoalitionPage() {
                 </div>
                 <div className="ml-auto flex shrink-0 items-center gap-2">
                   {option.members.includes("cdu") && option.members.includes("spd") && (
-                    <span className="whitespace-nowrap rounded bg-zinc-100 px-1.5 py-0.5 text-[11px] text-zinc-500 dark:bg-zinc-800">
+                    <span className="whitespace-nowrap rounded bg-ink-900/[0.06] px-1.5 py-0.5 text-[11px] text-ink-400 dark:dark:bg-white/10">
                       mit beiden Regierungsparteien
                     </span>
                   )}
@@ -289,7 +289,7 @@ export default function KoalitionPage() {
               Beantworte zuerst ein paar Thesen — dann zeigen wir dir, welche
               rechnerisch mögliche Koalition deinen Positionen am nächsten steht.
               <div className="pt-3">
-                <Link href="/quiz/" className="text-brand-600 underline">
+                <Link href="/quiz/" className="text-accent-600 underline">
                   Zum Matching →
                 </Link>
               </div>
@@ -306,12 +306,12 @@ export default function KoalitionPage() {
                 </p>
                 <p
                   className="text-2xl font-black tabular-nums"
-                  style={{ color: "var(--color-brand-600)" }}
+                  style={{ color: "var(--color-accent-500)" }}
                 >
                   Ø {(bestPersonal.mean as number).toLocaleString("de-DE")} %
                 </p>
               </div>
-              <p className="mt-1 text-xs text-zinc-500">
+              <p className="mt-1 text-xs text-ink-400">
                 Durchschnittliche Übereinstimmung mit den beteiligten Parteien ·{" "}
                 {bestPersonal.option.totalSeats} Sitze · Rangfolge aller Optionen
                 folgt derselben Rechnung wie die Auswertungsliste.
@@ -319,14 +319,14 @@ export default function KoalitionPage() {
             </CardBody>
           </Card>
         ) : (
-          <p className="text-sm text-zinc-500">
+          <p className="text-sm text-ink-400">
             Für deine Antworten liegen zu den Koalitionsparteien noch nicht genug
             verwertbare Daten vor.
           </p>
         )}
       </section>
 
-      <footer className="text-xs leading-relaxed text-zinc-500">
+      <footer className="text-xs leading-relaxed text-ink-400">
         <strong>Hinweise:</strong> Umfragen schwanken; kleine Änderungen können
         über die Fünf-Prozent-Hürde große Auswirkungen haben
         {belowThreshold.length > 0 &&

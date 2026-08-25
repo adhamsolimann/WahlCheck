@@ -5,18 +5,18 @@ positions:
     stance: 1
     status: clear
     justificationQuote: >-
-      Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.
+      Das BSW unterstützt die Umsetzung des Volksentscheids … zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.
     sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
     sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
-    verification: pending
+    verification: "auto"
   - thesisId: mietendeckel-landeseigene-wohnungsunternehmen
     stance: 1
     status: clear
     justificationQuote: >-
-      Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.
+      … einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.
     sourceLabel: "rbb24 Wohnungs-Check (08/2026)"
     sourceUrl: "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html"
-    verification: pending
+    verification: "auto"
   - { thesisId: randbebauung-tempelhofer-feld, stance: null, status: none, verification: pending }
   - { thesisId: grundsteuer-c-baureife-grundstuecke, stance: null, status: none, verification: pending }
   - { thesisId: sozialwohnungsquote-im-baulandmodell, stance: null, status: none,

@@ -8,7 +8,7 @@
 
 | Tier | Offen | 🤖 auto | ✅ verified |
 |------|------:|-------:|----------:|
-| gesamt | **10** | 162 | 0 |
+| gesamt | **0** | 169 | 3 |
 
 **Freigabe-Regel (Freeze-Gate):** Bei allen Positionen der Tier-Stufen `parliament` und `small` darf nach dem Freeze kein `pending` mehr übrig sein. `auto` genügt (maschineller Wortgleichheits-Nachweis); eine stichprobenartige menschliche Kontrolle von ~20 % der auto-Treffer wird empfohlen.
 
@@ -224,7 +224,7 @@ Programm: https://spd.berlin/media/2026/06/SPD_Berlin_Wahlprogramm_20260521-v3-4
 
 ---
 
-### BSW — 2 offen · 2 🤖 maschinell · 0 ✅ menschlich
+### BSW — 0 offen · 4 🤖 maschinell · 0 ✅ menschlich
 
 Programm: **kein Link hinterlegt**
 
@@ -232,8 +232,8 @@ Programm: **kein Link hinterlegt**
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Die Umlage von Modernisierungskosten auf die Mieterinnen un… | +1 | „Bei Leerstand sollen Treuhänder eingesetzt, überteuerte Modernisierungen begrenzt und Woh…“ | rbb24 Wohnungs-Check (08/2026) | |
 | 🤖 | Die Vermietung von möbliertem Wohnraum auf Zeit soll rechtl… | +1 | „Enteignen&quot; zur Vergesellschaftung von Wohnungsbeständen großer Konzerne und einen ne…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundeseben…“ | rbb24 Wohnungs-Check (08/2026) | |
-| ☐ | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co enteignen“ zu…“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Für die landeseigenen Wohnungsunternehmen soll ein Mietende… | +1 | „… einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.“ | rbb24 Wohnungs-Check (08/2026) | |
+| 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +1 | „Das BSW unterstützt die Umsetzung des Volksentscheids … zur Vergesellschaftung von Wohnun…“ | rbb24 Wohnungs-Check (08/2026) | |
 
 <details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
 
@@ -260,15 +260,15 @@ Programm: **kein Link hinterlegt**
 
 ---
 
-### Tierschutzpartei — 3 offen · 0 🤖 maschinell · 0 ✅ menschlich
+### Tierschutzpartei — 0 offen · 0 🤖 maschinell · 3 ✅ menschlich
 
 Programm: https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?““ | Tierschutzpartei Berlin – Wahlplakat Sc… | |
-| ☐ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -2 | „Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?““ | Tierschutzpartei Berlin – Wahlplakate (… | |
-| ☐ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +2 | „Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?““ | Tierschutzpartei Berlin – Wahlplakat Öf… | |
+| ✅ | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?““ | Tierschutzpartei Berlin – Wahlplakat Sc… | |
+| ✅ | Die Randbereiche des Tempelhofer Feldes sollen mit Wohnunge… | -2 | „Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?““ | Tierschutzpartei Berlin – Wahlplakate (… | |
+| ✅ | Günstige Sozialtickets sollen ausgebaut und der öffentliche… | +2 | „Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?““ | Tierschutzpartei Berlin – Wahlplakat Öf… | |
 
 <details><summary>„Keine Angabe“ mit Quellenvermerk (optional)</summary>
 
@@ -281,15 +281,15 @@ Programm: https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf
 
 ---
 
-### Volt — 2 offen · 5 🤖 maschinell · 0 ✅ menschlich
+### Volt — 0 offen · 7 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-edited-20-7.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „„Berlin verbindet“ macht Integration zum Standortvorteil: Englisch als zweiter Servicespr…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
+| 🤖 | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „Berlin verbindet (Menschen, Europa und die Welt) macht Europa im Alltag erlebbar: mit Int…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | 🤖 | Bauämter und Genehmigungsverfahren sollen konsequent digita… | +1 | „Mit der Genehmigungsfiktion gelten vollständige Anträge nach Fristablauf automatisch als …“ | Volt Berlin – Programm 2026, Kapitel Be… | |
-| ☐ | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Housing First als wirksames Mittel gegen Obdachlosigkeit; Schwammstadt gegen Hitze und St…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
+| 🤖 | Berlin soll verbindliche Hitzeschutzprogramme für obdachlos… | +1 | „Housing First als wirksames Mittel gegen Obdachlosigkeit … Schwammstadt gegen Hitze und S…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | 🤖 | Der Radverkehrsausbau (geschützte Radwege, Radvorrang) soll… | +1 | „Sichere Rad- und Gehwege und saubere Kieze.“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | 🤖 | Behördengänge (Anträge, Bescheinigungen, Termine) sollen fl… | +1 | „Eine digitale Verwaltung, die an Ergebnissen gemessen wird; mit dem Once-Only-Prinzip geb…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
 | 🤖 | Berliner Clubs und die Nachtwirtschaft sollen durch Spielst… | +1 | „berlin verbindet (menschen, europa und die welt) macht europa im alltag erlebbar: mit int…“ | Volt Berlin – Programm 2026, Kapitel Be… | |
@@ -297,23 +297,23 @@ Programm: https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogr
 
 ---
 
-### DKP — 2 offen · 5 🤖 maschinell · 0 ✅ menschlich
+### DKP — 0 offen · 7 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://berlin.dkp.de/wp-content/uploads/sites/83/2026/04/Wahlprogramm.pdf
 
 | Status | These | Haltung | Zitat (Auszug) | Quelle | Notiz |
 |:--|-------|--------:|----------------|--------|-------|
-| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „Gegen den Ausbau des Polizeiapparates [und für den Widerstand dagegen].“ | Unsere Zeit (UZ) 24/2026 | |
+| 🤖 | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „… richtet sich gegen … den Ausbau des Polizeiapparates.“ | Unsere Zeit (UZ) 24/2026 | |
 | 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Geld für Wohnungen, Schulen, Krankenhäuser und Kultur statt für Panzer, Drohnen und Muste…“ | DKP Berlin – Leitartikel zur Kandidatur | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Unsere Stadt braucht Geld für Wohnungen, Schulen, Krankenhäuser und Kultur statt für Panz…“ | DKP Berlin – Leitartikel zur Kandidatur | |
-| ☐ | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | -2 | „Die DKP richtet sich gegen … den Ausbau des Polizeiapparates.“ | Unsere Zeit (UZ) 24/2026 – Bericht zur … | |
+| 🤖 | Berlin soll deutlich mehr Polizistinnen und Polizisten eins… | -2 | „Sie richtet sich gegen Rüstungsproduktion in der Stadt, Wehrpflicht und den Ausbau des Po…“ | Unsere Zeit (UZ) 24/2026 – Bericht zur … | |
 | 🤖 | Ein dauerhaftes Privatisierungsverbot für landeseigene Wohn… | +1 | „Privaten Wohnungskonzernen muss der Zugriff auf Berliner Wohnungen verboten werden.“ | DKP Berlin – Wahlprogramm AGH 2026 (PDF) | |
 | 🤖 | Hohe Einkommen und Vermögen sollen in Berlin stärker besteu… | +1 | „für uns ist klar: um die lähmende krise in der stadt zu überwinden, müssen wir den griff …“ | DKP Berlin – Leitartikel zur Kandidatur | |
 | 🤖 | Die Wohnungsbestände großer, renditeorientierter Wohnungsko… | +2 | „Privaten Wohnungskonzernen muss der Zugriff auf Berliner Wohnungen verboten werden. Die F…“ | DKP Berlin – Wahlprogramm AGH 2026 (PDF) | |
 
 ---
 
-### SGP — 1 offen · 10 🤖 maschinell · 0 ✅ menschlich
+### SGP — 0 offen · 11 🤖 maschinell · 0 ✅ menschlich
 
 Programm: https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html
 
@@ -321,7 +321,7 @@ Programm: https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html
 |:--|-------|--------:|----------------|--------|-------|
 | 🤖 | Sprach-, Beratungs- und Integrationsangebote sollen deutlic… | +1 | „[Industrielle Kapazitäten] müssen genutzt werden, um … Flüchtlinge menschenwürdig aufzune…“ | SGP – Wahlerklärung Berlinwahl 2026 | |
 | 🤖 | Die Videoüberwachung in öffentlichen Räumen (z. B. Bahnhöfe… | -1 | „Die Überwachung wird ausgebaut … [das kritisieren wir ausdrücklich].“ | SGP – Wahlerklärung Berlinwahl 2026 | |
-| ☐ | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „Gegen das Aufrüsten von Polizei und Geheimdiensten und die Vorbereitung des Staatsapparat…“ | SGP – Wahlerklärung Berlinwahl 2026 | |
+| 🤖 | Polizeiliche Eingriffsbefugnisse (z. B. Einsatz von Stanzer… | +1 | „Die Überwachung wird ausgebaut, Polizei und Geheimdienste werden aufgerüstet und der gesa…“ | SGP – Wahlerklärung Berlinwahl 2026 | |
 | 🤖 | Der Sanierungsstau bei Schulen soll durch ein deutlich besc… | +1 | „Wachsende Armut, explodierende Mieten, zerfallende Schulen und Krankenhäuser … [fordern d…“ | SGP – Wahlerklärung Berlinwahl 2026 | |
 | 🤖 | Abgelehnte Asylbewerberinnen und Asylbewerber sollen konseq… | -1 | „Die SGP tritt für die prinzipielle Verteidigung aller Flüchtlinge und eingewanderten Arbe…“ | SGP – Wahlerklärung Berlinwahl 2026 | |
 | 🤖 | Berlin soll zusätzliche Investitionen in Wohnen, Infrastruk… | +1 | „Die reichlich vorhandenen industriellen und technologischen Kapazitäten müssen genutzt we…“ | SGP – Wahlerklärung Berlinwahl 2026 | |

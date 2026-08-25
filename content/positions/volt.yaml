@@ -28,11 +28,11 @@ positions:
     stance: 1
     status: clear
     justificationQuote: >-
-      Housing First als wirksames Mittel gegen Obdachlosigkeit; Schwammstadt
+      Housing First als wirksames Mittel gegen Obdachlosigkeit … Schwammstadt
       gegen Hitze und Starkregen.
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin lebt / Berlin gewinnt"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   - { thesisId: heizkostenfonds-fuer-niedrige-einkommen, stance: null, status: none,
       verification: pending }
   # --- Bildung ---
@@ -55,11 +55,12 @@ positions:
     stance: 1
     status: clear
     justificationQuote: >-
-      „Berlin verbindet“ macht Integration zum Standortvorteil: Englisch als
-      zweiter Servicesprache der Verwaltung, Demokratie für alle, die hier leben.
+      Berlin verbindet (Menschen, Europa und die Welt) macht Europa im Alltag
+      erlebbar: mit Integration als Standortvorteil, Englisch als zweiter
+      Servicesprache der Verwaltung …
     sourceLabel: "Volt Berlin – Programm 2026, Kapitel Berlin verbindet / funktioniert"
     sourceUrl: "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026"
-    verification: pending
+    verification: "auto"
   # --- Mobilität ---
   - { thesisId: stopp-der-a100-verlaengerung, stance: null, status: none, verification: pending }
   - { thesisId: tempo30-auf-hauptverkehrsstrassen, stance: null, status: none, verification: pending }

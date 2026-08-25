@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T01:24:20.199Z",
+  "generatedAt": "2026-08-25T01:33:58.214Z",
   "parties": [
     {
       "id": "afd",
@@ -1104,20 +1104,20 @@
       "thesisId": "vergesellschaftung-grosser-wohnungskonzerne",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Das BSW unterstützt die Umsetzung des Volksentscheids „Deutsche Wohnen & Co enteignen“ zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
+      "justificationQuote": "Das BSW unterstützt die Umsetzung des Volksentscheids … zur Vergesellschaftung von Wohnungsbeständen großer Konzerne.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "bsw",
       "thesisId": "mietendeckel-landeseigene-wohnungsunternehmen",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Das BSW unterstützt einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.",
+      "justificationQuote": "… einen neuen Anlauf für einen Mietendeckel auf Landes- oder Bundesebene.",
       "sourceLabel": "rbb24 Wohnungs-Check (08/2026)",
       "sourceUrl": "https://www.rbb24.de/politik/berlin-wahl-2026/wahlprogramme/wohnen-bauen-mieten-check.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "bsw",
@@ -1868,10 +1868,10 @@
       "thesisId": "mehr-polizeipersonal",
       "stance": -2,
       "status": "clear",
-      "justificationQuote": "Die DKP richtet sich gegen … den Ausbau des Polizeiapparates.",
+      "justificationQuote": "Sie richtet sich gegen Rüstungsproduktion in der Stadt, Wehrpflicht und den Ausbau des Polizeiapparates.",
       "sourceLabel": "Unsere Zeit (UZ) 24/2026 – Bericht zur DKP-Kandidatur",
       "sourceUrl": "https://www.unsere-zeit.de/menschen-die-nicht-erst-seit-gestern-kaempfen-4816531/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -1885,10 +1885,10 @@
       "thesisId": "begrenzung-polizeilicher-befugnisse",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Gegen den Ausbau des Polizeiapparates [und für den Widerstand dagegen].",
+      "justificationQuote": "… richtet sich gegen … den Ausbau des Polizeiapparates.",
       "sourceLabel": "Unsere Zeit (UZ) 24/2026",
       "sourceUrl": "https://www.unsere-zeit.de/menschen-die-nicht-erst-seit-gestern-kaempfen-4816531/",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "dkp",
@@ -3190,10 +3190,10 @@
       "thesisId": "begrenzung-polizeilicher-befugnisse",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Gegen das Aufrüsten von Polizei und Geheimdiensten und die Vorbereitung des Staatsapparates auf Unterdrückung sozialer Opposition.",
+      "justificationQuote": "Die Überwachung wird ausgebaut, Polizei und Geheimdienste werden aufgerüstet und der gesamte Staatsapparat wird auf die Unterdrückung wachsender sozialer Opposition vorbereitet.",
       "sourceLabel": "SGP – Wahlerklärung Berlinwahl 2026",
       "sourceUrl": "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "sgp",
@@ -3690,7 +3690,7 @@
       "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf ein freies Tempelhofer Feld?“",
       "sourceLabel": "Tierschutzpartei Berlin – Wahlplakate (Kampagnenseite)",
       "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
-      "verification": "pending"
+      "verification": "verified"
     },
     {
       "partyId": "tierschutzpartei",
@@ -3812,7 +3812,7 @@
       "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf sanierte Schulen?“",
       "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Schulen",
       "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
-      "verification": "pending"
+      "verification": "verified"
     },
     {
       "partyId": "tierschutzpartei",
@@ -3878,7 +3878,7 @@
       "justificationQuote": "Plakatmotiv zur Berlin-Wahl 2026: „Bock auf kostenlose Öffis?“",
       "sourceLabel": "Tierschutzpartei Berlin – Wahlplakat Öffis",
       "sourceUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026",
-      "verification": "pending"
+      "verification": "verified"
     },
     {
       "partyId": "tierschutzpartei",
@@ -4054,10 +4054,10 @@
       "thesisId": "hitzeschutz-fuer-obdachlose",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "Housing First als wirksames Mittel gegen Obdachlosigkeit; Schwammstadt gegen Hitze und Starkregen.",
+      "justificationQuote": "Housing First als wirksames Mittel gegen Obdachlosigkeit … Schwammstadt gegen Hitze und Starkregen.",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin lebt / Berlin gewinnt",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",
@@ -4127,10 +4127,10 @@
       "thesisId": "ausbau-der-integrationsangebote",
       "stance": 1,
       "status": "clear",
-      "justificationQuote": "„Berlin verbindet“ macht Integration zum Standortvorteil: Englisch als zweiter Servicesprache der Verwaltung, Demokratie für alle, die hier leben.",
+      "justificationQuote": "Berlin verbindet (Menschen, Europa und die Welt) macht Europa im Alltag erlebbar: mit Integration als Standortvorteil, Englisch als zweiter Servicesprache der Verwaltung …",
       "sourceLabel": "Volt Berlin – Programm 2026, Kapitel Berlin verbindet / funktioniert",
       "sourceUrl": "https://voltdeutschland.org/berlin/programm/programme/programm-berlin-2026",
-      "verification": "pending"
+      "verification": "auto"
     },
     {
       "partyId": "volt",

@@ -103,11 +103,10 @@ positions:
     stance: 1
     status: clear
     justificationQuote: >-
-      Gegen das Aufrüsten von Polizei und Geheimdiensten und die Vorbereitung
-      des Staatsapparates auf Unterdrückung sozialer Opposition.
+      Die Überwachung wird ausgebaut, Polizei und Geheimdienste werden aufgerüstet und der gesamte Staatsapparat wird auf die Unterdrückung wachsender sozialer Opposition vorbereitet.
     sourceLabel: "SGP – Wahlerklärung Berlinwahl 2026"
     sourceUrl: "https://www.wsws.org/de/articles/2026/07/10/sgpb-j10.html"
-    verification: pending
+    verification: "auto"
   # --- Migration ---
   - thesisId: erleichterte-abschiebungen
     stance: -1

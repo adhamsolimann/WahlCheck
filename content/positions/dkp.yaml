@@ -76,20 +76,20 @@ positions:
     stance: -2
     status: clear
     justificationQuote: >-
-      Die DKP richtet sich gegen … den Ausbau des Polizeiapparates.
+      Sie richtet sich gegen Rüstungsproduktion in der Stadt, Wehrpflicht und den Ausbau des Polizeiapparates.
     sourceLabel: "Unsere Zeit (UZ) 24/2026 – Bericht zur DKP-Kandidatur"
     sourceUrl: "https://www.unsere-zeit.de/menschen-die-nicht-erst-seit-gestern-kaempfen-4816531/"
-    verification: pending
+    verification: "auto"
   - { thesisId: ausbau-videoueberwachung-oeffentlicher-raeume, stance: null, status: none,
       verification: pending }
   - thesisId: begrenzung-polizeilicher-befugnisse
     stance: 1
     status: clear
     justificationQuote: >-
-      Gegen den Ausbau des Polizeiapparates [und für den Widerstand dagegen].
+      … richtet sich gegen … den Ausbau des Polizeiapparates.
     sourceLabel: "Unsere Zeit (UZ) 24/2026"
     sourceUrl: "https://www.unsere-zeit.de/menschen-die-nicht-erst-seit-gestern-kaempfen-4816531/"
-    verification: pending
+    verification: "auto"
   # --- Migration ---
   - { thesisId: erleichterte-abschiebungen, stance: null, status: none, verification: pending }
   - { thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte, stance: null, status: none,

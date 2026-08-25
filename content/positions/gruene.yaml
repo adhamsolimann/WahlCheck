@@ -46,17 +46,23 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: abschaffung-modernisierungsumlage
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Auf Landesebene pruefen wir zusaetzliche Entlastungen fuer Mieter*innen bei Sanierungsmassnahmen [anstelle der bisherigen Modernisierungsumlage].
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: foerderung-von-wohneigentum
   stance: null
   status: none
   verification: pending
 - thesisId: einschraenkung-moeblierter-wohnraum
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Zudem wird Personal in den Gebieten verstaerkt, um moebliertes Wohnen auf Zeit zu unterbinden.
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: haushaltsnotlage-investitionen-ueber-neue-kredite
   stance: 1
   status: clear
@@ -65,9 +71,12 @@ positions:
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
   verification: pending
 - thesisId: staerkere-besteurung-hoher-einkommen
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Erhoeung der Pruefquoten bei Unternehmen und Einkommensmillionaer*innen.
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: personalabbau-in-der-verwaltung
   stance: 0
   status: clear
@@ -92,9 +101,12 @@ positions:
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
   verification: auto
 - thesisId: heizkostenfonds-fuer-niedrige-einkommen
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Steuerung von Heizungssystemen senken mit geringem Aufwand Energieverbrauch und Heizkosten. Wir setzen uns fuer den flaechendeckenden Einsatz in oeffentlichen Gebaeuden ein.
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: gemeinschaftsschule-fuer-alle
   stance: 1
   status: clear
@@ -109,9 +121,12 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: beschleunigte-schulsanierung
-  stance: null
-  status: none
+  stance: 1
+  status: clear
   verification: pending
+  justificationQuote: Enormer Sanierungsstau bei Schulen und gleichzeitig der Anspruch, unsere Stadt widerstandsfaehiger und klimafreundlicher zu machen.
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: mehr-polizeipersonal
   stance: 0
   status: clear
@@ -119,9 +134,12 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: ausbau-videoueberwachung-oeffentlicher-raeume
-  stance: null
-  status: none
+  stance: -1
+  status: clear
   verification: pending
+  justificationQuote: Wir lehnen flaechendeckende Videoueberwachung ab und setzen auf alternative Konzepte fuer oeffentliche Sicherheit.
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: begrenzung-polizeilicher-befugnisse
   stance: 1
   status: clear
@@ -136,9 +154,12 @@ positions:
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
   verification: pending
 - thesisId: dezentrale-unterkuenfte-statt-notunterkuenfte
-  stance: null
-  status: none
-  verification: pending
+  stance: 1
+  status: clear
+  verification: "auto"
+  justificationQuote: 'Dezentrale Unterbringung und eigenen Wohnraum voranbringen: Es ist unser Ziel, gefluechteten Menschen das Ankommen zu erleichtern.'
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: ausbau-der-integrationsangebote
   stance: 1
   status: clear
@@ -167,9 +188,12 @@ positions:
   sourceLabel: Redaktionelle Einschätzung auf Basis Wahlprogramm-Analyse
   sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: prioritaet-fuer-radverkehr
-  stance: null
-  status: none
+  stance: 2
+  status: clear
   verification: pending
+  justificationQuote: Radwege werden in ganz Berlin komfortabel ausgebaut. Durchgaengige, geschuetzte Radwege verbinden alle Stadtteile.
+  sourceLabel: Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026
+  sourceUrl: https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf
 - thesisId: klimaneutralitaet-bis-2045
   stance: 1
   status: clear

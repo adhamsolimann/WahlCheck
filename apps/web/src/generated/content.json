@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:55:03.220Z",
+  "generatedAt": "2026-08-25T00:00:10.126Z",
   "parties": [
     {
       "id": "afd",
@@ -2345,8 +2345,11 @@
     {
       "partyId": "gruene",
       "thesisId": "abschaffung-modernisierungsumlage",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Auf Landesebene pruefen wir zusaetzliche Entlastungen fuer Mieter*innen bei Sanierungsmassnahmen [anstelle der bisherigen Modernisierungsumlage].",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2359,8 +2362,11 @@
     {
       "partyId": "gruene",
       "thesisId": "einschraenkung-moeblierter-wohnraum",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Zudem wird Personal in den Gebieten verstaerkt, um moebliertes Wohnen auf Zeit zu unterbinden.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2376,8 +2382,11 @@
     {
       "partyId": "gruene",
       "thesisId": "staerkere-besteurung-hoher-einkommen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Erhoeung der Pruefquoten bei Unternehmen und Einkommensmillionaer*innen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2418,8 +2427,11 @@
     {
       "partyId": "gruene",
       "thesisId": "heizkostenfonds-fuer-niedrige-einkommen",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Steuerung von Heizungssystemen senken mit geringem Aufwand Energieverbrauch und Heizkosten. Wir setzen uns fuer den flaechendeckenden Einsatz in oeffentlichen Gebaeuden ein.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2444,8 +2456,11 @@
     {
       "partyId": "gruene",
       "thesisId": "beschleunigte-schulsanierung",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Enormer Sanierungsstau bei Schulen und gleichzeitig der Anspruch, unsere Stadt widerstandsfaehiger und klimafreundlicher zu machen.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2460,8 +2475,11 @@
     {
       "partyId": "gruene",
       "thesisId": "ausbau-videoueberwachung-oeffentlicher-raeume",
-      "stance": null,
-      "status": "none",
+      "stance": -1,
+      "status": "clear",
+      "justificationQuote": "Wir lehnen flaechendeckende Videoueberwachung ab und setzen auf alternative Konzepte fuer oeffentliche Sicherheit.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2486,8 +2504,11 @@
     {
       "partyId": "gruene",
       "thesisId": "dezentrale-unterkuenfte-statt-notunterkuenfte",
-      "stance": null,
-      "status": "none",
+      "stance": 1,
+      "status": "clear",
+      "justificationQuote": "Dezentrale Unterbringung und eigenen Wohnraum voranbringen: Es ist unser Ziel, gefluechteten Menschen das Ankommen zu erleichtern.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {
@@ -2531,8 +2552,11 @@
     {
       "partyId": "gruene",
       "thesisId": "prioritaet-fuer-radverkehr",
-      "stance": null,
-      "status": "none",
+      "stance": 2,
+      "status": "clear",
+      "justificationQuote": "Radwege werden in ganz Berlin komfortabel ausgebaut. Durchgaengige, geschuetzte Radwege verbinden alle Stadtteile.",
+      "sourceLabel": "Bündnis 90/Die Grünen Berlin – Wahlprogramm 2026",
+      "sourceUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
       "verification": "pending"
     },
     {

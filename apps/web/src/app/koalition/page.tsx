@@ -172,7 +172,7 @@ export default function KoalitionPage() {
                         }}
                       />
                     </span>
-                    <span className="ml-auto w-12 text-right text-sm tabular-nums sm:ml-0">
+                    <span className="ml-auto w-14 whitespace-nowrap text-right text-sm tabular-nums sm:ml-0">
                       {percent.toLocaleString("de-DE")} %
                     </span>
                     <span className="w-20 whitespace-nowrap text-right text-xs text-ink-400 tabular-nums">

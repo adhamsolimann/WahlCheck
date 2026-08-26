@@ -43,7 +43,7 @@ export function StanceScale({ value, onChange }: StanceScaleProps) {
               role="radio"
               aria-checked={selected}
               onClick={() => onChange(option)}
-              className={`rounded-lg border px-1 py-3 font-display transition-all duration-150 ${
+              className={`rounded-lg border px-1 py-2.5 font-display transition-all duration-150 sm:py-3 ${
                 selected
                   ? "border-accent-600 bg-accent-500 text-white shadow-[0_4px_14px_-4px] shadow-accent-500/50"
                   : `border-ink-900/10 text-ink-700 hover:border-accent-400 hover:text-ink-900 dark:border-white/10 dark:text-ink-200 dark:hover:border-accent-400/60 ${

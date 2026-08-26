@@ -273,7 +273,7 @@ export default function QuizPage() {
   const effectiveWeight = session.weights[current.id] ?? baseWeight(session, current.topicId);
 
   return (
-    <main className="mx-auto max-w-2xl px-6 pb-16 pt-6">
+    <main className="mx-auto max-w-2xl px-6 pb-28 pt-6 sm:pb-16">
       {/* Fortschritt — sticky am oberen Rand */}
       <div className="sticky top-0 z-30 -mx-6 bg-paper/95 px-6 pb-3 pt-3 backdrop-blur-md dark:bg-ink-950/95">
         <div className="mb-2 flex items-center justify-between text-xs">
@@ -325,8 +325,8 @@ export default function QuizPage() {
       </div>
 
       {/* key = These-ID → sanfter Fade bei jedem Fragenwechsel */}
-      {/* Feste Höhe: Bedienelemente bleiben immer an derselben Position */}
-      <div key={current.id} className="animate-fade mt-6 h-[26rem]">
+      {/* Mobil wächst die Karte mit langem Text (min-h), Desktop fix gegen Springen */}
+      <div key={current.id} className="animate-fade mt-6 min-h-[26rem] sm:h-[26rem]">
         <ThesisCard
           thesis={current}
           index={index}

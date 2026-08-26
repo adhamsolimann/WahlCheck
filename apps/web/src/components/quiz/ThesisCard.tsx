@@ -39,7 +39,7 @@ export function ThesisCard({
   const isLast = index === total - 1;
 
   return (
-    <div className="flex h-full flex-col gap-6">
+    <div className="flex h-full flex-col gap-4 sm:gap-6">
       {/* These — flex-1 absorbiert Höhenunterschiede */}
       <div className="flex-1 space-y-3">
         <p className="kicker text-accent-600 dark:text-accent-400">
@@ -50,13 +50,13 @@ export function ThesisCard({
         </h2>
       </div>
 
-      {/* Bedienelemente — immer an derselben Position von unten */}
-      <div className="space-y-4">
+      {/* Bedienelemente — mobil kompakt, an derselben Position von unten */}
+      <div className="space-y-3 sm:space-y-4">
         <div className={skipped ? "opacity-40" : ""}>
           <StanceScale value={stance} onChange={(s) => onStance(s)} />
         </div>
 
-        <div className="flex flex-wrap items-center justify-between gap-3">
+        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
           <WeightSlider value={weight} onChange={onWeight} />
           <Button variant="ghost" size="sm" onClick={onSkip}>
             {skipped ? "Nicht überspringen" : "Überspringen"}

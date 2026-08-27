@@ -26,8 +26,5 @@
     "typescript-eslint": "^8.20.0",
     "tsx": "^4.23.12",
     "unpdf": "^1.8.1"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
   }
 }

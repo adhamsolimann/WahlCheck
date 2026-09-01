@@ -1,5 +1,60 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-01"
+  title: >-
+    Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse - augsburger-allgemeine.de
+  sourceLabel: "augsburger-allgemeine.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS3BPMWc0V0ZqTUMxMmJOTkZoLUNscmlEMDZjZDdMX05rd0hPSDNMazNvYXdOcGktb3VuS05QSTlQaUFlZzJfUjdNdlpMSnk0bUhKWkxmclNKd05CMGVIWkQxVVNuT1Z4Q2hKYWVuckVFbUl3bmtvUDhnY3NsVWFWZTlYbEg0NktuZWFzTF9mdzRpLV8yR3huRTdTTGhfV0pRRUpqZ3hRVmctbjVULW9HUnRUYVZ4WTU0UHRTbFlVbzlkUQ?oc=5"
+- date: "2026-09-01"
+  partyId: gruene
+  title: >-
+    „Dann hat er versucht, mir ins Gesicht zu boxen“ – Antisemit greift Grünen-Kandidaten an
+  sourceLabel: "WELT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRmxzMGFUdjdsZjRXSHFZYjZIY0tWNF9Cd0RUT2lhTTZ4bk1fdkZZMER5enpLUHNEYVduUXpYUk8yN2dERUdzTDlLNlk1MjBlY3NrZGhEUjFIX3V6WXJVbjRXSEUxTFN0X0M1ZE04R2JMa3NoQzFNbXBXd21NckJDSE5qU2tydmZ3UzZjUnNHa3k5S19TLTFVTWVTTTFjLWNfeVBMVldmbzFqQ015YlFXaFZKSjNEc3lOczFVQVEtRUtHN3hlN0hxUUhzTzZtSFBDd0xxWkE4UWJrTHg0TlBGSVRRY3ZnbnF6MUpxVC15ZzZsZWxIcVBqcDJaUFU?oc=5"
+- date: "2026-09-01"
+  title: >-
+    Wahlumfrage zur Berlin-Wahl 2026: Drei Parteien stehen bei Abgeordnetenhauswahl im Fokus - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVlRJSzU0Xy1zd2N0dVpNVkhhTllnS3pZb3puWEhQeU5wUmYyd2lKUHN5dW4tMTN3LWJLVjVVNEc0SXFZZXBZX1VGYmpoQnlBTmhCTjZvSlJJNzd4cnhPdUtEQk0xb2JPUV96WGRMQnRGZWgtb0NmSHdMM1ZQVVB5TDFYNXFadWhTYTlFUVh4NWh2VjVCMTl5cXFUYnV5Z1dfUFFvOXJtZlNtUGhsYldmSVZPT1FpT2N1alNDNDBmYldYSWpRVVJoejZpelVmVUZwcGJXWnVZWlhJM3l2YWw5RmJB?oc=5"
+- date: "2026-08-29"
+  partyId: linke
+  title: >-
+    Berlin-Wahl – Mera25: »Die Linke ist uns nicht links genug - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb29DOGhGZ3dEb3pOdU5Fa1pteS0xT3I5LUg0T1ZucktDVUdVSXNYUWxDUjJhc0sxTXgxQXNEVTNQZFBjcGh2YnJwcjluaWpTVmtwblBhQjgwRFo0eDdUNklZWENoaVN4ck1sZnk2UE8tZFRpRk1xYl8yZ3pLSS02alMzOXlYVTZwZmp2WlF1WkstZndhMUtmY0NHbkxlbU5z?oc=5"
+- date: "2026-08-29"
+  title: >-
+    Umfragen zu Berlin: Wer in den Umfragen vor der Wahl führt
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOFJvbVdBaV9vYjJhNVc1dE9Ja1hxZFpSbTJxcFRiQlVjcWVNdGZmbWgyb0dGcHo2VUpXYmlDYXJLQkRYUnRwS25lMV9ablJoaldIVTBzWmpyY2ZHWWVrRjY1dzcyRnlSaFpuMGh2NkUwcDd4TTlaXzBUQ1FfVlE3MFpqQVpQczhtMG1xc3R1R3p1eHVnVnZQblkxZU80YzVnYUNvS3REYVIwWUJ1cGkxbGdTazQ?oc=5"
+- date: "2026-08-31"
+  title: >-
+    Abgeordnetenhauswahl: Briefwahl bei Berlinern immer beliebter - berliner-zeitung.de
+  sourceLabel: "berliner-zeitung.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQzYtWUlEUWswenZ0X1AtQmNWZWRESW1oa1BBNk5CVzhRa2F1NzNfdDhoX3BtYzZoUnVENDJ3WjJxbFVoUzdaelJwdlVaT04wanBDSnJUaXBiX2psaWJfazFhUlJBODd5TFpPa2pYa25ra0FnMVE4RjNXRm5HUDV0OTNsYldLaHQtRllxZ0xMQ3VTbFdwVzU5MVdkOFZvR2hCVk1JQW1EWmVtWnJYSHc?oc=5"
+- date: "2026-08-31"
+  partyId: gruene
+  title: >-
+    Berlin &amp; Brandenburg: Grünen-Kandidat berichtet von antisemitischem Angriff - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeFVGZHhPSDFVaEVieXhJX1hwYWMwa1ZmVFRzc0dWZ3pwLUlRMnRiai1ERTVFVHgtTE9IanhCQzFQM0NzdDVRendxbHJ2blQtTzBycFlJakV5a25TU3djOGtKT3NnYVhvNWpfdlJRWUVRTmJIMmxtY0gzTlIyRTJHYUkyaTdyMmtsTzJ0LWRKcXZUdDhVVlJvdlRDZjVnY3ZCTXFFRC1FeXNiOVl1cmxYZ18ySmxfcFhOdlFQUExlVnVUdw?oc=5"
+- date: "2026-08-31"
+  title: >-
+    Abgeordnetenhauswahl Berlin: Wahlumfrage vom 31.08.2026 von Civey | Sonntagsfrage #aghw
+  sourceLabel: "dawum.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TUlhzLTFwbnlxeU5KdU5EQ2ZTWGhJR1JxT1d6V0llTWtaUTBkb1IwWnlHOU53TFdla2hIRFhMT3lObi1PM19XOU1LYnJ1WVNKZFRJ?oc=5"
+- date: "2026-08-31"
+  partyId: bsw
+  title: >-
+    „Selbstmord der Demokratie“: Berliner BSW-Chef King protestiert gegen Verdi-Ausladung beim RBB - berliner-zeitung.de
+  sourceLabel: "berliner-zeitung.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnNNVjBKYlRacFFUWW03X1ozS3JlbmpvaEdLaXJaeVU0STVPcDQ0UnViOF9xT2dja1paLTVWWEcwNEdiYUhmQTRpLXB6SFB6bkx0Yy1yak91LXNhQ2RFOTJHbURWaVRsWTctSWpDRFRYMllDdkFSVDlaR0E3MWF1NlppRi1ySDU1TnJybTBhSE9mb0JXeWxHVlF6NWNaVUlQWEs4MUJsc0tvNm9UNVVF?oc=5"
+- date: "2026-08-31"
+  partyId: linke
+  title: >-
+    Linke vor CDU und AfD: Neue Umfrage sagt Dreikampf um Wahlsieg in Berlin voraus
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMixgFBVV95cUxPXzNSX2F6UHI4NGpnSld3SW4zSTBTUGJGTU11WWlaeFJuc3hLWEVRemZ3MUFDS195T3BIS0V4cE4zTThFZG43dm5lRjc0eXZLcUlGOG9MalRmcFVTRFFZem14akpPRVViYXNTNEp6LVNOTDJQWjdBcnQwM1ZXNks2WlNBUm8xcU5fMURoVHJ0S0ZPbzdHNGp2X3FmRDVGTng1dGJqelBrU2M3VTF2c2xwQkpBM0MyNVdiYzhRU083R0s5SjNQdEE?oc=5"
 - date: "2026-08-29"
   title: >-
     Abgeordnetenhauswahl: Wahl zum Abgeordnetenhaus: Jugendliche dürfen mit abstimmen

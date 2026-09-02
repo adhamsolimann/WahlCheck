@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T11:24:24.028Z",
+  "generatedAt": "2026-09-02T10:58:27.944Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,45 @@
   ],
   "news": [
     {
+      "date": "2026-09-02",
+      "partyId": "afd",
+      "title": "Wahl zum Abgeordnetenhaus: AfD-Wahlplakat zeigt Brinker neben Willy Brandt",
+      "sourceLabel": "DIE ZEIT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZFZuMDY3YWVYMXJVNmtCNVZTUVd5cW53VE5aeFF0UEVtM0t0YV8wTFJqbW41ZVhrOXVQU1RyNFZsV2V4QkI0WHhfODh4V3lfNTVQVDJXaVN2b0RMNWtJSk1PcFVUY2Vrc0M1alJFelJiMGh6WjRSQWVHSXpZQ09Dd0l3eko1ZHh2NHgw?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Briefwahl vor Ort: Hier können Sie jetzt schon Ihre Stimme zur Berlin-Wahl abgeben",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMUtESXU1QUFmdkUtY1NhakZrVVNxUTNBT2xsVVJ6aEhkRG9hMEhMbTl4LVNUUVIzYS1vaFNiZ2NBekNQLWNOZ1p4RGJOQ2FnTk05WXFrUXVIRGlwa0RWRkR1VldUc1dhUlFfMmhKdFRJWGwxbld1MGxubUdMUnJNNnJLczE5ZjBVXzk3UVhCOE1VOXQweGMtTHQ4NmZ0X1lSdW12U1lFaUVWR1hYNzdYM3dubndzbDNTcndZZVhpS2NfY29RaXF1QWl3?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Wahlumfrage zur Berlin-Wahl 2026: Krimi zeichnet sich bei der Abgeordnetenhauswahl ab - T-Online",
+      "sourceLabel": "T-Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSG55MFYzTGVZcFIzSTVKMXFWSldMSHhTSFhfSG5xQkpzb3d3NXNJbjg2TWplRkxFY2ZqQ2JpdWMzRGhnWjUzUW1IMHA5NkpTalN3RjJnVkZaNUZxZ1ZkQmVmNENNakpzUjlYa05CYjRDYTJ1RExqNHVSMHpoYVB5M3FsTnE3dmdxanplVjM2SW1OQ0x4SG1CaC1PVnpWRTY4eEFPQXVvc1J5Q1F5a3g1d1RKNExWVDhhWVAwTzk2Tmh4TWZKUmxjMlRhSzlwS0hQeHRIVWhwLUVtOTFKMGpMRkJQVWFYNVk?oc=5"
+    },
+    {
+      "date": "2026-09-01",
+      "partyId": "linke",
+      "title": "Elif Eralp und der Antisemitismus-Skandal bei der Linken",
+      "sourceLabel": "Jüdische Allgemeine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xcXpCNzJsM3Vwc1pPV1NhMGtQWWFEYUdyRkpjR3hqaU9oTzlhUDhzYVktZzNWampEYm9sMlFiTWxvQ1VGVVc1dDlfT0NvX25oeXlFd19hZmFEQTVkRVFOTGlVSUdZQTNGbjBfTVR2V1pFSWxmOFQ0LXBuWWN0LVk?oc=5"
+    },
+    {
+      "date": "2026-09-01",
+      "partyId": "linke",
+      "title": "Palästinasolidarische Linke legt im Antisemitismus-Streit nach",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUEEwTjRFTEJUYi1TYjBxTlRYSnBENXdOOTl3Q0k5b05HTy1uNTZxNDNkSXc5MlpueWt2TGd1bUdmckdOS3JZX3lJMFVzZU9YSVBTYlJUdUNxSmE5Z3UxdGpNdTMtVkFLclk4REhpWUxYcXNWa25FTU9ZeU5NVWtHRWlYNnl3UUNFcFpqdXZ0ZEdDdTZLLTdsQ1hpUlk4dXBMelpNZThDOGhmNHNVQnI4eFlQZzNIczU5THc?oc=5"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Aktuelle Umfrage zur Berlin-Wahl 2026 zeigt enges Rennen",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdVo0UFBEYlZnaWx6Sm9qX2NPeWNGOFByYzFDdzR6T3FoVGhTdk5MQUlORVlDSUFiR2RHTG9IUGlFWFJwUkZjaDZSc0Z4YWxILWJ3NTRfWUlOXzBhNjdoSUxaRk9SU1FPUTJqaWFHYnRhRHhxMllCeTdNV0hCQnFwN2JRVmFaS1ktN3hocC11NWFjeVZCZGc?oc=5"
+    },
+    {
       "date": "2026-09-01",
       "title": "Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse - augsburger-allgemeine.de",
       "sourceLabel": "augsburger-allgemeine.de",
@@ -4450,6 +4489,13 @@
       "title": "Wahlumfrage zur Berlin-Wahl 2026: Drei Parteien stehen bei Abgeordnetenhauswahl im Fokus - T-Online",
       "sourceLabel": "T-Online",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVlRJSzU0Xy1zd2N0dVpNVkhhTllnS3pZb3puWEhQeU5wUmYyd2lKUHN5dW4tMTN3LWJLVjVVNEc0SXFZZXBZX1VGYmpoQnlBTmhCTjZvSlJJNzd4cnhPdUtEQk0xb2JPUV96WGRMQnRGZWgtb0NmSHdMM1ZQVVB5TDFYNXFadWhTYTlFUVh4NWh2VjVCMTl5cXFUYnV5Z1dfUFFvOXJtZlNtUGhsYldmSVZPT1FpT2N1alNDNDBmYldYSWpRVVJoejZpelVmVUZwcGJXWnVZWlhJM3l2YWw5RmJB?oc=5"
+    },
+    {
+      "date": "2026-08-31",
+      "partyId": "gruene",
+      "title": "Attacke im Wahlkampf: Grünen-Kandidat berichtet von antisemitischem Angriff",
+      "sourceLabel": "Volksstimme",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSXZJQXlmSldCRnV0Q28zVy1BX1A0Q1o5aGlCdGZfX21wTXFQbVZ1cTEwYXNkbHo4b0pNYTFVUGU2Y1Q1cDFhOFNLVmdvQzRhRFEtVkxNaUZ1VG45djFZb052YzlYTTZRYVRqcHJXTWJXTWxkR2ZBbkVuc0Q5U1JkdVlZeDAyVHplOU85V0lLSW10bWdzczhhZVlsN3Jsdw?oc=5"
     },
     {
       "date": "2026-08-31",

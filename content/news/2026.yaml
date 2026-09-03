@@ -1,6 +1,33 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
 - date: "2026-09-02"
+  title: >-
+    Polizei macht Gegnern des Russischen Hauses das Leben schwer - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOWpQNUtEZVpkTDg5bG1RelBwd1JsQUs5d0drNEZFRUVEOEdBVGJDMWtqTGY0NVJmZXplRm1MeXlXN0lnLTBrcFRFMU1SemZYNTVqRWRMUUtQN25jLVpoVm1zLVBQdTByU3JUR0libnJUck5hQm5qcUNvbFA3dTlsTldBb1NTbVRpUlhWZkVfRUlIUFRQMUxrTXdsTUxLV3pKTXVROG11Ukh3VzZWQU9SN1hqZlhwSnhzdGF2UjN3b0VKRFNxNWxaUnRPbDBuY2tqV1FxaFBibldha1ktVGYw?oc=5"
+- date: "2026-09-02"
+  partyId: linke
+  title: >-
+    Umfrage zur Abgeordnetenhauswahl: CDU zieht in Berlin wieder an der Linken vorbei - Koalition ohne Mehrheit - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRDlpMHdrNWx4VzhhLW5CNk8xcHVIb2FzUV9KQmMxbUpiTGhWRHRxRzNxbGlpQ1o3emlIcEN0b0hnWmNaYnl5Ujh2RVNjeVktN1BIX201TFdleXFPWTJpakkxQ1dIcDh3WW5VY0hmSjBKOE5ENDFZZlhFbTZ1aUxGMS1zMU9VdFRBVW9YWERzTlBJTEZjUElmODBUQjNIZ1owWW15dno5ZVl5WDJVZW1zUHpFZmFWQQ?oc=5"
+- date: "2026-09-02"
+  partyId: linke
+  title: >-
+    Umfrage: CDU in Berlin wieder vorn – Linke verliert deutlich
+  sourceLabel: "Berliner Zeitung"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQkVoYWdZUXdvMl9ZSUhIdlNQb2hodnBOUjZzWlBJSFA3dm1RT2pGbGFCdjdlUkRDMnY1X1VwTmdKRVVBQUNzWkZlTzF0WGZmV1ZXdDJoY3c2WkNNekp3TUdQaWQ5VU55Tzg0Z0Fvcno1dlozWU5aRUgxQ051S1R3eDBLVXZHZ3Bab0NSMWZIRE5sdEh0cnZPbE5SQQ?oc=5"
+- date: "2026-09-02"
+  title: >-
+    Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTnh3X0JELTRsWjkxNzNXcC16Ykw5LUtUaWFMYndCSmJ2THJxVVR2VGlwOUMtQlpldi1RQ1p0QW1mcFFyU2VybllpRG5GWkdQa19vRnktNFQzQ1dwODkyMkVmRFpuRGU3cW5CMXZkbjZlcGFDWl9NQ1lXTWFpTVdtVnh1V3J6Uk53UFVrYWhpZktWUGVYeXhGWXN2ZDRtYkZsUTBWMXF1WTY4S1UzSnlNMFNYODdUV2dVRWFObzFSUEYtdw?oc=5"
+- date: "2026-08-31"
+  title: >-
+    Immer mehr Berliner beantragen Briefwahl Landeswahlleiter rechnet mit einem Anteil von 45 Prozent
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNGdSNHVnVHVLU1ZZU3pHbDc2QzZic3VvREZ5dWNieC1FWlJ2Z2JubFI4YjRjM2hUZDlET0wzMzJLOGdlLTF1b05UUmJsdk45M0dmM1pFM0wybmlBejZUV19EWXFPRFBCSzRyMVdXTUNEQmx5OUdEdTEwM0FDN0REWk1vMHZicF9FX09BUUpzV3BKRjJhWHZiNnQ3LTJ5RTFvSk5TNlZ3ZzlvM2lldEJDTE9IOE9LbGg0Ums2NW85Z3pGVDRrWHgzREJyRkJmU2sxQTJ4WlQtdVZ2MWZRZC0w?oc=5"
+- date: "2026-09-02"
   partyId: afd
   title: >-
     Wahl zum Abgeordnetenhaus: AfD-Wahlplakat zeigt Brinker neben Willy Brandt

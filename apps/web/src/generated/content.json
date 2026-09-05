@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T10:57:15.345Z",
+  "generatedAt": "2026-09-05T10:18:13.212Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,67 @@
   ],
   "news": [
     {
+      "date": "2026-09-05",
+      "partyId": "linke",
+      "title": "Berlin Wahl 2026: Der SPD-Mann, dem die Linke in die Quere kommt",
+      "sourceLabel": "FAZ",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTkpmWkNnZERWMkJtWjVvbEpmQkx6cnNGY194Z2ZUbVdKQUZsbEhtNjNSWWVCcWpXemVFNThmN0pyNFQ0MU90bl9oZ1ZQUkJnUDlnNUcwNWFEWGNCdlJSLW5BRFpuVWdpUzl4RTNJNUtWYjdzVlZJMVdTZ2g0eUl3QzhNdHpXelRhalpGdmUtME11WVA5WGxzcGM4RXRLRm51MERfdktwMExsUWVaMS1Pcm1HZFQ0RThSMWdkcXFvbFBqVTI1ZE9uY3ZpUmlrQQ?oc=5"
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse",
+      "sourceLabel": "Augsburger Allgemeine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcnFIaHY1Z1NSdWt6VUplUXM5YWNqalprMENXeVdlYW5GX21XVDl6N2x0aU5XM3QtYWxmcnpvVlpqSk9aY2RfY0YtYkdqeEJBVWt4UXdmbEM4aTFOQkQ0bzk4T08xR1lCZm11Vy1nYWlnOGJkNzl1c0xXSldjd0JNTHVQY3V3X3lsRk1USEZJZnZmTTR1bnB3UHZGNWtoeGQyMlNwbWhONmZVeEhJZFRVclhWdXhoTTRnY2x0R2xKeXdJWlk?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "partyId": "cdu",
+      "title": "Weitere Umfrage vor Berliner Abgeordnetenhauswahl sieht CDU vor Linkspartei",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNkIyZERqLWptN2l2OEpBX09uSjk0X1VrQ0E3WHR2R0RyelpJNFYwR2NmLVpEaTBMQUQ2LXV5bGFVMkdrejlvTlBqc0llTmp5bUdmanZKRC1VcDlyTWFvYWV5WVRMQnhmeHl4eTRsdlNBbjVWOTU5M2lrWEh6YWRBeWlPQl9FNTFwbmVPMElWalZTMGtFMU9yT2Qxd3UxajJrRDZ6Ui1Ja3Byekk2ck9xTlZEaG1lUQ?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "title": "Personalausweis genügt: Jetzt schon Stimme für die Berlin-Wahl 2026 abgeben – so geht’s",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcDcwbnV5RkFESE13eWlsdFdUWVN5OEhCMER3SHJmUGFYaTB6STVEMUlCZ3diMlZwVUJ1VzZFelRPQUxZaHg4ZDkwUVV3LWxiUXFXRUNDOHctYkJZdi1nclpOQTRMZUJnSzZrcnR1SElhVkdpR2lXd3RIelMxbnNMdWRTajlFNVlqVFhXREFESTFoTkZYdjBna0NTNFZyVjZ0VzQwNkxnNldfbHpnblNQeHBxd1ZWcEdOSHlkMG5qMDR4d3pNZFcwekpTX0tMQQ?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "partyId": "afd",
+      "title": "Abgeordnetenhauswahl: Eierwürfe auf AfD-Wahlkampfstand in Berlin-Pankow",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PTW83ZmM0dnRkMDFSZnhiS0t6QjNuZHdHN2dVOGtNOEZFb1VNLXhjNVpBQ0JPUnZnVUQ1bmdxOEx2NU9iUXhxUWRMY2tnMWZtUkVGVE5FXzlOS1VwOUloY3AyZjFGalZwZ2lXMWx3V2hRLXdWa2RBZjh2NTdHQQ?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "partyId": "afd",
+      "title": "Abgeordnetenhauswahl - Eierwürfe auf AfD-Wahlkampfstand in Berlin-Pankow - Panorama - SZ.de",
+      "sourceLabel": "SZ.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdUhtOHlycjhqMzRFSXhyMVVFdkFJYzZDMnBuS1c0RGotaVdtTFFBekNEVFJEc080RGk5LXdxVWthaWQ3aHNxOW9za080V3dWZUNNZHNUZXQtamtoVllUZHNuN1hva21Ndjg4LUdldmxEMUJ6RHF0bXU5THZKeVNvXzZXRXNZUW5XRF9iZHlWX3RqamM3a0l3TGtLaHZzRjcwWVBDWmJZYTN2T1huZkNDNTZWVnRENVlBaVhZQ3F5TGpPYU9ycGNsR2I0amJBN0cwMC1ocGtGN3V6Nk5CQVlfSXdYWkhIVFd0UjBTb2N1SQ?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "partyId": "afd",
+      "title": "Abgeordnetenhauswahl: Eierwürfe auf AfD-Wahlkampfstand in Berlin-Pankow",
+      "sourceLabel": "Volksstimme",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTUJOa1FqQURVSTBLVzJ3SWVHY3QyNG1jOF9VZ0hmeFVBeGV5OWxmM0xBZk1oNHR2RkNxNWhzODJTcG04NzVvRnNKUDJBdGxqSnlicmNwbUUzZzdpMmJ3UGFNSWZrTlNyUmlsUlBQV1I2SzBYeGNycGN6ZV90WExDa2pla2NZbW95QXQ5N1EzRDQ2ZzRUczBWYw?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "partyId": "linke",
+      "title": "Berliner Abgeordnetenhauswahl: Die Linke hat noch lange nicht gewonnen",
+      "sourceLabel": "taz.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zcjNWanBiUERwc2F5RWxmWHMzYnRfeDlYUVRIb3l4cTc3N0taLUQ1WkpLR1RNLTR5bThvU1B2dFdSejlPUTNXb29xM1l2V1RBWlg4OTZCdnNpOWJzMGtrUjFRcXg?oc=5"
+    },
+    {
+      "date": "2026-09-04",
+      "partyId": "cdu",
+      "title": "Abgeordnetenhauswahl: CDU-Spitzenkandidat Evers: Merz hat einen Fehler gemacht",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUTdZYU5IZUdWeXBiNmtWdFZvMzdfamt4M3pjWmExbGV6cnNWN21nYjloTDJISlBnei1abUJZSjcta2FrdHMzelg5bGdLNHZYdzNrMXR1UEF6dGFaNVFMOEtWb3FTM0VDV2h4RTBMbkI4dTFOQW43cEw5RGhZRG9GWENPeTdKYW16RXl5RnJpZTY2WHhweVY0VjMzNU9FYmk5NlJRaEwzbVU5bHpwRUVOTk1Ybkx1SVVsbjlWaFBMRmtvbGozVEFnSlVGMExVZFVvdEljVkdtR20wUy1mVXBjQkVVRkN1TDU1TEE?oc=5"
+    },
+    {
       "date": "2026-09-04",
       "partyId": "cdu",
       "title": "Abgeordnetenhauswahl - CDU-Spitzenkandidat Evers: Merz hat einen Fehler gemacht - Politik - SZ.de",
@@ -4475,6 +4536,25 @@
       "title": "Wahlumfrage zur Berlin-Wahl 2026: Überraschung zeichnet kurz vor Abgeordnetenhauswahl ab - T-Online",
       "sourceLabel": "T-Online",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRzlrZ0lZckJWQm1oZUxDYkExT3JWYS01dzVRdEpSdlV0RTd3RXpEU0FwRU5FYVlzeVRwbld3TDRtT3p2YXBkNk5tZlRSS29lSXVDN1JmcjE2cEFwMFd3d2RFZUhnS0JVaEdSZm5GMU92WC1Cb0Vxc2M1RDR1YXUxSzZqQjBVMUpkTWNUSUFlbDRhX0JHQjVYSFVuZUZhcXV4ckhQZWxaZmw3VDdJY04tMmpySlFlYm9Wd2U3ZzNaNHBlSnRadk1LRnlaX1p1Rk9lVjBoSmNCdWVKZ0lpVDk5dktrVUFkTjlPNXc?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Was zur Berlin-Wahl 2026 wichtig wird",
+      "sourceLabel": "rbb24.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVTgwcXJCNjZTcTZvV3hfelhxWEk3UVd2Y3gweVp0WUkxcGhoSkdlTjJsaTRmb2lJNzJHSnlSQ2VrNWR4ZmdqQzFhVUNRcnpOM3k5TmYxcGJBdG1jdDE4Q3NwS3FWOTRhazh5bF9XUW50U3huNmpNakdjN3dVV3dJZ0tMWHZ6MTEteHAtOFFCVUNCVEl0eEloelE4MzFlbHVxU2pGdUhHTlh5TTlIWTJiMWk1cw?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Wahl-O-Mat Berlin: Welche Partei passt zu Ihnen? - T-Online",
+      "sourceLabel": "T-Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT215VDI1dzdJaGVlbnJQN1ZqSXgzVmhERmM0empWMFRuVWdfV3FMNXpDWUpCSjZsMWtGazZWUnVZT0JLR2lMYy1icDZJblpsZlBLS1RQNDZRZFB1TVlabXJPQTZySmZxNGZkLW1XVnFFMFZmRW13WmZvTUpvMFFOSTdYcDVvZ3VWQTdkOGhhRXNHMG5hbFlwU3N0SWd0U2FPT3lxdjBYYmlxaTFoVFRTbEJsNjFfT2NEaDJ2NXM0d0FxMGt5UTQ1WUR5ZGZhR3V1Z1dF?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "partyId": "afd",
+      "title": "Wahl zum Abgeordnetenhaus: AfD-Wahlplakat zeigt Brinker neben Willy Brandt",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQXJ5RE5lSFJvWHU3MS1BS1pZZ0NyNWV6TnpvbTAtVHRneEZoYUkzdjRUVHJFNDlhOWtuRkgwZXNKQWRyR1lxZm9yQXVXR185U0lvRlhJWXlBU0NTZXVmc2xDeVlhcVl1NTRfMkRqWU9PMUg4anVsZFBuQjdjVFpWM2xsazE?oc=5"
     },
     {
       "date": "2026-09-02",

@@ -1,5 +1,10 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-05"
+  title: >-
+    Berliner Notfallplanung im Darknet – BSI warnt vor Risiken für Abgeordnetenhauswahl
+  sourceLabel: "Ostdeutsche Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcWZTNUdNR2Y1Nm1ISTgzaGQzbnpxQ1N5NDZ4Y3VjTmdlWE1LV2trZmtFZTBkaXNCZkczTFlzd1RsUjBVNE5Ddk5YT0R6N1BEN201RXVsT2ZYenpxaTdrYmxic1lvMzBMWTFQMmVMZDQ0dGM3Ui1QVTRfU19NN1NRY2VxQWZETjI1LUg1eC1XZHJ5djE3dXpjSA?oc=5"
 - date: "2026-09-02"
   title: >-
     Was zur Berlin-Wahl 2026 wichtig wird

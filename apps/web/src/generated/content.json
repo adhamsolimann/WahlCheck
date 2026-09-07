@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T10:37:55.993Z",
+  "generatedAt": "2026-09-07T12:03:41.881Z",
   "parties": [
     {
       "id": "afd",
@@ -4432,6 +4432,12 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-09-05",
+      "title": "Wahl-O-Mat Berlin: Welche Partei passt zu Ihnen? - T-Online",
+      "sourceLabel": "T-Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZzRPN2pBX3ZHRTBPc21hNDlWdWg3VU4wUktISmZvdC1vZ1pmZkd3RUhQQklCWVJscGNTM05jVzUzRWVyV1dDanY1Y0RncTFiN19ZUzUyUzFob3ZZU196QkhfeTVpTVFXUlR1TEdhU1ltc0h4YzZBTGFCT2duM0ktbjM5R0tpako0TXZaRlMzR29hRmMxLUJGV2JmNE4zWFA5NklJdnZBNUxhXzdNRDRKeWRaYmcwai1KTXRGVk41YzZROTRGTGZ5Nl9lYUQyR2JNaC1FSTFHMVpYQQ?oc=5"
+    },
     {
       "date": "2026-09-05",
       "title": "Berliner Notfallplanung im Darknet – BSI warnt vor Risiken für Abgeordnetenhauswahl",

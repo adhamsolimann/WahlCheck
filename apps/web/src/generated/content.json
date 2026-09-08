@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T12:03:41.881Z",
+  "generatedAt": "2026-09-08T10:57:02.649Z",
   "parties": [
     {
       "id": "afd",
@@ -4432,6 +4432,57 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-09-08",
+      "partyId": "afd",
+      "title": "Berlin-Wahl 2026: Das ist AfD-Spitzenkandidatin Kristin Brinker",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcWloYm9wX3ZlLXN4d3kxRmRpUEU0NlRaMkhrVmVhWTRKMWVkak1RcURaTTNtZjdFSDlNSWRhQTJVRHhTcGJHd3hVSVF3eEh2ODNQOVVvMm5xR3Jia0R0UEVheENISk5aaGRmSC1kQ19oUkZjVlJPX2dMQ0NBSS05dUlCTWFJYjRvdVF3WVl6S0J4b3YwdE1HT2J5bUlGNFowWGZxRkVYUGhid2VZMmVNeWpac2VpVXNiNUhfZw?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "partyId": "spd",
+      "title": "Berlin-Wahl 2026: Das ist SPD-Spitzenkandidat Steffen Krach",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR1QzWkhGSnZScjVGaTVsY25IRE8yZVR0SEctOFA0NS1oREFWaUpjT25lcnZsLURCT25lVXJqUWdCaDRlcHRNbTJJUTc3WDNzUU1zMFBSUkZDUmNHMVdIdE5ESTRGZERFd2tDUEx3c09vZmEyX240UEs4TUtwRFRHRUtQWlZDV1hWdU1oRFFIeXVUMG9TRGVTemVxNjFWc2RDYnl1LXo2VjFnNGtNenVVN3Z2WnhsV2s?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "partyId": "linke",
+      "title": "Berlin-Wahl 2026: Das ist Linken-Spitzenkandidatin Elif Eralp",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX0JlOVJNR1QxQTdPRWJEX1FnOW5ITXJIVkoyMTZ0LVZld0k4Z3NoeFJvQlhnTmRqWk1RVXFpSTNTZG1vc2xLWF9HcjEwRGE0Y1ZCRlVVb3JscDlINFFoN2sxc3R4T0NEazFJdVZfQWpDVTRDZ0JaRXNQVEFFT3VYeUVmcGFYNnpWNXFSLTA1R2lwQ0tnVHk5OVFNX2NTQUdzX0dwX0tLRDR5YVhlSEtHTEJ4NGU5c0Zr?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Berlin-Wahl 2026: Die Spitzenkandidaten im Schnell-Check",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWmV2TU9Zb2hrRUdTeEx4X2ZZTmZtaWVwbXprOHhneWdkdjBwME1Na0kweUI5bFFDZ2xXRXZjOF9zT2hLQ3ZuQXY2WFlPa0hEYVdnUDUxRGs5ZldFZ09BRGRVLThPLU5kcUJscV9VNGl5aFRMS3FwallfNGZoOXd0X0FMLVZpRzFxUGpXekNGMG4tS1J1dzZyLW5qa01WZEViRFR1aXdOenhSQVYySnVCM0dpcklSQWhLckFPc2Z4a3NYSk0?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "BerlinTrend: Junge Menschen in Berlin mit eindeutiger Parteipräferenz",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMmhIemFoTmE4WWNvOTNhUEN6bDlMUU1paWcwczZXTUVRREN1eVp2cWhWZ2xRZG5DTU9qNnhkeWFTd19sSjZzOG9vWmVKNFBfZTZXbENnLXFCRmVxOWVtT3k2RFRHV21EbjJxSmlGZlEwNmNYbVRIczNQS0dxSDFjSEhoamU2MVFhWEVwOWlOVXozdEtGaWRvN2pCcjlOaVJGc3A2UG9zZ3pTNUZ3Y0stZkRyYTliT3dQM1ljRHp3UmV5WjQ?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Berlin-Wahl 2026: Wann gibt es Prognosen, Hochrechnungen und das Ergebnis?",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTXh0UTJ5bFJQZ2FlRDFJbnp4Ujl5MlZxRG1nc1BvN1ltSTV3MzlBYzFMLVBkRnBPYWxpY0hLeUJHSjlYVFJ0am1ONVBPS1RhYV9MX3hQcnJreGJzQzNiRFRKalBnaFZrbnZ5Z29PN3M1MW80RDBNUXYya3hjVktwSDlHQUNXQTA1dEJkYWRHU3FCRENUeEowbzNCSlMxeHRiZFNSN2JKUVhvaWk5NzRN?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Wahl-O-Mat zur Abgeordnetenhauswahl Berlin 2026: Jetzt hier den Test machen",
+      "sourceLabel": "WEB.DE",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON1FHNS0zZ0duWUlWTnIzQnpKTVU4OTl6NXRCUkJ4RDQ1c25aTTlEQ05raGhSTVYxYTFQTlRrVllaMDF2aHZfWEV1RVRab25LQkVvSmNHTlBQVXltQlBrdXYwakVaVzh5YU11ZVp2bGxuZTYxaFIxUlpyQ3BZMTNQX2pEQmNGem1CM3poVHlQR3pMaG9ZSFI1bWJFMDhQNzdZbDR4UF9EMHg3eEsycUxkeDBmT2lIWDl4WkFTMHI5LTZGeEJMU3RMU2xmcWY?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse",
+      "sourceLabel": "Augsburger Allgemeine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZmxlM25RMTNSdHB0TVdOYk5BNjdMYW14RE9jNE5mQzlXdjAxTklIOWZIVmNDWndXWmEyWEVWVXQyRUZQa2JDNGlEUGc2YS1yUEpTbEZ5Skh0N2tnMkZRLWwwSC1ZNUVTZC14VGxFa204U0dzV24wc0IzWHlBdGlHb1g3WkRUV0xIZ2lhRmZBSGhBcGZQdVhEWXR3Y28zdkZDUzhQUmVNZDVXWldIOGZNRWljM0dRY1VjVGd3WGdCd1JqNm8?oc=5"
+    },
     {
       "date": "2026-09-05",
       "title": "Wahl-O-Mat Berlin: Welche Partei passt zu Ihnen? - T-Online",

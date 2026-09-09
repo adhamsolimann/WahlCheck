@@ -1,5 +1,68 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-09"
+  title: >-
+    „Jüngere Generation bestimmt die Zukunft“: Was 16- bis 18-Jährige in Marzahn vor der Wahl bewegt
+  sourceLabel: "Berliner Zeitung"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkxPZWo3VF8zS0N0VEhHWWxpbWRxZWFLRnFDTmxPZkRjTThlUERkY0tEelpmQkl6cHlJMXhfcEpFNGg4cTlaeVlnUmxWQmlISkFpaHJFcWRjeWNnSEdIRmhFU1lPMEEyMUVxNFMxMFQtQUplRGwwSnphR3NTVlBzLUlHWkRsaVpTV2k1QVdVTEo1REtyY0l5bA?oc=5"
+- date: "2026-09-09"
+  title: >-
+    Der große Parteien-Check: Wahl-O-Mat für die Berlin-Wahl 2026 zum Selbsttest
+  sourceLabel: "Frankfurter Rundschau"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdDl0aTN1MzYtaXllTjRCNEpKajFHOXdOVXY4TjVBRWlnQW1HMk1Kc0s0ajZQY2VYd0FNSXZXQTE2STJja2N4N2RscUVxNjZTQWxyb0N6eDJtMy1jZnR5UUZldllnMXoxa05qNjJRbS1SbklueG56UjMwd0N4VThhRTRzSTZiUXdTTlN2ZXFyWld1cGVWWWtpag?oc=5"
+- date: "2026-09-09"
+  title: >-
+    Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeEFScHJOVEI2WlRoUExfTXN1QXR1S3QycXJIVDZsalo3bUQtVElQTm9tYVcwa1VTUWRISWl1Q3h0ZW9sMFVTOGZ0dHJiTTItYTNnTENkUjJ3QXQ0dVpRRWxldHpqWGNLNEZfTEZfWTNDWUNxSmVHaUxNUmxBWEFJb04wSGd4ZUU2cEdwUzBxeS1pSk5HbE50OTR6NFRlNFBtV1VNR0NQenJnMTR5Y05DdkYwMGpwWFlqUGc2eHVDbEJhTlU?oc=5"
+- date: "2026-09-08"
+  title: >-
+    Wahl in Berlin: Junge Wahlberechtigte fragen besonders nach Finanzierung von Vorhaben
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcWZ0N25BWExvMHRBYVJLYVNjWUlzYnBKWkUzVG9hcVg1R1YxbXFwV2VEVEtLejdOZWZyN0d3ZWRXczIyMDBVQzkyLWFRN2Q2dUxHR3g1YS1IWTA5VnBvQmdHRlk2V0hWNTdqVWtzb3ZPUUtpRlZ6clM2MnFEZUxCZ3QzVUEydWtoZnAtZldwR3lXWV9mOVIyYUE4ZFpNa0l2cW0xS2RPRQ?oc=5"
+- date: "2026-09-08"
+  partyId: linke
+  title: >-
+    Wahl zum Abgeordnetenhaus - Linke-Fraktionschefin setzt große Hoffnungen auf Berlin - Politik - SZ.de
+  sourceLabel: "SZ.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0xGSDFhd19VcFpDNkFlazNpMmdJdnQ5VDVhRUE1amVBSmZpY1hPTDZjWnhGa0p0Ul9FcWNWZUJYVEYxM05zNmMxVHA0c3NkbTk4TWVsaXJKY05LclRzRG1FdTI5WEx0cFE0R291cmM5R0Z2SFdPdVNtYV9Va0NuZmZqc3FGcnlLaHRyUEYzS1NMa040UXY2SFZCWUJoaGR1eG95T0RiVTFYNlhOSVdwVUQ1QkFtVDEtSHNzeU93bEFtSDBMRE5ZbHdWVVFnLXlRTEF6LWVDM0EwTFV3aEt0aVlkMlF6UU9vREhyN3VlYm51a0JrVmZVUTd1UWs?oc=5"
+- date: "2026-09-08"
+  partyId: linke
+  title: >-
+    Wahl zum Abgeordnetenhaus: Linke-Fraktionschefin setzt große Hoffnungen auf Berlin
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPNENkV2Z1SktkQ3d4eDA0VkNqYTJ4cldWTWFUNU1GMXBOUzRhaDNXMUE1U013NjhJSUVDODd6YXhDRDRXZ2VIYVRuaUhZdURzSGhKeUxqR0VaSkJPbldoZFZla3ltNHJKOFo4RUNxM01Fc0x3aFFaM3g3Q1Yxc2trdy1NTFhQcU9fdW4yQkpFYmxOQVQ1ZzhtNVVIVkVrbGlZbDRVOXVzZVVOVUkwNVJnMFAxVlF6V0w3YlBuOWxOZjRVMTRKX1NNYUo0cG5aOE9zSWFyQ0xUM0VBNWFWTm5IOC1kQU05X1Bsc0Rkbmw4ZDE?oc=5"
+- date: "2026-09-08"
+  title: >-
+    Premiere - Junge Wahlarena zur Abgeordnetenhaus-Wahl | rbb
+  sourceLabel: "rbb24.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb1pLVWtfWDd3X0RqUTJVeV9KWWRFZVY3ekhzNDVSa2N3Q2NvdUt1TTN6WkZzRGcyam9FRnp4ZTNQaFJGeU1QSDJtcFlyMjRyVGVtTnVTT3RXckU1Q3M3WjRRZ3JEQkJyMXJpRkNQdGZsMEtjLWwxQU9FTmVua1lWNElOVTY?oc=5"
+- date: "2026-09-08"
+  title: >-
+    rbb präsentiert erste Junge Wahlarena
+  sourceLabel: "rbb24.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdy1NSlhtdVZ6bW9aZXNTeG5BQUJ5SEE5aFR5TGNPeUJPVmk2X05lZ0lELUxsejBQY3VPSWViYjlWS2llTl9fRUlPWlBhcVBWSzd2SlY5V2NBcFpRRWltM3hrNFZraTN4RUNlcG5qemZEajZVNGJqdzdrTUZjN29KcEE2NFNNRGJpSGFjZmpuOA?oc=5"
+- date: "2026-09-08"
+  title: >-
+    Berlin-Wahl 2026: Was bedeuten Erst- und Zweitstimme auf dem Wahlzettel?
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMisAFBVV95cUxQa1NhYWl6LXU4dGhRLUtrcXgwZmJWM1FrMXk0OV8yamdRRzdWcm5CMFYzd2I5SlE4SkMzbUZmMUo1UDAzLUwxcU4yODhKbGduYWZXcEpnWnV0RXdnWUYxR3JwOXkwbUhZOVpCeDdfVDdLZGtPbWJ4RVhvNmE4czgwLXA0MzJlVlNteXhCUml4c3lZLVI1cmRaVTUwSFlab0hRMWVnUWcwZm9TTE1FdjhfSQ?oc=5"
+- date: "2026-09-08"
+  title: >-
+    Sind Stimmen an Kleinstparteien verschwendet? Wahlforscher ordnet ein
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNG1NSVJYa05ta0x1cU96dTRtemcwRDFnZmM0ck9UWS1Nc25DR2FjdjY0TW9LUzFXYjMzbnRnYjFRX1F3THZFM3FIamVjM2Y0QmVobHFHSXdNRlg5aG5mLUFMTEs4ZDVnQmVLbkxzRVJ3bkg3RU55elpic01NdDI5V0x2ZWh6czJfazE1azMxaGdVZGR2dXBtb2t6TEgzd0hDeHljTUdRX1NFVlBTOGlIYjBWTWg3Z2ttTHNqRTVqckE?oc=5"
+- date: "2026-09-08"
+  partyId: afd
+  title: >-
+    Berlin-Wahl 2026: AfD-Wahlprogramm – Die wichtigsten Punkte
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSkF5dUlHRGZmU0xrVnE2aVRES3VKQVBmTnA4RVhPTVkyeWhPUnJYeXkyUkZfWlEtQy15Wk1XcVlSaHBDVXlMRnJ6TC0zbHZYMWlFc2pQNVVvWDQ2QWZXOVdObGQ3a2ZiXy1zTkFLWldGQ1dMR3o2MXRQc1pMR28zOVpmNVRCZ29jMEt5TVpIWHhNa3IzbnNEbVN6QklPdTdqaU5lZ2lXdzJtdTBfSG9hSg?oc=5"
+- date: "2026-09-07"
+  title: >-
+    Wahl-O-Mat Berlin: Welche Partei passt zu Ihnen? - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ0NaS3NtM085NjZtOGIwUnREMk5qZDNDYUZqMExIc1hQRVUzUlA5U0hHVXhqQWx4VGN0dUw4WDhPOGFfd1NaMi1qZDE4Y0FhVFNZNk9OUlNIREQ0bExmYlRSdFlHbEIwWGdCWkVHUjVnSEtZYmpqLUNqWU9Hbnl6RUxtLVBiSGtoem5XTjBROGtZaV9CSTRvcjRoVC1NZDhHczFQU0dwUXpoc1UxS2llNURURmRZR2U0QUt0bUNsTXRoZ282cXcxWGlvay01aFZtUzFldzljNXpuMER5aFZDQw?oc=5"
 - date: "2026-09-08"
   partyId: afd
   title: >-

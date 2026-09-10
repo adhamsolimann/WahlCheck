@@ -2,6 +2,101 @@
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
 - date: "2026-09-09"
   title: >-
+    Vor der Berlin-Wahl stellen sich Parteien den Fragen junger Wähler – darum geht es ihnen wirklich
+  sourceLabel: "Frankfurter Rundschau"
+  sourceUrl: "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR1RJRTByOVV5Z2lzM0tFdldHZ1plZ3FRYUVPOXNQbU9kOFN6Z2djdUFSUG4tdFZUMXVjVnAyX1h2OTJGM0U3dGtXY29Ga1Uzeng4dTAxTW9GdEZ2N0RYTGo2NnVHVkF5TWJXQUhKVk5Ya0ZJVjVRLThQTmVxLXNzSTYxRUFTVzltOHJpczBYdGhDRzNPbjZWS3BFOUJIbmhmVl8wcw?oc=5"
+- date: "2026-09-09"
+  partyId: spd
+  title: >-
+    Ermittlungen kurz vor der Wahl: Krach will trotz Vorwürfen weiter SPD-Wahlkampf machen
+  sourceLabel: "Volksstimme"
+  sourceUrl: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTjZlRHdNTzEwTU9qenEtT3psWS12dDVqVkdxVzNsUDdPTWJIZlpYWS1BLTh5OGlYWGZtVXloamxOVjQza3VuaUI4el9ObFk4QlFpLXU5VklsUTQ2UlZOQ1lFb2FjTWxyQ2VRcldHay1vOExBX2pFOUVVNkxuME9NUkFHZE1uTUtVVXpJRVlfQ1FIdERqc2xPZ1pMck5GeXM?oc=5"
+- date: "2026-09-09"
+  partyId: spd
+  title: >-
+    Razzia bei Steffen Krach – SPD-Spitzenkandidat reagiert auf Vorwürfe
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcU5iZXhmaHNibkRmR3lCR3R0WTNxRHFNbWxFTnJMR2JkLVZWVFUtTjRmNmNFektNZUNLdFZuUnFZWjFaREZlcHNoNzZBZU9Kb0pUM0Z4RzAxVmJmYnZJcDhQbmdrWkN0VmxMQXpGN25QSm52Y1NEc1JOemFpYkMtd3FoNVFwbm40NGUzX0V6SmJqWmF1YnZBYWNnWTk1aXhi?oc=5"
+- date: "2026-09-09"
+  partyId: spd
+  title: >-
+    Kurz vor der Wahl: Ermittlungen gegen Berliner SPD-Spitzenkandidaten Steffen Krach - Politik - SZ.de
+  sourceLabel: "SZ.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvcU13b2dTcjdiUXNZS3d1enNBN0lSTmRqaUR4ZDYxc0pyOFpqUU1QVDI3ZHZqQjJlRTI5OERDRm9aRzdOYXlWV0xUNVN1c1FIS2pCMXRTTWVnNzFHZHh1OG5wTjN3bGRrdk8tbDBVOF9RajVhTEdmVC1GZl9xbWs?oc=5"
+- date: "2026-09-09"
+  partyId: linke
+  title: >-
+    Berlin Wahl 2026 Ein Grünen-Kandidat auf Stimmenfang im linken Lager
+  sourceLabel: "FAZ"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTVN5eTBaNGpTSGd0Y3h3ZDhJdXVXeVNBUnkzaGl3TFE4RUJwWXR6R1VWUWF1SE9TV3J2NjM5TkhxN2xub3FtS2JKX1Fpbm41ZWdGWWx6ZE5hUF94VjNOSGVKSVhQbmRlc081bUhEUV9lOXFlQkVkVjB6X183ekFiU3NzdVdkTXF5alJhTnZZQWxRdXVfYlV6VmtjOEVNYVhVcHhpR2xqcTZBQVhvOXdtX2xRSVN5OXkxQmJoRWNNR0ZxSGkyMmNYN0Zwb0V3OGc1?oc=5"
+- date: "2026-09-09"
+  title: >-
+    Neue Klage vor der Berlin-Wahl: Jetzt muss das Oberverwaltungsgericht entscheiden
+  sourceLabel: "Berliner Zeitung"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaHZMeTJRRHRHLXdYVU9KbFRfYWNmU2IwUlVkbEZuSmVtOWIza2hqaDFFNmNjTGQ3dGNWUEtEZ3FFUnpxd205YVN6N0JDeVFQclVxQmxMbXY4YVotQk9faXh6eU81TXZ6MDdscXA4Wnl5ZG9CUXN6QXVIak5JQUV2REZIVGN2d3EtNVZDMGtDYUk4TW41ZWt5WVBkbmVNMWI4bUhTSXBwWTQ1aWJOclJUVEhwZ2l5VUhjMGVQU2ZiZ2lncGhTNVNCeQ?oc=5"
+- date: "2026-09-09"
+  partyId: cdu
+  title: >-
+    Abgeordnetenhauswahl in Berlin – Umfragetief der Berliner CDU – bestellt vom BSW - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPM0llOUNzRDd6M1cwUWdaT2Y1ZE93ZFZIZHJJQWpVN284WDZvMjBLcGF5aEZ3c3BoSmdsNUNvZE9aZWNydm95X2xQMnlua1pLTElOR09yV3JFV1RxRGE5eHhURTZMWS1LQzdmNmtLYXAtaHd4QXhEWVBQVnJVOXJmSEJJU0NNSVJSMXE5U3FDa1lKZzZGLUJabG5vNTBmSC1vaDdQRXFDS1FyN2pwVGR3RkxTNk83a1FQWi1OSzhYM3Q?oc=5"
+- date: "2026-09-09"
+  title: >-
+    Es geht schon wieder los – Amt schickt falsche Wahlzettel an Briefwähler
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNk5fZzE3ZERqZTdmMVRFRkNJZkkwaDFGR1pxQ1dpcU4zM3pCNkNBTFBHMW9zYm01U051clppdms2a2dMNzhxeV81Q25FYzZfNTl1X1ppQXJ2ZGZiaTNXUzYxWFBrUEhEWXpCdTlIc0hHRC1ZQ041T01qY3J6VXc2bDRYMXc4NUlKVm12M1FlVUt2R05oem85QWFGckJLb0F6SEF2WlNGN0FEUk9GbWZsaU44THVYcTBnNjc5VmdheGRSa0QzUnpYYXlTUjVWM1RBWEljSzBhZHRLNUJmUWU0QmQxZlI?oc=5"
+- date: "2026-09-09"
+  title: >-
+    Vor Abgeordnetenhauswahl – Evers befürwortet islamischen Religionsunterricht
+  sourceLabel: "PRO | Das christliche Medienmagazin"
+  sourceUrl: "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUzBuVlpaWlBBRGwwNV9iMXFkbzBWZWx4YzRpZTBENjh6ODVhX21JbUR3NEd2Tm82cTZ4dDZVdTdHR1VHVDB5SG9IcVhwUG5yamtIdGM0REpHWmgxZjRfbVdzd3M0WThRS19oeVVTWFBaMGVlMHM5UW5BSnlnMGs0QWF2UUp5TDhOX0NNdQ?oc=5"
+- date: "2026-09-09"
+  title: >-
+    Berlin-Wahl: Endspurt um die Führungsposition
+  sourceLabel: "Deutsche Apotheker Zeitung, DAZ"
+  sourceUrl: "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMUJES2lSOUF6VXJHS1FmanNyNXV3WVdsMUtVekhzdXoteWV3RXg1WlVETGNlb215aGRqWFkzV1g0UlNKNndFdXJUS0NqUkx6VExDSExUbUd5WmJDYVVtYkw2WEhwd1lMWlIza2g5UmVQM0k0aGkzSUEzNjd4MnZLM0xBc08xamlkM1NaOUhuSTZEY2tFMmt0S3U1VndHdUFxUjJTNExPaldwNC0tdzZqZg?oc=5"
+- date: "2026-09-08"
+  partyId: linke
+  title: >-
+    Wahl zum Abgeordnetenhaus: Linke-Fraktionschefin setzt große Hoffnungen auf Berlin
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGJpVS1wcjVQY0pWWFViOW4zTHJpSHQwLVpsS3hicFcxUmhGa1lUMHl3WTFRYkhpdEVHSEZadXJGOGNfNzkxZG5UeGhvTDZCaW1UcTc4ZzY4UUpEbVpNNFhvZXlvNFE3Ukpxb0tTWVRvVS1tOWVROWVGN1ZtSnpKY3loU0c?oc=5"
+- date: "2026-09-10"
+  partyId: spd
+  title: >-
+    Berlin: SPD-Spitzenkandidat Steffen Krach weist Vorwürfe entschieden zurück
+  sourceLabel: "Spiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbGJuM2g0aE1aVDktc1dCS0t1ZnpfU0NEUWdZWmhrUkVZdkVpRDVTMGhkMDk2QW1jUWVRWnpucE1VREhEaTZoN19ONlUxVWFyYmNpQUZqZkx0M0d6T2dKN0hRMEw1U0VrUEgyZENOX2JvbVFOY3c1R3F1eGM3WmhPUjltWWRNLU4zR3FZOUgwNnd3NVJ5S2pRSUVDUmlUSzEtYjlQTVRTX3BBYTNfeU9VZTAxemJuNDNhQUZHUkVNQWRxQVRHUl9OOHJwS1hWTUhhZGlnNGR4UWxfM2lFSy1iY21yWmJiVVhKbDNVVlFwMA?oc=5"
+- date: "2026-09-10"
+  title: >-
+    Wahl-O-Mat Berlin: Welche Partei passt zu Ihnen? - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNN1pCanRZT2hBUC1RdXF6Y19BRUhsVDFTVmVCZ2c1V1hlX3NGazhLTVoxdTR6T3AzVHZHalpGVjB6akVTdklETWRxWU5lemFacTFNRmJNRUdlR3dJZzIwZ2VqOU5nZnNPV1ZrYTJKRHY2YUVCTHo2dlN5NVV4dTRXcVdUOTl5WkUwVkRiOUhyaUp5aERDSDZaeWVtdnVndC1xNm5Cb1cyWVpQRWtkeWxjSmxNMkFhMWVPVnEwTGV2NTY4SUtOaUcyUVA2dkRDN09CU01PU1VVY0gtOVBBemIxeWo3X2Nidw?oc=5"
+- date: "2026-09-10"
+  title: >-
+    DFKI-Forschung begleitet Deepfake-Check zur Berliner Abgeordnetenhauswahl
+  sourceLabel: "Informationsdienst Wissenschaft"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPbEt4enNoblZVZXZaVzF2RDFzdEszUldpc3pBckdnWEtsSDVNRERlZmt3U1dmUDYtMjNKVGdJcm15WlRwTHpiQkZuQQ?oc=5"
+- date: "2026-09-10"
+  partyId: spd
+  title: >-
+    Aufregung vor Wahl in Berlin: Razzia bei SPD-Spitzenkandidat: Krach wehrt sich - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirAFBVV95cUxPb0RjS0hGSjNWSHlWbjYtdE1KWnZyTnp3ZGhyZ0JjVEVrcGJhTmpMYWdza1BmWnFsbS00NVAyWjdyQ19LX0ZVbDdsRDJVdlprRS1KeU9xVlVsMnF4WjkzS2s2LTg0OThYMTFjeVVrRTJaSnVqSklZVGlDZTZJZjV0aVp6RVhoMmFLcVgzdWd1NEp0RXhGWmFOZmdDNzlmZ1M2MXJncE9sUWZtSnJl?oc=5"
+- date: "2026-09-10"
+  partyId: spd
+  title: >-
+    Niedersachsen ermittelt gegen Berlins SPD-Spitzenkandidaten Justizministerin ahnte nicht, dass die Razzia Steffen Krach galt
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiggJBVV95cUxPcEdyaUVRdVdMam1Ga2lWc2J0UVBlbVduVEJORFBaTWduaThUbEdsQzBTak9veUVVSlVybVU2UXJScjZJekhDQTlwTk5QRHJfOVpJczVOS3ByMUdMb3dlbG52M2ozV2VaaWRSSU5zNWhDbFozaDRKMXprUWNjVDBweTFKaWJyUlBCc0R6cHFPd3Bsb0ZDZ2VKQ1RyRjFzcnVDS1BxZnM1SEdWMVZDWU44OGtOM19ENU1oZmh6ZmJlRFZSMkxfdEtZdUd1SUFnWEFYQm00QTRhTUNFSTlxSUxWSDBweUxfamZ3YWxVN24wUDZTYktHZmUtSlRsNGFyR2J6c3c?oc=5"
+- date: "2026-09-10"
+  partyId: spd
+  title: >-
+    Nach Ermittlungen - SPD-Spitzenmann macht weiter Wahlkampf
+  sourceLabel: "Tageblatt"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0JmYndMTUs0NWFUOXNJcXFsS1JzSXR0MlMyYTUzUXZ4WE5wcFNPS25TTGZ5TjlpR2lFUEV0Q2U5ck5HQ0FCYkE4SlhfbnVhRzMxLUxwR2FxcVR3YmpLWmJsVzBaSDJxblFhVlR3MHhOOGdheUFvRXVaeEZhc0ZKR0dkdThmSnhTem16LWZvc2xaM2FJVzhLdDhMZU9uVFhjWHV5aXladm0?oc=5"
+- date: "2026-09-09"
+  title: >-
     „Jüngere Generation bestimmt die Zukunft“: Was 16- bis 18-Jährige in Marzahn vor der Wahl bewegt
   sourceLabel: "Berliner Zeitung"
   sourceUrl: "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkxPZWo3VF8zS0N0VEhHWWxpbWRxZWFLRnFDTmxPZkRjTThlUERkY0tEelpmQkl6cHlJMXhfcEpFNGg4cTlaeVlnUmxWQmlISkFpaHJFcWRjeWNnSEdIRmhFU1lPMEEyMUVxNFMxMFQtQUplRGwwSnphR3NTVlBzLUlHWkRsaVpTV2k1QVdVTEo1REtyY0l5bA?oc=5"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T10:58:22.197Z",
+  "generatedAt": "2026-09-11T10:56:46.524Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,85 @@
   ],
   "news": [
     {
+      "date": "2026-09-11",
+      "title": "ZDF-Politbarometer Extra zur Wahl in Berlin",
+      "sourceLabel": "ZDFheute",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVC1FeXBMWFUxR0NPQXJ2OXl6R2JNb0NxVU50amJqOFJycW5yai1sRmRLSGxrQkVyRFBLSkhWRXJOVWwzRGgxQng4cFR5Tm0telo5bmktS0tuYXIzdzZhOWVnZmJMalJCemZPS0Q3T0ZaRXN1dkNSZGlOZlI2OWRzRGJZU1g0eXZuTlpxZ3h3M1ZFcnFuVm1ScXlzVUwxaFhZU0RkNg?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "linke",
+      "title": "Politbarometer sieht Linke in Berlin vor CDU und SPD bleibt schwach - ad-hoc-news.de",
+      "sourceLabel": "ad-hoc-news.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZnRZZGlVcFA0azhvakNGVTNSYzhneUM0cUhWbXlrWDdvdWRQak5tdjFvM2pJaVVaTllROFo0bzJhX1dmXzdUSEV0ZVlYektRaXF1QUM1c2dtZk43TXhpalh1enJQMTNRR05JQW9yUF9VZUhqbHpVcTZscmV5Y3BCTktUZ0xoOUgwdEhNWUJGaEM1R3VGcGJvb0pjZERkbzAyWTNISExISkJtMVRyd09YcA?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "cdu",
+      "title": "Umfrage zur Berlin-Wahl: Enges Rennen zwischen Linkspartei und CDU – SPD stürzt ab - T-Online",
+      "sourceLabel": "T-Online",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOb3FfVFN6SFhUUElod20zOGE1NGtoS3M3RWNMaTk4VjZ2Nk9VMko3aEZZU09nQklJLVVHdHhvb1l2aDVoZ1EzR21vNUFRZHZNZDF0VHNKODNncXN4QWVKRHF1cjZQcVBzMi1zS3g2TmJURGhfNjN4S3FhZzFtUHlTaXJmVDVJQk9UemNWWlFEVjB6SXAtUjF5Y21odkdfZGFrN3VUdU1XSmcwZ1pna2ZJT0hsS0ZBZFRqR0hQMGY3R1pMMTNQczAyd0J3ZktXTzFuaE5feUc3cVNUcEUz?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "linke",
+      "title": "Linke führt vor Berliner Abgeordnetenhauswahl",
+      "sourceLabel": "Hasepost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZzlUNE1QcTlqOFlkendhcldjN2l1QzE1TlRMYUFiZzV1Z21YUFF2RzBCbngwWWVYeHhjRWtDNUlvMVRqeklFU3J4VU1XcnZ4Z3Z3N0FfenRhTUNOQlhLT3hmV2M1OGpEQTJMcFB2OE1NTElFQlhiYXRUSnVDeTg?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "ZDF-Politbarometer Extra: Enge Rennen bei anstehenden Wahlen",
+      "sourceLabel": "ZDFheute",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ3c0dVI0dzZ4NU5YZVRiWFlMRmNLVldhcFlBYVZ4cndUc05WRU1OaUNhWXFlV3VVZzFreTR1ZmZka2xMRlpQOWd2Q0V0RGJQeTVZNkJzZ3czQVhOMTFOcmNMYk5TSEtkS0EwRVFJVmRGZGYwUlZqT3dVWjZucWFyajJCdG1aanl6U0p2eXdBZGZTTFRNZlVvaDRxUVljd0ZEUDFfb25ESHdmV2NZcVk1ZmxSVUEyczdIQ0E?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "linke",
+      "title": "Vor der Abgeordnetenhauswahl: Umfrage zur Berlin-Wahl: Linke knapp vor CDU",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2tET3NMUTAwZWNyWXEtMjM3SE9ZNlN6bkhPWXFTVlJiZklyRlRxc0NyeWh2U1c2M3pUeVloQ1E0WHRydEoxdVRwTmluV0xnUElGUXZYV0NGZFZheEpTbmdWOExSb1gxSWNUNTVjeWo0YS1NVnNBMkV1ejhzQkNRU0dxWk0xMDRoSHc?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Abgeordnetenhauswahl - Wagenknecht: „Wir schaffen das auch in Berlin“ - Politik - SZ.de",
+      "sourceLabel": "SZ.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVXlrWC10LUZ6SGJnMVVDbXFTb3VZb1JrS1BQcWdfMjBjbVVGMXdvYUlNcmdsdWpIOGFLSUtadUZWWjRuMy1EMFRHdW1VWjZqZVVtYVpoNWdfMGl6bFYtcXlUN3pjN3laQnZqaVhmWlBOaDJMeXlOSkdvNS1iUkR0RGQ0LW5WQ21tOUl6UFlXbnEwWmhkZURQeTFScTFQYng3Y1F5Q3IxM0h6Z1JLZW1qX1pMRXFEVW5HQU5BSzBpY0pYVWd2elp0dTV5MlZDMWVOXzM0Z1R1ck1GcXRVaDVPVG42NDk?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "partyId": "linke",
+      "title": "Berlin-Wahl: Die Linke führt jetzt in Umfrage vor der CDU",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR1cxd1ZnRnpmdFBTQlZhVGYxTk9pdFlzNlJTcjhaQjFjM1JZSGFVNmRVV2NycEVCbTZoc3JpM2dhYmdQY2pnZ0pFU1BjbU5nd05NWnQwMXdWejZkOW53aXRHbmhvVTNHc3MxN2hyZzBEODdRRDdaanVMeUdvbTNHU2xBT1lzZEZtUU1mRHRFUXB4dDRpc0VDR2FtTU9KN2hXR2dkenlUc2pPR0xCb3c?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Wahl in Berlin: Enges Rennen in der Hauptstadt - Aktuellste Umfragen zur Abgeordnetenhauswahl",
+      "sourceLabel": "Schwarzwälder Bote",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZWEybFpyT285S0NoRjhFMDRjSGdCMlptNmhFSEhGc0o2Z01QeGFoaXNXTy1jYWhvOXlId3lWSkZ4dmh4SzJ4WlRienQ3eHlTNEQzNkg4cElIZHdEbGNsZUkyV1A0c2l6MVJ4c0t0ZUR2M3hIaVZEdE12V1RJQW9yZHlMY1JYbnFWZFg2eWFDTjlEWWZTY1dlWDUxWGFHZzJCOHhORnM5RDdSa05KZ0tiNTlOeHZPaXNnekRMWV9BZ1NGYkZ4TnUxQmtndFRFeW5idjhsN21jelFQbmFPVEROcg?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "partyId": "linke",
+      "title": "+++ Achtung Sperrfrist (Print, Radio und Online): 18.00 Uhr +++ / ARD-Vorwahlumfrage Berlin: Linke und CDU liegen Kopf an Kopf, AfD und Grüne knapp dahinter",
+      "sourceLabel": "Braunschweiger Zeitung",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPaDNJUnpHblVDalk3RWktYWVwWW1LRXg2dDZ6TWhNYTBxNTMwRm9iSkgzYVJsZ1M0M2ItdElqenEwUE11RGEwX1NZS2RQbDh4VzRid3dCZTBydEg5aWU2T1gyQ2gyTlFLUWxrRlFXQ1o4Z2Q4bTVsS2NhR1VpdFRwOHl3d19WU2xtSU96WHdSeV9IZXhmakVjV0NQSnBMNzYtcWtBQTRmMGV3LTRLeDVtSXhTcUl6VUtvWHNfNkVmc1M2SDFfVEFyM2FPeHpmVmJoSnpPTnB4dDQ2MUlYeFNsdXZFMlFOWk9LMHVRUFJUc3R0bXI0bUF4SjVZdG54amNuU0ltbFpzREgyakZRM3JSQ3BFS25PUzdzcnJIZ3U1ajgzTko1UWdzbEptMkJPcmtKWmhHNXBHVUlkdURnRS10MlZ3dzdOWGc?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "partyId": "linke",
+      "title": "Berlin-Umfrage zur Abgeordnetenhauswahl: Linke vorn, CDU 20 Prozent, SPD 12 Prozent",
+      "sourceLabel": "Bad Honnef heute",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQckZaVTJfMjBwTHFzaVhWZWJROW4ydEh0WGxxMDV0U3p2aFYtT3gzNWk1eDdOZGR0dHd2ZnFvUjctQ21tMERPajdPUWFPa0dyc2Q3a2tJbzFPcWxjQUZ5Ny0wb3gzc2N3MXZxUDZNMGxTOWhPZUpuSnBKMzNUUUttNVpuai1oTmNHOFNqbTBfLXNiUVUzM3ZMcnBybDdwWjRjRC1RUVBKMEE?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Abgeordnetenhauswahl am 20. September: Ein Elefant namens Beschuldigung",
+      "sourceLabel": "taz.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5VanN0UllzTnRhT2tNRlRlaWkycjZTcTJ6cklpVVQ3ZjdLUk83TjNqWkl3SE90VTJVbmJkT1FacXhETGlIZmtiWkNrNVg5SjZULTBiTUFMU3lEWEo5RkpsN2tzZlVKV0Zwa2x6UEFR?oc=5"
+    },
+    {
       "date": "2026-09-10",
       "partyId": "spd",
       "title": "Berlin: SPD-Spitzenkandidat Steffen Krach weist Vorwürfe entschieden zurück",
@@ -4554,6 +4633,18 @@
       "title": "Umfragen zur Landtagswahl 2026 in Berlin: Aktuelle Umfrageergebnisse",
       "sourceLabel": "Augsburger Allgemeine",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeEFScHJOVEI2WlRoUExfTXN1QXR1S3QycXJIVDZsalo3bUQtVElQTm9tYVcwa1VTUWRISWl1Q3h0ZW9sMFVTOGZ0dHJiTTItYTNnTENkUjJ3QXQ0dVpRRWxldHpqWGNLNEZfTEZfWTNDWUNxSmVHaUxNUmxBWEFJb04wSGd4ZUU2cEdwUzBxeS1pSk5HbE50OTR6NFRlNFBtV1VNR0NQenJnMTR5Y05DdkYwMGpwWFlqUGc2eHVDbEJhTlU?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Berlin-Wahl 2026: TV-Wahlarena live, Elefantenrunde – alle Zeiten im Überblick",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS2ZoTnRydWNJMzJMX2JqZ25JWnhPdV9DYnRJWmJTYWduNzhzd1ItSG1aN25NNS1YZl9ncDlhallocFprSzFLUndadmZUdnFVcV96Z0VVc3d2azc2RTlZbk9SRTZ2YmM3Q2tUZlBBR05lQXhhVkZVTzRiYUZrUW44ZXBRcFZHei0zWHRpbmFNRWlYdzZxaFlBMndBc1NaZFVfOUVWQU5yb0hjcVpSOXpoMF9B?oc=5"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Berlin-Wahl 2026: Wer darf wählen? Wer kann gewählt werden?",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSnR4dExpYjN0Ymtua1VmLWZQUEVMV3pFLVdWWndkOXJwMi1vN2ExSmZJYURPMmtNU2paZ052YmxvOGwybFRRUVl1YU9WZkhJTHVQLXBWMVpoeUtiZGF5cnBqNk91Q0FZNjdYOWN4cDJENEEyZmpnazZCVjllTXZiRWZRZjhrMnlvLVM2VXAxWFg3SGxqdFV5c2YtY0Z5R0wzakMzS3d2UXRnUEZBR2pJWEljeTFSRFdKWEFR?oc=5"
     },
     {
       "date": "2026-09-08",

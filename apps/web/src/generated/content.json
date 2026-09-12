@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T10:56:46.524Z",
+  "generatedAt": "2026-09-12T10:24:16.603Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,56 @@
   ],
   "news": [
     {
+      "date": "2026-09-12",
+      "title": "Sterndemo in Berlin vor Abgeordnetenhauswahl: Erhebliche Verkehrseinschränkungen in der Innenstadt",
+      "sourceLabel": "Berliner Zeitung",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQzlXQ2QwVklVbXJPYlFRTnhQWmp4VXZUSEhaRHkxX0E0SjFmYUpQbHA5eDdIa2JPRXRpanZBTjZhVjRTWEZVZEt5VTZrSXhKMTQ0VGQ0T0l3YzVhVVZ5cDJDRUFvSktQbWIwSGxSVWVhNTQ1ZlV3Q1gyRHM3bENzanFtZ0FmQXNGVzI5WHd4TGc2ZzEySHRvSlVobkJ4Y2Mxa1BWcnlmRXVjclRMVWF4eUt6cnNQYjh2LTRXQjA0YVByVVNsU3V0V2ZVbENUZXFtNmVlbW1lZmhMZllfZHk0dg?oc=5"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Wahl in Berlin 2026: Termin und Öffnungszeiten der Wahllokale",
+      "sourceLabel": "Augsburger Allgemeine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSVNldk15Y3FDUHZuRHJCMzhxeGVXQXVZMXEzX3c0ajNPbWFJNm0zbHhKNnlSM19vWnFWeTQ4YWgwOEZwOHhmdFlPT1plLWs0UjBwNmlHc0h4S243MldKOHBRX3RPUEZWRjQzVmo4a1RJWnpXcDlyOHB3ZWJ4ZkJRYjNFRjY2dEJqQUdyY01SMlV2di05T3NsQVU5aDB0cFo3YW1JT0RYSjJERkU5X3h5eFc3UW9LdXliVEZBTXZqQi1XTDg5UkFQeg?oc=5"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Wahl zum Abgeordnetenhaus: Briefwahl in der letzten Woche - worauf dabei zu achten ist",
+      "sourceLabel": "DIE ZEIT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUd1SklSSmRadU5jSGVOR1lybHNaOWotVUVDaGxqYjRUY3hqaWR6NnpsY3AzOWhZZTh0TjVQVnUxMTlWb1R2OTk3RlBPRDFnX2l1eHh4WjdRTkI4bGNuNUhNTGNTX1VLNnZxelB5WE9ldU9BYk5JT1k1NG1iT0ZDUi1WYVpoLTBLZVVTNC1PeDJhUUNLSU1ibg?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "cdu",
+      "title": "\"Sollten schneller entscheiden\": Berliner CDU-Spitzenkandidat Evers unzufrieden mit Schwarz-Rot - n-tv.de",
+      "sourceLabel": "n-tv.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdkItZHFhMmtQNWlhQjNlQlBHNXlqLVF5NWVmSWhjeUdvYWhFeElpZllMeG43M1pmVG5kRkdvNkE1ZDNMNFgwVm5nWHk2SUYzMDlaNkUzX2Qzck9YTHBYbDBHNzhCMVQybzVnSGNSMG1HaFRyRHFmRy1Nekh1ZkFMNzh0VVd6WEZxSmlYS1N5T215aElqSnhuSFlGV1lfU183dHpvMkpqLTVFQQ?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Warum das Thema Müll bei der Berlin-Wahl so wichtig ist",
+      "sourceLabel": "web.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQzZkZkxZNFpxS1BMNk1ENXpsNERfQnlhVHRKZ2FYQWppbW1WcC0tTW5YajUycFA4NU00d0txVXhEWHFCNDZIOHZIUXpKaGJOaDJGTDUySGF3azdJUndFbEw1UktualFlTEJtWVRzenI2XzE1djY3SGJmOENWVUIwcGNMTk5LX3hYLUpfLWMzQ0ZBLUZybFp5V0xqWXRldGJycExMTWVsWnB2M1pTYU9xWTBlaHE?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "linke",
+      "title": "Krach: Fühle Unterstützung der Berliner SPD +++ Linke laut Umfrage knapp vor CDU",
+      "sourceLabel": "RND.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZDVDaU96elpfTFpTY1YwQS1fVTVYTFRwX095UjIxQ1UwT3pUdDZYZE1INmlCZ2JtMm1Fa05oWmtzSVZSSzlldFNMT21BcHJ4WDJ3ZlVYM0E5VGpxejR5bWl5dUU5X0J3bDU1VWlqbW5pOU55ZzdFRUdqWFJLakJRUVBNQkFFQlN5T2tjZmVrampWSjRieTBwV1B0cXhhLXZxa253a1FVNE9JWFVzWkZ5dmFzdFFOZFJ6NWNYSUJ1SXluQkR4THlfSTN6UzIzS2M3NnVzNU1SVFNoX1F5UGc?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Abgeordnetenhauswahl 2026 in Berlin: Die wichtigsten Fragen und Antworten im Überblick",
+      "sourceLabel": "RND.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZmhWSkRmVGZHZUV3R2VtdVJQUVpvTnlHUTNRRThRbGFPWkZ3Q1djSGp1YUQ1VWlGQUtnOEs5Y2t3Z1YzYkZObGZ1VGcyWVh4eGlUSndkWEo2dVRzSTBBaEZJMWpPRzJCZlU0ZUMteVRVUnRJZm5RLTl4U21wMmthMDlTWGctMko5NmZFUDdMU0xOTzlDZGI3Wm1XS1hJNzNrYkVMSUxoNDZDeEpiSG5Weko1RU9heDZTXzJV?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Ergebnisse am Montag: U16-Wahl in Berlin – Wo kann heute gewählt werden?",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMDVYSmNpV011c2t0cXhycUthRVBRTkRHbm4yWFJZWEJHU0JZUWJQQWExYi01bU9oNzNDTWxpUGNSRUJ0SDZmNGx5NTRzbVNzOHJPbUpUQm1BdmlHa2YzRDNXT0lrRXhGWkNpTDU2ZXJmMFNOalJvTzh2OGdfc1JXbFowcnE4cko0NXBfa0JwQlYzd1pDYW40RGVSaTF4Y1ZMMUVNNTY3OXNCZlRzZEZ1ZVhSdFFaeE53cDNMM3FlYkF2ZkY2aVI0X0lFdjJNSV8yeFJJVjVBMmRDTTlwVnpkSERWUQ?oc=5"
+    },
+    {
       "date": "2026-09-11",
       "title": "ZDF-Politbarometer Extra zur Wahl in Berlin",
       "sourceLabel": "ZDFheute",
@@ -4471,6 +4521,27 @@
       "title": "Vor der Abgeordnetenhauswahl: Umfrage zur Berlin-Wahl: Linke knapp vor CDU",
       "sourceLabel": "Tagesspiegel",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ2tET3NMUTAwZWNyWXEtMjM3SE9ZNlN6bkhPWXFTVlJiZklyRlRxc0NyeWh2U1c2M3pUeVloQ1E0WHRydEoxdVRwTmluV0xnUElGUXZYV0NGZFZheEpTbmdWOExSb1gxSWNUNTVjeWo0YS1NVnNBMkV1ejhzQkNRU0dxWk0xMDRoSHc?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "partyId": "spd",
+      "title": "Ermittlungen gegen Steffen Krach kurz vor der Berlin-Wahl SPD-Fraktionschef nennt Zeitpunkt „bedenklich“",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSU5TRjlfNFl6OTVrYXYwZklPbHM2Q0pEaHBEOTdyT210VHdJd09wUDByUTFZbk53REVveTRGVHJWbHlCQzJjR1BPVEp1RHB1T2xlTDBJcEk0WW5TeWVyV0dnOUlOejE1YXNnRDJTdDhlUWllVTNZTDF5VGVndEZGZldiV2xjdFR4U013cjNSTi1hUGctOTA4UEFQOU5qeGpTaldUVXJxYlJvaHlETVhtZW8xOEd6Uy1PSk52eHdwQ1hBaGJCWGp4NmtSWnR4VGpSdk4tWmtIeHJmekpfdGhvRnVtUUNUUQ?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "partyId": "linke",
+      "title": "Neue Umfrage vor Berlin-Wahl: Linke zieht an CDU vorbei und liegt in Berlin vorn - n-tv.de",
+      "sourceLabel": "n-tv.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaXpaMFRaU2FOS1dobDd3aTBFUTNuM1NaNmtnRW5iM2tkZGFHQWszYTJ4dnBHVDItMG5KNkxPLURTaVRaRU4tY1hGVmk4X1hUSGE4NkhUQjJ6YzFkWDJXWHVrcVpPY3lVSUppVFZlSzZvZFc2X0p6b3lhTkg4dDlWa1BUSWRjUEVvRzR5U0pQZEV4enJRMUdVVUNn?oc=5"
+    },
+    {
+      "date": "2026-09-10",
+      "partyId": "spd",
+      "title": "Ermittlungen gegen Berliner SPD-Spitzenkandidaten, Krach sagt \"absolute Transparenz\" zu",
+      "sourceLabel": "Deutschlandfunk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQekpsZm9ydGV6bkZzbmxrMUtTQm1jdnpfN2RJZDVPTkl1QVFiTFZ0VzQxTGNWMnYwWnROSnhrVzdqXzJncGdma0RDUXVnNVJLcG9zaG1QazRwX1NTZ1RORFkxZElVeTROaENBRWNQMkc1RlpCS2xJUmRSa3BsMG0zQXFyU05iQ1N1V2dnYXdFaTkxQVRTRDkyX3BXTjlyWEVISG16b0JCRXVPNHprU2c3Wlhab1lHY1lnYldpLXpsb05DZw?oc=5"
     },
     {
       "date": "2026-09-10",
@@ -4550,6 +4621,13 @@
       "title": "Nach Ermittlungen - SPD-Spitzenmann macht weiter Wahlkampf",
       "sourceLabel": "Tageblatt",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS0JmYndMTUs0NWFUOXNJcXFsS1JzSXR0MlMyYTUzUXZ4WE5wcFNPS25TTGZ5TjlpR2lFUEV0Q2U5ck5HQ0FCYkE4SlhfbnVhRzMxLUxwR2FxcVR3YmpLWmJsVzBaSDJxblFhVlR3MHhOOGdheUFvRXVaeEZhc0ZKR0dkdThmSnhTem16LWZvc2xaM2FJVzhLdDhMZU9uVFhjWHV5aXladm0?oc=5"
+    },
+    {
+      "date": "2026-09-09",
+      "partyId": "cdu",
+      "title": "Vor Abgeordnetenhauswahl in Berlin: Enges Umfragerennen von Linkspartei und CDU",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeXRORmU4VnJlOVBsVkMtV2NFZlNBanVIVU1hQ3MtQXZ2ZmNaZENxcHNRd0NVRnIxTE5PTzg1aXE3bzBCWGhJVHFkS29mcTBYYWpVOXVld0RZcWVzZnJwTGltRXNXUy11Wm42STk1M0U4NzRXMFRZTC1KT3lja2xZTzJIM0dsbFBWOGdOVEFmZ05tVUhrejhtU3BJbnZiU3FzbmFmWDVUbTdQZU5Jd1dwdUdtWVJwLXVEMTRJ?oc=5"
     },
     {
       "date": "2026-09-09",

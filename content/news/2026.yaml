@@ -1,5 +1,70 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-10"
+  title: >-
+    Abgeordnetenhauswahl Berlin: Wahlumfrage vom 10.09.2026 von Infratest dimap | Sonntagsfrage #aghw
+  sourceLabel: "dawum.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15ajFhcWJFR2o3cDJwWVpzZ3BmRnM0Y19kNi1KM1dtaXZZaGdxZEtUY2E4VktQUTRzaV9IejJIcUE0ajJNVEFnbFpSUFVPQXoxcUJUUlliRzBTMEZ6OVRvag?oc=5"
+- date: "2026-09-10"
+  partyId: linke
+  title: >-
+    Abgeordnetenhauswahl Berlin: Berliner Linke überholt CDU in neuer Umfrage
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTVd1OVZuXzEwWWFNZnpNQS1TMGNHYzBjVXdKYy1QUTlwUmExLWhYZlhUc08xcXNpNEtwTFEyYjZiVGtHQ2dYSTJYd0tKZ3VuYnRwRHBwNGZCMDU4Wm1rOFNnaTItWjlPVE4yYm9fNmpoVjdfSVJ3Z3hldy1ZMm5ucXVESmhwc3lrLXFKMlI4c2F0VjBGZkNFZG9JZmpYSmltRTNHc241akRvWmNHNGVvcURhRlMtR2hpLU1oLUh0Q2RnTTJSRWExX1JXNjBxWTd6TDVFMkFR?oc=5"
+- date: "2026-09-13"
+  title: >-
+    „Es wäre schön, wenn Chancen gerechter verteilt wären“ Die Wünsche der Berliner an den nächsten Senat
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUlZWNlJiWjl4b2ZwZFpuYjZyOFVRYUR6RUtmUjJ0bmVNZE8zRXlVQVdoRi01Zk1mZ2RES0xYQzVIYlFjUVdTd2p4U010YW1QRU1mSW9MWTVVckM0dERLenlWMHZqZDI3NTJhU056dDh2VlkxRjkwNmhFMXdZLWtZTmNEWmVuQ1dzUHVBOHZzUFRwemRqckxZQzZ5WkVJRnJJYzN4Y1B4d1JLdXJzRWNEVFFjUmxqT1Y5SzYtWHA4YUlJN1kwWGJ5QjJjdk4yYXoxYlpPZnFOVHhQYXM?oc=5"
+- date: "2026-09-13"
+  partyId: afd
+  title: >-
+    Berliner BSW-Spitzenkandidat verteidigt Zusammenarbeit mit AfD in Sachsen-Anhalt
+  sourceLabel: "1und1.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTnZEQU9nb2JwVHAtN1lKbE1BZG9POU0tZE5ZWXJfZ0h4c0s0SFFrUHR0Nm5yYnNZWlBXeDZJSWNEczJiaGJfQXBHZnlSeW5pTmlMRDEtSGtqcllnRS1wR2JiMDctNlV4MGx0ZGRmUVdIYy00Zm9mS3RNT2ZLcm9LWURxQUh4NExNZjc2QTNWdndMWkJXV3RGdmFGWENHMkNhX2ZoN2VaTFNlUExORFFMc3hmdzhsUUF3TUVGRHp2ZnE4N0t5UV9iZkM5NGdJQWF5N0w2U0daa1FDVy1RYWFjc1ZzUmw5UFp5c1R0akhtWTJjQlBRRmVmQjYtaw?oc=5"
+- date: "2026-09-13"
+  title: >-
+    Briefwahl in der letzten Woche noch möglich? Darauf sollten Sie achten
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdDZVZHBvMzF3WklXZkw0N0l0REFQamdjYzd0aDE4RWRqQUFnVFpGQXkybDZZRUxMTjB5dVdTbFFWck9Bd0o0SkR4WUJPOE0zTVZfWHFxdWJ6NmI2SHF4VkhMOEQyOUt2bVlxb0pqVHVnR1kxdTNpYUZRQlpHa0JmbU5uYXlOd3R1SHlQMXFCMFpOUWl4blVrVlUzbmdGRklnb19jSFlmczFWOGJtNjd6VURSQ2xtMHZUOFozckFVRDllaUE?oc=5"
+- date: "2026-09-13"
+  title: >-
+    "Vermieterhetze schafft keinen funktionierenden Wohnungsmarkt" - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWm9VRzd2bnUzak5UaHBGemFDaUl2RGM3VFloV255NHVZNUZBREJIekxQZTZYckRNNmk4Z3ktRUszdnhWR2lYNk5JeDJHMW9LREJVVkNWdkdzZHV3ZlFCWWtPeHVVUmdYS1JDenR0dHZ5QWxkM0ZWZTRmVFNfajlCM3g0SW1MUnRoWGdfS0h2MGVEV3FVbTQ5dHB1SkdvOFNoeWRkUFhaM19kSjVjN2FVUExLbVJoeVRER3lyUFNMVUowMnE0UnJaTmNScFVKeU1iOFpFUnlMYw?oc=5"
+- date: "2026-09-13"
+  title: >-
+    Wahl in Berlin 2026: Termin und Öffnungszeiten der Wahllokale
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYl9Nbl9ZSkdEcUJyYmRfbTlWR3ptcGZVaGFiU1lGWXlJdzlqYktubTJhZXpvalFtRUpuVkhUTWZ4T3NvaWhHQlRDNXR2ZmlwLUd4RVFUeXFYMjF6STFUeXY2YVdqRW5QR1NuQlMtdUdJZXE4YjJRMTB1bkU1S2NnSlVPMTR2YnBMUFoxZThuNDVXbW45MFVBVktvZzFDQTRvbUhaVTRURUNqLVFBbm9Yc0hUTjFQYnp1dlFLMjdoTmRZd0RRYVdXOA?oc=5"
+- date: "2026-09-12"
+  title: >-
+    Zwischen wegweisenden Landtagswahlen: Zehntausende ziehen gegen Rechts durch Berlin - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeTJZTGpMdE1aZTRETlV2aXRnTzdBMklxS1BXWVUxQ0VGMXphZ0g2bm50NTBIazhza3BCdWd0ZklOalgzTlFDQ2M1OGNOVnFTUWdkb29STDV6VDZBVkJjRzdOZlJ3eVRoMTNabWJmMVdzRkNCakcwVG00NUJmeXBWMW04NnRSVGtKQ2VOdFhVVjRLVnpUZ0JkaVA0N1pUWTBfVm9nYkpqVGlqQQ?oc=5"
+- date: "2026-09-12"
+  title: >-
+    Änderungen bei der Berlin-Wahl 2026: So sehen die neuen Wahlzettel aus
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGJZSllJbjBoSFlOY0FPRHZRcXdENWpuVWVBV0NnM0FDUmJnUG9YblRSUDFzekRnbjJ0VUFCSTR2Yk5sZ0FDSmFuWHVHRFU1X0xKVEE1amdqUEl1NV9YU1MwWDdpQVgzRlpFX3l4cWplX0hOZzNSd2FtUTBheEkzTFlmSFNxY1ZRR2psZWxJNVEyOEZ4a2tSWTVlYjB0LVBnc3lHdExCSXNVX0RFTlpRX2xadnNmaWowVkE?oc=5"
+- date: "2026-09-12"
+  partyId: spd
+  title: >-
+    SPD-Spitzenkandidat Krach spricht über die Ermittlungen gegen ihn
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdUxyUF9jcXdlZU1lNU1hcUdqQXhVZXA1bXh1TXZMVW5UdTlPaEU3cnB4QWhfLTFBLUpabklXbnMxXzFTTUFUcU0wYzFjLTk1MzFabGdPRzl4dEJUeGp1MG9KVXhhSklxZTFFR3ZZX0J2Q09rR01mdmlHY1NoelhOMzhqVFVEWHlpT1h4blNaX1g0eTFmS2FGbHlaZE52dFo1OHlLNGwtUVpFTlYxX056QVg5cmdmOFZsVTI3bk53?oc=5"
+- date: "2026-09-12"
+  partyId: linke
+  title: >-
+    Wahl in Berlin: Warum sich Die Linke und CDU einen Zweikampf um das Abgeordnetenhaus liefern
+  sourceLabel: "zdfheute.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV05uX1BlUHl0TkN1NjBfVDR1N3RNSjBmdFV2aERrZVFPNkdoTEtfWU9wRmNSUG9zcWZJTkJ6Vk9LeHJia3p4SFRENncxbVVkUmx0MkZLZWZoekNSUUJNanlxX1VremZZN2NLM0x2aGszclJlLUQ2cnFOUVVYQ1U2OWhUbDhxS1lMWkJ0Z04zZm9xeFo3YmR1MTBrQ1lDVVZFczJ0cGJsaEk4Wl9aRFZPMTZyWUpmUnM?oc=5"
+- date: "2026-09-12"
+  partyId: cdu
+  title: >-
+    „Dort fühlen sich Schwule ​sicherer“: Wie in Brasilien – Berliner CDU‑Kandidat fordert Videoüberwachung zum Schutz Homosexueller
+  sourceLabel: "WELT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMilwJBVV95cUxOSmM4ZF91d0JhQ1ZCQUdLOHFTdjBJSWVhU1BNMWdJS0t2U2llWTczNmh2VUpkUWJQbDIxVTFJMndEUXcwZ05aMDNuWDVNYnZRYURzT3RRLWNYN09uVzlkOW1ISWNYaDFGY1kyZUVVYmw3cEhQME0xVkNjOFNlVjc2VnFiRkp6QVhISnF6NG1LeG1SVkVMS0ZWdm9LNWw0N3JqdU5rVnJGdnFjZktHS19LdGxYOUVQVWRsa2pYd1duWTdCeFRqNG1xUThOUlZVSGh1UnNHOVFUUDNMc01EWlJjWWl5c1ZSRVFsSjNHR3BLWUVnYzNOVWhrbUU5ZnJjTEc3dUJEYzJVNVplbHdHTkU1ZFZmeXlRSWc?oc=5"
 - date: "2026-09-09"
   partyId: cdu
   title: >-

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T11:26:56.302Z",
+  "generatedAt": "2026-09-14T12:19:17.746Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,39 @@
   ],
   "news": [
     {
+      "date": "2026-09-14",
+      "partyId": "bsw",
+      "title": "Abgeordnetenhauswahl: Was will das BSW für Berlin?",
+      "sourceLabel": "rbb24 Inforadio",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYXExQ052OHhQc0VyaU9DU0ZDb05wc1dON29nSklpaHJEX19STHZJODRGOGFSYkhJMmZTWmh2Z3piSWstQzZrUHNYNWk2cEZaczJueWJlemYxWlFNWTZFRzd3X2tNaWxWbHFCM3pVSjBPZmFvaVVTakhVMTNnelc0b3ljWHNqSE80aHNXRG1KT0w5b2h4NlRHVll5RUtva2g2MHJsVW1KNjlsMlFaY1Q4UmRCMUk?oc=5"
+    },
+    {
+      "date": "2026-09-14",
+      "partyId": "afd",
+      "title": "Abgeordnetenhauswahl: Was will die AfD für Berlin?",
+      "sourceLabel": "rbb24 Inforadio",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQanA3NmgwZlVjVEpMdTYyUGR3eXdPSjZMNDRocThOLTRMRGpyVVZjVzdQU0ZBU3pzSU41Yy1FaWdNOXYxYU1nUUFfQzlIdDVia0VpanBSbE1mQTFFcWhiam9NR1JtNUNQa2J1STJzZDVfODFWSE9PcUZxcEcwQ0tndkc3QzlrVFRDTktIWmhhbU5LLUEtLVhtVnBIT1RqQUIwMEhrNEcyQ2tSZWxrb3hmZXhmRGs?oc=5"
+    },
+    {
+      "date": "2026-09-13",
+      "partyId": "cdu",
+      "title": "Berlin-Wahl: Spende auch an CDU und auffallend schnelle Durchsuchung – Neue Details zur Krach-Affäre",
+      "sourceLabel": "WELT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQVpQQVVQaDV6cWhndnFpRTE2dmdGRUl4WWdyWVA5VzQ5VFV4Q29SeDY5LWtaWVBUMEtvZXlzbDkwRFVQT0FTR0JBMVhoS1dZT01jTlE1Vkc1ODZXYjViX0YzMnFDeFZTNDIyOUN2UTBfM3dqbmVuVUV2eGxPYVVyM3ZqZFlnZmxlN2J0R1k5Z2RDdC1Ycm0wcjh6RF9xMDkyWmVhbHR5eFBISGk3WHc0RUM0QXpZd25wQ3V0STlQeVVzUW8xVXhhVGRHcS1HM01xSTAtdjU3clc5TnloWm8wNnBQa2FUa2haZ0Z1VkZvTVg1S2lUUFVOV0hkbFRjbFlLdFE?oc=5"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Die Wahl soll sicher sein – doch Berlin kennt nicht einmal die Zahl seiner Wahlkabinen",
+      "sourceLabel": "Berliner Zeitung",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUXVsYkp6ZVczMFlfREJGeUFaU3o2eUpMNGxVTURBdU8tZjBQSnBaLXlub1hPR1JzenBLTTlHcFRqUmdkUHFMT2J0emJGNkJFVkZjWF82cHh3eXNHSTR0TTJCZjNYTnl5VjBsWmd3THpGaUpYRnBKa1NySUo0MXNVZ2tzR3RDUWNmT2pNLVNRSndMSHg4M1VydVVPWGV1NllPc1ZjdDFFV0o1RV9Mb2dEZll3WVpJQUpTVVM4VDRqejNGWjVsMzcyZlYzaDZ6QQ?oc=5"
+    },
+    {
+      "date": "2026-09-13",
+      "title": "Umfragen zur Wahl 2026 in Berlin: Aktuelle Umfrageergebnisse",
+      "sourceLabel": "Augsburger Allgemeine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONXpQUldRMW9ETTZsdnNvN0RxengtQTFFYVJmQUpUS245X3ozSnROOWI2aWFRb2FSeGE0WkgzbFc0TnlpWVRoRXN5TVBsNDY5NmtGdkpNeDB3NHZLQjk0WWQtZE0teG9lSkZBY0tIWDROVWZ2X3hpSEtIdWpYZjFhLVNJZzhVa2FaSGJCdXZYNlVXaWZ5am00Z1NoMW5rcUF1ZFdobHRKdVVhSHVaMUh3UktQSVJHaUpkc3VkZFE0dUVicXM?oc=5"
+    },
+    {
       "date": "2026-09-13",
       "title": "„Es wäre schön, wenn Chancen gerechter verteilt wären“ Die Wünsche der Berliner an den nächsten Senat",
       "sourceLabel": "Tagesspiegel",
@@ -4462,6 +4495,18 @@
       "title": "Wahl in Berlin 2026: Termin und Öffnungszeiten der Wahllokale",
       "sourceLabel": "Augsburger Allgemeine",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYl9Nbl9ZSkdEcUJyYmRfbTlWR3ptcGZVaGFiU1lGWXlJdzlqYktubTJhZXpvalFtRUpuVkhUTWZ4T3NvaWhHQlRDNXR2ZmlwLUd4RVFUeXFYMjF6STFUeXY2YVdqRW5QR1NuQlMtdUdJZXE4YjJRMTB1bkU1S2NnSlVPMTR2YnBMUFoxZThuNDVXbW45MFVBVktvZzFDQTRvbUhaVTRURUNqLVFBbm9Yc0hUTjFQYnp1dlFLMjdoTmRZd0RRYVdXOA?oc=5"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "(S+) Berlin Abgeordnetenhauswahl 2026: Diese Koalitionen sind möglich",
+      "sourceLabel": "Spiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZ2UwV3V4TDhDNkVDdFRuM2l2ZGdiWlQ0MXQteHBiQzN1TlR6Z1BmcWpETG1Ea0xRVGpiMnlESTVIdTFZUjExSEtVZ2xaYkRTMjBxTEkzZzI2aFZJYVVsbmRkT2hnOUExOW81S1U0SUNDek40TmVZdkYxcEt0SkZEcy0wYUM0dUJQcVZpUjV5ZGZwVTA5U3hHVU5HRk9QLXBQMEdLYVhFaENLOUlhekdBQU50cUNWNzR2MkRobTE2R0N1MzJLc195Z2pnOXI5LVNpMkFWTU1mZ19keGhyZDF3?oc=5"
+    },
+    {
+      "date": "2026-09-12",
+      "title": "Sterndemo in Berlin vor Abgeordnetenhauswahl: Erhebliche Verkehrseinschränkungen in der Innenstadt",
+      "sourceLabel": "ostdeutscheallgemeine.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMGZOM1FRcmJ1Z2QxVmY4MzlJNV9PQWVscEJMNWpTOERRY1BwOE5aX3FyOVpuMXZSVEZWU19UMExhdGF4eE1vb1A3RVozbTIzcXpFTG1lcllFWVBaZnU0c2dKajA2WkxLQ3YxVUIzS2ZZdGxUSksyclctT2R1YXdOSDgzbzJXdG81eGtyNGxjUzloM0E2dUJiQlJuN2FkX0gzbnpkVnZLYVBwZWFMU0gyMlUtUUF1amlJemdQWFhkdU5iU0lmTlhRekk1a1Y1SUgyM3FKUFp1eDhaRnV3S3ZUR0JPSQ?oc=5"
     },
     {
       "date": "2026-09-12",
@@ -4513,6 +4558,13 @@
       "title": "Wahl zum Abgeordnetenhaus: Briefwahl in der letzten Woche - worauf dabei zu achten ist",
       "sourceLabel": "DIE ZEIT",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcUd1SklSSmRadU5jSGVOR1lybHNaOWotVUVDaGxqYjRUY3hqaWR6NnpsY3AzOWhZZTh0TjVQVnUxMTlWb1R2OTk3RlBPRDFnX2l1eHh4WjdRTkI4bGNuNUhNTGNTX1VLNnZxelB5WE9ldU9BYk5JT1k1NG1iT0ZDUi1WYVpoLTBLZVVTNC1PeDJhUUNLSU1ibg?oc=5"
+    },
+    {
+      "date": "2026-09-11",
+      "partyId": "cdu",
+      "title": "Berliner CDU-Spitzenkandidat Evers fordert von Bundesregierung mehr Geschlossenheit",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRUhMcE9vQ1ZoVjlUUVExZFVidWpTa0FvbGZFRTlwci1QSUcyVjdnZno2RjdvQXpvWEc3WmNCeEVXUEVENHNlTTVYTllrR05tdUVWNXc0dVVhVk1OT0F6TjdoWVFfdEtWV3I0RXpwTlNIbW1wbTQ2dkVCRjA3eTN5UnhsaEFfSzRYTWNtXzJGVy1IOWlkeWJhTFhzRWdGX0RQR1ZTVjV4N3Bsa0F4dEVNeEFCVXhPNTgzZWlPalRFa2g?oc=5"
     },
     {
       "date": "2026-09-11",

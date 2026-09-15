@@ -1,5 +1,82 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-15"
+  title: >-
+    Berliner Abgeordnetenhauswahl: Die Spitzenkandidatinnen und -kandidaten - Panorama - SZ.de
+  sourceLabel: "sueddeutsche.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd0h6QmFrTXVobkFHNmZUYkF2UHlYSzgzaXZGczhCVUo2b1FNNUVxcFRKc2tCeEtHcWp3LWtQOXZaNHcyR3F2YlVkd2o0WDhfbHhFejZnVnBVQm9KOTZ1UXJNV0Z1V2lvR1hrT1RmdFd6TThuVWdZUlBqMmY0MkMyWWRCVUF1djF3V3MtQ0hJbm1pRVJ3OUFrQkc0QTJ2Y183MU13T3NOa1RIbWpSS1loVF9BVm1haFZv?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Berlin Wahl 2026: Würde die Linkspartei Elif Eralp regieren lassen?
+  sourceLabel: "FAZ"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTF9yVXRHWklqaWVfb0pmQzJGSDk3VE1BaE1hbDM4M3ZNeUxDWXdjb213WVk0WUdXZUYyOFpuMGJad3BJYUxobmlkTV9PWmYwTGtmeDJIR0Jia1FsRktHMTZqUEpKajRxZWc1U1JXTzRaRFdYTENsYVk5RDc3ZHByaEdwNmh4T194UjNUZjVKc0I5M19CaVFBVTlVdFAzdi1xMDdISXBBeXQyNjFSN0JjbGNPN0hYNFJoTDlMVVJOcnpKeEY3N1B6SjFtcmptOHVvcUhF?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Berlin-Wahl 2026: Kopf-an-Kopf-Rennen in Umfrage vor Abgeordnetenhauswahl
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbXRGUWVCMU5WQldwUTRnWHpBV2YzWDVJbXVnZTNwc2EycFR1eUtGN1VXb1JPQnktSzRjb2tXVnEzRHZCZjVxUFpSVDB3QWZFMlAzWGEwaS02SllaYks1dWNRQm9MZFp0X0trLXRtUmJ2RVNlOHNzR3kwczY0UEI1Yi1GS2Zndno0WlVkNXFpelVUdmplMEthRU82SF9tZGpNWnBBVzZhUld3MGxfNnFwQ2swZHdia1djeUFnWDV0YnFWNFV1MUlz?oc=5"
+- date: "2026-09-15"
+  partyId: linke
+  title: >-
+    Berlin-Wahl 2026: Wahl: Spannung auch in Bezirken durch Linke und AfD
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZGFwY2N4Q3JjN2JGMklhaUtpOFZuRXQyemtLVTMzWWJqX0hYV0FXekpLR2lwbF91MWU5akJkS1NlQ3Z2T196eS1iVHpYTFNCQThXWlEzOHZaT1ZncmtvLW5ZVzNzbnBSUVMyWnktU2lBdlJxekhTY25vTHB2R3h4aUgxejJIb2FZbTZ2NkF0aw?oc=5"
+- date: "2026-09-15"
+  partyId: linke
+  title: >-
+    Berlin-Wahl: Die Linke führt jetzt in Umfrage vor der CDU
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMmlaLXYtS2xJSnRnNGwwWXM4S2lYMk5DYTJqMUFiTHhKemEyMS1JUHMtUlllNGNpdTNzal9aV05IVUxMNGVYdXRJTTBVYkNib08yWkplbUxCSk5wQklMcWhXRGVNSzBMXzRJYThYSWtXalNRRHdITUE0N2thZ2tPNzdqb1BlTzVUU3k0V0N1TXgxNHVwaXBlTUs2RlJPQWhka29WUjJKQkVHRkNx?oc=5"
+- date: "2026-09-15"
+  partyId: linke
+  title: >-
+    Abgeordnetenhauswahl: Was will Die Linke für Berlin?
+  sourceLabel: "rbb24 Inforadio"
+  sourceUrl: "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZW1MeGZQel9OS0tOQTNCWndic2ZRdWdaNGZSUmRqMEhOR1JjZ09OUjlGa1M1eXZlQ1A4UnM4UzNlVktuYkdwcVpDOGdkNjJvTmd6eHZJbjRiR0NtUVVFaml5WmJESnpkWjl3Zl9VSzF4YVNHZTQyM241WHlNd2JlWjJqWXdNYkdxUXJQM3MzMWFvMF85Sk5tZElSYWlleGlDcGVlbnFUT1R4TU5hcU9lZXpmYVl4VTN5UmdTVQ?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Wahl in Berlin 2026: Termin und Öffnungszeiten der Wahllokale
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONW9kSzR1ZUx0aG1TSXpsbUsxWHRlSlY2SzBQZkxUWmVNalVINmRDa1BKbWw5dDktX3c3ckljY3NPRWF1ZHdZZ3h5VVhuTzJBamx6QjA2T3hjSGtla19ucWY0dGloZ0txdXhWeThxREhTWlNqRXZOTHNRUXp3OW9FRm1fMjk2QmR3STNDU1Uza1lpZ1hiYnVqY1hUNUJIaDhsanc5VWtKcDB1MkFkQ2JFYUhHeW81MFl3TWNEQlR5ZXJfVHNiX3dWdA?oc=5"
+- date: "2026-09-14"
+  partyId: cdu
+  title: >-
+    Abgeordnetenhauswahl in Berlin: CDU und Linkspartei in neuer Umfrage gleichauf
+  sourceLabel: "afp.com"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93bXJTSjBONkg2X3lSX0ZpRktULWY5M29tRkpicWN5c19hUnlpYlBoQ2NSZkFkNkZrZ0kzZ253c1pIUndmMl9zaGJZaw?oc=5"
+- date: "2026-09-14"
+  partyId: cdu
+  title: >-
+    Abgeordnetenhauswahl in Berlin: CDU und Linkspartei in neuer Umfrage gleichauf
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc3JnNmhKUnBOeTI4a0tQZmVBYzVnQnBPbTI5ZXA5UmV4a2llRFM5eFhsSnpNTHlENmR5alc0RW1xSnZKSERNLWlwQUQxUmVJM3pCNUZUOV91SHNtSC0zUG5FSFQ4OGhkSUJaRTVHYzhOdlRsb1VJeW5aaFVPYmV4RUJ2dndQQkl5X0RaWUt6Q0hldnU2VkptLVcyekh1QTVKVjl0V2RTNWFKd2xRbTdZUzFyN19YZlVJeXc?oc=5"
+- date: "2026-09-14"
+  partyId: linke
+  title: >-
+    Linke will Berlin mit einem Fünf-Punkte-Plan verändern
+  sourceLabel: "WEB.DE"
+  sourceUrl: "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUmI5MUFIZk5yeTJ6cDh5bVNaMjZPakZIN0pYaHpKZVVBOTBBRjNzVkxpSUhFSmJFMTZGaU5NMGFsWVhydmdWZW5Td1RfVERBYWlBay1oYnN2aDJPZkNTRTBhSnExVEhBdVJ0YWJ5b2hGdGlQQTZyM0VDb1hrbVhjZ0ZfUVZPX01tRlRFZmt6aWFMYS1wX21GaWZZM3FxQWRLR2x0enVUbjdkX1o2M2VGMG5NT0hLellhTGd0eEdHenRkQWxwdnp3?oc=5"
+- date: "2026-09-14"
+  title: >-
+    Vor Wahl zum Abgeordnetenhaus: Pistorius unterstützt Giffey im Wahlkampf
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGZzUk00eHFxeFB2NmllY01jcW9SdkVBdWNvcWU3clNCTW9DSjB6VWNvWEN0OHhyMUU2SHVETXJvakMxeE5yUTRUTEZEa2JreEYya0NFZGFESmJIY293WFJ3bjJsMzlwUGhHTU1nYlpzVkVRSU9qd0M1U0tuSU5aSjRVUU8?oc=5"
+- date: "2026-09-14"
+  title: >-
+    Abgeordnetenhauswahl – Das will Elif Eralp am ersten Tag umsetzen - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirwFBVV95cUxOejRsMjlmaUU1TDR5U2N3YWpjRnZ0LTlOOHR0YzM2WGJ0eUtLcG1UUG5SYkpoMFo4VkpoRFBDUlRmQWtBMThVNnNIU3UzdU5UNnU4b3VsNGFwWlNKaGNqMzY3d2VRZUFXaFliWUh1Q21nR1RIbjJ2eS1ZckN3NGx1bTVqX3kweFRwQVMzM0VtaWhjbEpmUEI0eUZiRXVMZzU1ZmNETUNlM0ZWLTNfdGNB?oc=5"
+- date: "2026-09-14"
+  title: >-
+    Erste U16-Wahl in Berlin: Diese Partei dominiert bei Kindern und Jugendlichen - berlin.t-online.de
+  sourceLabel: "berlin.t-online.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQTZQSlJNcFJDT0RReHVVaDE4cnFWeUMtSUF3eHNGSXpCZXQ1cEp2c3U3YklTYy1aU3Q4OEtxc3J6VEU5OHBSUVVyeGRlY1VtWHh5U3ZZSm5nZ0k4OE9NcGJQRGxvcS1UenNyVnFWYkhja2pyd2NVMEN0aUNxTWFLZFhsUE9hNndtSExyUmF3UDhYekQzQW1zTFpBckZaWDJyYS1hUzhnb2VfVmcxZ08w?oc=5"
+- date: "2026-09-14"
+  partyId: linke
+  title: >-
+    Kinder und Jugendliche wählen: Erste U16-Wahl in Berlin: Linke vor Grünen und SPD
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMijwFBVV95cUxORldhSmFueGd1ZlFjaVhTbG9PYzNhd1U1QUROSENEZGJjenZUc3M4am5NZkpKeEExdW5nLTJtbkJrQ1pvS0RreW1QN0pFYTBBdmhZbWZZSjh1UkRtSWZhc3Y1VVYwZjRxdUhRYzhiOFNYSGpHXzV1RlV3emFLTGc3MFk1ci1CSDRYY1R5TWNWTQ?oc=5"
 - date: "2026-09-13"
   partyId: cdu
   title: >-

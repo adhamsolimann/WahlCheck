@@ -1,5 +1,113 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-16"
+  partyId: cdu
+  title: >-
+    Vor Abgeordnetenhauswahl in Berlin: Angriffe auf Wahlstände von CDU und AfD
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUmpIRlg0dWRTQmY3cDRkUTFWUWhzZC1QUGxZbTltY2FkT2RUZndXU0ZnVkVlajVybFVyZF9ra2dDYkxWQUFXQjBkMzR3VnpKMENhQWs0NkREWnBYZHJjNW1GVF96SFdjMUJPd200TmlqSUt3UlJRRGpqWDJiT1VRd01wR0gxSTBDdkMyQzZIbjBCSWhyZFUtR2JBckpma1M4YVZNeERZRWR0RDJKZ0g5NDVrTjM4X1E?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Wahlprogramme - Abgeordnetenhauswahl Berlin: Was die Parteien zum Luftverkehr fordern
+  sourceLabel: "airliners.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUzJ4MU9aUWFRVXNOZTZsajFiM01LYVNxV0xCNjZLek1RYmphbjV6dXhWQVRkUlkzdktRWW41aGZUcjIwbXZhbFZxRGdYZER3eW5FWmRmUUlHazlzZ3V4cnVzM0w2TVJJVTk4aEFGa09obC1FT0JQd1Fmb2pJVFFZcm5SYV80UQ?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Wahl zum Abgeordnetenhaus: Sie glaubt daran, dass sich in Berlin was ändern lässt - Meinung - SZ.de
+  sourceLabel: "SZ.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMW1JWXlDUkJHQzM0TkJ6QkFYbERjV3dTRUljVG4wencwN3MyOWxITW5Xd0I2QXhPZ18tQ3h6ZE5KTHV5S0tSRWc2SzI3TDY4Qk13REtCa19KZ3BkUXlsbGVadXZHbVJuZTVIbE0xTV9FOUV5Tm1xTU9TOXNvaTNKRGpwUQ?oc=5"
+- date: "2026-09-16"
+  partyId: bsw
+  title: >-
+    Berlin-Wahl 2026: Eralp schließt Koalition mit BSW aus
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbktlTl8zbzBxOEVZbWg1V044MXhtWWVzYldobGk0MTliV2IzMEk3MWlPN21RSVk1Z3l4bUxqVFIxQ2s3QnQ4YUlSMGc1NjJpV3RIOWlBLUZMdWtKbTlPQlI3WU9XOVVKMGRhb3FWUFZrTDAyYk1tWVFjTzlKenNGcXl0ei1ndVhFbU1TMUZIeVZRUml2T0ExYjlyMXAwVHpKeTNR?oc=5"
+- date: "2026-09-16"
+  partyId: linke
+  title: >-
+    Hauptstadt: Wahl in Berlin: Linke Eralp schließt Koalition mit BSW aus
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaVJaYXlRLU1VcnZ2c3FMZDhSVTZoYnpMUnY1YjZpRDExQ2JJUG1jNTVVcTJ3Y3ZQc01BU2Z1c3Q2TmRSdHBLWTNrcEFpLWJmNTlBNEktZF9aWnRnVnlNOG9aZjJheU8wbmROVkR6R1R6MTdYLTBBNGlYRDJVcHRXaHRDblZCN3JhUnRocjBBanozM2tGTFRIWkVB?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Abgeordnetenhauswahl am 20. September: Die doppelte Bürde des Stefan E.
+  sourceLabel: "taz.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMibkFVX3lxTE91aUJnakw1cmVGdzBPdEEzVzRMbG1ScXM0aVJScnBmcFU5VnNPSWdMR3dIOER2T0gtWWZaYTVod0xhTmdveDNvSXFMemQxRmZ5TUVZbl9OUHRDWXlsMld6OUI4SDRVbUtYeE11VEtR?oc=5"
+- date: "2026-09-16"
+  partyId: spd
+  title: >-
+    Abgeordnetenhauswahl: Was will die SPD für Berlin?
+  sourceLabel: "rbb24 Inforadio"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiswFBVV95cUxOX1o2bTU2OG9NS014VWdOMjVlRXpLT2hXdGQyTk80Znd6U09zNEw3VjNucXVCRFNsMXExUW5Wanlpd3g2andGM2NHZmZfNTNkSmgwMFYtMGRqTzMtSXZ2TFNZWGFRS0F0YnlfOWVNR1lmVlFQNFF0UFdIcHVaRUVQek9NSU5aWG5PYUNxXzRqLTZoX1lrLUdzTkkxTDYyOGo0ektSeE9FMjREdFVMTGJhRWJiQQ?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Umfragen zur Wahl 2026 in Berlin: Aktuelle Umfrageergebnisse
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV25JLWhmNGFvc1ZXMUM3aXk4QTVvbDI0Yk00cjVKSWdMMmh2amI4SE1TU3VhWGlrVFhLYTBqUjhmd2pjNWlWc1dTb2JsRjNKajQ0dnRLMHFVMTc0d2FBM3NucFFCMElOQi0xMVQxQzcxWXE3Zmc0R0gtNzdYX214N1VNVVhsa3lwT3lyT3BLSlJlOVpIdTNvb0JDX0xRUlZPU2MxM1JrWVFDa1ZWN3piRERidExyaU1nTW5CUEhnOEtPUEE?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Wahl in Berlin 2026: Die Wahlergebnisse im Überblick
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOUQyMnhyUUI3VGlCM2VJNUk3RkUzUlRSU0ZmSnd5ZGRnWEpfR1A0aVY4SHUzOWtqXzJTdWZKcHcybjFmaXFIRWhwX2VUYjIya1hiaDZuVkt5NGNBSFlOdnBCR2RraVBGZ0tvS3lpZFZVYVZTX0ZHb2JNbTg5Znl6WjNWa0ZuQmxRR3hVM1FsU2lFT2hGZHhidFlJRkFZV3pzS3hKN1Bvb1BuMEE5MWYwNENWci0xUmROOEw5RzEzSnFaMFk2OUxRSGdRSHJRU2F6dUpCLXJSR0hsVTBZdVZNNGlKVko0QQ?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Spitzenkandidaten für Abgeordnetenhauswahl in Berlin stellen sich Bürgerfragen
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMivAFBVV95cUxORy1LbVJNcUtPcWJfVW9IdE9IOTJJOWt4OUFneWx6bThJU3NhNlRQTGM2YkRJR2NZWWlJVkRFaTZuc1JTd21mSXBWcUhoZ0g4bnJGNGMwQ0M2V1Zkc3E3Wjd2TXZWWldDMUtfZFNEZnhhU2hYY3hSSnczc3ltNDN2N0w0OXFFQzhLLWRlSllrVVZNRzV3NzVqdlVGNmZnbHJwVE1xTXZZdWtvR0hnZVktUUJHci11S1BSSFQ5UA?oc=5"
+- date: "2026-09-15"
+  partyId: linke
+  title: >-
+    Linken-Kandidatin zur Berlin-Wahl: Wie Elif Eralp um das Rote Rathaus kämpft
+  sourceLabel: "tagesschau.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY3NSbU80YTc3dktWTm4yZUU5VEI5WmxwbHhVSm5aY0ZYeThFeTV1MnowZjRuMFFLaWx5NjViSHk1OHdUZGU0bF9zTXVsRGRqaU1MbDVMTHJXR2lHZE5DdTRnSFJ4N3ZOUDdjS0dLQkZDZXBJVjRsZVprSFdJUTg5QW5VWHJsdlBvcDJ5RWJsYmdKb2lkaXRUdFplWQ?oc=5"
+- date: "2026-09-15"
+  title: >-
+    „Bislang keine Hinweise auf eine Gefährdung“
+  sourceLabel: "taz.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mVjhqUU1XM3FjcC1pT1llOEc0YkRrVU1BNjlUYmlUUWs4TC1Za1pqTGlHNGI5UnJWejZXb3lLdkx3RU4wYkdWT1lWTE5mQk9qQUNSaVkxMXZTUEtnREU1UXNJYTE2Nm8?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Abgeordnetenhauswahl – Kreuzchen unter Druck - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV1NNRFJCZVluZE5LRnRlRnREbXdRNmJnZDVLZGtrOEhCS1F1bXE4OGEwX0psOFdNSm51WnNXS19ZVC14Y2Vnc05OUk1OckZXM3N1Mmlja3dCVV96M0JnSEFUQ01aUGoyV0VnalRkYVdwa0Y0YWRpR1dfNC1RTXZmZ25kTjdHbmNzOXhaaWlzLW9Kbk0?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Trotz aller Probleme: Berlin wächst und boomt
+  sourceLabel: "WEB.DE"
+  sourceUrl: "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZV9NOFRaUnQ1bVhzLXFiWExuWWJOS0VwTmJielFpUlFTaUxaU2hFb2xQRGp5RURMTk1wR3MwSHFMTnFpNUo0dnM4d0FiUDQzTktvUFR2NnFjeS1DdnM5NjRsM2xHbTlUTUF4M2k2eHFRQ0NxZFJ3b1VhR2JEd1RSMHoxSnZqYTh2ZWJkaFJCRzNkZFQ4c0FDWGFMRUo4dGFfTGhDVmFTRUhLQVB0cmg3bFVFZkFtVGpKMEdmU2Z5MA?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Wahl-O-Mat Berlin: Hier den Test zur Abgeordnetenhauswahl machen
+  sourceLabel: "RND.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeWFSdk1EdVVoVUl2emxac09EM0wwRjhpZ1lybmpEak5fRkV0d3pfcXJiaFpXS3haRjlNcGlNZUdtSExwa2lqcFg1bGNGWWFuM3R3UGdrQnRPTTVZOXhERnNyc282RHI2amtvNEQ5alJLbTFMQjFYbExreXRDbC1hQVltbkdfZWVlTnFINFAzazJ6dnkxcHVsYk9tSzYtZS15ZzBwZFdhWGt6aWpx?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Berliner Abgeordnetenhauswahl: Die Spitzenkandidatinnen und -kandidaten
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOUNCSmxzQ1N3LVlsd0g5d2VKczllb1NJc0htUVRyUHo1bUVHZXN0dF82QVpjNTY3NC1mOWlKaVdmVlV1dF93LWN1bVdlX0ZLV1BFZ0pYVWxMRDZTUHNUUGZManE5NkprT2IzeFRvYzQzQm40eldHRUZlRmFQTDhZMzlVWFAxZVlTVjV6QXlicDRkVENSdWoxQ2pMeDhnQ0t5bG1SUnZ0S2x1cWw1OWhaTl9FQ21NYWZDdnNmOEZvbjQ?oc=5"
+- date: "2026-09-14"
+  partyId: cdu
+  title: >-
+    Abgeordnetenhauswahl in Berlin: CDU und Linkspartei in neuer Umfrage gleichauf
+  sourceLabel: "afp.com"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aaU1OTC1IdU1uWjVCbmVyQWlBbHNsdElERnpsa0JJazZ4a1ZZLTJDc0YyYTZMc3A3V3dtVVFtcnpDVVh4STJVV0dhNA?oc=5"
+- date: "2026-09-14"
+  title: >-
+    Entscheidung an der Spree: Alle Daten zur Wahl in Berlin - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMifkFVX3lxTE1UektDN2Z2OEpxTHZ4a0F2N2Nrb2RwRHBXYlh4cFBsdWFaYVMxQXNpNTZnMWdEUGprWG1ma1pVNUtQcUZJS1NaY1Y2dC1hTkhRNlRBU1RQVm12RzZlTU5hRmNjTE1GamJBX1RvVWtIbU1VMTZPMmVITm5iRFk5Zw?oc=5"
+- date: "2026-09-14"
+  partyId: cdu
+  title: >-
+    Abgeordnetenhauswahl in Berlin: CDU und Linkspartei in neuer Umfrage gleichauf
+  sourceLabel: "afp.com"
+  sourceUrl: "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdUVRVkcwS3UzUW9zRll5dlZqQjIwbUwteVVvaWpIY29xZ1NxRWtsRksyRjFXZUpJZi1PWWJnVkQzSjlsci1HZVhkdFY5MnowSmE1RFAtNTJoaDlKbFg4MHg5c2JyZXdHcm8yMVJqWmZoTXF6SkdCSkg1RW5aSTVvckVTNlpKc0hOcmk0ZmJmTmZrU2EyLW02U3Z3?oc=5"
+- date: "2026-09-14"
+  partyId: linke
+  title: >-
+    Linke will Berlin mit einem Fünf-Punkte-Plan verändern
+  sourceLabel: "GMX"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2I3Vk1hVWpHYlBqUXBKVDBfWV9TZXdxUDJycHBjTjVtUk95N0R1dTNybWdISmQ3UDhKd1JRVlVPT00wb1FLY3ctN3hLQUY4dWx5TVViNm91OG5TeWF5ZXVGOHRRaU5PNWNOc1RCUkVoUlgtV2NQdWt3emZHQjdQM21LTWp0WTREejl3NURlZmxiNFp6cHc3TWJlY0x2OTRwbGdLT0dTczVjaVFEUmJBMTY3aG5mdlRHMTh5SzhKMC1uZTBCcWtaZEZoMWlJUQ?oc=5"
 - date: "2026-09-15"
   title: >-
     Berliner Abgeordnetenhauswahl: Die Spitzenkandidatinnen und -kandidaten - Panorama - SZ.de

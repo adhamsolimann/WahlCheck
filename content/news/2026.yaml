@@ -1,6 +1,86 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
 - date: "2026-09-16"
+  title: >-
+    Berlin Wahl 2026: Warum migrantische Wähler seltener ihre Stimme abgeben
+  sourceLabel: "FAZ"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUGNYWXc4eGFERkRSUzUxSTB1TU1GM1NBQ2M5YmxfaTd0bUpmR0o5TUFXYXJ3cnpQMndqOEQ0amNyaU1HbXNPOTJIdlV3MU1uTEUwQ2lFZTd4cVJBOTFXUTJZcDVIejdwaFlkNnl1X0YzM0lCWkJha3VPUVFtQm1YdzQ0Z0xyRVJiMXRvelhZYXRERFlqRFlZYkt2Mi1SU2FpV2hZV3BNYmluTDZrVzM2Q3gtN0xkclh4UVRDSnZCZ09KSl9rcFhGMzZiZURlWjRRa1d5Yg?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Wahl in Berlin: Schubsende Radfahrer und Handy-Würfe – Polizei ermittelt wegen drei Angriffen auf Wahlkämpfer
+  sourceLabel: "WELT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMikwJBVV95cUxQRXFRR1c0ZDY4MVNEajd4UkNxdmRtN1dJWGhaVFQyQWd2NmV2WDItelFqeXJ3MDl3TUpUY3lqZHA2cGZpdklTVXQ1aThDLTFzTW9lUkQ5cFBCaXFSTEI1S1huZDN4eVhYSm45c1ItN3JWT1ZWNGthTWxZbDk3enhfS0xiNXAxNW00YVVONlpieXpBUGdKZVd5TGZkTkpXWkpQT0ZNLXBDNThnUG0tR2ZmamhYMU1vY1JXOVpRdzl2bmZKRUdtZkNnZHRKRWZZeEo4dG9uVlg3emYyLThvV2FSeEhoRkZoWF9xZnd6QmE3WDdOV3oyNlZFbU5uVm9TYVB2QTFjUFQyT09rVmVULWt0dG5qUQ?oc=5"
+- date: "2026-09-16"
+  partyId: cdu
+  title: >-
+    Abgeordnetenhauswahl Berlin: Wahlkämpfer von Berliner AfD und CDU an drei Ständen angegriffen
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSjRVOHpPNnJkRVI3bkFJQXUwSWgyR0F3cEhha3lNN19DeFpZcVZsdXNXUzZUdk1EMnNaNHE3U0FOVUZCZlBVXzk2bkkxYnBrdlBtbVJNZVZBVmx2MzRDbWszSmxadHUxRVhVNWI1YUlyOGRhcF9sVFN6NFV1ZjNWMmZiR2JJdEZYSlVkUWVSRVd3Zw?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Abgeordnetenhauswahl am Sonntag: Die tragische Gestalt des Wahlkampfs
+  sourceLabel: "taz.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PVUtIaEc5YkFjSVF5RTMxVGFkVVA2aHYtNU4zZVQ1VXViTm0wcGdCMUx2R1VSWHo4SHJ2VDVhWF9QLXRqeElLZDlxcVJ2c3pDU09sZi1iVFY0WVI3VWhTeWx5V1o2Zms?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Berlin-Wahl: Stimmzettel richtig ausfüllen – so funktioniert es - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizgFBVV95cUxQclU5a1pNNkZJc0lEcEd1NVJGdE5tU21pc0h3WGdoYWpMWGZVZzM5LUxhbC1CcWlpbEJKV0x4SDhaejRaREZyajdwcnlUSjdiOWs0cUR4dEdUcFl5LWdaUWlrazFDY2g2UXN1c3lrOHZRaF9ZcUJvUTNqVHVRZlFWb3hiVURaWGQzWlB0S3lDdkI2SUdLSTF1c1lfMFhCd2dkVmZxMkswc2F3eUx0ODd0UGhGeEdnOXRmdk5IVGhMN2Vld21lc0VUamk1cFA0dw?oc=5"
+- date: "2026-09-16"
+  partyId: afd
+  title: >-
+    Wahl in Berlin: AfD legt deutlich zu – wer ist Spitzenkandidatin Brinker? - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQbFV2Tk5MYTIyekJfUFJ5Slp3blFNOGtZUFRndnVWWS1DWlJCMzhZTEJHYUh3VnY1LXh0SzVEaF8yalU4R1J1YnhnZ1otaU54UldaMVJWSGhJNG5uaDlHampwTjJNdEw1U2lkbUhsN0NLVHhoVUtVUFhxeUJLcmNqb1FBel9Nc2JVc2lSLWpNQ2M3SWFRbFFKWW4wRWhmMUtKUE9mb1lQcE1QQ001aGhQdm1pWDgtV3dGNk9vbjUzaEZTcGpoNVhXbEJjWEJPMnAxTWt0VkNKYlJqNXZxQUE?oc=5"
+- date: "2026-09-16"
+  title: >-
+    Wahl zum Abgeordnetenhaus: Sie glaubt daran, dass sich in Berlin was ändern lässt - Politik - SZ.de
+  sourceLabel: "SZ.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX3ljM1R1WGZITkVvOVZvMVozaEpLQTRHYTJ5M2p1VHNMdm9SU1ZjX1RYc3JQdndpQ1ZjZS1BRG1DZW9lS2Y3YnhTLW5WdzlZeVpPLTFTQ2JuNkxodWZyeVBkVmhWV201NGJnSThNVjFURXRTY1R1VzM0LU5yYXRpeTZxTQ?oc=5"
+- date: "2026-09-15"
+  partyId: linke
+  title: >-
+    Neue Umfrage zur Berlin-Wahl: CDU und Linke führen gleichauf – BSW bei fünf Prozent
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbWFfS3JCNXkzdnJURGxlV2xYUHo0eGxnelBaTVV3QjNUd25FTDIwM29MbmRSRkphOFMtM0VKekl3MUY2Z3hSUmlfTjBHclJSdWFMTU1XUmkxQlNCbmIyOXp3OURsX0lIbFpGVDFRTUVQUVFnXzR3TTM3YmhSVFVVcUpwZlJ5Y2l1SHpGS3FJcHlqUjJIZHlhdXAxempSWl9YWXVZTFFzOF9zTnNtMkpxN3lNN0NuZFY1VWxmb3FzcVQ2X21UVGxTWUNB?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Kopf-an-Kopf-Rennen in Umfrage vor Berlin-Wahl
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiugFBVV95cUxNc25kRFFNRHRqbVRnZm9tZ0MzeG9PZWFZVGFNNjZnMlVVUXNya1AzVWRLcW5FRy1DbHZZWjgzdDlSaDhOS080VktTUGo4aTlJZVdSZFVab051RDFuSmRaa3Y1TXZUazN1NEpBc0NiQ0tNZl8xeEk2NkpNQnkzS243Y2I0V1c5M202bEtON3N5b2tzYUpIZkJ6ZkFGYy1oSHkyZDhnejZlaHY1TEFPTlBwcjBpOTdibWM3dmc?oc=5"
+- date: "2026-09-15"
+  title: >-
+    Umfragen zur Wahl 2026 in Berlin: Aktuelle Umfrageergebnisse
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObUlWVlhVdi16Y25lS2FZNk9INER5QmU4RDlPeGNDUjI1dlBETVNwbE0zaEgwZEpHYzI5TkF4Und2dEVIdXB0bDdUbk5aOVpIZE13Y3pEeXpfV3pWMy1rd2JJQ1RDV2JrUHRLVV9PMGlXNm5hMnZoSl9VUlZhUnZ6SXdvWnF5dDVFMTVGUW9IczdXbGZQN2taNk5lZjEwM2QxSkhQYkt1TVRkQ3A3eW9OQ1RSTFA1RVFESGxSWDJlMDROWTA?oc=5"
+- date: "2026-09-17"
+  partyId: linke
+  title: >-
+    Berlin-Wahl: Linke und CDU sind in aktueller Umfrage gleichauf
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWE1tbGU0MUJyZUlwOHBFNC0ydk5JcURXRUdVMHRfTXZUNEJ2T2JBd1R3UGQtOWtVSF9RYTdFbUpJQVBZQ2JCRmhsM1V2Q1lvYXBlV25ZV3Bwanh1RkVkTlhmbnZIZHhLZXo1LVlTZ0V3QlRPRnhHbDh2bl94QzM0ZUY2dkJkamtMQjdjQ2Z6Y0M3ZDFLTzR4UkMzWXZDNkZvUGUyTEhWOGVlcUZ0NHFEeWFOc1hrUG5L?oc=5"
+- date: "2026-09-17"
+  partyId: linke
+  title: >-
+    Abgeordnetenhauswahl Berlin: Die Spitzenkandidaten von AfD, Linke &amp; Co. bei der Wahl in der Hauptstadt
+  sourceLabel: "MOZ.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRzNzNi02clNoXzNaVjNkaUFwR2xubC1jTHJjLTF1U0JXY3hpQ3NyZHdxTEkzWl9JYUFDYU51T0czalpoM1lMaVhUMFdHSEQ5cmQ1cjVBajFoUGFsbmRGd0FVWm0yVHlLZWpVMGdmcjQzbVhoVkctamRFRlNOTEhTclpUTjRMazRxaTlXSWRDdlZWejhENy0xNUFWaG5XWU95YWx1ZWRFTGdZZGxveU1mSTgyYU5iYzhwSGFXbzhjMVlEZWFKYTRya1REMm9NV1JaYXFUOE9uZVAycl9MRURIbUhrNWpiNVpTOUE?oc=5"
+- date: "2026-09-17"
+  title: >-
+    „Eigentlich müssten wir alle nicht wählen gehen!“: So ist die Stimmung in Weißensee
+  sourceLabel: "Berliner Zeitung"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVEtRRUxRc0hRZzIzc3BsWWRsRXF3RGE1bHJ1WGFwVEt1YzI4b0piS09hUThFYzI2ZllPYXM5RnJPdUdiQXUyUWF3SkF4dWlxNTlGbU9yaVMwY216NUh1TER6b01OMGJZa19oSllHankwclhPOU93bi1EZi1HQ3lraFQ3bWlPZ0R4WHZMWkFXMVp3MVRPYnkxVEtEMVZ0ZkZyNmNWQlB3bk5OcjRSRUROTzdCYUsydTZubXBIQVN2S2d5am1mRzZwbUNzQQ?oc=5"
+- date: "2026-09-17"
+  title: >-
+    Wahl in Berlin: Wer gewinnt die Hauptstadt? - Aktuellste Umfragen zur Abgeordnetenhauswahl
+  sourceLabel: "Schwarzwälder Bote"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVVlXd1BPZTJaZVRFdXQ5WEhsSnl5U1A2LURlano4aEpFUWZZY19kWWEzdlNzTEdfa2RvdVhSVXFMdnBoNFdYcTVZRmxGYU8ybVg3ZEM0V0lPVXFlQ3pzZFRTcXFfWkt0TXgtSE5ScjBXVXN1RGFDT09yOFViOHNCWmdOcFhkYWsxYmdna1E3TUozRE5mQ2tjYUZUbXhkbXRRdU9yU0tka1podkZVTU95bmhwV3diMVU2UnNFNFZYTnRHRTZLLVh1UlZuZjlrX2MwRVA4U25HU2ItQ2c?oc=5"
+- date: "2026-09-17"
+  title: >-
+    Umfragen zur Wahl 2026 in Berlin: Aktuelle Umfrageergebnisse
+  sourceLabel: "Augsburger Allgemeine"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmRBeFhONzkxd1o5cUFyTnU5SXcwQVRMMjVYb2JUWHBLc1lneHN1SjZfZ29nRkFla0h0UWszUWx3eXBMQi1mRDBQUVo3amJHblhjWXY0MFplX1JtWk0tNExDN3BmZmtCcGhjbFBhY0pMT2NFRWMzbkpTVzdnaVV5OUlRQVdqQkl5aS10YmxZc3ZQZ0xBRm80Y1gySUdzSnZDR2xTTlp3WTVhdW9xckZCNGoyTmJ2Skw1QVk3b0UtNGptUWM?oc=5"
+- date: "2026-09-16"
   partyId: cdu
   title: >-
     Vor Abgeordnetenhauswahl in Berlin: Angriffe auf Wahlstände von CDU und AfD

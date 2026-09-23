@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T11:16:44.282Z",
+  "generatedAt": "2026-09-23T11:09:46.659Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,101 @@
   ],
   "news": [
     {
+      "date": "2026-09-23",
+      "partyId": "gruene",
+      "title": "Nach Abgeordnetenhauswahl: Grüne fordern Urabstimmung über Senatsmitglieder",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRVJmMEJrWXBwcXRUWVJuYV9taG1JNTNXNGhKazExeDBkTUF6NDB3TGlrbnQtcE1fc2ZHaWtlSVRieEcyaXh5Sl9iaEpUVTlYQWVqd2hsdlhxeVZDRDI5SVJBNGdDbnAyRXZJT180TjRiaDlPcU1HVzJfM1dvRXBNWENNU1liVk1qeWtSRk4wUU1lbmVYalJRNkl1WC14dm9JVnRzaDNoTy0tU1p5S1JocEV4YlZnTGJ1dV9rbnoxMlJ3aDZWU0wtOGRqVzVUTFlTd01XMFlXTkxQOTc4eGcwZ1Z3OElXb3BH?oc=5"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Stimmen werden in Steglitz-Zehlendorf neu ausgezählt: Diese Wahlkreise sind betroffen - berliner-zeitung.de",
+      "sourceLabel": "berliner-zeitung.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVhWaTBtU2pkR0duVjBHbmg3dTlPUFJKcWFRalVBV3FBQ3dkVElsajFTc0x1aHNSREdSLWZsbFlYUEcxMjRfMmNnb3dPX01ad2h2WEYyWlNRMlJHZDZSWUlqalByMjFGQTNOUWItVHZjUmtrdkZZdnhrYmxyVHZrXzlJNVY2dlhFbEoxR2p1cDgwT2hfTVVfSlJtbUFSYlJ3ZG9ESw?oc=5"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Newsblog zur Berlin-Wahl: Ergebnisse aus fünf Wahllokalen werden teils neu ausgezählt",
+      "sourceLabel": "tagesspiegel.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa1R5NkgzRElYTXF4c04xakJuNjBBWFg5Sk03M3dlcmtPeWZCdjUtcTR2RGpSeFlfQjFpN2g3d2FUUDZERmMtckcybFlEeXNqMENaWjJzZ3Z2YnhEdzRGTmNtS1F0V3VvR3RRRVl1U1paa3ZSWUExTTZTQktxUGF1aFpYUC1JVUFnaldUQXpIMFhpQW1wUVVSWUdsRUFibnc0RGl5TVlCUnpIWUI2SS1zbjd5RVNCTHhUa3lDeGFsTHZWN0txSEQ5NDQ2Q2JhT3AyeGhKNFRaWHBLZw?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "afd",
+      "title": "AfD in Berlin: Das sind die AfD-Abgeordneten im Berliner Abgeordnetenhaus",
+      "sourceLabel": "DIE ZEIT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORy16ZENNWDUzekFZdGJ5em4xNUg4S2lvOFRJSjhlR09Wb0ViYWxxelhUQkZhM0R4S1BuYTdxRFBSMTFuQm1XengwMnBINmN5UGlVaFZ1ZTZtNER4ZWwyNXpra3hWVEVnd250eF95TDNVRGZuUDVTZU1qbUM4VzBHOE5RMkwzRDBOWk40bUxXLU5GZWY1RzZoQWpqZTh3U3NHSkg0?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "linke",
+      "title": "Abgeordnetenhauswahl: Zentralrat: Linke-Regierung bedroht jüdisches Leben Berlins",
+      "sourceLabel": "tagesspiegel.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObkduSkJ2TXdZeE82Z2gtT0FLMDM1U3BaTnVCTXlfX2lfek1zcVo1NGV3NFVzbjJXZ2NlX0FpSHJtWHJwQ0pFRE9XZ1l5TU1idGw4dTc1SVBvVklGVHhRdm1VTGktaDNBc1N2bGJUc0V4Umw5WlNDRF9wNk1UQ1lUU1RKMzRCbzlUYzBBQnMwc0J6M0ZyYkRKQ2dOWUpkOXJzTXZCTzFwRWRfZklqODFYWmNQVWVCMnE1aGZfUkZSeEJOQ0gtSmN3ZTFsZ0s?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "linke",
+      "title": "Abgeordnetenhauswahl: Zentralrat: Linke-Regierung bedroht jüdisches Leben Berlins",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPenVVd1NfOENFN1QzQXg0ZEFGOXFEMXNRU0Z0VmxuNWlHN0lDRU1WeURRVHJjeDZRYkxjQVgzQ1lsVlpWSnpvUS1wMkw4YWwtRGZ4U2g4cGhENGZZV2VFTEprZ3lYeUJiLXVZMGpqOGlKRFk0ZjFybkIzR2lyeHk0TnV6elB4eGlhbWtsWDBCZ1hxNnU1QzJOc2NmV3ZlZnVSTnlhcnZ4TXZ3aXNJMHF6YzhKaVFIRXpBUWVKa1JBNU1TMWFpcndMbUpXUjJIZlNoUEthT2ZtZ3JLT0stVDYzenduTW9qOW94YW5wNkFLVQ?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "afd",
+      "title": "Nach Abgeordnetenhauswahl: Brinker bleibt Berlins AfD-Fraktionsvorsitzende",
+      "sourceLabel": "tagesspiegel.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXNvQlNTRVc4dmxwYnJDZGxJcmNmTUpUZTF3UlVBcThBTXR5Mnhlbk1TQjAwM1NtNFQ5RGtiQzNBeWtKTGJUVjN6bkZENVdNMzhXT1UxVjF1SnZWb0szenJjYXpWNVFpR1Y0YjlubTZIaEVhYXdoXzZZbzJBTG1BdDgtOXJhSlVlNGttVEZLYldULVdKeC0wdXBKZ1gzTFh5TzVOY1J0dmRLWXFKLVNpSmxjT0hrTUJYbzRaMVNfSG1Nclc3?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "afd",
+      "title": "Nach Abgeordnetenhauswahl - Brinker bleibt Berlins AfD-Fraktionsvorsitzende - Politik - SZ.de",
+      "sourceLabel": "SZ.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQelhlUVFNTFlpWVkyZGw2dENaTy1RVGRLNmxPb0hZLW1kekpyMmdSckhzbVJDbVVVVmVCRVYwYnNpTlM4aC1LTURVSmprMWlrRjAyWDk2bUs1YV9qcHZtd1ZvdXFtejd3WWc4T3NsdnNwSEdmOFJxY2xjbEs1eTF4WlFiZy1jSjByQ0RZeDZjNGIxMTZvc2tVdktYR3BHcnhjWFMweFJnNXBtOUlxOEFrWjV1MUV5THlQRURVWVZnQTM2cFVjdWZvYnFKVmFxSjN3Nmo3S0VvbWYyX0ZuS1ppZjRqSkN4RlFQZTRnVk9tT0Q?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "gruene",
+      "title": "Nach Abgeordnetenhauswahl: Unmut und Rücktrittsforderungen bei Berliner Grünen",
+      "sourceLabel": "tagesspiegel.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOanFMOWx1LUw1RFlXZlRNRlBlcnBWOFB4dzZCN2Z1RUhTc0V1RzlaZFJKdGotQUdOYVVoNVVpbVVTMUM3Q2t1OF96YTNITmE0c2RuZmFmUlE2SEFiVUdfdWg1TTlpTWpVQW1EeTNHb2NZb21LRzlSZW5hdE42VmhlWmRiOU1jWE5Mbmo2MzFoWC13c2R1Z1VFQWxTLXp1R2luMk5IOHVKY3ZVd1BmXzhoWXB2MExaRi1EX3FJclRqRWN1Smw4TWttQnp3?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "gruene",
+      "title": "Nach Abgeordnetenhauswahl: Unmut und Rücktrittsforderungen bei Berliner Grünen",
+      "sourceLabel": "DIE ZEIT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaHQ0cGtDS09PX3BMVEd1RkJkeTEydFZpdlRGNVZBRDZIdDNzZFBTNkM1LUtuZ1FZSGlSY0NCcVVVaGZtUWVVaFprQ21CMnNWZTZnZWxJcEQxaDBwMEZLVEJXLTI5eFBTaV8xcG8taWxsNmI3YkVqWFRmSVpJWnhMUnQyVHBJWElCaDNONmlUV1NXbDQ?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "linke",
+      "title": "Abgeordnetenhauswahl: Besorgnis in Brandenburg nach Linke-Sieg bei Berliner Wahl",
+      "sourceLabel": "Volksstimme",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORnFEQnc1bHhxcU1zOW9TVmU0WnkxNU5vdHZZUDFwSTduUTRveUpJUkVGX1VNaEpSMjduUkg3SGMxbnB4RElTcndkSFFRaVd1Yk9kOTZ4cWxkUzN1MkZ1QnlMVW5yUFJkTVdRRlVIVmtxcUdrVF9XVk9Tb01YR1l4QVNIQU9UYkpyQ283akZOckVGb0toMS1iekhCNFk1cjJITVY5bw?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "spd",
+      "title": "Nach der Wahl in Berlin: Nach Wahldebakel: Diskussion um Konsequenzen in der SPD",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWVJxTkhXRF9UNEVrTW9UN01qZkpKbDJDbmpScXJMTlNucHk0aWZoM0VQcGQ1d3E0a21sUzN5SE1BczJvTjdiOElRUjV3Z0lUa0FqNmo2aVIxT1lWUUdaWExLZVZ4a1lsY3VqYlp6S2dUVmFnS1E3djFQUnJ6VHdMRGFObmlMX2hwRlF3ekVCeGVjbFlzU2Z4bmtoempMdERhVVZaUVB3MHhyZXZpT1Zna3lnZmNMVDdnbHp0MXdJVjdZbUhvNWx4Q1FqT3BBYkN5RVpTZUtmLXVJclo0ZDNOakxDTzRhRFdhTWh4OA?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Abgeordnetenhauswahl – Verbände und Initiativen hoffen auf politischen Wechsel in Berlin - nd-aktuell.de",
+      "sourceLabel": "nd-aktuell.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTzcyREZVRFMtYzE1UTN0SGdsWW55SXdZel9pUzN0S3RfVjhFd1JoZ3ZTMWhIRnRldUFhckNlbWhVZS1nZU9qS0k3Q3hTSmhBWEtHbEltVHo1TFI3eG44eVVieE9CSzlVT0hvQTNXWl8zWG4yWmw4NV9RTHhyWnBVLWwxSVoxMFhIZG9mZmpHeHZxLTdQS0NoMEVzbVVlcHRldVkwdGh2V214Z2tKVEVfdzExQXJVaUhhcXVuLWNid3hzaFlSdWJXX3paSkhPTFE?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "spd",
+      "title": "Früherer SPD-Bürgermeister Wowereit kritisiert Enteignungspläne und Umgang mit Antisemitismus",
+      "sourceLabel": "Deutschlandfunk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbTRlaVQxLTVLbDJ4SG00YUhKdXRwSk9vNElCeU94U05YVXR4ZUdSZEJ1TkdpMW5TcnUybjc5ZUdpblV0Mml6MkhMQUVHWmRPRFVCOFdxcE5jb3duQkhESWFsNkVrSmgxZ0ZSNEZMb2RmWFoySkZfY3NBM2dhUFpfQk1GejZOYU94cEhmbE5Welo4UkxpeEp6VHRfOHM4NEpxWV9LRGRpQjdiUGdKQ0VpSXdVU2VFQWxmV3RoLUJIN3Z0UkFMalZuakhHc25reUZOakE?oc=5"
+    },
+    {
       "date": "2026-09-22",
       "partyId": "linke",
       "title": "Nach Wahl in Berlin: Özdemir: Linke muss Antisemiten notfalls rauswerfen",
@@ -4502,6 +4597,13 @@
       "title": "Regierungsbildung in Berlin: Grüne Jugend spricht sich für Bündnis mit Linkspartei aus",
       "sourceLabel": "DIE ZEIT",
       "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObXp2QnRJSGZRZGJaYUItbTRacS1IdU4wT1JBWWJwZVJpbXBsdFZVejdZQ2R3TGQwcFVTZjR3bEVGX0NQcmlwMDdKM2J6cGtMS0VCY0Y1Q2FfeWd3Y2IwNnRsRTNTazNheGhYOWpIV0FUV3VZaWFpejRRZ2pkTU1jaGlnZi1CSHJCYzRZaXdFSVFEX1QwLUp6ajVrV0ZuZ2otYlpyaExzY1JhOGVuVnB5TW4xV1Y?oc=5"
+    },
+    {
+      "date": "2026-09-21",
+      "partyId": "linke",
+      "title": "Berlin: Über 40% der unter 25-Jährigen hat die Linke gewählt",
+      "sourceLabel": "taz.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVlJ5Z2M2cmRfakZpUFBSVk9oaTNQX0wtcXFLR2VMS0IzVFdZSll0Y2lVNlM1aXlnZHlFOVFvNEYwTzYyTmd1VHM3XzhYc1ZVdEltZm1UN3MtZUQyaEl5RkF0dmlyM0Rub3hJYmVwY3BxbzNFZXRtQUp0aWtxdzd1TWx4MVhfM1NCUzI0WWlBZw?oc=5"
     },
     {
       "date": "2026-09-21",
@@ -4800,6 +4902,26 @@
       "title": "Linke gewinnt Abgeordnetenhauswahl in Berlin deutlich vor CDU",
       "sourceLabel": "stern.de",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ3VoNUw3ZnV5dE1qRUR3ZldscHlEOGw2T0RTd0RnV2ZCblppYm1oVGdqdzgxelhVSGdXVEFiZEI3S2VCWnRxRENZbTNNZktfdUtrTkFMSDhBLVo0ZmhkVlVDeWpxb0JJN2plX2tCRXRZOFV0ZEc3c1pyNE9uZERnWXQ2anRSQV9nR1ZVTlJ5Mk45MFJYTTB3ME9rTXVPUmhFaHpF?oc=5"
+    },
+    {
+      "date": "2026-09-20",
+      "partyId": "gruene",
+      "title": "Grüne-Ergebnisse und -Grafiken zur Abgeordnetenhauswahl in Berlin",
+      "sourceLabel": "tagesschau.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OZUhkTGc3TVhpWU15dlVlTnRpejRaOW5qVjlzdW5BeXhZdGVjNUhkV0ItNzhpY21vakd5aTZHNlpRYWJzNDB1R3BKdVJIRG5aeWw3Qk5EbE9wbEF5NWhqejItNHVnSXR6RXM3US1zVkw2OFpq?oc=5"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "Wahl in Berlin: Wer ist Elif Eralp?",
+      "sourceLabel": "DIE ZEIT",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG84WFk3ZmJGVkpuRmd6SGM3ZHZwTnJZUXo2N3JoVkFXay04eVYtMlVNcW9HRXRhVkx2VGttM2M1bDZMcVB2RGF0SWZnVjlGV2sydkMwdVVVdjJoeFpSVTh4bXhLczVrRmNOZURrd0RtYmFsdmVKRFhuV0p6a1JsenFDNVV4TzRlTUtpSE1tNktfWGRwTFB2aUN0RQ?oc=5"
+    },
+    {
+      "date": "2026-09-20",
+      "partyId": "linke",
+      "title": "Wahl zum Abgeordnetenhaus: Prognose: Linke liegt in Berlin deutlich vor CDU - SPD abgeschlagen - n-tv.de",
+      "sourceLabel": "n-tv.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQXdnd2VRQnJwTnNrVEp0eFVYaFFRbUlRSjFxV0YtNlVLUjd4UzFsZTByLVpqaGV1WS15QkpvY1VOMnM2aGNzN004Q3kxZkxQMFo0NEtVanNtQjE1alQ2R1ZPZ2c0dDdGSDl1QVctbGZZUTZaM0g1bnZiWF9IbmVTZ3Q5WHNua1lIc2RIRVI0NXVOX2cyVFBhd0pXbS0ybVpZRGd1UU5kSEtlM2Z0?oc=5"
     },
     {
       "date": "2026-09-20",

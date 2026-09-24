@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T11:09:46.659Z",
+  "generatedAt": "2026-09-24T11:26:12.298Z",
   "parties": [
     {
       "id": "afd",
@@ -4433,6 +4433,33 @@
   ],
   "news": [
     {
+      "date": "2026-09-24",
+      "partyId": "linke",
+      "title": "Berliner Abgeordnetenhauswahl Grünen-Chefin will Garantien von Linken-Wahlsiegerin Eralp",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQWVHMzlBQlpYR3VzYVFWTzZrd1RGTTNxdjZ5NG5SNU9peFFHYmlvclNqTmNrdXRnLXo3YzdtR29Pd1A5b2JseXJIRkVnN0lCWS1PRUtqV3lsRWdybHI3MWNRZE5WaDVOaW53NzhmMHVIcWEwdEdnem10Um4zTHlVLXYzUFNUNk1JbUs2MEY1aWIxRHNrV0RkQU1QazJrXzJUVE9XdnpIdjJxUldTU3RWZlFBODI3cU5VaGF5em03ZG5FTGNIbURXZFFIbGRUQ0x3MkNBT2tEOG4?oc=5"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Ein Shoah-Überlebender sorgt sich um Berlin – Rabbiner Teichtal: „Jetzt ist die Zeit für Taten“",
+      "sourceLabel": "Berliner Zeitung",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTk1yVU5UQUZ5TXZvWExSd0NnQ090enNNbzNzYjlXdDZleVFRenAwWUNQVGVVWGczQ2RmVUt4T29HQmxrSEhQazJIdnNNbENYM2loTm5pNXJwc1BIME1ReEc0NDFOdUVGUEdJU0hrOHhicUlOY0pDcjVhVTIxRVAxX0ZfS0NtMy1VbWdTOE9Eem1yUVlfVVE?oc=5"
+    },
+    {
+      "date": "2026-09-23",
+      "partyId": "linke",
+      "title": "Newsblog zur Berlin-Wahl Erstes Treffen zwischen Linken und Grünen in „guter Atmosphäre“",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcHJVZmNXZktLVUdyMHBZQmNmUnA0Z3FqWl9VcHFxZnlMT2lTN253akJUNlg0WHY0b25namxZSmhLS1A3M1FZaEd5dENYUDhaYmxsU2RSdlVBem4tYi1FQVpTSTFyeWNUWlZwWkNCTUU0NnpDamUxMkt3ZFFPams0bmJEVkpvd1F0QWxYdzdzdmY5ZUFaOVRJeVpMM2lWUjlRczFMNXFKSzNQcTJXbnYyNVUxS0JzamlXRHFWUmxlS0NvUDc2UDRSTnN2cWQ4RFlxbXBNZ2ZYRDFrNnBi?oc=5"
+    },
+    {
+      "date": "2026-09-23",
+      "partyId": "gruene",
+      "title": "Nach Abgeordnetenhauswahl: Grüne in Berlin-Mitte fordern Urabstimmung",
+      "sourceLabel": "taz.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mMHpkTGlfQmNybDc1QkxyWVNuT2pFY01Qb1VnV2JrLXNraTZvYnEyQVB4a2xkNVpVTnp0Y2U4Z2FYZkVudzQxRENvZnhYRHBlMGp2LVczUlo0VmJxTXY4?oc=5"
+    },
+    {
       "date": "2026-09-23",
       "partyId": "gruene",
       "title": "Nach Abgeordnetenhauswahl: Grüne fordern Urabstimmung über Senatsmitglieder",
@@ -4450,6 +4477,27 @@
       "title": "Newsblog zur Berlin-Wahl: Ergebnisse aus fünf Wahllokalen werden teils neu ausgezählt",
       "sourceLabel": "tagesspiegel.de",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa1R5NkgzRElYTXF4c04xakJuNjBBWFg5Sk03M3dlcmtPeWZCdjUtcTR2RGpSeFlfQjFpN2g3d2FUUDZERmMtckcybFlEeXNqMENaWjJzZ3Z2YnhEdzRGTmNtS1F0V3VvR3RRRVl1U1paa3ZSWUExTTZTQktxUGF1aFpYUC1JVUFnaldUQXpIMFhpQW1wUVVSWUdsRUFibnc0RGl5TVlCUnpIWUI2SS1zbjd5RVNCTHhUa3lDeGFsTHZWN0txSEQ5NDQ2Q2JhT3AyeGhKNFRaWHBLZw?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "spd",
+      "title": "Nach \"Zäsur\" bei der Wahl: Einflussreicher Berliner SPD-Fraktionsvorsitzender Saleh tritt zurück - n-tv.de",
+      "sourceLabel": "n-tv.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMWlZTXo3c0VJTnhIT3FEZUM0cTZoQXF4cERxX1daRGI4MnlYRHJxdWRmUnV0VFVobTliRzRkMlR1MGRIQzRFWWZjR1FyZXhpeHVvWmR3SEMyY1BIZ2pIazhhN0lvM213aEM4dmp4NG1tVEQyMWMwZ1hxX2Z2T0pxWGtPMjdVdEpXS2xyeFpmcDRQamc5SUpZQ0EtUWlWWVBsU3lDNy1SUmhEc2NMWWNfdnFsbkM?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "linke",
+      "title": "Jung, wenig erfahren und umstritten: Das ist die zweite Reihe der Linken",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUzN0MlFKNEFJcWdMdzBJNWFGQjJEQ2pXQ2ZlNkpKaTltSVBuNnRQUXJGZk04cnhQeFFkU1dQdzNNazdDYkxvVmlPdlpDTmxzOHBqaVR0Q25nODZFQjJVYTc1MGFmWDRzVTFyRG02SkpXbzZUZ3M0bzVka0Ixd2RCNENXbk9EU1JlLVhDUTc0QkIwenRNWUE5TTNRb3BKOWw5bGpZREMzZnJtQWd4Um9RYmVzb0wxeWtqdTZUamhONEpiQlU?oc=5"
+    },
+    {
+      "date": "2026-09-22",
+      "partyId": "linke",
+      "title": "Abgeordnetenhauswahl: Besorgnis in Brandenburg nach Linke-Sieg bei Berliner Wahl",
+      "sourceLabel": "STERN.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMms4S0tCdmhzV0hCbmd3RWZ3SWw5bUtXRXN0VmVoOGJZUzBHSjNwQmxfaWZmQXgwMU9zMlQzV0JIM2NPYzJrMmlkMUJ4TUVQNDlqaFA3TjVnUnFjS1FKVVA1V1dBUnVOMzlmYy1YUm5GTlJjZ1B6RU1xN0RhLXRfSTlwaklWZTJNbDNOa0dURnJLLVdWNnNSMzhKOV80X0lHbjJFTDhNeHc3Ym1SYUphSzhvUlp5NzUydDdMZUJBZnluNVdhNWZ0cmNLbVRKRnlFMlNxdmdra3JURjYtWWp2VjlyTWFNNmZlNVNKTg?oc=5"
     },
     {
       "date": "2026-09-22",

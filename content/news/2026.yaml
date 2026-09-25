@@ -1,6 +1,57 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
 - date: "2026-09-23"
+  title: >-
+    Wahlen in Berlin und Mecklenburg-Vorpommern
+  sourceLabel: "bpb.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbXZMcUhid2FPdmZ4WHpZRF93WXI4RVYwU1pmcmRwSTlYRmw3YlkyandVY2FRaEhORU9sUWlQUlBkLWUwT3AtVWxZUzBVeldDWmprMndjcUlRalBTRHR3cE8wZlRJY2kyeWNEU3AxaE4zU0hvNktSeWxmZ3ZOYWZHbXJ0Ujl5OFVfUk8zdl9rTWhROTEwdWlGWkZzOVV5ZWVadk54c3hKeHM?oc=5"
+- date: "2026-09-22"
+  title: >-
+    Berlin: Wahlanalyse: Wer von der hohen Wahlbeteiligung in Berlin profitierte
+  sourceLabel: "tagesschau.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdTRnd280R1ZKUnJidlItQzV5VkVkS19peFItNXFzZnkxOTVUTFFlSzlId2ItakdVWXdnTGprVURCMjR6VlFiTkkxbHZka1Z0T05MRzRtcDNwQjVWLU1JenQ2a0FVTjJ3Vl9uNFc5VXIyQ28wd0FnbFNBNVAtb3ZNczNhSmZHWE9MZ08xNWQxYUd1YWRQS1Q5ZXNXWUlyaFZBQTJ5anNfU0VOT25aSlRHX0ZkcWVuWjIyNVRyQ25DRGpjOTl4RzVBaw?oc=5"
+- date: "2026-09-24"
+  title: >-
+    Nach der Abgeordnetenhauswahl: Juso-Chef wirbt für rot-grün-rote Koalition in Berlin
+  sourceLabel: "tagesspiegel.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPek52X2JTZHlsd2NIdENOcXJRaWRZclZCbExjSTNVWm5NaHhUQUhLQTRpQkpuSlFhRU5DekJWQURvbmtybkQyMnJVcTRxYmJEQUdGQTF0LUhLR0pDNHBNb1dZMHRKS3dOY1hGWkpMX3lFT1I5WmNsdVpHMkFCejhqNmI2dHd4LW9XLWQ3a0lvT2ppTGJFZVFLR0ZMbUVvdldQaGNRN3V2YVhSdnBIYTlMcldZU29VWm8zb0V2RzA2Q0wwWk52NVJVODBHQUhLM1BnMFE?oc=5"
+- date: "2026-09-24"
+  partyId: cdu
+  title: >-
+    Nach Berlin-Wahl: Evers zu neuem CDU-Fraktionschef gewählt
+  sourceLabel: "stern.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMioAFBVV95cUxNamdUQ21DRm5uRlBLTnNobkZsRUFyYi05a2dCOVNoR2c2cnJhcVUxYnVZeHhZekszUGF1Tkh5TWwtVTRoUGI5dTNKTVYyRElEZl9vM2E1UGo3LXAwX2czYVhJOVVma1ItZS1wTzg3V0dZZ0hPM0swWU5kLWhrdzBvQ1N5OFI4b3g1RXROSkU2WXhvQng2VjB6NVI2WF9zMDdv?oc=5"
+- date: "2026-09-24"
+  partyId: cdu
+  title: >-
+    Nach der Wahl in Berlin - Berliner CDU-Fraktion wählt Evers an die Spitze - Politik - SZ.de
+  sourceLabel: "SZ.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOLUhtMWFJMWxid0sxS01KZjlOUVJBS24wckVxeF9RVklWUjVMeE5HakV0Z1k2VkRGMU82TXUwZFVFclZIZDNHQXFQb2VWNlJuZ1ZBZnNDMFBaNFBqN3dSUVhQWng5dW5zNU40YW1hZFQ3TkZtME4zVVUzRDZuaFdBMjVVTG5MeDVyU2NzYVVEVXcyUzFhLThkVTkzY0gzZkg1Ym15MjhhcDkwMTN0NUYyTktOYmhrdlNBVXVDeWU3V211akFDbWFPSnpYa296eXpPbWk1RnVCVXdsMXZEaWl3YU5yMUxuU2ppMUFVNnQ0Yw?oc=5"
+- date: "2026-09-24"
+  partyId: linke
+  title: >-
+    Berlin: SPD und Grüne vor Sondierungsgesprächen mit Linke?
+  sourceLabel: "ZDFheute"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjVfOTd6Q3V6Z2E5RlJQTThqTjVCcENkY0E0eFJBajU3SXNGb0g2TFdVcVYyWUUtWXRVMzVIWXhDM1k3SU8wSGhDeldlVUswUkJtdE55amFRbUdHRzh0bVZJUkFYeE5uVEs5bGRYcGtfWndMNUNXM0dmTGZQYWkwTk41TnJiWHNJaVhvVFFybUxiTVZKODZBc0NmVzNFelktWUdBbGFuZVU?oc=5"
+- date: "2026-09-24"
+  partyId: spd
+  title: >-
+    Abgeordnetenhauswahl – SPD Berlin am Boden - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMDA5azAtcC0wOXJhNEhwdl9Ud1YwcWVNbk1WU25wVUltazNHdUhma2xzeEhMdmlLUHNGUkxmaEVTYXFfV0xjZTBRV2hGeTZ1bmpCN1M5bjBISDI0b0FoRldob2VtSFo4SUVBenpUZkdSb3FVQ0YwT3JzclFncEYxQUhFRVpvdnpyVzdfSXpseDI?oc=5"
+- date: "2026-09-24"
+  partyId: linke
+  title: >-
+    Berliner Abgeordnetenhauswahl Woidke warnt vor „Sicherheitsrisiko“ mit der Berliner Linken
+  sourceLabel: "tagesspiegel.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQU2YyS0VtazdYeUZNQ0V6MmU1bkpXOGpxUlVvbml2YjhVT2lGZzFaQm41NjI0ZmlHWHJMRUI0Q3ZPX0wwNUs1QkZzbFBfcUtZVzQ1MEZGODR2NjdzZXFtTFlhN3o4Rk0xSlJpVEF5S3E5ZjA0Yzlsd0xNNERTNzhSZm9EYlBzQURvS3RBNlN6Tm9QTTkwYm9nU0IzaHZBalZfSGFiblZ0a3Z6MWNROERRU2N1N1p3VVFuSWgtdUpmRTRhWGtwYUlPYjFwUkE5R25TWGx2UzlWbW4?oc=5"
+- date: "2026-09-25"
+  partyId: linke
+  title: >-
+    „Die Berliner haben sich für eine linke Politik entschieden“ SPD-Vize Kiziltepe für rot-rot-grüne Regierung
+  sourceLabel: "tagesspiegel.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ1J0czBFYVRXamwyT1pSZ1hPUXB3a1U2S0xESlR2OGlxem5ULWJ6OVNnVS1ucnJoUlo2bUd3R0NyUGhGOE8ycXlrNTFUXzZkT0luQU9yNTZwZjhLU1B2Y2tQOHJwNFVWZnFuZFpoNGF5bmdNMkpIZ0VrVkpmdFhvRDdyNll1T09rMzJvT3R2MVh0UFdjZXpEWTZXMEdMalhHM1gwblh3RTFYSEJGeGVFV0JUUU1tMndhUHZxeDdfaEQzYmd3OHdHRW16Z0k?oc=5"
+- date: "2026-09-23"
   partyId: linke
   title: >-
     Newsblog zur Berlin-Wahl Erstes Treffen zwischen Linken und Grünen in „guter Atmosphäre“

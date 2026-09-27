@@ -1,5 +1,22 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-27"
+  title: >-
+    Mit 16 schon wählen: Was war ihre Stimme den Berliner Parteien wert?
+  sourceLabel: "Berliner Zeitung"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc29iZm1NcGVPel9lMUlJTVVuX2d2dG9PeGh0TTUtcF84bkRka2p1aWZIUl8yZGg3UTdRR2lrVUtyTWV2LXMzcm00enVhVTRmcHgtZ3AwMk5GX2d1Y1FKYXRYd0dGOFlhdHRDY0ZoemhVYlhadkEwMEEtWXFXbnlERXhyTlNJYmFUT0owQ0FiOWJWVlpaS2dPeTNTV3YyYlYyN2Z5cHNsRGtocW9KcGc0M1Y0aw?oc=5"
+- date: "2026-09-27"
+  partyId: gruene
+  title: >-
+    Nach Wahl in Berlin: SPD stimmt für Sondierungen mit Linkspartei und Grünen
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTVRZaGhiN1kyU25FSWg5aVgtMVJSOW5qTVVUSGt3OEd3bzVYU1VNS1o1NXloUkNLR0QxQTBOU2VraDlvNWlpWXVRM2wwZXU0RUk3dk5WTlBnbEVCMG5lcTM4TXB6M3RLdkUtS2M0blVMSllncmxfdVJhbWNhYnhqQXNFRUxVYzBFaFBzZ3R3eE5qelUtaWEzX2hkRUVFcHFlWkVoeDBUUEFXYTI4TEVfMFRFcEJGUm1x?oc=5"
+- date: "2026-09-26"
+  partyId: linke
+  title: >-
+    Nach Abgeordnetenhauswahl in Berlin: Grüne stellen Bedingungen für Koalition mit Linken und SPD
+  sourceLabel: "RP Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTC01UHYtQm9ESTcxdVlFakZkV0NHWEtsZF9ZVERmbnBhLTlZSDFHVE0yQU1qbDhHN2RVQ0MzVlNTZzBKVFo0bmpjcndIRC1UTEhjOVFPM2tMN0k5WWFqNE5ON0VkTU5lOEgxUFpCaFFDaUEtUm5RSld3SzhWeS1wUWhsTUlLcExBeElEdVE1TnBGOUFmU2hVcHVpWmRabVhuR2c5SlFkWWtvSmlSVE1xTldXaFg?oc=5"
 - date: "2026-09-24"
   partyId: cdu
   title: >-

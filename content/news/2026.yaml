@@ -1,5 +1,29 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-26"
+  partyId: linke
+  title: >-
+    Linke und Grüne lehnen Pläne ab: Berlins Olympia-Chance schwindet – alle Infos im Newsblog - berlin.t-online.de
+  sourceLabel: "berlin.t-online.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRlhzalZLU25nZEJPanJPUl9jZTI3N1ppcmJoRWl2RHJGazRCXzlHZUYyTGZ3Yml0Vm9tajdpOVJjaGpfMWhVSVl6RDh1MUdvNGJjb2NYRUd0WTdoR0xKSFA2TFlwaDJySDBESjNSWnEzNWVOYTNnQUh2OXdDVmZ3MUhvRUtzZnBnZHltWDRkMjUyU0twODRnU3ZaYjRPczNEV1pBbDEzbmZsUEd6ajFUR0dHWQ?oc=5"
+- date: "2026-09-28"
+  partyId: linke
+  title: >-
+    Abgeordnetenhauswahl – Streit über Antisemitismusvorwurf: Linke zeigt Dobrindt an - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX3hMWHFsR2UwMkZWaGl0YU95TWotLWNrRjkydGc0N0d4TDJfOTJUZUFoOF9vRmhUVkZXWGtEcS1LOXcyX2FYY0l4djlFa1ZNY29jWkNwMUpGanZtNzhzbEpnZ1Q5Ml9MYjkxcGVUR3JnWVRJanVxNzBKVUNfeWYtZVR5eGJnMUxNSEVjc2JCckZuQmJ1WFY4aU9VZ2Rmbl85TnBFTzNXeWRPc3lQSkJwTVVNbWROcDV6MEthemJZZ2xCWmxq?oc=5"
+- date: "2026-09-28"
+  partyId: gruene
+  title: >-
+    Nach Abgeordnetenhauswahl Grüne und SPD in Berlin stellen Bedingung für Sondierungen
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc2VkcG5ybjN5alhzbkJYbmtwTVVvY09ISnVGZzI3M2tsLTV2b1hfeWNiTXRTVXFvNVUxX1dzeEtXT005N2xuMmh4UW52SVRKVFN1UFFPYlAyT2RXZVN6a0ZCYjdsa25FTWF2YWNRdlhRejgtc0ZHZXFPQUxwbE54REVrV1ZNYjlscEtyOUd1N2h0eVAtVmxEZXZLM1AxUXBtaF9rZE5DTWY0Qzl2bVg5V1Eza2g3bEx6N2Q4OFluQXZPUEZLMXA0ZHZxb0tlV2ZZczB3?oc=5"
+- date: "2026-09-28"
+  partyId: spd
+  title: >-
+    Nach Abgeordnetenhauswahl: Berliner SPD-Chef: «Steiniger Weg» zur Regierungsbildung
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZVAzcW56OFhyajY4aTNwT2dTU3V5VFlDMm8wa3d6WE1mbXNZVnI3Zk9fUU1hc2QzMmZZY1FlRHFpMXZueDFUSXhjVF9HZnhXVThzem9YYmNINmlkMkZydktvNm9MdHFKdzBpQWVQOXJKSkgwOFdsMGhEZElkWFdaRUI5aDJOV3NxZml5VlpwSFJaY2c?oc=5"
 - date: "2026-09-27"
   title: >-
     Mit 16 schon wählen: Was war ihre Stimme den Berliner Parteien wert?

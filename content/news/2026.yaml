@@ -1,5 +1,28 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-28"
+  title: >-
+    Abgeordnetenhauswahl in Berlin - Video belegt keinen Verstoß an Wahlurne - dpa-factchecking.com
+  sourceLabel: "dpa-factchecking.com"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LdUQtbG9rTUViMWZTejhmejlaUmtxU0h3RUNicDVVR3o0cUJUbG1YOF9MWWczdnhrMHYyT0JTZGxiSVg5emJjQjE0Zi1HcmZMUlduTHllNkk4dkJSZjVHX24tUQ?oc=5"
+- date: "2026-09-28"
+  partyId: linke
+  title: >-
+    Abgeordnetenhauswahl: Berliner Linke, Grüne und SPD sprechen ab Donnerstag
+  sourceLabel: "global.handelsblatt.com"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTFEtVzZhMWhtUVo2YjBua0R4T1UxclpQaDJ2WHVKWjFnOUJTaWR5eThDTWM0REh2Wk5DUEpkX1l5U1k3c2xIS09CR1J6QmM3MklyUWg5eWpUVzAxWnJpcVVvRGpnOGRwcWZWSWw2ZG9VM1FpQ2p0d3FHc1JGd0g2TFo1UmtCRHlMWHdOVnBLdlY0Ylg1S3EwYkZsajdhYkJOOW5FUnBaWmpGN24wVDlWVDBPMGxLN3VsU2RvVUtTcWxvNDNYNGMxa2NEU3o5bk9MekJ6VXYwRQ?oc=5"
+- date: "2026-09-28"
+  partyId: gruene
+  title: >-
+    Nach Abgeordnetenhauswahl: Grüne und SPD in Berlin stellen Bedingung für Sondierungen
+  sourceLabel: "zeit.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMinAFBVV95cUxQanNBN0ZyQk1IUTY4NXZpd3dtcDlsSjVXR2RESEZ0eXdUblpOemRGUE1MYTZrXzNJc2hhdndhTGlvaXZqdGllSlVGOHJvVm5iM2hLNGhWUFFPcmJGNVh4d0t2Q2V1RXE0X1Z0QWhhc1llMGxtd1FMZ3RNNDNfZno3dTJ0RVhkUHIxNWptOGpoWndFZDZPSjhIdUI5UXA?oc=5"
+- date: "2026-09-28"
+  partyId: spd
+  title: >-
+    Nach Abgeordnetenhauswahl: Berliner SPD-Chef: „Steiniger Weg“ zur Regierungsbildung
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeGlTY2t2NndSUk1UYXdiQ0NpR05abnZjSjlncllvY1pXbkFCd2VFeTB1bDFlVEVvdTN6MDFyYXQzV2l4WWtFNExDTUtkNDFabkxjR0VtVnJTeFhoYU0xS3Y4V0w2V3poaW1YVDUtcE9nSWRLdHJ1amdpTTk5TzRlVWtaVk5IZ1RwSTQ1d21RTV9fdWJFWkFnMFp2OXdJd3o1VUNka2NjazZuYlgwaHpmVVlnS0wtLVNiaHQ3eXYzOGJQelM0aF80cDRqNUc?oc=5"
 - date: "2026-09-26"
   partyId: linke
   title: >-

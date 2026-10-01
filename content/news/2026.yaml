@@ -1,5 +1,38 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-09-30"
+  partyId: linke
+  title: >-
+    Berliner Linke trifft sich mit Grünen und SPD zu Gespräch vor möglichen Sondierungen - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ19FbWhrYmx1bVlpaDZfTzBpTmVBMWdEeU03ajIwc0pKYnVSWkNhbWNhaURRaVF1WTJVRV9SMkcyalBqMVFIb1ZmVjE0V0N3c3NjTU5nbE4tZURvbTg5QjIwdGdfMTYtdmpmNjlNaVFkYlRpbVE2OXp3QzBfbXBfTVJxcmJ5LWt2cDRqbWJnS2dKRWdRZ3d2MW1WNzdlakJkd2JvQ3Y2MnBpWVA2MFhxSFNoY0RPWFdiQ0NqRG4zcjlVWjNYV1NYOWRB?oc=5"
+- date: "2026-10-01"
+  title: >-
+    Berlin: Erstes Treffen nach Abgeordnetenhauswahl in Berlin begonnen
+  sourceLabel: "DIE ZEIT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirwFBVV95cUxON1M1Nm5BdHZRZWc0TGx5SnJ0TzZwd2Nyb3Y4YlBMMDRzdVl1SHV2SW5uWHdGWjlKOUVDdzZ5UFV6TEpNdE1kVEpBNDFsT0xJS01zRnlfYWd2SWRSUDIzT2h6cVo3bmV1WW5JY3VpUEVBOHJJUGFrOUhuNzM0d3E1aWRVeXExTThqX3VPU2I0dVpzZHNHcE9zbFp1ZGJzd2FwZ0lRenpSSi1aaFlWbGhn?oc=5"
+- date: "2026-10-01"
+  title: >-
+    Erstes rot-grün-rotes Treffen nach Abgeordnetenhauswahl in Berlin begonnen
+  sourceLabel: "STERN.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZDV6UFZkOU1DYmVEZ1NLZDVLYVhQN0FjV3dQNHFhTUVINlRiYXhHOFpSdGlLU1dkZnpBX3p3WVFkcDJaQTR5RVY2T21OSXpnbGQyZlM5ZTFIX2l2dTZzT3ExWXFuWXZSRkUwZVJLajIwOHZKbDRwc0s3VW1yMEVIVFBYZWljNW5KalItei1SbW5FQU93Q1JtaGRnVndORFlqTGdqdG1IX2VYa0tGTHZuOUdUSXpmUQ?oc=5"
+- date: "2026-10-01"
+  partyId: linke
+  title: >-
+    Erste Personalentscheidung: Diese Linke soll Parlamentspräsidentin werden
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNWt1ZEJtcnNZWFJJRWhMUHptRUlHUElqaktFS0x0T0xGMElxRzJxNVhOWjA0WHVvRlpQcmJDOWw5a1pKb0FqUElzMWE2WWJhTkFlOHV2NURSMGVfVnV3eHpYSFRlWENqOEhKbVBXQThqa2pRVWktOE94ZTBlRkphX3RZZXZnSFhkcklOT0pmM09tMGJVZ2pUTVJvWmR4UXE0VjZiTXRXa0ZsLXFOWURzNy0zMlVrRVpjb1VCOUpVU2lYZy1URlc0?oc=5"
+- date: "2026-10-01"
+  title: >-
+    Berlin: Nach Abgeordnetenhauswahl: Rot-Grün-Rot trifft sich zu Vorgesprächen
+  sourceLabel: "tagesschau.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY1JERmVjOG9XeXJ3enppdmpXSVdKcDh4XzhCOEM0MVU4azZvMlYxS3IyTW1PblZFcW8wcnljN1BNVXZma3pVeXJkV2JZSUZkd1ItN1luYzhJd19pcllIMEgzeHp0OVotaU54VGVEZFBnTWpsTVZpZ1NCSkFHMmNtejRqYTNHRVhLckxmamRDYktrRUlXTzhZODM5ZUlQOU16SGRza3hraTJqRnE5MTZwQlh1aksxSkJ0RW1mN09MYW56RUFWRHhYQy1PWQ?oc=5"
+- date: "2026-10-01"
+  partyId: linke
+  title: >-
+    Linke, Grüne und SPD treffen sich zu „Vorgespräch“ – Antisemitismus im Fokus
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPT0FKNVdycVloUnhOVFFzWmNqam9zQ0JhV2JnQkJhZHNPMmZvTWJwWlRpTThINUsySUVTbDZtNWJvSmtsdG9GLUpWbGV5djlZY2Uyekkxem5QTmdKU2w3clVta1A1WHN3ZUJxcFFGN0VsZ0RxWHZ0a0lnQ3JZSjZrdG1kZTdTUm1PWG9LaW5aRC1MZGp6TWpCNTJWX0k0OTlYaGh1N1BmaHcyUUM4Z2tydXNFd2tlZEV1dEd4WE5uaGd5M05QNjZIOXBTY3RiTnZZelE?oc=5"
 - date: "2026-09-29"
   partyId: linke
   title: >-

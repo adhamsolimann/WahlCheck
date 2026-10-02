@@ -1,5 +1,34 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-10-01"
+  partyId: spd
+  title: >-
+    Steffen Krach gewinnt Machtkampf in der Berliner SPD
+  sourceLabel: "FAZ"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVHE0Y1c3S0lEeWR1SG5QYWh2MDFBa3JNdzZ3cmsyNVR5Z3UydW9LblB6MnVYRjhHaUg2ekwzQmhLWWhITXB2Sld1QTRqanN3OGZlYTVTUllJQjVtTkpScHpiWnRyclpELVRYR3NiZUE3ekRNSFQxRlVNUVJQMGhwSnlSd3plaktMR1JOd3Boa2txSzJueHVsMzBhaW5Pb1NxcFE4aWlzc3p2ODVjR3pMMXJ0eHp2UTVFVHc?oc=5"
+- date: "2026-10-01"
+  title: >-
+    „Vorgespräche“ über Regierungsbildung in Berlin, Dröge sieht Voraussetzung noch nicht als erfüllt
+  sourceLabel: "Deutschlandfunk"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSWlaREUyc3pxc18tZmVkYmtqbG9IMlgtVEQ3V3Z1UVkyN0FyYndWRTMyZkVhcUYwbXB3UUdkd0FnQUxGUE84WGx3b2NtMDBTOUNySWU5NlZjOFhCRVJ6eC1zcC1zY200OTJuZFZzTk1CcXg5MzVlN2E2UkFlMjlheUtKZHV4SnkzeENhQ2lkV0tSRlQtZ1AyenBmOXZlTUJyNkJ6Zkw0Uzk2NGVaWVBYRkxLUzVOampqeEtYczFjUGhvTlpZZzBTQUs1bzV1aERLMWV4Nw?oc=5"
+- date: "2026-10-02"
+  partyId: afd
+  title: >-
+    Abgeordnetenhaus schrumpft: AfD gewinnt nach Neuauszählung Mandat in Berlin-Spandau - n-tv.de
+  sourceLabel: "n-tv.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUhpNmtuOVNzYlBPVWZMMlFFTUpXdXBvYm5FWWJQWWowTnZHV1FxcF9FSmJMbVBhZElnV2dRSTZsUzJwanZFUmRldVQtelo3NTVXTDBOMmFJQ1M3ZS11dVlyUHRDdnhJN2g5b3VkQ25MbjFMV2xPcFpXVVV6ZkotQ29xTVZsS2dZckRZSGVMMGRpdUN0QVYtNDBVN2xTTTlnUEE?oc=5"
+- date: "2026-10-02"
+  partyId: cdu
+  title: >-
+    Wahlpanne in Berlin – Direktmandat geht an AfD statt an CDU, Abgeordnetenhaus wird kleiner
+  sourceLabel: "WELT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPR3ByMmZudjZvZVJKMEtURmdiR2JkTWFBdHZMNm0yX3g4QW80ZjBtT25CTDZ4UnoyVGZGNDlvU1JmanczNWc3ZUlPUUhJNzBFR0gzMXJKYUFEWVdjU3dpWXoxNUNMUllFSnJoRTRZTHMtQ3MxeHppUlFrNVl6RWlJQnNkN0djejg2UVVYUjZYSmFpRmpHS2RJUFdxU0RnckZvcEJmNWxvbjdOZzJHUWJUeFRHS3ItQk83ckxNX0ozNFpWbXBsYUp1SERvd0RTOG5vUHVTQ2tzSFZGNHBhaC00VjFmVjY4dXZKdkpPSFJ6MWg2ejE0S1lB?oc=5"
+- date: "2026-10-02"
+  partyId: cdu
+  title: >-
+    Liveticker zur Wahl in Berlin: Wahlkreisergebnis geändert in Berlin-Spandau – AfD holt Direktmandat statt CDU
+  sourceLabel: "RND.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNlB4RVVqenh1b3VVcXhIRVdaaG8tcktqdDhlR1NBbTMwT0czckIxMERkOTdTeWlaMlVDMkRCRm9LMDRsbUJRWWF0dXpkelVIbUJPRXFqZ3ZPTUpVOVUybWcwd081SEdZbjF1YmthMzBRNVdXeHdxcGJ1TTZIUnUwRl9VaUVSbHgtSElhLVpTOFlfTTFSQ2FXOWdQNU5DYnIwZnA0UXgwa2tOUll4Ym9oUXRCaGdLMV9RSG1iZk0yN0p3NEx0NDNYanhhOENJN2djX1lvLUN4Qzdla2tsNFhJTEh5UmZJNGNjQmR0aw?oc=5"
 - date: "2026-09-30"
   partyId: linke
   title: >-

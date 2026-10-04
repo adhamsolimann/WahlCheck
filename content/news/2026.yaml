@@ -1,5 +1,10 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-10-03"
+  title: >-
+    Enteignungs-Rufe, wenig Entlastung: Bleibt für Mieter der Frust? - T-Online
+  sourceLabel: "T-Online"
+  sourceUrl: "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTkFjUHcxWks1RmpYT3Y3dDlvVW9QVTNsNTdCZXlkdUpVWWUySkFDVHpyNnAyNHFUN3ZlZlI4U3l6MUNJNnBqX2I1eUZmcEJvdnYxNmZDdEh0VEoxYWRhRWJIOWhPSjR4c0FiV2VIaHBGZmRuZUlmMERuOVExckNvb1VLSmdqdzVFTF9oVmlIS0NmOXV1NDZBRUxSSktFSGt2OTJkWHlRa0liR2VDcXB5N1V5R3F4aHYzZ1FLUG4xZkgxQ2ltdVhWYmxUMWw4QQ?oc=5"
 - date: "2026-10-02"
   title: >-
     Wahlen – Verrechnet: Fünf Sitze weniger im Berliner Parlament - nd-aktuell.de

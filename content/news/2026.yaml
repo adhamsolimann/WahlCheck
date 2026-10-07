@@ -1,5 +1,10 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-10-06"
+  title: >-
+    Joschka Fischer, Wolfgang Thierse und Co. – Prominente warnen vor Rot-Grün-Rot in Berlin
+  sourceLabel: "WELT"
+  sourceUrl: "https://news.google.com/rss/articles/CBMilwJBVV95cUxPRExfV0YtWU16d2U1M3NiMHgySXgtS0pPQ1M5OHBmejhXWmJvMlk2Q2ZuV0hFS3NDdk1id0RUdUctaVhna2ZDM0hhLTlSYS10QnZMS3kzLVFSZ2tFYk0tdkozSzZMcGVFdTl2RnJtZFJPUzZnQTVtbHJWY2lSUmFXdldtY2pHajJzdkZWRmo1NUxaNU9keHJDM0JiSm50OEJLTzdSUFNUZlViT1FtRmc3NzM5Wmd5a2xBQVlnSEdldko4R050ZVNnaVRJOS0wbDNYR201b0Fla2tneEtiVlk4bDlnNWR6LVQtS1VvX25PLU40SWJzU3VhRDI0d3JldUJHTHpaUF9fdE9nN1FXdFdhRlQ2RWRLcjA?oc=5"
 - date: "2026-10-03"
   partyId: linke
   title: >-

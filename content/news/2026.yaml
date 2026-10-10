@@ -1,5 +1,16 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-10-10"
+  partyId: linke
+  title: >-
+    Linke, Grüne und SPD setzen Sondierungen fort Politologe hält Rot-Grün-Rote-Regierung in Berlin für realistisch
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNTVE3bGVIakZ5VmVkWEZWbEdqNHZKa0NhOGgzWnFBWnRPM29jd0xXMW5BOExHM2JnV29nN3h6QURfUjUtX3l6NHZfa1BLYWtZQXdNMHp5akMwc2wxZnZ2dlpzUl9TOFY3Z1dLdEhiN2pITENmSU10VFJERGhnN0lXeHdLRk1WSk5YTjRZQW1sMTdwdWQ4M2hxYkNvUmNwWWNPWkhBRVVFb29Ed3dZWnlwUjBBQTAtV2pYSTZyTEljZmN2SXZ5WXM5MHNuajh0OTBNUndFVTNlR3BLMlNNZXFFclluaGQ3eVd4ckJtWXV5QlRBTEJLWDJHSlZPTE4?oc=5"
+- date: "2026-10-10"
+  title: >-
+    Sondierungen nach Abgeordnetenhauswahl Politologe sieht Chancen für Rot-Grün-Rot in Berlin
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMG1wZ1BoTGR4QjZnQi1NOVVPQ3V2REVwNVZncTVqSkNNbmFPTUp1ZG40NldoUmZDbW1CaVFVUERIUTlvVjJRa2l6dHBwaXpVVWQ0cjlFOXNRNFYwVVZ0ajMzS0RmRU1SLTloQ3d3ZVU4aVE2a2R1YmhkSU1mRjY3LVRMY1ZxaHF2RVVLQ2F3NHJhNFk4Q2tyRTd0RjN6Mm9NeGQ0eEJxUQ?oc=5"
 - date: "2026-10-08"
   partyId: linke
   title: >-

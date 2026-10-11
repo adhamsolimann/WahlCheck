@@ -1,6 +1,28 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
 - date: "2026-10-10"
+  partyId: spd
+  title: >-
+    Kulturstaatsminister Weimer appelliert an SPD-Vorsitz, Rot-Grün-Rot in Berlin zu verhindern
+  sourceLabel: "Deutschlandfunk"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT1FfZFo1ZVhzV2ZabnJndmpPOFV6eUFPNlVsVG9WRkNiUm5hdnlleHR5OVhyV0VId0sxWm5qVUtTME9lNmxvRlFfa19vV1NFSmF5cTVwQzJkMGxZR05fanBxZGNPSGxpM1V5cjJPRFY3TTQ0ZUNseHVDWDVndVQ1NlNDRXg4VGVZNXl4cmV6eUlldkx5YXBpT3NrSDhxcnhsWEZ0Tng3Zlg2SWZ0ZE1FZzc5ZzJSb29hQ3J3WnJnQVZwVkJMLUc0X0Z6TQ?oc=5"
+- date: "2026-10-10"
+  title: >-
+    „Misstrauensvotum gegen unsere Koalition“ Weimer fordert Klingbeil und Bas auf, Rot-Grün-Rot in Berlin zu verhindern
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMigAJBVV95cUxQYzJ0WHdyOHhyd1ZudUd2aEdPaENBZGloZUphbWt0aDYzUmdKdmk4cHVxNDJnM25ibFo1SDdNREFEV3UtNVk3UnZvVjR1N2dpQmxrZFNtUHlpYlcyWHFzcHFqY2VRcjRPWEtqQUE3MnFTc2ZRTG9sSjhBMjdtTXd4U0VpYVpHeUVnbktiMy1CUE9ZcWlxMll4bEFhQ0ZrOGNtRXpXUUp6bnNSamQ3ME40Z3dYbHJMMWNMSXI4UTdTMnBQY1hFWXc4MkhWdWtFSzNhT2k0a1BwWmE3ekY2X2xibUt4cmxZMUtOMG12S1NQbndKekk0S1lBZXdReVZiVFZl?oc=5"
+- date: "2026-10-09"
+  title: >-
+    Linksfraktionschef sieht umstrittenen Koçak weiter in Bundestagsfraktion
+  sourceLabel: "RND.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdE5mVEI2SE9XaW5KcEptSFF2clNHejJZem1DSFdlMU83blJsM0lXN1BVWkVac0N3OUdfWkpETjVLbEdwMUV0VHpaXzJ5cEYwcUllQ043cmx3QlMyRGVidmVuUkNOdG5FenF5RHpaWG1uQ18yUmJlUmtUSU42aXhWRk90ZnhRaW90VTFfOXJhUGZBdnFpTmcyVnFDSzlkMXc5Mjkya1hBUWRhejBQX0ExQ1Bpd3NyTTh1V0N6UTdtOGRaY3dOMTY4Y0RRNzJMYi0wSFJQTkVvUTNUSHp5ZjhGQ1RfOWZlZ3NBbWU4?oc=5"
+- date: "2026-10-09"
+  partyId: linke
+  title: >-
+    SPD fordert Fraktionsausschluss von Koçak – Linke stellt sich quer
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcU16d2N1YmxmOEtSUkRnel90SEZWZnNVTm5TNHdKSnk3NTZKQlRJZVNUQXNKaU1pQThCTXBPWWlENVI1RVd2dG8zMnFVUU9tSWhoY3NuQnFKU05aZ0FKbndOeTlQOVlwNnlEd3ZSSkQ3UlBLRXdRdG9nV1RwUlJjaXVPUEw1YmVhZzFFempPUFlUS1liQUxvQVN1UENpUmFwMGp2NHZSZlFEVG1wNXVnMkxHcFpYdjA4VUhaelpQTkJjMnpSaGl3LVdTLW05N29pWFl5M0Q0Y2NGZkY2dERaQlQ5QkJMVkdnYVV1OA?oc=5"
+- date: "2026-10-10"
   partyId: linke
   title: >-
     Linke, Grüne und SPD setzen Sondierungen fort Politologe hält Rot-Grün-Rote-Regierung in Berlin für realistisch

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T12:26:10.415Z",
+  "generatedAt": "2026-10-12T14:56:20.700Z",
   "parties": [
     {
       "id": "afd",
@@ -4432,6 +4432,40 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-10-12",
+      "partyId": "linke",
+      "title": "„Fassungslos“ wegen Antisemitismus-Vereinbarung Linke-Mitglieder stellen sich in offenem Brief gegen Rot-Grün-Rot in Berlin",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcXFwUk8tZGtzUENtTGNhc0hoRGxSRklub3pSOE5ZZ2JZWGFyYlZtVThyYUFJckVFbEVRa0dJcV9qUUNBeVZ1eklaekFvR0VzX2w3YVlRMlk0dDVoOHJDbkV4UF9UODZQWm5XMEtNS1ZVU2Rid2kwX1lxNjVKUmRfN3FGQks3ZzlTMWwzbVZBN2F2ajA0emVrX1gxTkZkYjlQSWpSbkxEbm41RGwzdXJzNzNqdnc4Z0o5aklmR0ZjWUJleW9fVnpGNWhmM0hJcjhNeEJna0ZsaDBkNmdlT3NJaG1RTm80QlYyTTN3QjlLSHJfVHEyNG8yMmd4YzRIMG1WTVBuRWl2aW1nUWc?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "partyId": "linke",
+      "title": "SPD-Generalsekretär Klüssendorf zu Sondierungen mit Linken: „Immer noch Bedenken“",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOczhvUS1BZ3hqeHEtSkFUbWdVcF82eFZjd09ERDdfLUJ1bDd3akdKd1ZGUmNLeTFPQkU4bktJWDh5STNhbmxDd2RuZGZaTXJXRnJXSjNRRElHY2RxUEcwcGVWbkJlLVAtTWNfa1Y0dHJEY1gtd29zbFpYTW1ocm90VUJrTTJ0aXFPTF9SMGtyakRVSXY0bDVOZTlRdVlLWm9POXppbi11VHo5TVRiWHd4TTNxNi1XUHZLOUxjQkM1Y054OGVPUmJ3ZktHV0g1WU9lUlhHZC1MRGNqaWtYejFr?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Berlin-Wahl 2026: Amtliches Ergebnis steht fest — Abgeordnetenhaus schrumpft",
+      "sourceLabel": "Berliner Morgenpost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFRnTm10U25NTmVrSzRYbk9SUGFneVRzV2RtV2ZZWlhKelIwUUh4RC1tSU1kMi1aZWRCdzFJNHpUUkp6YVZjQWpQcWc0ZEFmYjlfdnJfeDJzTTlXRV94TUVZZ3E1dkpVYjlPVVZzaWtkcldRTDM3RTNYVjY2eDJLcVk3OTFPaTkzamx3dmthZHlZZUhkRVVoRUY4c1FBQ3drR3UzckRTbFdVSjV6clpSbmdTWDFIb3JGUmlMLVZ1R1QzMGdEcnpJ?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "partyId": "linke",
+      "title": "„Bekenntnis für starke Polizei und starken Verfassungs­schutz“ Krach macht bei innerer Sicherheit Druck auf die Berliner Linke",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNaEpDNXU3ZGpXSGtRcnZWbkl6X1V6TllCdjRHbUdlTnR0Q3hwODNtdmd2YkRvX2E1NExTdjNyU2lSaFI0aEJxbElMYTVZVzdoY0k4d0w3NzJhdVgwVURaLUFwSktMMUd4VDZzaGhiVTROWUpPaVlOb1I0UWFnQ0ZkYUsyeUZ4NlM3Zk1HRF8xeS1CSnIxWFNQWWhmSTZzNEVMOWd0aTU4YWhxdkN3OEoxSWZybVF4VERfZE4wZUZRaUdYWDdRN3lpYVZtLWdSSktoSlEzcW5TVDBzVUdfbldWVy1JQ2h3Q2R4WlNBbFZLSnBDWTJveHdDMHBKenpkdmVvYWZMNVNiN3p6T2Mwb2c?oc=5"
+    },
+    {
+      "date": "2026-10-10",
+      "partyId": "spd",
+      "title": "Kulturstaatsminister Weimer appelliert an SPD-Vorsitz, Rot-Grün-Rot in Berlin zu verhindern",
+      "sourceLabel": "Deutschlandfunk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbzcxdU5VTmR1SlFRTWlMVXdDYkFkOGRuNV9IVmgtQllzdDFqN0QxVlNEMER4b1cyNU95eGhPM2xyMWdvc3NJMUZNWmJOelV6XzZHdTZ5bWZGa0J5TXdGVm1xcXpKOEkwMk9mMndYaG1ULUJaNS1kS2JobEZfSUFoTEJCU2tSU184LXpLMzBFaDc2SmN6TzBWUk1RNVdPRkMtVzgwX3BtQ1JBd1hMR3FGNk0tVEtZc1ZFR0gwbGwzSHdaejExaXVOMUdpdw?oc=5"
+    },
     {
       "date": "2026-10-10",
       "partyId": "spd",

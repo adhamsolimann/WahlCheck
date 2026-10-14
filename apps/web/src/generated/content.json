@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:53:43.787Z",
+  "generatedAt": "2026-10-14T11:31:08.026Z",
   "parties": [
     {
       "id": "afd",
@@ -4432,6 +4432,25 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-10-14",
+      "partyId": "linke",
+      "title": "Brandtner über Stopp der Sondierungsgespräche: Linke hat sich nicht an Abmachung gehalten",
+      "sourceLabel": "RND.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYVRFNHU3UGtSSFA2YkxQT0F0SW15VmJWazRjQ19YUFo4TzVSMDZpcll2TjRuYV9KTzZ0WE5KaTFJNEdtOTlRRm8zXzJIeFJpbkc2ZVRrVTRtdXN6bmFtNjNpM1BuTHZIWUVYa1dZcTJVWEdqOEU4YmNFaDY1Yi1waS1wTGlFZmRlZ3JuRWllNS1SV3dObzJocW5JSjBTUDY1aE16NkdXcTZONWNXX1JYcVdDRjN3UFRKMUJRR3Uwb1duNG1CNzJZckVrZzgyMEEzZVFJeUJn?oc=5"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Sondierungsgespräche in Berlin: Elif Eralp verbittet sich Einmischung durch Kanzler Merz",
+      "sourceLabel": "Tagesspiegel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNF93aEdFc3hlQkV6b2M2WGlnWm5fSWVpbllVOU5kdzBXbzB4dlhqaXJOdXVSMHpYVC16R0hEcmVjdkJWTVBzMlFFUk1rY1ZGX2k4MHVKOWk4VnV0QjJZZWhZTEhKd210ZXRBUjlwb0ZsbmNkX0NtV3NiUzdEb2F2b014RXFXTll0cmU3Vl9aQmxFY2hJeGg1TlVPOHIwODhWcWNjT2RfTmV1SjF5VGZwRlVsQmpTQkphQ1JCZGQ3NmktRDNmc2t2ZHVzN2tSdmQyQ2M2MGpURXB1NHQzbUE?oc=5"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Endgültiges Ergebnis der Berlin-Wahl: Amtlich ausgeschieden",
+      "sourceLabel": "taz.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8xd1Y0QnNWOXhpWW9udFZXV0NuWkR0OHlNbE4wTm5oRzlTOS1hVmpud0VhREVwMzJyQVhvSGpVNXdxdnN3dU44QUNudFpxUGY4S3Y0aVF4TWhOdXo0dnc2bG1JV2ZjRGxIMHZhbmFROA?oc=5"
+    },
     {
       "date": "2026-10-12",
       "partyId": "linke",

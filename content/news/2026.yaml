@@ -1,5 +1,10 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-10-16"
+  title: >-
+    Abgeordnetenhauswahl: Remmo: Koçak hat bei mir im Büro gesessen
+  sourceLabel: "Stuttgarter Nachrichten"
+  sourceUrl: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONUdEd25zc1J3RlFGd0p1Yk5wWS1teGFxRXNVT0x1UGJnZnFmYjVvWGd0SnlDWVVvUnEwT1lVNnM1OU9TbURrZlloaURuY05pQWJWd05lM0NoZ1VPZnZtTzVsYVd5RnpLR2liaTJwZXpwWENhYTB3RFl4SGRfVjg4NXFVaGNQSW9DOU90M2Z4VDB6MHNwU3E5OFBNV3NoR04tQ204YUFITDl1bVczYnQ4a3JVQ1dRenBMa0VqSzFqUDU?oc=5"
 - date: "2026-10-14"
   partyId: linke
   title: >-

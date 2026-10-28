@@ -1,5 +1,23 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-10-27"
+  partyId: linke
+  title: >-
+    Entscheidung vertagt Fraktionsvorstand der Berliner Linken sieht weiter „keine gemeinsame Arbeitsgrundlage“ mit Emde
+  sourceLabel: "Tagesspiegel"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNc1pMak84WXZ4S0J2ZnctMGxyWmlkYUNFYzA5NURyS0pSWlUyVUJHTUZHWVlqZ0YweG1hUmNMUlp0dGlMdGxIbTFoOGlMRTlmQ09wcHBfMFc1TS1XWnhEaUpoR0FJUkk4dXhqa0FySmRoQmJjYVllSXpPeTV2dXBDSUJZNWVxTnZEc2VkR09BYVFnSDh2ejRHY0MzU1FkMTRPVUNVY2MzcmFSRmM3UGNlczM4Qm5lbWhybDlnY0V3Y0k2RkZIWkVQNkRMNEtIbGkxdTJqZ1lTTTM0b3ljcG16SjhEMlZRLW9yRGZXdTd5aDJ4Vmk2MUxPZnNB?oc=5"
+- date: "2026-10-27"
+  partyId: linke
+  title: >-
+    Die Linke Berlin – Fast 20.000 Mit­glieder: Berliner Linke wächst weiter - nd-aktuell.de
+  sourceLabel: "nd-aktuell.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU3daWmI5czBUS2JsWlN6eHgwT1pOejlZa3JGcnVTbUF2dUhzTm1iLVpQWVNsMEdQd0RHdFU2ejlLZlhWckloeld2TnVsSWJSS016VHFER3M2ZGtqNnFFMU9ZMmY1Y0RHYjVCWlF6eVc4R21oSk5zNGJmSXhCa0JraW5acHBpSnlBT0JyT0VDUmZSUEJMVG1YWEY5VXhDa2dIMUxrYWI0QTU2cWRvUEE?oc=5"
+- date: "2026-10-25"
+  partyId: linke
+  title: >-
+    Linke vertagt Entscheidung über Abgeordnete Vanessa Emde
+  sourceLabel: "Berliner Morgenpost"
+  sourceUrl: "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOThrSHUtSFBUQ25CMmlRZGVxZnFqa2pIc0t2ZW56cTVGREI4d1lwMm1lREVQdTBOLW5jN29ScEdfVFhubk5jbmw2bEo0cG9SUVk0bkpRSENNTWw3UGtVRkV6c3UwT3BsQjJBNGxrczFla2NCUWk1ajhKa0JTUkdtaFlFY25zRVF5S0tYaWdVQzU3cDczX1ZnZlV2clhoLXJYSWdUSUM4bE0yYUVfWjBpTFRIYUNQM2ZiQzctaTBBTVBGOGxrVHFfcVRYMHliWVk4RVNES3RRWQ?oc=5"
 - date: "2026-10-23"
   title: >-
     Abgeordnetenhauswahl: Umfrage: Mehrheit lehnt rot-grün-rote Koalition in Berlin ab

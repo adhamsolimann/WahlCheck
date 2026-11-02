@@ -1,5 +1,16 @@
 # Presse-Spiegel — redaktionell kuratierte Wahlberichterstattung.
 # Neueste zuerst. partyId optional (Filter in der UI); Quellenpflicht.
+- date: "2026-11-01"
+  title: >-
+    Allen Widerständen zum Trotz: Berlin-Koalition ebnet sich ihren Weg – Eralp „will nicht aufgeben“
+  sourceLabel: "Frankfurter Rundschau"
+  sourceUrl: "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVczV29EU29ha2pVUHUyV2FyRWp5X1JPT3pYYVFpT3NwcDhOdFczYXZCYnRGU0xnTUdqUjJaT2dPTmlCWGFnYkUxbDNkOC1GN3lIamZ0dGdJYl9fSnVBU3JOWUItZGxOUkxEeURUS3p5dDBRMG1HNlRPazFiaU1FN1drSE5wYlJpMTNsSWc0cXBiWGx2WE1iQ2g2M3FvNWUyMVhkdThSQkgyNk9BaG1nQQ?oc=5"
+- date: "2026-11-02"
+  partyId: linke
+  title: >-
+    Berlin: Linke, Grüne und SPD starten Koalitionsverhandlungen - ad-hoc-news.de
+  sourceLabel: "ad-hoc-news.de"
+  sourceUrl: "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTDNUNWRydG1ramoyWl9HLTR0Z2ZIVUJQOHVXeU9MQzlxazZhOTJ3bXZ2TWw5QjZJbWNPUWwyTWNGNEtoMDFmb3JzcEdmU0owZ09WSHo1aEJ3X2lOQVZuNlFHUkgtT181VUM5U1FLcVhVYTVhVFJhd2x4THlsakNsekkzcFRtcmdIT1VlZ3RsN1JqSmp3NlVFOFVHZDJMWEF3OGw4Y1h3?oc=5"
 - date: "2026-10-27"
   partyId: linke
   title: >-
